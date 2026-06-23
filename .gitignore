@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom
+etl/open-data/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
