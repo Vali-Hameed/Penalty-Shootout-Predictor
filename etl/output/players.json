@@ -1,0 +1,1928 @@
+[
+  {
+    "id": "synth_p_10000",
+    "name": "Argentina Player 1",
+    "nation": "Argentina",
+    "club": "Real Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      0.5908138657523939,
+      1.7628039693445285,
+      1.9004735787972153,
+      0.6958125364292815,
+      6.278080901949168,
+      0.8017475858214984
+    ],
+    "pressure_beta": -0.7959330922080753,
+    "n_penalties": 28,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10001",
+    "name": "Argentina Player 2",
+    "nation": "Argentina",
+    "club": "Benfica",
+    "foot": "left",
+    "zone_alpha": [
+      0.7917480792036242,
+      7.227953036779127,
+      1.020478453594856,
+      1.3799164186453643,
+      0.7983847962561781,
+      1.8182418356148446
+    ],
+    "pressure_beta": -0.037778487701939145,
+    "n_penalties": 22,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10002",
+    "name": "Argentina Player 3",
+    "nation": "Argentina",
+    "club": "Borussia Dortmund",
+    "foot": "right",
+    "zone_alpha": [
+      1.8587416846041944,
+      0.887680741359669,
+      0.6365361771544108,
+      1.0187761541531384,
+      1.3049599533413367,
+      5.889869068475772
+    ],
+    "pressure_beta": -0.5893607360548165,
+    "n_penalties": 0,
+    "n_shootout": 0
+  },
+  {
+    "id": "synth_p_10003",
+    "name": "Argentina Player 4",
+    "nation": "Argentina",
+    "club": "Benfica",
+    "foot": "left",
+    "zone_alpha": [
+      1.8446108321797368,
+      6.108982791306887,
+      0.5044684242959285,
+      0.5728108374138126,
+      1.165368943572218,
+      1.765090851076752
+    ],
+    "pressure_beta": -0.08542089353264726,
+    "n_penalties": 28,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10004",
+    "name": "Argentina Player 5",
+    "nation": "Argentina",
+    "club": "Chelsea",
+    "foot": "right",
+    "zone_alpha": [
+      0.8617645600203501,
+      0.7466628205387786,
+      1.213066508318046,
+      1.8550860677487484,
+      5.023972806908283,
+      1.4396032085165618
+    ],
+    "pressure_beta": 0.47149668895659635,
+    "n_penalties": 7,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10005",
+    "name": "France Player 1",
+    "nation": "France",
+    "club": "Sporting CP",
+    "foot": "left",
+    "zone_alpha": [
+      1.3166859071579222,
+      1.1914055395406247,
+      0.9564936904093313,
+      0.69922178454782,
+      7.051212638385633,
+      0.6653742626260055
+    ],
+    "pressure_beta": -0.738123577324462,
+    "n_penalties": 25,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10006",
+    "name": "France Player 2",
+    "nation": "France",
+    "club": "Atletico Madrid",
+    "foot": "left",
+    "zone_alpha": [
+      1.8041891462133584,
+      1.2382541416316895,
+      0.9742973618915091,
+      1.503898597526835,
+      6.4448361342956115,
+      1.647123869401746
+    ],
+    "pressure_beta": 0.05707930074436751,
+    "n_penalties": 27,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10007",
+    "name": "France Player 3",
+    "nation": "France",
+    "club": "Bayern Munich",
+    "foot": "right",
+    "zone_alpha": [
+      1.0887581153131547,
+      1.845100155658302,
+      6.147451633552917,
+      1.3779588352315384,
+      0.9082655362339269,
+      0.9437678613896392
+    ],
+    "pressure_beta": -0.7760916309573569,
+    "n_penalties": 24,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10008",
+    "name": "France Player 4",
+    "nation": "France",
+    "club": "Barcelona",
+    "foot": "right",
+    "zone_alpha": [
+      5.359405701253272,
+      1.2604184605312578,
+      1.0175869807367657,
+      1.436754413245395,
+      1.1658890857295408,
+      0.9167677086035277
+    ],
+    "pressure_beta": -0.6845219741790302,
+    "n_penalties": 12,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10009",
+    "name": "France Player 5",
+    "nation": "France",
+    "club": "Manchester City",
+    "foot": "right",
+    "zone_alpha": [
+      1.9496534771906981,
+      1.7539609871014281,
+      1.5964957629775691,
+      1.962968457420884,
+      0.886507304303104,
+      6.00562748700844
+    ],
+    "pressure_beta": -0.4541505350648054,
+    "n_penalties": 24,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10010",
+    "name": "England Player 1",
+    "nation": "England",
+    "club": "Porto",
+    "foot": "right",
+    "zone_alpha": [
+      1.0676068085172115,
+      1.0477781943479019,
+      0.8030521548928434,
+      1.5277796427730643,
+      6.948653678146567,
+      0.6826754042712164
+    ],
+    "pressure_beta": -0.23528769201017075,
+    "n_penalties": 17,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10011",
+    "name": "England Player 2",
+    "nation": "England",
+    "club": "Real Madrid",
+    "foot": "left",
+    "zone_alpha": [
+      0.6749304074359209,
+      5.903799304495791,
+      0.7385696239113403,
+      1.634873044325663,
+      0.6635704526256511,
+      0.6844298214409599
+    ],
+    "pressure_beta": -0.576230923441748,
+    "n_penalties": 25,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10012",
+    "name": "England Player 3",
+    "nation": "England",
+    "club": "Real Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      1.9531833073721048,
+      4.192072034151827,
+      1.8617858865672032,
+      1.0773732128698132,
+      1.1861082298054137,
+      1.3485129624380972
+    ],
+    "pressure_beta": 0.22674390840107184,
+    "n_penalties": 10,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10013",
+    "name": "England Player 4",
+    "nation": "England",
+    "club": "Porto",
+    "foot": "right",
+    "zone_alpha": [
+      7.354917680475108,
+      0.5315123054417117,
+      1.3632643455505797,
+      0.5582963951831237,
+      0.8260834651119077,
+      1.4104731635104117
+    ],
+    "pressure_beta": -0.11261035412194798,
+    "n_penalties": 4,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10014",
+    "name": "England Player 5",
+    "nation": "England",
+    "club": "Liverpool",
+    "foot": "left",
+    "zone_alpha": [
+      7.317785091703125,
+      1.2532585492228074,
+      1.5368614814437327,
+      1.350203499767064,
+      0.9324541257485957,
+      1.518031714957002
+    ],
+    "pressure_beta": 0.4509117489346328,
+    "n_penalties": 21,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10015",
+    "name": "Brazil Player 1",
+    "nation": "Brazil",
+    "club": "Atletico Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      1.852816081033655,
+      1.5081686491785038,
+      1.2692301951734801,
+      1.2860531525231824,
+      6.37949518001274,
+      0.9291927371225542
+    ],
+    "pressure_beta": 0.39138213215073003,
+    "n_penalties": 12,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10016",
+    "name": "Brazil Player 2",
+    "nation": "Brazil",
+    "club": "Juventus",
+    "foot": "right",
+    "zone_alpha": [
+      1.9340636080584295,
+      1.9898923551499046,
+      1.4872406745590023,
+      0.7639078091737199,
+      1.1249478262545471,
+      7.878345308470596
+    ],
+    "pressure_beta": -0.5717382239847191,
+    "n_penalties": 28,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10017",
+    "name": "Brazil Player 3",
+    "nation": "Brazil",
+    "club": "Manchester United",
+    "foot": "left",
+    "zone_alpha": [
+      1.198622469878235,
+      1.1804222758082648,
+      0.806207910313119,
+      0.854092535567563,
+      6.424079507500425,
+      0.9131119729822917
+    ],
+    "pressure_beta": -0.6128055058497632,
+    "n_penalties": 25,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10018",
+    "name": "Brazil Player 4",
+    "nation": "Brazil",
+    "club": "Borussia Dortmund",
+    "foot": "right",
+    "zone_alpha": [
+      1.6302088864884172,
+      0.6444326475947526,
+      0.9010353846277155,
+      7.6407506578880415,
+      1.5900947876814089,
+      0.6706896674852747
+    ],
+    "pressure_beta": 0.11896629014285454,
+    "n_penalties": 11,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10019",
+    "name": "Brazil Player 5",
+    "nation": "Brazil",
+    "club": "Atletico Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      0.5690784860684854,
+      5.6685956058724,
+      0.7133661631767315,
+      0.6685138838975024,
+      0.7036486142337638,
+      1.184182531155488
+    ],
+    "pressure_beta": -0.8970994798737708,
+    "n_penalties": 16,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10020",
+    "name": "Spain Player 1",
+    "nation": "Spain",
+    "club": "Napoli",
+    "foot": "left",
+    "zone_alpha": [
+      4.433650483531819,
+      1.3101680447286952,
+      1.5155249094627192,
+      0.8074368465643156,
+      1.7201408808359364,
+      1.154741097870556
+    ],
+    "pressure_beta": 0.22294615600185885,
+    "n_penalties": 1,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10021",
+    "name": "Spain Player 2",
+    "nation": "Spain",
+    "club": "AC Milan",
+    "foot": "left",
+    "zone_alpha": [
+      1.0576421831124727,
+      8.585668731051516,
+      0.6892274741382299,
+      1.6399460322508757,
+      1.761843237269617,
+      0.7788943679960711
+    ],
+    "pressure_beta": -0.2628532887542375,
+    "n_penalties": 17,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10022",
+    "name": "Spain Player 3",
+    "nation": "Spain",
+    "club": "Manchester City",
+    "foot": "right",
+    "zone_alpha": [
+      1.2939451374551032,
+      1.7171051630787466,
+      0.9761573429290924,
+      1.8653978620695977,
+      4.910072381320733,
+      1.694439066243718
+    ],
+    "pressure_beta": -0.684806283414136,
+    "n_penalties": 30,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10023",
+    "name": "Spain Player 4",
+    "nation": "Spain",
+    "club": "Paris Saint-Germain",
+    "foot": "right",
+    "zone_alpha": [
+      1.6309702601905172,
+      0.7144572761264019,
+      4.724742635023288,
+      1.4702673948826668,
+      1.1074722454342245,
+      1.096962700920133
+    ],
+    "pressure_beta": -0.2274291066945997,
+    "n_penalties": 20,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10024",
+    "name": "Spain Player 5",
+    "nation": "Spain",
+    "club": "Borussia Dortmund",
+    "foot": "right",
+    "zone_alpha": [
+      1.532372420268508,
+      7.215767687140723,
+      1.1968022411362818,
+      1.2633488235381187,
+      1.1731441406915346,
+      1.114379974585823
+    ],
+    "pressure_beta": 0.44419506119340846,
+    "n_penalties": 12,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10025",
+    "name": "Germany Player 1",
+    "nation": "Germany",
+    "club": "Marseille",
+    "foot": "right",
+    "zone_alpha": [
+      8.287088056705493,
+      1.1650100753045005,
+      1.8337619527568252,
+      1.528459800054791,
+      1.4171622575751701,
+      0.7652989567941
+    ],
+    "pressure_beta": 0.31784543789314923,
+    "n_penalties": 21,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10026",
+    "name": "Germany Player 2",
+    "nation": "Germany",
+    "club": "Benfica",
+    "foot": "right",
+    "zone_alpha": [
+      1.994421845534873,
+      7.387301840045633,
+      1.6960014584257457,
+      1.5948814426822178,
+      1.8969819532483194,
+      0.5336712225208633
+    ],
+    "pressure_beta": 0.13485398024712514,
+    "n_penalties": 25,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10027",
+    "name": "Germany Player 3",
+    "nation": "Germany",
+    "club": "Liverpool",
+    "foot": "left",
+    "zone_alpha": [
+      1.2620479975096406,
+      1.676053956515668,
+      7.32171256101682,
+      1.3292667108749794,
+      1.374764319142284,
+      1.6167576805905597
+    ],
+    "pressure_beta": 0.14302023096069538,
+    "n_penalties": 26,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10028",
+    "name": "Germany Player 4",
+    "nation": "Germany",
+    "club": "Sporting CP",
+    "foot": "left",
+    "zone_alpha": [
+      1.0380116647504367,
+      1.9634937959663492,
+      1.0540336222955746,
+      0.6039417455249991,
+      4.943266426684695,
+      1.6524770683885286
+    ],
+    "pressure_beta": -0.2637837973690056,
+    "n_penalties": 25,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10029",
+    "name": "Germany Player 5",
+    "nation": "Germany",
+    "club": "Benfica",
+    "foot": "right",
+    "zone_alpha": [
+      3.976306728209049,
+      0.7311514585571124,
+      0.6510878024139408,
+      1.9849394264545603,
+      1.529823678732225,
+      0.9927779881514356
+    ],
+    "pressure_beta": -0.42355299645428457,
+    "n_penalties": 24,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10030",
+    "name": "Portugal Player 1",
+    "nation": "Portugal",
+    "club": "Liverpool",
+    "foot": "left",
+    "zone_alpha": [
+      1.5903922673664148,
+      1.904397533985044,
+      1.5829453093431904,
+      6.177213677281407,
+      1.919655567725344,
+      0.5767230163716057
+    ],
+    "pressure_beta": -0.18966672555136999,
+    "n_penalties": 21,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10031",
+    "name": "Portugal Player 2",
+    "nation": "Portugal",
+    "club": "Manchester City",
+    "foot": "right",
+    "zone_alpha": [
+      0.8258680673936116,
+      0.641309745427699,
+      1.5666257374596906,
+      1.1219106711177183,
+      1.582906921006751,
+      7.80063357997518
+    ],
+    "pressure_beta": -0.3933864321350736,
+    "n_penalties": 21,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10032",
+    "name": "Portugal Player 3",
+    "nation": "Portugal",
+    "club": "Liverpool",
+    "foot": "right",
+    "zone_alpha": [
+      6.561651753682155,
+      1.7374282631034856,
+      1.4323366957518138,
+      1.3037524838519405,
+      0.6674912242890712,
+      0.915167756866492
+    ],
+    "pressure_beta": -0.047499858039850684,
+    "n_penalties": 5,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10033",
+    "name": "Portugal Player 4",
+    "nation": "Portugal",
+    "club": "Benfica",
+    "foot": "left",
+    "zone_alpha": [
+      6.041599301716667,
+      0.5001900975030187,
+      0.9208740636458224,
+      1.5638720338376486,
+      1.6041515489983784,
+      0.9891144534305363
+    ],
+    "pressure_beta": -0.8609615138504416,
+    "n_penalties": 21,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10034",
+    "name": "Portugal Player 5",
+    "nation": "Portugal",
+    "club": "Atletico Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      1.9730428557877318,
+      7.622473757582857,
+      0.5840586854873171,
+      1.696172527410109,
+      0.9236107784473564,
+      0.5551897330985619
+    ],
+    "pressure_beta": -0.7014103126761069,
+    "n_penalties": 17,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10035",
+    "name": "Italy Player 1",
+    "nation": "Italy",
+    "club": "Benfica",
+    "foot": "right",
+    "zone_alpha": [
+      1.7638573062459688,
+      0.7238732489912332,
+      1.185956866637038,
+      1.3974164173087296,
+      1.871605348661697,
+      6.678710933684364
+    ],
+    "pressure_beta": 0.24116465835719691,
+    "n_penalties": 0,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10036",
+    "name": "Italy Player 2",
+    "nation": "Italy",
+    "club": "Manchester United",
+    "foot": "right",
+    "zone_alpha": [
+      1.540071281076096,
+      0.761358989162076,
+      1.9359025636968568,
+      0.9067128913653201,
+      1.288462761195332,
+      6.904697979230553
+    ],
+    "pressure_beta": -0.1413372321108186,
+    "n_penalties": 24,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10037",
+    "name": "Italy Player 3",
+    "nation": "Italy",
+    "club": "Napoli",
+    "foot": "left",
+    "zone_alpha": [
+      1.0965356604279588,
+      1.3033680411519315,
+      4.708308221058148,
+      0.526566019152463,
+      1.9413876841090145,
+      0.9134118968387023
+    ],
+    "pressure_beta": -0.5330899201986559,
+    "n_penalties": 3,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10038",
+    "name": "Italy Player 4",
+    "nation": "Italy",
+    "club": "Arsenal",
+    "foot": "left",
+    "zone_alpha": [
+      1.7995644987224522,
+      7.937044318023757,
+      0.5948852441709516,
+      0.6182861372532173,
+      1.8066035745883025,
+      0.9214176378820285
+    ],
+    "pressure_beta": -0.08153952208461257,
+    "n_penalties": 25,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10039",
+    "name": "Italy Player 5",
+    "nation": "Italy",
+    "club": "Atletico Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      0.556643099592597,
+      0.8218526931770656,
+      0.9956736927994865,
+      0.6777694690950427,
+      5.578768458891325,
+      1.1500731313187604
+    ],
+    "pressure_beta": 0.08930320014138493,
+    "n_penalties": 9,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10040",
+    "name": "Netherlands Player 1",
+    "nation": "Netherlands",
+    "club": "Sporting CP",
+    "foot": "right",
+    "zone_alpha": [
+      1.6295632547033327,
+      0.5095553996926983,
+      1.932866495251977,
+      7.7441702251132885,
+      1.7922865385798312,
+      1.4765474680100887
+    ],
+    "pressure_beta": -0.8925656539527704,
+    "n_penalties": 29,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10041",
+    "name": "Netherlands Player 2",
+    "nation": "Netherlands",
+    "club": "Porto",
+    "foot": "right",
+    "zone_alpha": [
+      7.922515278041155,
+      0.9706603968820187,
+      1.6038238773436653,
+      1.9508572566358766,
+      1.922239210096141,
+      0.9160605744736561
+    ],
+    "pressure_beta": 0.05591915600681041,
+    "n_penalties": 18,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10042",
+    "name": "Netherlands Player 3",
+    "nation": "Netherlands",
+    "club": "Arsenal",
+    "foot": "left",
+    "zone_alpha": [
+      0.6877845059794234,
+      1.892244201382782,
+      0.8490152365625308,
+      0.9425468636851153,
+      7.779153326305177,
+      1.0339201025028515
+    ],
+    "pressure_beta": -0.2368742770885408,
+    "n_penalties": 12,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10043",
+    "name": "Netherlands Player 4",
+    "nation": "Netherlands",
+    "club": "Barcelona",
+    "foot": "right",
+    "zone_alpha": [
+      1.439283468022968,
+      1.929183063039709,
+      7.745980801776074,
+      1.4560317538952878,
+      0.9193894915281421,
+      1.5302337376177184
+    ],
+    "pressure_beta": -0.04983257666245067,
+    "n_penalties": 5,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10044",
+    "name": "Netherlands Player 5",
+    "nation": "Netherlands",
+    "club": "Real Madrid",
+    "foot": "left",
+    "zone_alpha": [
+      1.6640865985222817,
+      1.4986532408401976,
+      4.424776929895268,
+      1.5118681074823908,
+      1.2748319701820146,
+      0.7964241953451789
+    ],
+    "pressure_beta": 0.411903901636689,
+    "n_penalties": 5,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10045",
+    "name": "Belgium Player 1",
+    "nation": "Belgium",
+    "club": "Bayer Leverkusen",
+    "foot": "right",
+    "zone_alpha": [
+      7.99237259368541,
+      1.7225376968801802,
+      1.9854679511496192,
+      1.5577685799995944,
+      1.0524567055114462,
+      0.851880305709567
+    ],
+    "pressure_beta": -0.10723270014135267,
+    "n_penalties": 25,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10046",
+    "name": "Belgium Player 2",
+    "nation": "Belgium",
+    "club": "Borussia Dortmund",
+    "foot": "right",
+    "zone_alpha": [
+      1.0578138988419583,
+      0.5677823162567861,
+      6.205333481402672,
+      0.8781707123848543,
+      1.7012763872884729,
+      1.24780353598682
+    ],
+    "pressure_beta": 0.1604345591115448,
+    "n_penalties": 7,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10047",
+    "name": "Belgium Player 3",
+    "nation": "Belgium",
+    "club": "Juventus",
+    "foot": "left",
+    "zone_alpha": [
+      1.8124683060066151,
+      1.4442940046389887,
+      1.3120149369781051,
+      4.537827782939349,
+      1.1186732445608187,
+      0.7068199889934288
+    ],
+    "pressure_beta": 0.033607348883154975,
+    "n_penalties": 13,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10048",
+    "name": "Belgium Player 4",
+    "nation": "Belgium",
+    "club": "Marseille",
+    "foot": "left",
+    "zone_alpha": [
+      1.0724813003515123,
+      1.2334528954450508,
+      5.801805656259221,
+      0.7546291766607196,
+      0.9322519721094188,
+      0.675277191544323
+    ],
+    "pressure_beta": 0.17137402625346576,
+    "n_penalties": 20,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10049",
+    "name": "Belgium Player 5",
+    "nation": "Belgium",
+    "club": "Manchester City",
+    "foot": "left",
+    "zone_alpha": [
+      1.7563071158916885,
+      4.414321043218745,
+      1.4915287857167185,
+      1.2967751295639354,
+      0.5107685681068723,
+      1.9118958522057654
+    ],
+    "pressure_beta": -0.16754381680890273,
+    "n_penalties": 7,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10050",
+    "name": "Croatia Player 1",
+    "nation": "Croatia",
+    "club": "Bayer Leverkusen",
+    "foot": "left",
+    "zone_alpha": [
+      0.7780809722748263,
+      1.3431072566594413,
+      1.2045892674414773,
+      0.8713631332443832,
+      8.729579315948783,
+      0.7726914735491219
+    ],
+    "pressure_beta": -0.5948472399988118,
+    "n_penalties": 11,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10051",
+    "name": "Croatia Player 2",
+    "nation": "Croatia",
+    "club": "AC Milan",
+    "foot": "left",
+    "zone_alpha": [
+      1.2455384431857697,
+      4.922128645827025,
+      1.996168888806647,
+      1.1511516760623273,
+      0.7409932977351679,
+      0.662206084227094
+    ],
+    "pressure_beta": -0.7642922978413321,
+    "n_penalties": 9,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10052",
+    "name": "Croatia Player 3",
+    "nation": "Croatia",
+    "club": "Manchester United",
+    "foot": "right",
+    "zone_alpha": [
+      1.0018901550313752,
+      1.3767260660415352,
+      0.7766302870991788,
+      1.7156624083604246,
+      0.8541265202877499,
+      7.094799075153537
+    ],
+    "pressure_beta": 0.12884941824141816,
+    "n_penalties": 30,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10053",
+    "name": "Croatia Player 4",
+    "nation": "Croatia",
+    "club": "Borussia Dortmund",
+    "foot": "right",
+    "zone_alpha": [
+      1.2505371052808198,
+      1.348011910294871,
+      1.1946888316101854,
+      1.9048919765484809,
+      1.0093586442018985,
+      6.397154809822299
+    ],
+    "pressure_beta": 0.31783649151371707,
+    "n_penalties": 19,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10054",
+    "name": "Croatia Player 5",
+    "nation": "Croatia",
+    "club": "Borussia Dortmund",
+    "foot": "right",
+    "zone_alpha": [
+      0.8820678337660139,
+      6.91249922153639,
+      1.0502238679565883,
+      0.6414603860793202,
+      0.8249717363249678,
+      0.5734999553630807
+    ],
+    "pressure_beta": -0.025621935325888745,
+    "n_penalties": 19,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10055",
+    "name": "Uruguay Player 1",
+    "nation": "Uruguay",
+    "club": "Juventus",
+    "foot": "right",
+    "zone_alpha": [
+      0.8529750634841162,
+      4.604966922961322,
+      1.9486167092559783,
+      1.1230052544436697,
+      0.8684687344224831,
+      0.5966080733298956
+    ],
+    "pressure_beta": -0.8232456892733608,
+    "n_penalties": 20,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10056",
+    "name": "Uruguay Player 2",
+    "nation": "Uruguay",
+    "club": "Inter Milan",
+    "foot": "right",
+    "zone_alpha": [
+      1.4885800304225745,
+      1.7748255856369635,
+      1.447042872183065,
+      1.6446557196737417,
+      0.7553410128464537,
+      7.089037524192111
+    ],
+    "pressure_beta": 0.07824981035903211,
+    "n_penalties": 0,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10057",
+    "name": "Uruguay Player 3",
+    "nation": "Uruguay",
+    "club": "Juventus",
+    "foot": "left",
+    "zone_alpha": [
+      1.5346153893641055,
+      1.583774415441624,
+      8.134600025382795,
+      1.2159235917703226,
+      1.5324826076762315,
+      1.0929533116776673
+    ],
+    "pressure_beta": 0.28238714525111264,
+    "n_penalties": 19,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10058",
+    "name": "Uruguay Player 4",
+    "nation": "Uruguay",
+    "club": "Sporting CP",
+    "foot": "left",
+    "zone_alpha": [
+      7.568938315808578,
+      1.8545073541120205,
+      1.460649306725433,
+      1.465176730191272,
+      1.0672395585528993,
+      0.7808353993173709
+    ],
+    "pressure_beta": -0.02851990108417668,
+    "n_penalties": 1,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10059",
+    "name": "Uruguay Player 5",
+    "nation": "Uruguay",
+    "club": "Paris Saint-Germain",
+    "foot": "left",
+    "zone_alpha": [
+      1.6414093721384133,
+      1.5430318550201993,
+      8.213182507084506,
+      0.9713578694977918,
+      0.8880681838951955,
+      0.6193311834061104
+    ],
+    "pressure_beta": 0.20575313837905895,
+    "n_penalties": 7,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10060",
+    "name": "Colombia Player 1",
+    "nation": "Colombia",
+    "club": "Chelsea",
+    "foot": "left",
+    "zone_alpha": [
+      1.0396224105623002,
+      0.6616528064781664,
+      1.9799173023952497,
+      6.96081277932468,
+      1.6085930260190755,
+      0.7084973861438302
+    ],
+    "pressure_beta": 0.10511546842365727,
+    "n_penalties": 4,
+    "n_shootout": 0
+  },
+  {
+    "id": "synth_p_10061",
+    "name": "Colombia Player 2",
+    "nation": "Colombia",
+    "club": "Bayern Munich",
+    "foot": "right",
+    "zone_alpha": [
+      1.2601556374566676,
+      1.9157766776853302,
+      0.7784693610709703,
+      0.541836958019358,
+      0.7300044440774742,
+      6.734741050055222
+    ],
+    "pressure_beta": -0.0994492906988641,
+    "n_penalties": 26,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10062",
+    "name": "Colombia Player 3",
+    "nation": "Colombia",
+    "club": "Manchester United",
+    "foot": "right",
+    "zone_alpha": [
+      1.2460422535197675,
+      0.7818171683868634,
+      1.3732274295817717,
+      1.8478632720735437,
+      1.5067696161763804,
+      5.669749903144944
+    ],
+    "pressure_beta": -0.7325639116840255,
+    "n_penalties": 17,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10063",
+    "name": "Colombia Player 4",
+    "nation": "Colombia",
+    "club": "Liverpool",
+    "foot": "left",
+    "zone_alpha": [
+      0.5091201315917863,
+      0.9534151478523416,
+      1.7956838315529882,
+      1.689963477675859,
+      1.512286073215905,
+      7.030570779483796
+    ],
+    "pressure_beta": -0.14319802275893045,
+    "n_penalties": 2,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10064",
+    "name": "Colombia Player 5",
+    "nation": "Colombia",
+    "club": "Napoli",
+    "foot": "right",
+    "zone_alpha": [
+      0.5933498021186457,
+      5.413902511866674,
+      1.5161377214753489,
+      0.8818046120079537,
+      1.0602040900274383,
+      0.9498368303727185
+    ],
+    "pressure_beta": 0.3582914929870413,
+    "n_penalties": 7,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10065",
+    "name": "USA Player 1",
+    "nation": "USA",
+    "club": "Sporting CP",
+    "foot": "right",
+    "zone_alpha": [
+      0.5329960388199344,
+      1.259683222547311,
+      1.5070106432711898,
+      1.954525136293925,
+      1.1451673721502214,
+      8.804827839743469
+    ],
+    "pressure_beta": -0.527546555074154,
+    "n_penalties": 1,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10066",
+    "name": "USA Player 2",
+    "nation": "USA",
+    "club": "Bayern Munich",
+    "foot": "right",
+    "zone_alpha": [
+      5.369623642457677,
+      1.321192961700025,
+      0.5828789797118767,
+      1.6110377243002363,
+      0.7700329756482351,
+      1.9204705094713932
+    ],
+    "pressure_beta": 0.4424350177448262,
+    "n_penalties": 14,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10067",
+    "name": "USA Player 3",
+    "nation": "USA",
+    "club": "Bayer Leverkusen",
+    "foot": "right",
+    "zone_alpha": [
+      0.8682642518123098,
+      1.129484319735986,
+      1.2730892502882998,
+      1.7198871129244233,
+      0.8462408516930265,
+      6.124279776809157
+    ],
+    "pressure_beta": -0.21728784239215693,
+    "n_penalties": 22,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10068",
+    "name": "USA Player 4",
+    "nation": "USA",
+    "club": "Atletico Madrid",
+    "foot": "left",
+    "zone_alpha": [
+      1.2122710191771642,
+      0.6744909691635608,
+      1.946954801611724,
+      0.656875934692063,
+      0.6438739552100444,
+      7.5432835947145875
+    ],
+    "pressure_beta": 0.03559432954111452,
+    "n_penalties": 18,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10069",
+    "name": "USA Player 5",
+    "nation": "USA",
+    "club": "Manchester United",
+    "foot": "right",
+    "zone_alpha": [
+      1.3042967265435559,
+      1.5279176090280355,
+      1.3447594697795007,
+      0.8661511348094306,
+      6.605332020284832,
+      0.6147901034926101
+    ],
+    "pressure_beta": -0.6041533241505286,
+    "n_penalties": 14,
+    "n_shootout": 0
+  },
+  {
+    "id": "synth_p_10070",
+    "name": "Mexico Player 1",
+    "nation": "Mexico",
+    "club": "Manchester City",
+    "foot": "right",
+    "zone_alpha": [
+      1.7153300807377745,
+      1.2743909214696436,
+      1.2804940806570047,
+      0.7313853278609515,
+      4.709609934331061,
+      0.7906274479236521
+    ],
+    "pressure_beta": 0.10786932731610377,
+    "n_penalties": 17,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10071",
+    "name": "Mexico Player 2",
+    "nation": "Mexico",
+    "club": "Liverpool",
+    "foot": "right",
+    "zone_alpha": [
+      1.3282380211137708,
+      1.4891651075532564,
+      1.960435529607388,
+      1.2008381268800725,
+      1.1429792919301043,
+      4.618335687295064
+    ],
+    "pressure_beta": -0.6142440936283768,
+    "n_penalties": 8,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10072",
+    "name": "Mexico Player 3",
+    "nation": "Mexico",
+    "club": "Inter Milan",
+    "foot": "right",
+    "zone_alpha": [
+      1.5508508777983363,
+      1.2328988031151917,
+      5.521596157995508,
+      1.9334294889745864,
+      0.8715401791413786,
+      1.7054308420676008
+    ],
+    "pressure_beta": 0.005689571496040324,
+    "n_penalties": 26,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10073",
+    "name": "Mexico Player 4",
+    "nation": "Mexico",
+    "club": "Liverpool",
+    "foot": "right",
+    "zone_alpha": [
+      5.147840302270768,
+      0.5466938902098271,
+      0.981163340183289,
+      1.2792647307637133,
+      1.1170375593002944,
+      1.5924833270097318
+    ],
+    "pressure_beta": 0.2724067581227567,
+    "n_penalties": 11,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10074",
+    "name": "Mexico Player 5",
+    "nation": "Mexico",
+    "club": "Inter Milan",
+    "foot": "right",
+    "zone_alpha": [
+      0.7237550430997952,
+      4.4178247185934225,
+      1.3552243804219595,
+      1.369565198901006,
+      1.1580589561637826,
+      1.5826276904908152
+    ],
+    "pressure_beta": 0.07632551408967747,
+    "n_penalties": 24,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10075",
+    "name": "Japan Player 1",
+    "nation": "Japan",
+    "club": "Bayer Leverkusen",
+    "foot": "right",
+    "zone_alpha": [
+      1.3583583663782999,
+      1.7187209065446165,
+      7.715170973697524,
+      1.4098619648926392,
+      1.2760178363372607,
+      0.8831499859753237
+    ],
+    "pressure_beta": -0.746530864146283,
+    "n_penalties": 16,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10076",
+    "name": "Japan Player 2",
+    "nation": "Japan",
+    "club": "Manchester City",
+    "foot": "right",
+    "zone_alpha": [
+      1.8439034206572205,
+      7.61511296865179,
+      1.3479811992172968,
+      0.5425754735169797,
+      1.9591023309176498,
+      1.1890310181412844
+    ],
+    "pressure_beta": 0.02332175744425724,
+    "n_penalties": 28,
+    "n_shootout": 10
+  },
+  {
+    "id": "synth_p_10077",
+    "name": "Japan Player 3",
+    "nation": "Japan",
+    "club": "Real Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      0.879398511447814,
+      1.4501661244167594,
+      1.2272813973715633,
+      1.1474901198821648,
+      4.373869527291157,
+      0.8540935315033017
+    ],
+    "pressure_beta": -0.2835290325532198,
+    "n_penalties": 22,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10078",
+    "name": "Japan Player 4",
+    "nation": "Japan",
+    "club": "Atletico Madrid",
+    "foot": "right",
+    "zone_alpha": [
+      4.693720104786023,
+      1.5091106394897231,
+      1.0067615758884476,
+      1.322629282472434,
+      1.6679193539592851,
+      0.9624857346104003
+    ],
+    "pressure_beta": -0.33279125950068056,
+    "n_penalties": 18,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10079",
+    "name": "Japan Player 5",
+    "nation": "Japan",
+    "club": "Arsenal",
+    "foot": "left",
+    "zone_alpha": [
+      1.6938499398932816,
+      1.2846644867775951,
+      1.7786964908618246,
+      1.8059348930250494,
+      1.6590456759346865,
+      6.3767303952263035
+    ],
+    "pressure_beta": -0.3921896728459038,
+    "n_penalties": 26,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10080",
+    "name": "Barcelona Player 3",
+    "nation": "Uruguay",
+    "club": "Barcelona",
+    "foot": "right",
+    "zone_alpha": [
+      0.6806497420242614,
+      1.8868469201470726,
+      1.639537821316867,
+      5.536651170462091,
+      1.0018949061737035,
+      1.2274120235942767
+    ],
+    "pressure_beta": -0.3198312214901813,
+    "n_penalties": 25,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10081",
+    "name": "Barcelona Player 4",
+    "nation": "Portugal",
+    "club": "Barcelona",
+    "foot": "right",
+    "zone_alpha": [
+      1.862492264273505,
+      1.3236693745497785,
+      1.838002907996184,
+      0.8875192376692826,
+      4.204036349016604,
+      1.024598782513225
+    ],
+    "pressure_beta": 0.3963252203958967,
+    "n_penalties": 6,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10082",
+    "name": "Barcelona Player 5",
+    "nation": "USA",
+    "club": "Barcelona",
+    "foot": "right",
+    "zone_alpha": [
+      0.7739930445444159,
+      6.828293424832388,
+      0.6004019625143524,
+      1.998594252182888,
+      0.806055340239813,
+      0.6638475472785936
+    ],
+    "pressure_beta": -0.649645579684957,
+    "n_penalties": 10,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10083",
+    "name": "Arsenal Player 4",
+    "nation": "USA",
+    "club": "Arsenal",
+    "foot": "right",
+    "zone_alpha": [
+      1.068500071060953,
+      1.4642031354295661,
+      1.135814073422036,
+      1.955144101342928,
+      1.0009706380498273,
+      5.614850551400101
+    ],
+    "pressure_beta": 0.27244515578047923,
+    "n_penalties": 8,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10084",
+    "name": "Arsenal Player 5",
+    "nation": "Croatia",
+    "club": "Arsenal",
+    "foot": "right",
+    "zone_alpha": [
+      1.5556228844563582,
+      4.38579932239732,
+      1.1395011100291015,
+      0.6556118876379938,
+      0.6389082292820515,
+      1.9358772942865365
+    ],
+    "pressure_beta": -0.27845121671943684,
+    "n_penalties": 15,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10085",
+    "name": "Chelsea Player 3",
+    "nation": "Croatia",
+    "club": "Chelsea",
+    "foot": "right",
+    "zone_alpha": [
+      1.1065404851253686,
+      1.4157502187914344,
+      0.8456621393603168,
+      1.5474512486000251,
+      8.462605991355693,
+      1.5841473058665347
+    ],
+    "pressure_beta": 0.12929098021061458,
+    "n_penalties": 8,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10086",
+    "name": "Chelsea Player 4",
+    "nation": "Japan",
+    "club": "Chelsea",
+    "foot": "right",
+    "zone_alpha": [
+      0.7169425891625698,
+      1.1804517475883665,
+      1.0538232962805507,
+      0.5834132154769691,
+      8.05255197006591,
+      1.9055119658873383
+    ],
+    "pressure_beta": 0.17576137033318862,
+    "n_penalties": 8,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10087",
+    "name": "Chelsea Player 5",
+    "nation": "Netherlands",
+    "club": "Chelsea",
+    "foot": "right",
+    "zone_alpha": [
+      0.7799811440527192,
+      7.70141649365775,
+      0.6592835387301149,
+      0.9072562615315702,
+      1.3789406254815417,
+      0.6597845896198922
+    ],
+    "pressure_beta": -0.7335585105311426,
+    "n_penalties": 4,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10088",
+    "name": "Bayern Munich Player 4",
+    "nation": "USA",
+    "club": "Bayern Munich",
+    "foot": "right",
+    "zone_alpha": [
+      1.0840893953798032,
+      6.591829365701651,
+      0.8548338433191857,
+      0.5715027045109897,
+      1.3125715669398073,
+      0.5141143417275513
+    ],
+    "pressure_beta": 0.2004444229634661,
+    "n_penalties": 3,
+    "n_shootout": 0
+  },
+  {
+    "id": "synth_p_10089",
+    "name": "Bayern Munich Player 5",
+    "nation": "Brazil",
+    "club": "Bayern Munich",
+    "foot": "right",
+    "zone_alpha": [
+      1.1181970269541754,
+      0.6639185575720733,
+      1.9334062308880697,
+      0.9507002786494794,
+      1.6363227555043771,
+      6.646294840087948
+    ],
+    "pressure_beta": -0.3549242946876431,
+    "n_penalties": 18,
+    "n_shootout": 0
+  },
+  {
+    "id": "synth_p_10090",
+    "name": "Bayer Leverkusen Player 5",
+    "nation": "USA",
+    "club": "Bayer Leverkusen",
+    "foot": "right",
+    "zone_alpha": [
+      1.8812616053677051,
+      1.312726007777524,
+      0.7303084979540008,
+      0.9055209708611431,
+      5.939773760578113,
+      0.9432288763492869
+    ],
+    "pressure_beta": 0.0957045959318219,
+    "n_penalties": 26,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10091",
+    "name": "Paris Saint-Germain Player 3",
+    "nation": "Brazil",
+    "club": "Paris Saint-Germain",
+    "foot": "left",
+    "zone_alpha": [
+      0.776695476730954,
+      0.8288987356539272,
+      1.313212065871566,
+      4.362525415673897,
+      0.8132275727424283,
+      1.7418013737521836
+    ],
+    "pressure_beta": -0.9471092884653842,
+    "n_penalties": 24,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10092",
+    "name": "Paris Saint-Germain Player 4",
+    "nation": "France",
+    "club": "Paris Saint-Germain",
+    "foot": "right",
+    "zone_alpha": [
+      0.5302929848580537,
+      1.9213603072338552,
+      1.166219013881828,
+      7.11996766680735,
+      0.6782900401186791,
+      1.157633203285136
+    ],
+    "pressure_beta": -0.16225004323046455,
+    "n_penalties": 23,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10093",
+    "name": "Paris Saint-Germain Player 5",
+    "nation": "Argentina",
+    "club": "Paris Saint-Germain",
+    "foot": "right",
+    "zone_alpha": [
+      1.8600719221672355,
+      1.2052563543463233,
+      1.8860617746230535,
+      1.9210837412313242,
+      0.75388888110615,
+      5.291993038383558
+    ],
+    "pressure_beta": -0.0316066520470929,
+    "n_penalties": 19,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10094",
+    "name": "Marseille Player 3",
+    "nation": "Spain",
+    "club": "Marseille",
+    "foot": "right",
+    "zone_alpha": [
+      1.4676020263298555,
+      1.5436713256971875,
+      5.385156315923016,
+      0.6133219602544231,
+      0.9867015447175416,
+      1.1444370098982795
+    ],
+    "pressure_beta": 0.24013708829122704,
+    "n_penalties": 10,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10095",
+    "name": "Marseille Player 4",
+    "nation": "Spain",
+    "club": "Marseille",
+    "foot": "right",
+    "zone_alpha": [
+      0.7213652390678336,
+      1.488215027139579,
+      1.4723054573142373,
+      1.4117281216278323,
+      6.12740033964526,
+      1.5981399491940094
+    ],
+    "pressure_beta": -0.18729793953689444,
+    "n_penalties": 12,
+    "n_shootout": 4
+  },
+  {
+    "id": "synth_p_10096",
+    "name": "Marseille Player 5",
+    "nation": "Belgium",
+    "club": "Marseille",
+    "foot": "right",
+    "zone_alpha": [
+      0.6460596792675514,
+      0.8432573657361584,
+      1.1796431627640047,
+      1.1885724443004375,
+      1.7501708663104536,
+      5.4937799022100045
+    ],
+    "pressure_beta": 0.29525150553515056,
+    "n_penalties": 9,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10097",
+    "name": "Inter Milan Player 4",
+    "nation": "Croatia",
+    "club": "Inter Milan",
+    "foot": "right",
+    "zone_alpha": [
+      4.994249866559525,
+      1.4416028934858693,
+      1.2536606385731957,
+      1.4244145292765655,
+      0.9224558628058848,
+      0.8822949401980624
+    ],
+    "pressure_beta": -0.17316235057939977,
+    "n_penalties": 20,
+    "n_shootout": 7
+  },
+  {
+    "id": "synth_p_10098",
+    "name": "Inter Milan Player 5",
+    "nation": "Belgium",
+    "club": "Inter Milan",
+    "foot": "right",
+    "zone_alpha": [
+      1.8550672339490186,
+      1.9719561360209215,
+      0.8851371491671134,
+      0.9790398268861632,
+      1.1390777649789636,
+      7.769523790368263
+    ],
+    "pressure_beta": 0.2841199345294405,
+    "n_penalties": 28,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10099",
+    "name": "AC Milan Player 3",
+    "nation": "Colombia",
+    "club": "AC Milan",
+    "foot": "left",
+    "zone_alpha": [
+      1.7973437518022957,
+      7.913804014710823,
+      1.794703568625271,
+      1.9996905908451086,
+      0.9786257395576963,
+      0.8034725583210951
+    ],
+    "pressure_beta": -0.8085360759693343,
+    "n_penalties": 9,
+    "n_shootout": 6
+  },
+  {
+    "id": "synth_p_10100",
+    "name": "AC Milan Player 4",
+    "nation": "Portugal",
+    "club": "AC Milan",
+    "foot": "right",
+    "zone_alpha": [
+      0.5418171884495062,
+      7.363690930207524,
+      1.8251668994184786,
+      0.96391191712355,
+      1.0159024826436986,
+      0.6109649152624392
+    ],
+    "pressure_beta": -0.43573433432539543,
+    "n_penalties": 3,
+    "n_shootout": 2
+  },
+  {
+    "id": "synth_p_10101",
+    "name": "AC Milan Player 5",
+    "nation": "Argentina",
+    "club": "AC Milan",
+    "foot": "right",
+    "zone_alpha": [
+      1.0387426603904788,
+      1.145199203344551,
+      1.3154828094538957,
+      1.3222305868359592,
+      1.7601887530955254,
+      5.283737925337195
+    ],
+    "pressure_beta": -0.03126975337147786,
+    "n_penalties": 1,
+    "n_shootout": 8
+  },
+  {
+    "id": "synth_p_10102",
+    "name": "Juventus Player 5",
+    "nation": "Uruguay",
+    "club": "Juventus",
+    "foot": "right",
+    "zone_alpha": [
+      1.7779972442968441,
+      0.6687225696071821,
+      6.62172383517941,
+      1.9004430723581345,
+      0.8389697281465833,
+      1.17879423654928
+    ],
+    "pressure_beta": -0.07626560564925167,
+    "n_penalties": 0,
+    "n_shootout": 1
+  },
+  {
+    "id": "synth_p_10103",
+    "name": "Napoli Player 4",
+    "nation": "Belgium",
+    "club": "Napoli",
+    "foot": "left",
+    "zone_alpha": [
+      5.6763265815312955,
+      0.6784488549255665,
+      1.5318004426910248,
+      1.2001577933046554,
+      1.435974408150726,
+      0.7087756963670852
+    ],
+    "pressure_beta": -0.16818630942666668,
+    "n_penalties": 10,
+    "n_shootout": 3
+  },
+  {
+    "id": "synth_p_10104",
+    "name": "Napoli Player 5",
+    "nation": "Argentina",
+    "club": "Napoli",
+    "foot": "right",
+    "zone_alpha": [
+      1.0830798304221443,
+      4.7387369560304,
+      1.8760772264866523,
+      1.8623278946219544,
+      0.8001042665722937,
+      1.272792064225616
+    ],
+    "pressure_beta": -0.984741807461583,
+    "n_penalties": 16,
+    "n_shootout": 5
+  },
+  {
+    "id": "synth_p_10105",
+    "name": "Porto Player 4",
+    "nation": "Belgium",
+    "club": "Porto",
+    "foot": "right",
+    "zone_alpha": [
+      1.2266108511014937,
+      1.500598095569086,
+      6.710563782064916,
+      1.9614704562414491,
+      1.3416054890682516,
+      0.9076813462739184
+    ],
+    "pressure_beta": -0.04656712458851364,
+    "n_penalties": 11,
+    "n_shootout": 9
+  },
+  {
+    "id": "synth_p_10106",
+    "name": "Porto Player 5",
+    "nation": "Portugal",
+    "club": "Porto",
+    "foot": "left",
+    "zone_alpha": [
+      1.7765797434102075,
+      0.5474701931573309,
+      1.957088507200699,
+      1.765733028132587,
+      7.190787014118478,
+      1.1922941058273189
+    ],
+    "pressure_beta": -0.7376270329353871,
+    "n_penalties": 5,
+    "n_shootout": 6
+  }
+]
