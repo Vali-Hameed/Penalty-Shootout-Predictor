@@ -19,7 +19,8 @@ def is_shootout_context(round_num: int, score_diff: int) -> float:
 
 def simulate_kick(player: Player, gk: Goalkeeper, round_num: int, score_diff: int, gk_live_beta: dict) -> KickResult:
     # Stage 1: sample shooter zone from Dirichlet posterior
-    zone_probs = np.random.dirichlet(player.zone_alpha)
+    shooter_alpha = np.maximum(player.zone_alpha, 0.01)
+    zone_probs = np.random.dirichlet(shooter_alpha)
     
     pressure_logit = player.pressure_beta * is_shootout_context(round_num, score_diff)
     pressure_factor = sigmoid(pressure_logit)
@@ -34,7 +35,8 @@ def simulate_kick(player: Player, gk: Goalkeeper, round_num: int, score_diff: in
     base_miss = 0.055 if is_top else 0.030
     
     # Stage 2: GK dive decision
-    dive_probs = np.random.dirichlet(gk.dive_alpha)
+    gk_dive_alpha = np.maximum(gk.dive_alpha, 0.01)
+    dive_probs = np.random.dirichlet(gk_dive_alpha)
     shooter_modal_idx = np.argmax(player.zone_alpha)
     shooter_modal = ZONES[shooter_modal_idx]
     
