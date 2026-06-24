@@ -22,10 +22,13 @@ class Player(BaseModel):
     
     n_penalties: int
     n_shootout: int
+    is_active: bool = True
 
 class Goalkeeper(BaseModel):
     id: str
     name: str
+    club: str = "Unknown"
+    nation: str = "Unknown"
     
     # save_beta[shoot_zone][dive_zone] = {"a": float, "b": float}
     save_beta: Dict[str, Dict[str, BetaParams]]
@@ -34,6 +37,7 @@ class Goalkeeper(BaseModel):
     dive_alpha: List[float] = Field(..., min_length=6, max_length=6)
     
     n_faced: int
+    is_active: bool = True
 
 class KickResult(BaseModel):
     shoot_zone: str
