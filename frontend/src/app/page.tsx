@@ -6,16 +6,19 @@ import TeamSelector from '@/components/TeamSelector';
 import PenaltyMatchup from '@/components/PenaltyMatchup';
 import WinProbBar from '@/components/WinProbBar';
 
+export type MatchupMode = "Club" | "International" | "Custom";
+
 export default function Home() {
   const { setAllData, runSimulation, isSimulating, simulationResult } = useSimStore();
   const [loading, setLoading] = useState(true);
+  const [mode, setMode] = useState<MatchupMode>("Club");
 
   useEffect(() => {
     async function fetchData() {
       try {
         const [playersRes, keepersRes] = await Promise.all([
-          fetch('http://localhost:8000/players'),
-          fetch('http://localhost:8000/keepers')
+          fetch(`http://localhost:8000/players?t=${Date.now()}`),
+          fetch(`http://localhost:8000/keepers?t=${Date.now()}`)
         ]);
         const players = await playersRes.json();
         const keepers = await keepersRes.json();
@@ -45,9 +48,31 @@ export default function Home() {
 
         {!simulationResult ? (
           <div className="flex flex-col items-center gap-8">
+            <div className="flex justify-center bg-slate-800 p-1 rounded-lg">
+              {["Club", "International", "Custom"].map((m) => (
+                <button
+                  key={m}
+                  onClick={() => {
+                    setMode(m as MatchupMode);
+                    useSimStore.getState().setTeamALineup([]);
+                    useSimStore.getState().setTeamBLineup([]);
+                    useSimStore.getState().setTeamAGK(null);
+                    useSimStore.getState().setTeamBGK(null);
+                  }}
+                  className={`px-6 py-2 rounded-md font-semibold transition-all ${
+                    mode === m 
+                      ? "bg-blue-600 text-white shadow" 
+                      : "text-slate-400 hover:text-white hover:bg-slate-700"
+                  }`}
+                >
+                  {m}
+                </button>
+              ))}
+            </div>
+
             <div className="flex flex-col md:flex-row gap-8 w-full justify-center">
-              <TeamSelector teamId="A" />
-              <TeamSelector teamId="B" />
+              <TeamSelector teamId="A" mode={mode} />
+              <TeamSelector teamId="B" mode={mode} />
             </div>
             
             <button 
