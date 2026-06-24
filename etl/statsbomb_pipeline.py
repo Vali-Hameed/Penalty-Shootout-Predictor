@@ -1,12 +1,16 @@
 import json
 import os
 import subprocess
+import concurrent.futures
+import wikipedia
 from pathlib import Path
 from collections import defaultdict
-import numpy as np
 
 # ZONES
 ZONES = ["TL", "TC", "TR", "BL", "BC", "BR"]
+
+# Setup Wikipedia API
+wikipedia.set_user_agent("PenaltyPredictorBot/1.0 (valih@example.com)")
 
 def clone_statsbomb_data():
     base_dir = Path(__file__).parent
@@ -17,12 +21,6 @@ def clone_statsbomb_data():
     return data_dir
 
 def get_zone(x, y):
-    # x < 36 -> Left, 36-44 -> Centre, > 44 -> Right
-    # y > 2.5 -> Top, <= 2.5 -> Bottom
-    # Wait, StatsBomb pitch is 120x80.
-    # Goal is on y between 36 and 44, z is height 0 to 2.67.
-    # The prompt specified: x < 36 -> Left, 36-44 -> Centre, > 44 -> Right, y > 2.5 -> Top, <= 2.5 -> Bottom
-    # Let's use the prompt's exact logic:
     if x < 36:
         col = "L"
     elif x <= 44:
@@ -37,9 +35,39 @@ def get_zone(x, y):
         
     return f"{row}{col}"
 
+def is_player_active(name):
+    try:
+        search_results = wikipedia.search(name + " footballer", results=1)
+        if not search_results:
+            return True # default to active if not found
+        try:
+            page = wikipedia.page(search_results[0], auto_suggest=False)
+        except wikipedia.exceptions.DisambiguationError as e:
+            if e.options:
+                page = wikipedia.page(e.options[0], auto_suggest=False)
+            else:
+                return True
+        except wikipedia.exceptions.PageError:
+            return True
+
+        summary = page.summary.lower()
+        first_sentence = summary.split('.')[0]
+        
+        inactive_keywords = [" retired ", " former ", " late ", " passed away ", " was a "]
+        if any(kw in summary[:300] for kw in inactive_keywords):
+            return False
+            
+        if " is a former " in first_sentence:
+            return False
+            
+        return True
+    except Exception:
+        return True # Default to active on failure
+
 def run_pipeline():
     data_dir = clone_statsbomb_data()
     events_dir = data_dir / "data" / "events"
+    lineups_dir = data_dir / "data" / "lineups"
     
     if not events_dir.exists():
         print("Events directory not found. Please ensure the data is cloned properly.")
@@ -56,46 +84,63 @@ def run_pipeline():
     gk_faced = defaultdict(int)
     gk_info = {}
 
-    print("Parsing events...")
+    # First pass: map every player ID to a club and nation
+    print("Parsing lineups for nations and all players...")
+    player_id_to_nation = {}
+    player_id_to_name = {}
+    if lineups_dir.exists():
+        for file in lineups_dir.glob("*.json"):
+            with open(file, "r", encoding="utf-8") as f:
+                lineups = json.load(f)
+            for team in lineups:
+                for p in team.get("lineup", []):
+                    p_id = str(p["player_id"])
+                    player_id_to_name[p_id] = p["player_name"]
+                    if "country" in p and p["country"]:
+                        player_id_to_nation[p_id] = p["country"]["name"]
+
+    print("Parsing events for clubs and shots...")
     files = list(events_dir.glob("*.json"))
+    player_id_to_club = {}
+    
     for file in files:
         with open(file, "r", encoding="utf-8") as f:
             events = json.load(f)
             
+        # Map clubs
+        for event in events:
+            if "player" in event and "team" in event:
+                p_id = str(event["player"]["id"])
+                if p_id not in player_id_to_club:
+                    player_id_to_club[p_id] = event["team"]["name"]
+                    
+        # Process shots
         for event in events:
             if event.get("type", {}).get("name") == "Shot" and event.get("shot", {}).get("type", {}).get("name") == "Penalty":
                 shot = event["shot"]
                 player = event["player"]
                 p_id = str(player["id"])
                 
-                # Info
                 if p_id not in player_info:
                     player_info[p_id] = {
                         "name": player["name"],
-                        "nation": "Unknown", # Not always available in event
-                        "club": event["possession_team"]["name"],
+                        "nation": player_id_to_nation.get(p_id, "Unknown"),
+                        "club": player_id_to_club.get(p_id, event.get("possession_team", {}).get("name", "Unknown")),
                         "foot": shot.get("body_part", {}).get("name", "right").lower()
                     }
                     
                 is_shootout = event.get("period", 0) >= 5
-                
                 player_kicks[p_id] += 1
                 if is_shootout:
                     player_shootout_kicks[p_id] += 1
                     
                 end_loc = shot.get("end_location", [0, 0, 0])
                 if len(end_loc) >= 3:
-                    # x is width, y is height? Or y is width, z is height?
-                    # Statsbomb: x = 120, y = 36-44, z = 0-2.67
-                    # Prompt specified x and y, so let's map: width -> x, height -> y based on prompt.
-                    # In StatsBomb end_location for shots is [x, y, z].
-                    # Wait, prompt says: x < 36 -> Left. So prompt x is actually StatsBomb y (width). 
-                    # And prompt y > 2.5 -> Top. So prompt y is actually StatsBomb z (height).
-                    w = end_loc[1] # width
-                    h = end_loc[2] # height
+                    w = end_loc[1] 
+                    h = end_loc[2] 
                     zone = get_zone(w, h)
                 else:
-                    zone = "BC" # Default
+                    zone = "BC" 
                     
                 player_zone_counts[p_id][zone] += 1
                 
@@ -113,13 +158,12 @@ def run_pipeline():
                     gk_id = str(gk["player"]["id"])
                     if gk_id not in gk_info:
                         gk_info[gk_id] = {
-                            "name": gk["player"]["name"]
+                            "name": gk["player"]["name"],
+                            "nation": player_id_to_nation.get(gk_id, "Unknown"),
+                            "club": player_id_to_club.get(gk_id, "Unknown")
                         }
                     
                     gk_faced[gk_id] += 1
-                    # Extract GK dive zone (approximate from freeze frame if available, else random for baseline)
-                    # StatsBomb doesn't reliably have GK dive end location, we'll assign BC or based on outcome
-                    # For simplicity, we'll assign dive to the shot zone if saved, otherwise BC.
                     if outcome == "Saved":
                         dive_zone = zone
                         gk_saves[gk_id][zone][dive_zone] += 1
@@ -130,8 +174,25 @@ def run_pipeline():
                             
                     gk_dive_counts[gk_id][dive_zone] += 1
 
+    # Add all players found in lineups to player_info if they didn't kick a penalty
+    for p_id, name in player_id_to_name.items():
+        if p_id not in player_info:
+            player_info[p_id] = {
+                "name": name,
+                "nation": player_id_to_nation.get(p_id, "Unknown"),
+                "club": player_id_to_club.get(p_id, "Unknown"),
+                "foot": "right"
+            }
+
+    print("Fetching active status via Wikipedia for players and goalkeepers...")
+    unique_names = list({info["name"] for info in player_info.values()} | {info["name"] for info in gk_info.values()})
+    active_status = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
+        results = executor.map(is_player_active, unique_names)
+        for name, status in zip(unique_names, results):
+            active_status[name] = status
+
     print("Computing Priors...")
-    # Dirichlet prior
     KAPPA = 10
     total_kicks = sum(player_kicks.values())
     if total_kicks > 0:
@@ -141,18 +202,14 @@ def run_pipeline():
         alpha_0 = [KAPPA / 6] * 6
         
     KAPPA_GK = 5
-    pop_save_rate = 0.18 # Population average save rate
+    pop_save_rate = 0.18
     a0 = pop_save_rate * KAPPA_GK
     b0 = (1 - pop_save_rate) * KAPPA_GK
 
     print("Building Bayesian JSONs...")
     players_output = []
     for p_id, info in player_info.items():
-        # Alpha
         zone_alpha = [alpha_0[i] + player_zone_counts[p_id][ZONES[i]] for i in range(6)]
-        
-        # Pressure beta - simple fallback logic
-        pressure_beta = -0.5
         
         players_output.append({
             "id": p_id,
@@ -161,9 +218,10 @@ def run_pipeline():
             "club": info["club"],
             "foot": info["foot"] if info["foot"] in ["left", "right"] else "right",
             "zone_alpha": zone_alpha,
-            "pressure_beta": pressure_beta,
+            "pressure_beta": -0.5,
             "n_penalties": player_kicks[p_id],
-            "n_shootout": player_shootout_kicks[p_id]
+            "n_shootout": player_shootout_kicks[p_id],
+            "is_active": active_status.get(info["name"], True)
         })
         
     keepers_output = []
@@ -184,9 +242,12 @@ def run_pipeline():
         keepers_output.append({
             "id": gk_id,
             "name": info["name"],
+            "nation": info.get("nation", "Unknown"),
+            "club": info.get("club", "Unknown"),
             "save_beta": save_beta,
             "dive_alpha": dive_alpha,
-            "n_faced": gk_faced[gk_id]
+            "n_faced": gk_faced[gk_id],
+            "is_active": active_status.get(info["name"], True)
         })
         
     out_dir = Path(__file__).parent / "output"
