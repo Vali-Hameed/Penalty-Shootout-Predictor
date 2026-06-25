@@ -167,5 +167,3 @@ def run_monte_carlo(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goalke
         demo_score_a=demo_sa,
         demo_score_b=demo_sb
     )
-
-# Let me rewrite run_monte_carlo completely so I can compute expected scores easily.

@@ -57,6 +57,8 @@ def run_merge():
         name = p['name']
         nation = p['nation']
         club = p['club']
+        league = p.get('league', 'Unknown')
+        club_nation = p.get('club_nation', 'Unknown')
         is_active = True
         
         if "Goalkeeper" in p.get("position", ""):
@@ -68,6 +70,8 @@ def run_merge():
                     "name": name,
                     "nation": nation,
                     "club": club,
+                    "league": league,
+                    "club_nation": club_nation,
                     "save_beta": k_data['save_beta'],
                     "dive_alpha": k_data['dive_alpha'],
                     "n_faced": k_data['n_faced'],
@@ -90,6 +94,8 @@ def run_merge():
                     "name": name,
                     "nation": nation,
                     "club": club,
+                    "league": league,
+                    "club_nation": club_nation,
                     "save_beta": save_beta,
                     "dive_alpha": ALPHA_0.copy(),
                     "n_faced": 0,
@@ -129,6 +135,8 @@ def run_merge():
             "name": name,
             "nation": nation,
             "club": club,
+            "league": league,
+            "club_nation": club_nation,
             "foot": foot,
             "zone_alpha": zone_alpha,
             "pressure_beta": pressure_beta,

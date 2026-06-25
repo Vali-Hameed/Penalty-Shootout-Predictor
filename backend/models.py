@@ -12,6 +12,8 @@ class Player(BaseModel):
     name: str
     nation: str
     club: str
+    league: str = "Unknown"
+    club_nation: str = "Unknown"
     foot: Literal["left", "right", "both"]
     
     # Dirichlet concentration params (one per zone, in order: TL, TC, TR, BL, BC, BR)
@@ -29,6 +31,8 @@ class Goalkeeper(BaseModel):
     name: str
     club: str = "Unknown"
     nation: str = "Unknown"
+    league: str = "Unknown"
+    club_nation: str = "Unknown"
     
     # save_beta[shoot_zone][dive_zone] = {"a": float, "b": float}
     save_beta: Dict[str, Dict[str, BetaParams]]
