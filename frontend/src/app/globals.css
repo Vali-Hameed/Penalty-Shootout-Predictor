@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #060812;
+  --foreground: #DDE1ED;
+  --panel: #0C1022;
+  --input: #141928;
+  --gold: #C9A227;
+  --gold-tint: rgba(201, 162, 39, 0.15);
+  --success: #22C55E;
+  --success-tint: rgba(34, 197, 94, 0.15);
+  --fail: #EF4444;
+  --fail-tint: rgba(239, 68, 68, 0.15);
+  --gray-sec: #6B7281;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-panel: var(--panel);
+  --color-input: var(--input);
+  --color-gold: var(--gold);
+  --color-gold-tint: var(--gold-tint);
+  --color-success: var(--success);
+  --color-success-tint: var(--success-tint);
+  --color-fail: var(--fail);
+  --color-fail-tint: var(--fail-tint);
+  --color-gray-sec: var(--gray-sec);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  --font-condensed: var(--font-barlow-condensed), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }

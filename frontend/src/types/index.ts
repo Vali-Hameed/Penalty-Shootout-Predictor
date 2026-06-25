@@ -3,6 +3,8 @@ export interface Player {
   name: string;
   nation: string;
   club: string;
+  league: string;
+  club_nation: string;
   foot: "left" | "right" | "both";
   zone_alpha: number[];
   pressure_beta: number;
@@ -16,6 +18,8 @@ export interface Goalkeeper {
   name: string;
   club: string;
   nation: string;
+  league: string;
+  club_nation: string;
   save_beta: Record<string, Record<string, { a: number; b: number }>>;
   dive_alpha: number[];
   n_faced: number;
