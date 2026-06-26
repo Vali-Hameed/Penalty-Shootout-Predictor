@@ -58,7 +58,7 @@ export default function Home() {
     return <div className="min-h-screen flex items-center justify-center bg-background text-foreground">Loading data...</div>;
   }
 
-  const isReady = teamA.lineup.length === 5 && teamA.gk && teamB.lineup.length === 5 && teamB.gk;
+  const isReady = teamA.lineup.length === 10 && teamA.gk && teamB.lineup.length === 10 && teamB.gk;
 
   return (
     <div className="flex flex-col min-h-screen p-5">

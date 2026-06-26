@@ -55,6 +55,6 @@ export interface MonteCarloResult {
 
 export interface TeamSetup {
   name: string;
-  lineup: Player[]; // 5 takers
+  lineup: Player[]; // 11 takers
   gk: Goalkeeper | null;
 }

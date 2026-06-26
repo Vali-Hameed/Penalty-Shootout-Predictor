@@ -109,7 +109,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
   }, [allKeepers, activeKeepers, selectedSquad, mode, gkSearchQuery]);
 
   const handleAddPlayer = (p: Player) => {
-    if (team.lineup.length < 5 && !team.lineup.find(x => x.id === p.id)) {
+    if (team.lineup.length < 10 && !team.lineup.find(x => x.id === p.id)) {
       setLineup([...team.lineup, p]);
     }
   };
@@ -273,7 +273,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
           </div>
 
           <div className="mb-4 relative" ref={playerSearchRef}>
-            <label className="block text-sm font-medium text-slate-300 mb-1">Available Takers (Pick 5)</label>
+            <label className="block text-sm font-medium text-slate-300 mb-1">Available Takers (Pick 10)</label>
             {mode === 'Custom' && (
               <input 
                 type="text" 
@@ -302,7 +302,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                           setSearchQuery('');
                           setShowPlayerSearch(false);
                         }}
-                        disabled={team.lineup.length >= 5 || team.lineup.some(x => x.id === p.id)}
+                        disabled={team.lineup.length >= 10 || team.lineup.some(x => x.id === p.id)}
                         className="px-2 py-1 bg-gold text-[#060812] disabled:opacity-50 disabled:bg-gray-sec rounded text-xs h-fit"
                       >
                         Add
@@ -320,7 +320,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                     </div>
                     <button 
                       onClick={() => handleAddPlayer(p)}
-                      disabled={team.lineup.length >= 5 || team.lineup.some(x => x.id === p.id)}
+                      disabled={team.lineup.length >= 10 || team.lineup.some(x => x.id === p.id)}
                       className="px-2 py-1 bg-gold text-[#060812] disabled:opacity-50 disabled:bg-gray-sec rounded text-xs h-fit"
                     >
                       Add
@@ -334,21 +334,53 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
       )}
 
       <div>
-        <label className="block text-sm font-medium text-slate-300 mb-1">Selected Lineup ({team.lineup.length}/5)</label>
-        <div className="space-y-2">
-          {team.lineup.map((p, idx) => (
-            <div key={p.id} className="flex justify-between items-center bg-input p-2 rounded text-sm border border-gold-tint">
-              <span className="text-white font-semibold">{idx + 1}. {p.name}</span>
-              <button 
-                onClick={() => handleRemovePlayer(p)}
-                className="text-red-400 hover:text-red-300"
-              >
-                Remove
-              </button>
+        <label className="block text-sm font-medium text-slate-300 mb-1">Selected Lineup ({team.lineup.length + (team.gk ? 1 : 0)}/11)</label>
+        
+        {team.lineup.length > 0 && (
+          <div className="mb-2">
+            <h3 className="text-xs font-mono text-gold mb-1 uppercase tracking-wider">First 5 Takers</h3>
+            <div className="space-y-2">
+              {team.lineup.slice(0, 5).map((p, idx) => (
+                <div key={p.id} className="flex justify-between items-center bg-input p-2 rounded text-sm border border-gold-tint">
+                  <span className="text-white font-semibold">{idx + 1}. {p.name}</span>
+                  <button 
+                    onClick={() => handleRemovePlayer(p)}
+                    className="text-red-400 hover:text-red-300"
+                  >
+                    Remove
+                  </button>
+                </div>
+              ))}
             </div>
-          ))}
-          {team.lineup.length === 0 && <p className="text-slate-500 text-sm">No players selected.</p>}
-        </div>
+          </div>
+        )}
+
+        {(team.lineup.length > 5 || team.gk) && (
+          <div className="mb-2">
+            <h3 className="text-xs font-mono text-gold mb-1 uppercase tracking-wider mt-3">Sudden Death Takers</h3>
+            <div className="space-y-2">
+              {team.lineup.slice(5).map((p, idx) => (
+                <div key={p.id} className="flex justify-between items-center bg-input p-2 rounded text-sm border border-gold-tint">
+                  <span className="text-white font-semibold">{idx + 6}. {p.name}</span>
+                  <button 
+                    onClick={() => handleRemovePlayer(p)}
+                    className="text-red-400 hover:text-red-300"
+                  >
+                    Remove
+                  </button>
+                </div>
+              ))}
+              {team.gk && (
+                <div key={team.gk.id} className="flex justify-between items-center bg-input p-2 rounded text-sm border border-gold-tint opacity-80">
+                  <span className="text-white font-semibold">{Math.max(team.lineup.length + 1, 6)}. {team.gk.name} (GK)</span>
+                  <span className="text-gold text-xs">Auto</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {team.lineup.length === 0 && !team.gk && <p className="text-slate-500 text-sm">No players selected.</p>}
       </div>
     </div>
   );

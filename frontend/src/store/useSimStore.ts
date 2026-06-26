@@ -39,20 +39,35 @@ export const useSimStore = create<SimState>((set, get) => ({
   
   runSimulation: async () => {
     const { teamA, teamB } = get();
-    if (teamA.lineup.length === 0 || teamB.lineup.length === 0 || !teamA.gk || !teamB.gk) {
-      alert("Please ensure both teams have takers and a goalkeeper selected.");
+    if (teamA.lineup.length !== 10 || teamB.lineup.length !== 10 || !teamA.gk || !teamB.gk) {
+      alert("Please ensure both teams have exactly 10 outfield takers and a goalkeeper selected.");
       return;
     }
     
     set({ isSimulating: true, simulationResult: null });
     
     try {
+      const keeperToPlayer = (gk: Goalkeeper): Player => ({
+        id: gk.id,
+        name: gk.name + " (GK)",
+        nation: gk.nation,
+        club: gk.club,
+        league: gk.league,
+        club_nation: gk.club_nation,
+        foot: "right",
+        zone_alpha: [10, 10, 10, 10, 10, 10],
+        pressure_beta: 0,
+        n_penalties: 0,
+        n_shootout: 0,
+        is_active: gk.is_active
+      });
+
       const response = await fetch("http://localhost:8000/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          team_a_lineup: teamA.lineup,
-          team_b_lineup: teamB.lineup,
+          team_a_lineup: [...teamA.lineup, keeperToPlayer(teamA.gk!)],
+          team_b_lineup: [...teamB.lineup, keeperToPlayer(teamB.gk!)],
           gk_a: teamA.gk,
           gk_b: teamB.gk,
           n_simulations: 10000
