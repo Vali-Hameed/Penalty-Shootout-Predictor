@@ -54,7 +54,7 @@ export default function KickLog({ result, visibleCount }: { result: MonteCarloRe
                   
                   <div className="flex-1 font-mono text-foreground font-bold">
                     <span className="opacity-70 mr-2 text-xs truncate max-w-[100px] inline-block align-bottom">
-                      {teamName}
+                      {log.shooter_name}
                     </span>
                     <span className="text-sm">
                       {log.result.shoot_zone}

@@ -89,7 +89,7 @@ def simulate_shootout(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goal
         if rd < len(lineup_a):
             r_a = simulate_kick(lineup_a[rd], gk_b, rd+1, score_a - score_b, gk_b_live)
             if r_a.outcome == "goal": score_a += 1
-            log.append(KickLogEntry(round_str=str(rd+1), team="A", result=r_a))
+            log.append(KickLogEntry(round_str=str(rd+1), team="A", shooter_name=lineup_a[rd].name, result=r_a))
             
             # Early elimination check after Team A shoots
             if score_a - score_b > (5 - rd) or score_b - score_a > (4 - rd):
@@ -98,7 +98,7 @@ def simulate_shootout(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goal
         if rd < len(lineup_b):
             r_b = simulate_kick(lineup_b[rd], gk_a, rd+1, score_b - score_a, gk_a_live)
             if r_b.outcome == "goal": score_b += 1
-            log.append(KickLogEntry(round_str=str(rd+1), team="B", result=r_b))
+            log.append(KickLogEntry(round_str=str(rd+1), team="B", shooter_name=lineup_b[rd].name, result=r_b))
             
             # Early elimination check after Team B shoots
             if abs(score_a - score_b) > (4 - rd):
@@ -110,12 +110,12 @@ def simulate_shootout(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goal
         idx = (5 + sd) % len(lineup_a)
         r_a = simulate_kick(lineup_a[idx], gk_b, 6+sd, score_a - score_b, gk_b_live)
         if r_a.outcome == "goal": score_a += 1
-        log.append(KickLogEntry(round_str=f"SD{sd+1}", team="A", result=r_a))
+        log.append(KickLogEntry(round_str=f"SD{sd+1}", team="A", shooter_name=lineup_a[idx].name, result=r_a))
         
         idx_b = (5 + sd) % len(lineup_b)
         r_b = simulate_kick(lineup_b[idx_b], gk_a, 6+sd, score_b - score_a, gk_a_live)
         if r_b.outcome == "goal": score_b += 1
-        log.append(KickLogEntry(round_str=f"SD{sd+1}", team="B", result=r_b))
+        log.append(KickLogEntry(round_str=f"SD{sd+1}", team="B", shooter_name=lineup_b[idx_b].name, result=r_b))
         
         if score_a != score_b:
             break

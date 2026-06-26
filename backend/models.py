@@ -53,6 +53,7 @@ class KickResult(BaseModel):
 class KickLogEntry(BaseModel):
     round_str: str  # e.g. "1", "2", "SD1"
     team: Literal["A", "B"]
+    shooter_name: str
     result: KickResult
 
 class MonteCarloResult(BaseModel):

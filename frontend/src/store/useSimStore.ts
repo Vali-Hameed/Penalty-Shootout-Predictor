@@ -15,6 +15,8 @@ interface SimState {
   setTeamBLineup: (lineup: Player[]) => void;
   setTeamAGK: (gk: Goalkeeper) => void;
   setTeamBGK: (gk: Goalkeeper) => void;
+  setTeamAName: (name: string) => void;
+  setTeamBName: (name: string) => void;
   runSimulation: () => Promise<void>;
   resetSimulation: () => void;
 }
@@ -34,6 +36,9 @@ export const useSimStore = create<SimState>((set, get) => ({
   
   setTeamAGK: (gk) => set((state) => ({ teamA: { ...state.teamA, gk } })),
   setTeamBGK: (gk) => set((state) => ({ teamB: { ...state.teamB, gk } })),
+  
+  setTeamAName: (name) => set((state) => ({ teamA: { ...state.teamA, name } })),
+  setTeamBName: (name) => set((state) => ({ teamB: { ...state.teamB, name } })),
   
   resetSimulation: () => set({ simulationResult: null }),
   

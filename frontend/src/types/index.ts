@@ -37,6 +37,7 @@ export interface KickResult {
 export interface KickLogEntry {
   round_str: string;
   team: "A" | "B";
+  shooter_name: string;
   result: KickResult;
 }
 

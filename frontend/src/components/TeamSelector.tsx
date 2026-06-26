@@ -6,11 +6,12 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import { MatchupMode } from '@/app/page';
 
 export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode: MatchupMode }) {
-  const { allPlayers, allKeepers, teamA, teamB, setTeamALineup, setTeamBLineup, setTeamAGK, setTeamBGK } = useSimStore();
+  const { allPlayers, allKeepers, teamA, teamB, setTeamALineup, setTeamBLineup, setTeamAGK, setTeamBGK, setTeamAName, setTeamBName } = useSimStore();
   
   const team = teamId === 'A' ? teamA : teamB;
   const setLineup = teamId === 'A' ? setTeamALineup : setTeamBLineup;
   const setGK = teamId === 'A' ? setTeamAGK : setTeamBGK;
+  const setTeamName = teamId === 'A' ? setTeamAName : setTeamBName;
   
   const [selectedSquad, setSelectedSquad] = useState<string>('');
   const [selectedNation, setSelectedNation] = useState<string>('');
@@ -44,7 +45,8 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
     setSelectedLeague('');
     setSearchQuery('');
     setGkSearchQuery('');
-  }, [mode]);
+    setTeamName(`Team ${teamId}`);
+  }, [mode, teamId, setTeamName]);
 
   const activePlayers = useMemo(() => allPlayers.filter(p => p.is_active), [allPlayers]);
   const activeKeepers = useMemo(() => allKeepers.filter(k => k.is_active), [allKeepers]);
@@ -131,7 +133,9 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
             className="w-full bg-input border border-gold-tint text-foreground rounded p-2"
             value={selectedSquad}
             onChange={(e) => {
-              setSelectedSquad(e.target.value);
+              const newSquad = e.target.value;
+              setSelectedSquad(newSquad);
+              setTeamName(newSquad || `Team ${teamId}`);
               setGK(null);
             }}
           >
@@ -152,6 +156,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                 setSelectedNation(e.target.value);
                 setSelectedLeague('');
                 setSelectedSquad('');
+                setTeamName(`Team ${teamId}`);
                 setGK(null);
               }}
             >
@@ -169,6 +174,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                 onChange={(e) => {
                   setSelectedLeague(e.target.value);
                   setSelectedSquad('');
+                  setTeamName(`Team ${teamId}`);
                   setGK(null);
                 }}
               >
@@ -185,7 +191,9 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                 className="w-full bg-input border border-gold-tint text-foreground rounded p-2"
                 value={selectedSquad}
                 onChange={(e) => {
-                  setSelectedSquad(e.target.value);
+                  const newSquad = e.target.value;
+                  setSelectedSquad(newSquad);
+                  setTeamName(newSquad || `Team ${teamId}`);
                   setGK(null);
                 }}
               >
@@ -201,7 +209,10 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
         <div className="mb-4 flex items-center justify-between bg-input border border-gold-tint p-3 rounded-lg">
           <div className="font-condensed font-bold text-lg text-gold uppercase">{selectedSquad}</div>
           <button 
-            onClick={() => setSelectedSquad('')}
+            onClick={() => {
+              setSelectedSquad('');
+              setTeamName(`Team ${teamId}`);
+            }}
             className="text-xs font-mono text-gray-sec hover:text-white"
           >
             Change
