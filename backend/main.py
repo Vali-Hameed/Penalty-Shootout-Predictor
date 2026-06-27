@@ -18,6 +18,7 @@ app.add_middleware(
 # In-memory storage for seeded data
 players_db = {}
 keepers_db = {}
+national_squads_db = {}
 
 def load_data():
     base_dir = Path(__file__).parent.parent / "etl" / "output"
@@ -39,6 +40,13 @@ def load_data():
                 keeper = Goalkeeper(**item)
                 keepers_db[keeper.id] = keeper
 
+    squads_file = base_dir / "national_squads.json"
+    if squads_file.exists():
+        with open(squads_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            for nation, players in data.items():
+                national_squads_db[nation] = players
+
 @app.on_event("startup")
 async def startup_event():
     load_data()
@@ -50,6 +58,10 @@ def get_players():
 @app.get("/keepers", response_model=list[Goalkeeper])
 def get_keepers():
     return list(keepers_db.values())
+
+@app.get("/national-squads")
+def get_national_squads():
+    return national_squads_db
 
 @app.get("/player/{player_id}", response_model=Player)
 def get_player(player_id: str):

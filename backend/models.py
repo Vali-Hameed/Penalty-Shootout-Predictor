@@ -14,7 +14,6 @@ class Player(BaseModel):
     club: str
     league: str = "Unknown"
     club_nation: str = "Unknown"
-    foot: Literal["left", "right", "both"]
     
     # Dirichlet concentration params (one per zone, in order: TL, TC, TR, BL, BC, BR)
     zone_alpha: List[float] = Field(..., min_length=6, max_length=6)

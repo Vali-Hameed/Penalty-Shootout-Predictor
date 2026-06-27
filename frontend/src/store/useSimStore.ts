@@ -4,13 +4,14 @@ import { Player, Goalkeeper, TeamSetup, MonteCarloResult } from '@/types';
 interface SimState {
   allPlayers: Player[];
   allKeepers: Goalkeeper[];
+  nationalSquads: Record<string, string[]>;
   teamA: TeamSetup;
   teamB: TeamSetup;
   simulationResult: MonteCarloResult | null;
   isSimulating: boolean;
   
   // Actions
-  setAllData: (players: Player[], keepers: Goalkeeper[]) => void;
+  setAllData: (players: Player[], keepers: Goalkeeper[], nationalSquads: Record<string, string[]>) => void;
   setTeamALineup: (lineup: Player[]) => void;
   setTeamBLineup: (lineup: Player[]) => void;
   setTeamAGK: (gk: Goalkeeper) => void;
@@ -24,12 +25,13 @@ interface SimState {
 export const useSimStore = create<SimState>((set, get) => ({
   allPlayers: [],
   allKeepers: [],
+  nationalSquads: {},
   teamA: { name: 'Team A', lineup: [], gk: null },
   teamB: { name: 'Team B', lineup: [], gk: null },
   simulationResult: null,
   isSimulating: false,
   
-  setAllData: (players, keepers) => set({ allPlayers: players, allKeepers: keepers }),
+  setAllData: (players, keepers, nationalSquads) => set({ allPlayers: players, allKeepers: keepers, nationalSquads }),
   
   setTeamALineup: (lineup) => set((state) => ({ teamA: { ...state.teamA, lineup } })),
   setTeamBLineup: (lineup) => set((state) => ({ teamB: { ...state.teamB, lineup } })),
@@ -59,7 +61,6 @@ export const useSimStore = create<SimState>((set, get) => ({
         club: gk.club,
         league: gk.league,
         club_nation: gk.club_nation,
-        foot: "right",
         zone_alpha: [10, 10, 10, 10, 10, 10],
         pressure_beta: 0,
         n_penalties: 0,

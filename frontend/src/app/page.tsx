@@ -38,13 +38,15 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const [playersRes, keepersRes] = await Promise.all([
+        const [playersRes, keepersRes, squadsRes] = await Promise.all([
           fetch(`http://localhost:8000/players?t=${Date.now()}`),
-          fetch(`http://localhost:8000/keepers?t=${Date.now()}`)
+          fetch(`http://localhost:8000/keepers?t=${Date.now()}`),
+          fetch(`http://localhost:8000/national-squads?t=${Date.now()}`)
         ]);
         const players = await playersRes.json();
         const keepers = await keepersRes.json();
-        setAllData(players, keepers);
+        const squads = await squadsRes.json();
+        setAllData(players, keepers, squads);
       } catch (err) {
         console.error("Failed to fetch data", err);
       } finally {

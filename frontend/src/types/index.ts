@@ -5,7 +5,6 @@ export interface Player {
   club: string;
   league: string;
   club_nation: string;
-  foot: "left" | "right" | "both";
   zone_alpha: number[];
   pressure_beta: number;
   n_penalties: number;

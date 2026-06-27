@@ -29,10 +29,6 @@ export default async function PlayerPage({ params }: { params: { id: string } })
               <h1 className="text-5xl font-black mb-2">{player.name}</h1>
               <p className="text-xl text-slate-400">{player.nation} &bull; {player.club}</p>
             </div>
-            <div className="text-right">
-              <div className="text-sm text-slate-500 uppercase tracking-widest font-bold mb-1">Preferred Foot</div>
-              <div className="text-2xl font-bold capitalize">{player.foot}</div>
-            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

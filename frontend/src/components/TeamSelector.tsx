@@ -6,7 +6,7 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import { MatchupMode } from '@/app/page';
 
 export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode: MatchupMode }) {
-  const { allPlayers, allKeepers, teamA, teamB, setTeamALineup, setTeamBLineup, setTeamAGK, setTeamBGK, setTeamAName, setTeamBName } = useSimStore();
+  const { allPlayers, allKeepers, nationalSquads, teamA, teamB, setTeamALineup, setTeamBLineup, setTeamAGK, setTeamBGK, setTeamAName, setTeamBName } = useSimStore();
   
   const team = teamId === 'A' ? teamA : teamB;
   const setLineup = teamId === 'A' ? setTeamALineup : setTeamBLineup;
@@ -53,12 +53,8 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
 
   // For International Mode
   const internationalSquads = useMemo(() => {
-    const s = new Set<string>();
-    if (mode === 'International') {
-      activePlayers.forEach(p => p.nation && s.add(p.nation));
-    }
-    return Array.from(s).sort();
-  }, [activePlayers, mode]);
+    return Object.keys(nationalSquads).sort();
+  }, [nationalSquads]);
 
   // For Club Mode - Hierarchy
   const clubNations = useMemo(() => {
@@ -96,9 +92,30 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
       return allPlayers.filter(p => p.name.toLowerCase().includes(searchQuery.toLowerCase())).slice(0, 20);
     }
     if (mode === 'Club') return activePlayers.filter(p => p.club === selectedSquad);
-    if (mode === 'International') return activePlayers.filter(p => p.nation === selectedSquad);
+    if (mode === 'International') {
+      const roster = nationalSquads[selectedSquad] || [];
+      return activePlayers.filter(p => {
+        if (p.nation !== selectedSquad) return false;
+        
+        const normalize = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        const pNorm = normalize(p.name);
+        
+        return roster.some(r => {
+          const rNorm = normalize(r);
+          if (rNorm === pNorm || pNorm.includes(rNorm) || rNorm.includes(pNorm)) return true;
+          
+          const pTokens = pNorm.split(/\s+/);
+          const rTokens = rNorm.split(/\s+/);
+          let matchCount = 0;
+          for (const t of pTokens) {
+            if (rTokens.includes(t)) matchCount++;
+          }
+          return matchCount >= 2;
+        });
+      });
+    }
     return [];
-  }, [allPlayers, activePlayers, selectedSquad, mode, searchQuery]);
+  }, [allPlayers, activePlayers, selectedSquad, mode, searchQuery, nationalSquads]);
 
   const availableKeepers = useMemo(() => {
     if (mode === 'Custom') {
@@ -106,9 +123,30 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
       return allKeepers.filter(k => k.name.toLowerCase().includes(gkSearchQuery.toLowerCase())).slice(0, 10);
     }
     if (mode === 'Club') return activeKeepers.filter(k => k.club === selectedSquad);
-    if (mode === 'International') return activeKeepers.filter(k => k.nation === selectedSquad);
+    if (mode === 'International') {
+      const roster = nationalSquads[selectedSquad] || [];
+      return activeKeepers.filter(k => {
+        if (k.nation !== selectedSquad) return false;
+        
+        const normalize = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        const kNorm = normalize(k.name);
+        
+        return roster.some(r => {
+          const rNorm = normalize(r);
+          if (rNorm === kNorm || kNorm.includes(rNorm) || rNorm.includes(kNorm)) return true;
+          
+          const kTokens = kNorm.split(/\s+/);
+          const rTokens = rNorm.split(/\s+/);
+          let matchCount = 0;
+          for (const t of kTokens) {
+            if (rTokens.includes(t)) matchCount++;
+          }
+          return matchCount >= 2;
+        });
+      });
+    }
     return [];
-  }, [allKeepers, activeKeepers, selectedSquad, mode, gkSearchQuery]);
+  }, [allKeepers, activeKeepers, selectedSquad, mode, gkSearchQuery, nationalSquads]);
 
   const handleAddPlayer = (p: Player) => {
     if (team.lineup.length < 10 && !team.lineup.find(x => x.id === p.id)) {
@@ -304,7 +342,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                   {availablePlayers.map(p => (
                     <div key={p.id} className="flex justify-between items-center text-sm">
                       <div className="flex flex-col">
-                        <span className="text-white">{p.name} ({p.foot})</span>
+                        <span className="text-white">{p.name}</span>
                         <span className="text-xs text-slate-400">{p.club} | {p.nation} {!p.is_active && "| Legend"}</span>
                       </div>
                       <button 
@@ -327,7 +365,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                 {availablePlayers.map(p => (
                   <div key={p.id} className="flex justify-between items-center text-sm">
                     <div className="flex flex-col">
-                      <span className="text-white">{p.name} ({p.foot})</span>
+                      <span className="text-white">{p.name}</span>
                     </div>
                     <button 
                       onClick={() => handleAddPlayer(p)}

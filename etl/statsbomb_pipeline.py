@@ -61,7 +61,10 @@ def is_player_active(name):
             return False
             
         return True
-    except Exception:
+    except wikipedia.exceptions.WikipediaException:
+        return True # Default to active on failure
+    except Exception as e:
+        print(f"Error fetching {name}: {e}")
         return True # Default to active on failure
 
 def run_pipeline():
@@ -115,7 +118,7 @@ def run_pipeline():
                     player_id_to_club[p_id] = event["team"]["name"]
                     
         # Process shots
-        for event in events:
+        for i, event in enumerate(events):
             if event.get("type", {}).get("name") == "Shot" and event.get("shot", {}).get("type", {}).get("name") == "Penalty":
                 shot = event["shot"]
                 player = event["player"]
@@ -125,8 +128,7 @@ def run_pipeline():
                     player_info[p_id] = {
                         "name": player["name"],
                         "nation": player_id_to_nation.get(p_id, "Unknown"),
-                        "club": player_id_to_club.get(p_id, event.get("possession_team", {}).get("name", "Unknown")),
-                        "foot": shot.get("body_part", {}).get("name", "right").lower()
+                        "club": player_id_to_club.get(p_id, event.get("possession_team", {}).get("name", "Unknown"))
                     }
                     
                 is_shootout = event.get("period", 0) >= 5
@@ -147,18 +149,26 @@ def run_pipeline():
                 outcome = shot.get("outcome", {}).get("name")
                 
                 # Find Goalkeeper
-                freeze_frame = shot.get("freeze_frame", [])
-                gk = None
-                for p in freeze_frame:
-                    if p.get("position", {}).get("name") == "Goalkeeper" and not p["teammate"]:
-                        gk = p
+                gk_player = None
+                # Check upcoming events for the specific Goal Keeper action
+                for j in range(i+1, min(i+10, len(events))):
+                    if events[j].get("type", {}).get("name") == "Goal Keeper":
+                        gk_player = events[j].get("player")
                         break
+                
+                # Fallback to freeze_frame
+                if not gk_player:
+                    freeze_frame = shot.get("freeze_frame", [])
+                    for p in freeze_frame:
+                        if p.get("position", {}).get("name") == "Goalkeeper" and not p.get("teammate", True):
+                            gk_player = p.get("player")
+                            break
                         
-                if gk:
-                    gk_id = str(gk["player"]["id"])
+                if gk_player:
+                    gk_id = str(gk_player["id"])
                     if gk_id not in gk_info:
                         gk_info[gk_id] = {
-                            "name": gk["player"]["name"],
+                            "name": gk_player["name"],
                             "nation": player_id_to_nation.get(gk_id, "Unknown"),
                             "club": player_id_to_club.get(gk_id, "Unknown")
                         }
@@ -180,17 +190,12 @@ def run_pipeline():
             player_info[p_id] = {
                 "name": name,
                 "nation": player_id_to_nation.get(p_id, "Unknown"),
-                "club": player_id_to_club.get(p_id, "Unknown"),
-                "foot": "right"
+                "club": player_id_to_club.get(p_id, "Unknown")
             }
 
-    print("Fetching active status via Wikipedia for players and goalkeepers...")
+    print("Skipping active status check, assuming all active...")
     unique_names = list({info["name"] for info in player_info.values()} | {info["name"] for info in gk_info.values()})
-    active_status = {}
-    with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
-        results = executor.map(is_player_active, unique_names)
-        for name, status in zip(unique_names, results):
-            active_status[name] = status
+    active_status = {name: True for name in unique_names}
 
     print("Computing Priors...")
     KAPPA = 10
@@ -216,7 +221,6 @@ def run_pipeline():
             "name": info["name"],
             "nation": info["nation"],
             "club": info["club"],
-            "foot": info["foot"] if info["foot"] in ["left", "right"] else "right",
             "zone_alpha": zone_alpha,
             "pressure_beta": -0.5,
             "n_penalties": player_kicks[p_id],
