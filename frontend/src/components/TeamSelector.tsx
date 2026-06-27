@@ -57,34 +57,28 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
   }, [nationalSquads]);
 
   // For Club Mode - Hierarchy
-  const clubNations = useMemo(() => {
-    if (mode !== 'Club') return [];
-    const s = new Set<string>();
-    activePlayers.forEach(p => p.club && p.club_nation && p.club_nation !== "Unknown" && s.add(p.club_nation));
-    return Array.from(s).sort();
-  }, [activePlayers, mode]);
 
   const clubLeagues = useMemo(() => {
-    if (mode !== 'Club' || !selectedNation) return [];
+    if (mode !== 'Club') return [];
     const s = new Set<string>();
     activePlayers.forEach(p => {
-      if (p.club && p.club_nation === selectedNation && p.league && p.league !== "Unknown") {
+      if (p.club && p.league && p.league !== "Unknown") {
         s.add(p.league);
       }
     });
     return Array.from(s).sort();
-  }, [activePlayers, mode, selectedNation]);
+  }, [activePlayers, mode]);
 
   const clubs = useMemo(() => {
     if (mode !== 'Club' || !selectedLeague) return [];
     const s = new Set<string>();
     activePlayers.forEach(p => {
-      if (p.club && p.club_nation === selectedNation && p.league === selectedLeague) {
+      if (p.club && p.league === selectedLeague) {
         s.add(p.club);
       }
     });
     return Array.from(s).sort();
-  }, [activePlayers, mode, selectedNation, selectedLeague]);
+  }, [activePlayers, mode, selectedLeague]);
   
   const availablePlayers = useMemo(() => {
     if (mode === 'Custom') {
@@ -95,9 +89,10 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
     if (mode === 'International') {
       const roster = nationalSquads[selectedSquad] || [];
       return activePlayers.filter(p => {
-        if (p.nation !== selectedSquad) return false;
-        
         const normalize = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        
+        if (normalize(p.nation) !== normalize(selectedSquad)) return false;
+
         const pNorm = normalize(p.name);
         
         return roster.some(r => {
@@ -126,9 +121,10 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
     if (mode === 'International') {
       const roster = nationalSquads[selectedSquad] || [];
       return activeKeepers.filter(k => {
-        if (k.nation !== selectedSquad) return false;
-        
         const normalize = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        
+        if (normalize(k.nation) !== normalize(selectedSquad)) return false;
+
         const kNorm = normalize(k.name);
         
         return roster.some(r => {
@@ -186,41 +182,21 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
       {!selectedSquad && mode === 'Club' && (
         <div className="mb-4 space-y-3">
           <div>
-            <label className="block text-sm font-medium text-slate-300 mb-1">Select Nation</label>
+            <label className="block text-sm font-medium text-slate-300 mb-1">Select League</label>
             <select 
               className="w-full bg-input border border-gold-tint text-foreground rounded p-2"
-              value={selectedNation}
+              value={selectedLeague}
               onChange={(e) => {
-                setSelectedNation(e.target.value);
-                setSelectedLeague('');
+                setSelectedLeague(e.target.value);
                 setSelectedSquad('');
                 setTeamName(`Team ${teamId}`);
                 setGK(null);
               }}
             >
-              <option value="">-- Choose Nation --</option>
-              {clubNations.map(s => <option key={s} value={s}>{s}</option>)}
+              <option value="">-- Choose League --</option>
+              {clubLeagues.map(s => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
-
-          {selectedNation && (
-            <div>
-              <label className="block text-sm font-medium text-slate-300 mb-1">Select League</label>
-              <select 
-                className="w-full bg-input border border-gold-tint text-foreground rounded p-2"
-                value={selectedLeague}
-                onChange={(e) => {
-                  setSelectedLeague(e.target.value);
-                  setSelectedSquad('');
-                  setTeamName(`Team ${teamId}`);
-                  setGK(null);
-                }}
-              >
-                <option value="">-- Choose League --</option>
-                {clubLeagues.map(s => <option key={s} value={s}>{s}</option>)}
-              </select>
-            </div>
-          )}
 
           {selectedLeague && (
             <div>

@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     if (simulationResult && simulationResult.demo_shootout_log) {
       setVisibleCount(0); // Reset when results change
-      
+
       const logs = simulationResult.demo_shootout_log;
       const interval = setInterval(() => {
         setVisibleCount((prev) => {
@@ -74,10 +74,10 @@ export default function Home() {
             Penalty Shootout Predictor
           </h1>
           <p className="text-gray-sec font-mono text-xs uppercase tracking-widest mt-1">
-            FIFA World Cup 2026
+            Bayesian Penalty Shootout Predictor
           </p>
         </div>
-        
+
         <div className="ml-auto flex items-center gap-2">
           <div className={`w-2 h-2 rounded-full ${simulationResult ? 'bg-success' : isReady ? 'bg-gold' : 'bg-gray-sec'}`}></div>
           <span className="text-gray-sec font-mono text-xs uppercase tracking-widest">
@@ -88,10 +88,10 @@ export default function Home() {
 
       {/* MAIN LAYOUT */}
       <div className="flex flex-col lg:flex-row gap-6 mt-6 flex-1">
-        
+
         {/* SIDEBAR (Match Setup) */}
         <aside className="w-full lg:w-[380px] shrink-0 flex flex-col gap-4">
-          
+
           <div className="bg-panel border border-gold-tint rounded-lg p-4 flex justify-between items-center text-xs font-mono">
             {["Club", "International", "Custom"].map((m) => (
               <button
@@ -104,11 +104,10 @@ export default function Home() {
                   useSimStore.getState().setTeamBGK(null);
                   useSimStore.getState().resetSimulation();
                 }}
-                className={`px-3 py-1.5 rounded transition-all uppercase tracking-wide ${
-                  mode === m 
-                    ? "bg-gold text-[#060812] font-bold shadow-[0_0_12px_rgba(201,162,39,0.3)]" 
+                className={`px-3 py-1.5 rounded transition-all uppercase tracking-wide ${mode === m
+                    ? "bg-gold text-[#060812] font-bold shadow-[0_0_12px_rgba(201,162,39,0.3)]"
                     : "text-gray-sec hover:text-foreground"
-                }`}
+                  }`}
               >
                 {m}
               </button>
@@ -118,27 +117,27 @@ export default function Home() {
           <div className="bg-panel border border-gold-tint rounded-lg p-4 flex flex-col gap-4">
             <h2 className="text-gray-sec font-sans uppercase font-bold text-sm">Match Setup</h2>
             <TeamSelector teamId="A" mode={mode} />
-            
+
             <div className="flex items-center gap-4 my-2">
               <div className="h-px bg-gold-tint flex-1"></div>
               <span className="text-gray-sec font-mono text-xs">VS</span>
               <div className="h-px bg-gold-tint flex-1"></div>
             </div>
-            
+
             <TeamSelector teamId="B" mode={mode} />
           </div>
 
           <div className="flex flex-col gap-3 mt-2">
-            <button 
+            <button
               onClick={runSimulation}
               disabled={isSimulating || !isReady}
               className="w-full py-3.5 bg-gold text-[#060812] rounded-lg font-condensed font-bold text-sm uppercase tracking-widest shadow-[0_0_24px_rgba(201,162,39,0.25)] hover:bg-[#d4b036] disabled:opacity-50 disabled:shadow-none transition-all"
             >
               {isSimulating ? "SIMULATING..." : simulationResult ? "SIMULATE AGAIN" : "SIMULATE"}
             </button>
-            
+
             {simulationResult && (
-              <button 
+              <button
                 onClick={() => useSimStore.getState().resetSimulation()}
                 className="w-full py-3.5 border border-gold-tint text-gray-sec rounded-lg font-sans font-medium text-sm hover:text-foreground transition-all"
               >
@@ -160,7 +159,7 @@ export default function Home() {
           ) : (
             <>
               <Scoreboard result={simulationResult} visibleCount={visibleCount} />
-              
+
               {/* Splitting the bottom section like the design: left for Goal Vis, right for Kick Log */}
               <div className="flex flex-col xl:flex-row gap-6">
                 <div className="flex-[1.5]">
