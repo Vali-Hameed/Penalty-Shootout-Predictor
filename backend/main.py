@@ -84,3 +84,4 @@ def predict_shootout(req: ShootoutRequest):
         gk_b=req.gk_b,
         n=req.n_simulations
     )
+

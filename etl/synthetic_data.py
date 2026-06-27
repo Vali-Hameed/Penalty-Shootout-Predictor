@@ -30,6 +30,8 @@ def generate_player(id_str, name, nation, club):
         "name": name,
         "nation": nation,
         "club": club,
+        "league": "Synthetic League",
+        "club_nation": "Unknown",
         "foot": random.choice(["right", "right", "right", "left"]),
         "zone_alpha": base_alpha,
         "pressure_beta": random.uniform(-1.0, 0.5),
