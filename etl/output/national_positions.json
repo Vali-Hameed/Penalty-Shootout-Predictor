@@ -1,0 +1,4211 @@
+{
+  "Melvin Mastil": {
+    "is_goalkeeper": true
+  },
+  "A\u00efssa Mandi": {
+    "is_goalkeeper": false
+  },
+  "Achref Abada": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Amine Tougai": {
+    "is_goalkeeper": false
+  },
+  "Zineddine Bela\u00efd": {
+    "is_goalkeeper": false
+  },
+  "Ramiz Zerrouki": {
+    "is_goalkeeper": false
+  },
+  "Riyad Mahrez": {
+    "is_goalkeeper": false
+  },
+  "Houssem Aouar": {
+    "is_goalkeeper": false
+  },
+  "Amine Gouiri": {
+    "is_goalkeeper": false
+  },
+  "Far\u00e8s Cha\u00efbi": {
+    "is_goalkeeper": false
+  },
+  "Anis Hadj Moussa": {
+    "is_goalkeeper": false
+  },
+  "Nadhir Benbouali": {
+    "is_goalkeeper": false
+  },
+  "Jaouen Hadjam": {
+    "is_goalkeeper": false
+  },
+  "Hicham Boudaoui": {
+    "is_goalkeeper": false
+  },
+  "Rayan A\u00eft-Nouri": {
+    "is_goalkeeper": false
+  },
+  "Oussama Benbot": {
+    "is_goalkeeper": true
+  },
+  "Rafik Belghali": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Amoura": {
+    "is_goalkeeper": false
+  },
+  "Nabil Bentaleb": {
+    "is_goalkeeper": false
+  },
+  "Adil Boulbina": {
+    "is_goalkeeper": false
+  },
+  "Ramy Bensebaini": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Maza": {
+    "is_goalkeeper": false
+  },
+  "Luca Zidane": {
+    "is_goalkeeper": true
+  },
+  "Yacine Titraoui": {
+    "is_goalkeeper": false
+  },
+  "Far\u00e8s Ghedjemis": {
+    "is_goalkeeper": false
+  },
+  "Samir Chergui": {
+    "is_goalkeeper": false
+  },
+  "Juan Musso": {
+    "is_goalkeeper": true
+  },
+  "Marcos Nicol\u00e1s Senesi Baron": {
+    "is_goalkeeper": false
+  },
+  "Nicol\u00e1s Tagliafico": {
+    "is_goalkeeper": false
+  },
+  "Gonzalo Montiel": {
+    "is_goalkeeper": false
+  },
+  "Leandro Paredes": {
+    "is_goalkeeper": true
+  },
+  "Lisandro Mart\u00ednez": {
+    "is_goalkeeper": false
+  },
+  "Rodrigo De Paul": {
+    "is_goalkeeper": true
+  },
+  "Valent\u00edn Barco": {
+    "is_goalkeeper": false
+  },
+  "Juli\u00e1n Alvarez": {
+    "is_goalkeeper": false
+  },
+  "Lionel Messi": {
+    "is_goalkeeper": false
+  },
+  "Giovani Lo Celso": {
+    "is_goalkeeper": false
+  },
+  "Ger\u00f3nimo Rulli": {
+    "is_goalkeeper": true
+  },
+  "Cristian Romero": {
+    "is_goalkeeper": false
+  },
+  "Exequiel Palacios": {
+    "is_goalkeeper": false
+  },
+  "Nicol\u00e1s Gonz\u00e1lez": {
+    "is_goalkeeper": false
+  },
+  "Thiago Almada": {
+    "is_goalkeeper": false
+  },
+  "Giuliano Simeone": {
+    "is_goalkeeper": false
+  },
+  "Nico Paz": {
+    "is_goalkeeper": false
+  },
+  "Nicol\u00e1s Otamendi": {
+    "is_goalkeeper": false
+  },
+  "Alexis Mac Allister": {
+    "is_goalkeeper": false
+  },
+  "Jos\u00e9 Manuel L\u00f3pez": {
+    "is_goalkeeper": false
+  },
+  "Lautaro Mart\u00ednez": {
+    "is_goalkeeper": true
+  },
+  "Emiliano Mart\u00ednez": {
+    "is_goalkeeper": true
+  },
+  "Enzo Fern\u00e1ndez": {
+    "is_goalkeeper": false
+  },
+  "Facundo Medina": {
+    "is_goalkeeper": false
+  },
+  "Nahuel Molina": {
+    "is_goalkeeper": false
+  },
+  "Mathew Ryan": {
+    "is_goalkeeper": true
+  },
+  "Milo\u0161 Degenek": {
+    "is_goalkeeper": false
+  },
+  "Alessandro Circati": {
+    "is_goalkeeper": false
+  },
+  "Jacob Italiano": {
+    "is_goalkeeper": false
+  },
+  "Jordan Bos": {
+    "is_goalkeeper": false
+  },
+  "Jason Geria": {
+    "is_goalkeeper": false
+  },
+  "Mathew Leckie": {
+    "is_goalkeeper": false
+  },
+  "Connor Metcalfe": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Tour\u00e9": {
+    "is_goalkeeper": true
+  },
+  "Ajdin Hrustic": {
+    "is_goalkeeper": false
+  },
+  "Awer Mabil": {
+    "is_goalkeeper": false
+  },
+  "Paul Izzo": {
+    "is_goalkeeper": true
+  },
+  "Aiden O'Neill": {
+    "is_goalkeeper": false
+  },
+  "Cammy Devlin": {
+    "is_goalkeeper": false
+  },
+  "Kai Trewin": {
+    "is_goalkeeper": false
+  },
+  "Aziz Behich": {
+    "is_goalkeeper": false
+  },
+  "Nestory Irankunda": {
+    "is_goalkeeper": false
+  },
+  "Patrick Beach": {
+    "is_goalkeeper": true
+  },
+  "Harry Souttar": {
+    "is_goalkeeper": false
+  },
+  "Cristian Volpato": {
+    "is_goalkeeper": false
+  },
+  "Cameron Burgess": {
+    "is_goalkeeper": false
+  },
+  "Jackson Irvine": {
+    "is_goalkeeper": false
+  },
+  "Nishan Velupillay": {
+    "is_goalkeeper": false
+  },
+  "Paul Okon-Engstler": {
+    "is_goalkeeper": false
+  },
+  "Lucas Herrington": {
+    "is_goalkeeper": false
+  },
+  "Tete Yengi": {
+    "is_goalkeeper": false
+  },
+  "Alexander Schlager": {
+    "is_goalkeeper": true
+  },
+  "David Affengruber": {
+    "is_goalkeeper": true
+  },
+  "Kevin Danso": {
+    "is_goalkeeper": false
+  },
+  "Xaver Schlager": {
+    "is_goalkeeper": false
+  },
+  "Stefan Posch": {
+    "is_goalkeeper": false
+  },
+  "Nicolas Seiwald": {
+    "is_goalkeeper": false
+  },
+  "Marko Arnautovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "David Alaba": {
+    "is_goalkeeper": false
+  },
+  "Marcel Sabitzer": {
+    "is_goalkeeper": false
+  },
+  "Florian Grillitsch": {
+    "is_goalkeeper": false
+  },
+  "Michael Gregoritsch": {
+    "is_goalkeeper": false
+  },
+  "Florian Wiegele": {
+    "is_goalkeeper": true
+  },
+  "Patrick Pentz": {
+    "is_goalkeeper": true
+  },
+  "Sa\u0161a Kalajd\u017ei\u0107": {
+    "is_goalkeeper": false
+  },
+  "Philipp Lienhart": {
+    "is_goalkeeper": false
+  },
+  "Phillipp Mwene": {
+    "is_goalkeeper": false
+  },
+  "Carney Chukwuemeka": {
+    "is_goalkeeper": false
+  },
+  "Romano Schmid": {
+    "is_goalkeeper": false
+  },
+  "Dejan Ljubi\u010di\u0107": {
+    "is_goalkeeper": false
+  },
+  "Konrad Laimer": {
+    "is_goalkeeper": false
+  },
+  "Patrick Wimmer": {
+    "is_goalkeeper": false
+  },
+  "Alexander Prass": {
+    "is_goalkeeper": false
+  },
+  "Marco Friedl": {
+    "is_goalkeeper": false
+  },
+  "Paul Wanner": {
+    "is_goalkeeper": false
+  },
+  "Michael Svoboda": {
+    "is_goalkeeper": false
+  },
+  "Alessandro Sch\u00f6pf": {
+    "is_goalkeeper": false
+  },
+  "Thibaut Courtois": {
+    "is_goalkeeper": true
+  },
+  "Zeno Debast": {
+    "is_goalkeeper": false
+  },
+  "Arthur Theate": {
+    "is_goalkeeper": false
+  },
+  "Brandon Mechele": {
+    "is_goalkeeper": false
+  },
+  "Maxim De Cuyper": {
+    "is_goalkeeper": false
+  },
+  "Axel Witsel": {
+    "is_goalkeeper": false
+  },
+  "Kevin De Bruyne": {
+    "is_goalkeeper": false
+  },
+  "Youri Tielemans": {
+    "is_goalkeeper": false
+  },
+  "Romelu Lukaku": {
+    "is_goalkeeper": false
+  },
+  "Leandro Trossard": {
+    "is_goalkeeper": false
+  },
+  "J\u00e9r\u00e9my Doku": {
+    "is_goalkeeper": false
+  },
+  "Senne Lammens": {
+    "is_goalkeeper": true
+  },
+  "Mike Penders": {
+    "is_goalkeeper": true
+  },
+  "Dodi Luk\u00e9bakio": {
+    "is_goalkeeper": false
+  },
+  "Thomas Meunier": {
+    "is_goalkeeper": false
+  },
+  "Koni De Winter": {
+    "is_goalkeeper": false
+  },
+  "Charles De Ketelaere": {
+    "is_goalkeeper": false
+  },
+  "Joaquin Seys": {
+    "is_goalkeeper": false
+  },
+  "Diego Moreira": {
+    "is_goalkeeper": false
+  },
+  "Hans Vanaken": {
+    "is_goalkeeper": false
+  },
+  "Timothy Castagne": {
+    "is_goalkeeper": false
+  },
+  "Alexis Saelemaekers": {
+    "is_goalkeeper": false
+  },
+  "Nicolas Raskin": {
+    "is_goalkeeper": false
+  },
+  "Amadou Onana": {
+    "is_goalkeeper": false
+  },
+  "Nathan Ngoy": {
+    "is_goalkeeper": false
+  },
+  "Matias Fernandez-Pardo": {
+    "is_goalkeeper": false
+  },
+  "Nikola Vasilj": {
+    "is_goalkeeper": true
+  },
+  "Nihad Mujaki\u0107": {
+    "is_goalkeeper": false
+  },
+  "Dennis Had\u017eikaduni\u0107": {
+    "is_goalkeeper": false
+  },
+  "Tarik Muharemovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Sead Kola\u0161inac": {
+    "is_goalkeeper": false
+  },
+  "Benjamin Tahirovic": {
+    "is_goalkeeper": false
+  },
+  "Amar Dedi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Armin Gigovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Samed Ba\u017edar": {
+    "is_goalkeeper": false
+  },
+  "Ermedin Demirovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Edin D\u017eeko": {
+    "is_goalkeeper": false
+  },
+  "Mladen Jurkas": {
+    "is_goalkeeper": true
+  },
+  "Ivan Ba\u0161i\u0107": {
+    "is_goalkeeper": false
+  },
+  "Ivan \u0160unji\u0107": {
+    "is_goalkeeper": false
+  },
+  "Amar Memi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Amir Had\u017eiahmetovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "D\u017eenis Burni\u0107": {
+    "is_goalkeeper": false
+  },
+  "Nikola Kati\u0107": {
+    "is_goalkeeper": false
+  },
+  "Kerim Alajbegovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Esmir Bajraktarevi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Stjepan Radelji\u0107": {
+    "is_goalkeeper": false
+  },
+  "Martin Zlomisli\u0107": {
+    "is_goalkeeper": true
+  },
+  "Haris Tabakovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Arjan Mali\u0107": {
+    "is_goalkeeper": false
+  },
+  "Jovo Luki\u0107": {
+    "is_goalkeeper": false
+  },
+  "Ermin Mahmi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Benjamin Tahirovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Nidal \u010celik": {
+    "is_goalkeeper": false
+  },
+  "Alisson": {
+    "is_goalkeeper": true
+  },
+  "\u00c9derson Silva": {
+    "is_goalkeeper": false
+  },
+  "Gabriel Magalh\u00e3es": {
+    "is_goalkeeper": true
+  },
+  "Marquinhos": {
+    "is_goalkeeper": false
+  },
+  "Casemiro": {
+    "is_goalkeeper": true
+  },
+  "Alex Sandro": {
+    "is_goalkeeper": false
+  },
+  "Vin\u00edcius J\u00fanior": {
+    "is_goalkeeper": false
+  },
+  "Bruno Guimar\u00e3es": {
+    "is_goalkeeper": true
+  },
+  "Matheus Cunha": {
+    "is_goalkeeper": true
+  },
+  "Neymar": {
+    "is_goalkeeper": false
+  },
+  "Raphinha": {
+    "is_goalkeeper": false
+  },
+  "Weverton": {
+    "is_goalkeeper": true
+  },
+  "Danilo Luiz": {
+    "is_goalkeeper": false
+  },
+  "Bremer": {
+    "is_goalkeeper": true
+  },
+  "L\u00e9o Pereira": {
+    "is_goalkeeper": false
+  },
+  "Douglas Santos": {
+    "is_goalkeeper": true
+  },
+  "Fabinho": {
+    "is_goalkeeper": false
+  },
+  "Danilo Santos": {
+    "is_goalkeeper": true
+  },
+  "Endrick": {
+    "is_goalkeeper": false
+  },
+  "Lucas Paquet\u00e1": {
+    "is_goalkeeper": false
+  },
+  "Luiz Henrique": {
+    "is_goalkeeper": false
+  },
+  "Gabriel Martinelli": {
+    "is_goalkeeper": false
+  },
+  "Ederson Moraes": {
+    "is_goalkeeper": false
+  },
+  "Roger Iba\u00f1ez": {
+    "is_goalkeeper": false
+  },
+  "Igor Thiago": {
+    "is_goalkeeper": false
+  },
+  "Rayan": {
+    "is_goalkeeper": false
+  },
+  "Josimar Jos\u00e9 \u00c9vora Dias": {
+    "is_goalkeeper": true
+  },
+  "Ianique Dos Santos Tavares": {
+    "is_goalkeeper": false
+  },
+  "Edilson Alberto Monteiro Sanches Borges": {
+    "is_goalkeeper": false
+  },
+  "Roberto Carlos Lopes": {
+    "is_goalkeeper": false
+  },
+  "Logan Evans Costa": {
+    "is_goalkeeper": false
+  },
+  "Kevin Lenini Gon\u00e7alves Pereira De Pina": {
+    "is_goalkeeper": false
+  },
+  "Jovane Eduardo Borges Cabral": {
+    "is_goalkeeper": false
+  },
+  "Jo\u00e3o Paulo Moreira Fernandes": {
+    "is_goalkeeper": false
+  },
+  "Gilson Benchimol Tavares": {
+    "is_goalkeeper": false
+  },
+  "Jamiro Gregory Monteiro Alvarenga": {
+    "is_goalkeeper": false
+  },
+  "Garry Mendes Rodrigues": {
+    "is_goalkeeper": false
+  },
+  "M\u00e1rcio Salom\u00e3o Braz\u00e3o Da Rosa": {
+    "is_goalkeeper": true
+  },
+  "Sidny Lopes Cabral": {
+    "is_goalkeeper": false
+  },
+  "Deroy D'Encarna\u00e7\u00e3o Duarte": {
+    "is_goalkeeper": false
+  },
+  "Laros Michael D'Encarna\u00e7\u00e3o Duarte": {
+    "is_goalkeeper": false
+  },
+  "Jair Semedo Monteiro": {
+    "is_goalkeeper": false
+  },
+  "Willy Johnson Semedo Afonso": {
+    "is_goalkeeper": false
+  },
+  "Telmo Emanuel Gomes Arcanjo": {
+    "is_goalkeeper": false
+  },
+  "Dailon Rocha Livramento": {
+    "is_goalkeeper": false
+  },
+  "Ryan Isaac Da Graca Mendes": {
+    "is_goalkeeper": false
+  },
+  "Nuno Miguel Da Costa Joia": {
+    "is_goalkeeper": false
+  },
+  "Steven Moreira": {
+    "is_goalkeeper": false
+  },
+  "Carlos Joaquim Antunes Dos Santos": {
+    "is_goalkeeper": true
+  },
+  "Wagner Fabricio Cardoso De Pina": {
+    "is_goalkeeper": false
+  },
+  "Kelvin Spencer Pires": {
+    "is_goalkeeper": false
+  },
+  "H\u00e9lio Sandro Oliveira Alves Varela": {
+    "is_goalkeeper": false
+  },
+  "Dayne St. Clair": {
+    "is_goalkeeper": true
+  },
+  "Alistair Johnston": {
+    "is_goalkeeper": false
+  },
+  "Alfie Jones": {
+    "is_goalkeeper": true
+  },
+  "Luc de Fougerolles": {
+    "is_goalkeeper": false
+  },
+  "Joel Waterman": {
+    "is_goalkeeper": false
+  },
+  "Mathieu Choini\u00e8re": {
+    "is_goalkeeper": false
+  },
+  "Stephen Eust\u00e1quio": {
+    "is_goalkeeper": false
+  },
+  "Isma\u00ebl Kon\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Cyle Larin": {
+    "is_goalkeeper": false
+  },
+  "Jonathan David": {
+    "is_goalkeeper": false
+  },
+  "Liam Millar": {
+    "is_goalkeeper": false
+  },
+  "Tani Oluwaseyi": {
+    "is_goalkeeper": false
+  },
+  "Derek Cornelius": {
+    "is_goalkeeper": false
+  },
+  "Jacob Shaffelburg": {
+    "is_goalkeeper": false
+  },
+  "Mo\u00efse Bombito": {
+    "is_goalkeeper": false
+  },
+  "Maxime Cr\u00e9peau": {
+    "is_goalkeeper": true
+  },
+  "Tajon Buchanan": {
+    "is_goalkeeper": false
+  },
+  "Owen Goodman": {
+    "is_goalkeeper": true
+  },
+  "Alphonso Davies": {
+    "is_goalkeeper": false
+  },
+  "Ali Ahmed": {
+    "is_goalkeeper": true
+  },
+  "Jonathan Osorio": {
+    "is_goalkeeper": false
+  },
+  "Richie Laryea": {
+    "is_goalkeeper": false
+  },
+  "Niko Sigur": {
+    "is_goalkeeper": false
+  },
+  "Promise David": {
+    "is_goalkeeper": false
+  },
+  "Nathan Saliba": {
+    "is_goalkeeper": false
+  },
+  "Jayden Nelson": {
+    "is_goalkeeper": false
+  },
+  "Vozinha": {
+    "is_goalkeeper": true
+  },
+  "Stopira": {
+    "is_goalkeeper": false
+  },
+  "Diney": {
+    "is_goalkeeper": true
+  },
+  "Roberto Lopes": {
+    "is_goalkeeper": false
+  },
+  "Logan Costa": {
+    "is_goalkeeper": false
+  },
+  "Kevin Pina": {
+    "is_goalkeeper": false
+  },
+  "Jovane Cabral": {
+    "is_goalkeeper": false
+  },
+  "Jo\u00e3o Paulo": {
+    "is_goalkeeper": true
+  },
+  "Gilson Benchimol": {
+    "is_goalkeeper": false
+  },
+  "Jamiro Monteiro": {
+    "is_goalkeeper": false
+  },
+  "Garry Rodrigues": {
+    "is_goalkeeper": false
+  },
+  "M\u00e1rcio Rosa": {
+    "is_goalkeeper": true
+  },
+  "Deroy Duarte": {
+    "is_goalkeeper": false
+  },
+  "Laros Duarte": {
+    "is_goalkeeper": false
+  },
+  "Yannick Semedo": {
+    "is_goalkeeper": false
+  },
+  "Willy Semedo": {
+    "is_goalkeeper": false
+  },
+  "Telmo Arcanjo": {
+    "is_goalkeeper": false
+  },
+  "Dailon Livramento": {
+    "is_goalkeeper": false
+  },
+  "Ryan Mendes": {
+    "is_goalkeeper": false
+  },
+  "Nuno da Costa": {
+    "is_goalkeeper": true
+  },
+  "CJ dos Santos": {
+    "is_goalkeeper": true
+  },
+  "Wagner Pina": {
+    "is_goalkeeper": false
+  },
+  "Kelvin Pires": {
+    "is_goalkeeper": false
+  },
+  "H\u00e9lio Varela": {
+    "is_goalkeeper": false
+  },
+  "David Ospina": {
+    "is_goalkeeper": true
+  },
+  "Daniel Mu\u00f1oz": {
+    "is_goalkeeper": true
+  },
+  "Jhon Lucum\u00ed": {
+    "is_goalkeeper": false
+  },
+  "Santiago Arias": {
+    "is_goalkeeper": false
+  },
+  "Kevin Casta\u00f1o": {
+    "is_goalkeeper": false
+  },
+  "Richard R\u00edos": {
+    "is_goalkeeper": true
+  },
+  "Luis D\u00edaz": {
+    "is_goalkeeper": false
+  },
+  "Jorge Carrascal": {
+    "is_goalkeeper": false
+  },
+  "Jhon C\u00f3rdoba": {
+    "is_goalkeeper": false
+  },
+  "James Rodr\u00edguez": {
+    "is_goalkeeper": false
+  },
+  "Jhon Arias": {
+    "is_goalkeeper": false
+  },
+  "Camilo Vargas": {
+    "is_goalkeeper": true
+  },
+  "Yerry Mina": {
+    "is_goalkeeper": false
+  },
+  "Gustavo Puerta": {
+    "is_goalkeeper": false
+  },
+  "Juan Portilla": {
+    "is_goalkeeper": false
+  },
+  "Jefferson Lerma": {
+    "is_goalkeeper": false
+  },
+  "Johan Mojica": {
+    "is_goalkeeper": false
+  },
+  "Willer Ditta": {
+    "is_goalkeeper": false
+  },
+  "Cucho Hern\u00e1ndez": {
+    "is_goalkeeper": false
+  },
+  "Juan Fernando Quintero": {
+    "is_goalkeeper": false
+  },
+  "Jaminton Campaz": {
+    "is_goalkeeper": false
+  },
+  "Deiver Machado": {
+    "is_goalkeeper": false
+  },
+  "Davinson S\u00e1nchez": {
+    "is_goalkeeper": false
+  },
+  "\u00c1lvaro Montero": {
+    "is_goalkeeper": true
+  },
+  "Luis Su\u00e1rez": {
+    "is_goalkeeper": false
+  },
+  "Andr\u00e9s G\u00f3mez": {
+    "is_goalkeeper": true
+  },
+  "Lionel Nzau Mpasi": {
+    "is_goalkeeper": false
+  },
+  "Wan Bissaka": {
+    "is_goalkeeper": false
+  },
+  "Steve Nkanu Kapuadi": {
+    "is_goalkeeper": false
+  },
+  "Axel Tuanzebe": {
+    "is_goalkeeper": false
+  },
+  "Dylan Buduka Batubinsika": {
+    "is_goalkeeper": false
+  },
+  "Ngal\u2019ayel Mukau": {
+    "is_goalkeeper": false
+  },
+  "Nathana\u00ebl Mbuku": {
+    "is_goalkeeper": false
+  },
+  "Samuel Alain Moutoussamy": {
+    "is_goalkeeper": false
+  },
+  "Kibambe Brian Cipenga": {
+    "is_goalkeeper": false
+  },
+  "Theo Mbulofeko Batombo Bongonda": {
+    "is_goalkeeper": false
+  },
+  "Mambenga Ga\u00ebl Rom\u00e9o Kakuta": {
+    "is_goalkeeper": false
+  },
+  "Joris Kayembe-Ditu": {
+    "is_goalkeeper": false
+  },
+  "Meschack Lina Elia": {
+    "is_goalkeeper": false
+  },
+  "Noah Junior Sadiki": {
+    "is_goalkeeper": false
+  },
+  "Tshibola Aaron": {
+    "is_goalkeeper": false
+  },
+  "Timothy Bruce Munzoko Fayulu": {
+    "is_goalkeeper": true
+  },
+  "Cedric Bakambu": {
+    "is_goalkeeper": false
+  },
+  "Charles Monginda Pickel": {
+    "is_goalkeeper": false
+  },
+  "Mayele Fiston Kalala": {
+    "is_goalkeeper": false
+  },
+  "Yoane Wissa": {
+    "is_goalkeeper": false
+  },
+  "Matthieu Luka Epolo": {
+    "is_goalkeeper": true
+  },
+  "Mangulu Chancel Mbemba": {
+    "is_goalkeeper": false
+  },
+  "Simon Bokote Banza": {
+    "is_goalkeeper": false
+  },
+  "G\u00e9d\u00e9on Tchingoma Kyatengwa Kalulu": {
+    "is_goalkeeper": false
+  },
+  "Edo Kayembe Kayembe": {
+    "is_goalkeeper": false
+  },
+  "Arthur Fuka Masuaku Kawela": {
+    "is_goalkeeper": false
+  },
+  "Dominik Livakovi\u0107": {
+    "is_goalkeeper": true
+  },
+  "Josip Stani\u0161i\u0107": {
+    "is_goalkeeper": false
+  },
+  "Marin Pongra\u010di\u0107": {
+    "is_goalkeeper": false
+  },
+  "Jo\u0161ko Gvardiol": {
+    "is_goalkeeper": false
+  },
+  "Duje \u0106aleta-Car": {
+    "is_goalkeeper": false
+  },
+  "Josip \u0160utalo": {
+    "is_goalkeeper": false
+  },
+  "Nikola Moro": {
+    "is_goalkeeper": false
+  },
+  "Mateo Kova\u010di\u0107": {
+    "is_goalkeeper": false
+  },
+  "Andrej Kramari\u0107": {
+    "is_goalkeeper": false
+  },
+  "Luka Modri\u0107": {
+    "is_goalkeeper": false
+  },
+  "Ante Budimir": {
+    "is_goalkeeper": false
+  },
+  "Ivor Pandur": {
+    "is_goalkeeper": true
+  },
+  "Nikola Vla\u0161i\u0107": {
+    "is_goalkeeper": false
+  },
+  "Ivan Peri\u0161i\u0107": {
+    "is_goalkeeper": false
+  },
+  "Mario Pa\u0161ali\u0107": {
+    "is_goalkeeper": false
+  },
+  "Martin Baturina": {
+    "is_goalkeeper": false
+  },
+  "Petar Su\u010di\u0107": {
+    "is_goalkeeper": false
+  },
+  "Kristijan Jaki\u0107": {
+    "is_goalkeeper": false
+  },
+  "Toni Fruk": {
+    "is_goalkeeper": false
+  },
+  "Igor Matanovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Luka Su\u010di\u0107": {
+    "is_goalkeeper": false
+  },
+  "Luka Vu\u0161kovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Dominik Kotarski": {
+    "is_goalkeeper": true
+  },
+  "Marco Pa\u0161ali\u0107": {
+    "is_goalkeeper": false
+  },
+  "Martin Erli\u0107": {
+    "is_goalkeeper": false
+  },
+  "Petar Musa": {
+    "is_goalkeeper": false
+  },
+  "Eloy Room": {
+    "is_goalkeeper": true
+  },
+  "Shurandy Sambo": {
+    "is_goalkeeper": false
+  },
+  "Juri\u00ebn Gaari": {
+    "is_goalkeeper": false
+  },
+  "Roshon van Eijma": {
+    "is_goalkeeper": false
+  },
+  "Sherel Floranus": {
+    "is_goalkeeper": false
+  },
+  "Godfried Roemeratoe": {
+    "is_goalkeeper": false
+  },
+  "Juninho Bacuna": {
+    "is_goalkeeper": false
+  },
+  "Livano Comenencia": {
+    "is_goalkeeper": false
+  },
+  "J\u00fcrgen Locadia": {
+    "is_goalkeeper": false
+  },
+  "Leandro Bacuna": {
+    "is_goalkeeper": false
+  },
+  "Jeremy Antonisse": {
+    "is_goalkeeper": false
+  },
+  "Sontje Hansen": {
+    "is_goalkeeper": false
+  },
+  "Tyrese Noslin": {
+    "is_goalkeeper": false
+  },
+  "Kenji Gorr\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Ar'jany Martha": {
+    "is_goalkeeper": false
+  },
+  "Jearl Margaritha": {
+    "is_goalkeeper": false
+  },
+  "Brandley Kuwas": {
+    "is_goalkeeper": false
+  },
+  "Armando Obispo": {
+    "is_goalkeeper": false
+  },
+  "Gervane Kastaneer": {
+    "is_goalkeeper": false
+  },
+  "Joshua Brenet": {
+    "is_goalkeeper": false
+  },
+  "Tahith Chong": {
+    "is_goalkeeper": false
+  },
+  "Kevin Felida": {
+    "is_goalkeeper": false
+  },
+  "Riechedly Bazoer": {
+    "is_goalkeeper": false
+  },
+  "Deveron Fonville": {
+    "is_goalkeeper": false
+  },
+  "Tyrick Bodak": {
+    "is_goalkeeper": true
+  },
+  "Trevor Doornbusch": {
+    "is_goalkeeper": true
+  },
+  "Mat\u011bj Kov\u00e1\u0159": {
+    "is_goalkeeper": true
+  },
+  "David Zima": {
+    "is_goalkeeper": false
+  },
+  "Tom\u00e1\u0161 Hole\u0161": {
+    "is_goalkeeper": false
+  },
+  "Robin Hran\u00e1\u010d": {
+    "is_goalkeeper": false
+  },
+  "Vladim\u00edr Coufal": {
+    "is_goalkeeper": false
+  },
+  "\u0160t\u011bp\u00e1n Chaloupek": {
+    "is_goalkeeper": false
+  },
+  "Ladislav Krej\u010d\u00ed": {
+    "is_goalkeeper": false
+  },
+  "Vladim\u00edr Darida": {
+    "is_goalkeeper": false
+  },
+  "Adam Hlo\u017eek": {
+    "is_goalkeeper": false
+  },
+  "Patrik Schick": {
+    "is_goalkeeper": false
+  },
+  "Jan Kuchta": {
+    "is_goalkeeper": true
+  },
+  "Luk\u00e1\u0161 \u010cerv": {
+    "is_goalkeeper": true
+  },
+  "Mojm\u00edr Chytil": {
+    "is_goalkeeper": false
+  },
+  "David Jur\u00e1sek": {
+    "is_goalkeeper": false
+  },
+  "Pavel \u0160ulc": {
+    "is_goalkeeper": false
+  },
+  "Jind\u0159ich Stan\u011bk": {
+    "is_goalkeeper": true
+  },
+  "Luk\u00e1\u0161 Provod": {
+    "is_goalkeeper": false
+  },
+  "Michal Sad\u00edlek": {
+    "is_goalkeeper": false
+  },
+  "Tom\u00e1\u0161 Chor\u00fd": {
+    "is_goalkeeper": false
+  },
+  "Jaroslav Zelen\u00fd": {
+    "is_goalkeeper": false
+  },
+  "David Doud\u011bra": {
+    "is_goalkeeper": false
+  },
+  "Tom\u00e1\u0161 Sou\u010dek": {
+    "is_goalkeeper": false
+  },
+  "Luk\u00e1\u0161 Horn\u00ed\u010dek": {
+    "is_goalkeeper": true
+  },
+  "Alexandr Sojka": {
+    "is_goalkeeper": false
+  },
+  "Hugo Soch\u016frek": {
+    "is_goalkeeper": false
+  },
+  "Denis Vi\u0161insk\u00fd": {
+    "is_goalkeeper": false
+  },
+  "Yahia Fofana": {
+    "is_goalkeeper": true
+  },
+  "Ousmane Diomande": {
+    "is_goalkeeper": false
+  },
+  "N'clomande Ghislain Konan": {
+    "is_goalkeeper": false
+  },
+  "Jean Michael Seri": {
+    "is_goalkeeper": false
+  },
+  "Wilfried Stephane Singo": {
+    "is_goalkeeper": false
+  },
+  "Seko Mohamed Fofana": {
+    "is_goalkeeper": false
+  },
+  "Kouakou Odilon Dorgeless Kossounou": {
+    "is_goalkeeper": false
+  },
+  "Franck Yannick Kessie": {
+    "is_goalkeeper": false
+  },
+  "Ange-Yoan Laurent Bonny": {
+    "is_goalkeeper": false
+  },
+  "Simon Adingra": {
+    "is_goalkeeper": false
+  },
+  "Yan Diomande": {
+    "is_goalkeeper": false
+  },
+  "Sepe Elye Delmas Wahi": {
+    "is_goalkeeper": false
+  },
+  "Christopher Tea Domoraud Operi": {
+    "is_goalkeeper": false
+  },
+  "Oumar Diakite": {
+    "is_goalkeeper": false
+  },
+  "Amad Diallo": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Kone": {
+    "is_goalkeeper": true
+  },
+  "Guela Maho-Lewis Doue": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Sangare": {
+    "is_goalkeeper": false
+  },
+  "Nicolas Pepe": {
+    "is_goalkeeper": false
+  },
+  "Badobre Emmanuel Elysee Djedje Agbadou": {
+    "is_goalkeeper": false
+  },
+  "Obite Evan Ndicka": {
+    "is_goalkeeper": false
+  },
+  "Evann Ludovic Vidjannagni Guessand": {
+    "is_goalkeeper": false
+  },
+  "Alban-Marc Lafont": {
+    "is_goalkeeper": true
+  },
+  "Bazoumana Toure": {
+    "is_goalkeeper": false
+  },
+  "Parfait Guiagon": {
+    "is_goalkeeper": false
+  },
+  "Christ Ravynel Inao Oulai": {
+    "is_goalkeeper": false
+  },
+  "Lionel Mpasi": {
+    "is_goalkeeper": true
+  },
+  "Aaron Wan-Bissaka": {
+    "is_goalkeeper": false
+  },
+  "Steve Kapuadi": {
+    "is_goalkeeper": false
+  },
+  "Dylan Batubinsika": {
+    "is_goalkeeper": false
+  },
+  "Ngal'ayel Mukau": {
+    "is_goalkeeper": false
+  },
+  "Samuel Moutoussamy": {
+    "is_goalkeeper": false
+  },
+  "Brian Cipenga": {
+    "is_goalkeeper": false
+  },
+  "Th\u00e9o Bongonda": {
+    "is_goalkeeper": false
+  },
+  "Ga\u00ebl Kakuta": {
+    "is_goalkeeper": false
+  },
+  "Joris Kayembe": {
+    "is_goalkeeper": false
+  },
+  "Meschak Elia": {
+    "is_goalkeeper": false
+  },
+  "Noah Sadiki": {
+    "is_goalkeeper": false
+  },
+  "Aaron Tshibola": {
+    "is_goalkeeper": false
+  },
+  "Timothy Fayulu": {
+    "is_goalkeeper": true
+  },
+  "C\u00e9dric Bakambu": {
+    "is_goalkeeper": false
+  },
+  "Charles Pickel": {
+    "is_goalkeeper": false
+  },
+  "Fiston Mayele": {
+    "is_goalkeeper": false
+  },
+  "Matthieu Epolo": {
+    "is_goalkeeper": true
+  },
+  "Chancel Mbemba": {
+    "is_goalkeeper": false
+  },
+  "Simon Banza": {
+    "is_goalkeeper": false
+  },
+  "G\u00e9d\u00e9on Kalulu": {
+    "is_goalkeeper": false
+  },
+  "Edo Kayembe": {
+    "is_goalkeeper": false
+  },
+  "Arthur Masuaku": {
+    "is_goalkeeper": false
+  },
+  "Hern\u00e1n Gal\u00edndez": {
+    "is_goalkeeper": true
+  },
+  "F\u00e9lix Torres": {
+    "is_goalkeeper": true
+  },
+  "Piero Hincapi\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Joel Ord\u00f3\u00f1ez": {
+    "is_goalkeeper": false
+  },
+  "Jordy Alc\u00edvar": {
+    "is_goalkeeper": false
+  },
+  "Willian Pacho": {
+    "is_goalkeeper": false
+  },
+  "Pervis Estupi\u00f1\u00e1n": {
+    "is_goalkeeper": false
+  },
+  "Anthony Valencia": {
+    "is_goalkeeper": false
+  },
+  "John Yeboah": {
+    "is_goalkeeper": false
+  },
+  "Kendry P\u00e1ez": {
+    "is_goalkeeper": false
+  },
+  "Kevin Rodr\u00edguez": {
+    "is_goalkeeper": false
+  },
+  "Mois\u00e9s Ram\u00edrez": {
+    "is_goalkeeper": true
+  },
+  "Enner Valencia": {
+    "is_goalkeeper": false
+  },
+  "Alan Minda": {
+    "is_goalkeeper": false
+  },
+  "Pedro Vite": {
+    "is_goalkeeper": false
+  },
+  "Jordy Caicedo": {
+    "is_goalkeeper": false
+  },
+  "\u00c1ngelo Preciado": {
+    "is_goalkeeper": false
+  },
+  "Denil Castillo": {
+    "is_goalkeeper": false
+  },
+  "Gonzalo Plata": {
+    "is_goalkeeper": false
+  },
+  "Nilson Angulo": {
+    "is_goalkeeper": false
+  },
+  "Alan Franco": {
+    "is_goalkeeper": false
+  },
+  "Gonzalo Valle": {
+    "is_goalkeeper": true
+  },
+  "Mois\u00e9s Caicedo": {
+    "is_goalkeeper": false
+  },
+  "Jeremy Ar\u00e9valo": {
+    "is_goalkeeper": false
+  },
+  "Jackson Porozo": {
+    "is_goalkeeper": false
+  },
+  "Yaimar Medina": {
+    "is_goalkeeper": false
+  },
+  "Mohamed El Shenawy": {
+    "is_goalkeeper": true
+  },
+  "Yasser Ibrahim": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Hany": {
+    "is_goalkeeper": true
+  },
+  "Hossam Abdelmaguid": {
+    "is_goalkeeper": false
+  },
+  "Ramy Rabia": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Abdelmonem": {
+    "is_goalkeeper": true
+  },
+  "Tr\u00e9z\u00e9guet": {
+    "is_goalkeeper": false
+  },
+  "Emam Ashour": {
+    "is_goalkeeper": false
+  },
+  "Hamza Abdelkarim": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Salah": {
+    "is_goalkeeper": true
+  },
+  "Mostafa Ziko": {
+    "is_goalkeeper": false
+  },
+  "Haissem Hassan": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Fatouh": {
+    "is_goalkeeper": false
+  },
+  "Hamdy Fathy": {
+    "is_goalkeeper": false
+  },
+  "Karim Hafez": {
+    "is_goalkeeper": false
+  },
+  "El Mahdy Soliman": {
+    "is_goalkeeper": false
+  },
+  "Mohanad Lasheen": {
+    "is_goalkeeper": false
+  },
+  "Nabil Emad": {
+    "is_goalkeeper": false
+  },
+  "Marwan Attia": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Adel": {
+    "is_goalkeeper": false
+  },
+  "Mahmoud Saber": {
+    "is_goalkeeper": false
+  },
+  "Omar Marmoush": {
+    "is_goalkeeper": false
+  },
+  "Mostafa Shobeir": {
+    "is_goalkeeper": false
+  },
+  "Tarek Alaa": {
+    "is_goalkeeper": false
+  },
+  "Zizo": {
+    "is_goalkeeper": true
+  },
+  "Mohamed Alaa": {
+    "is_goalkeeper": true
+  },
+  "Jordan Pickford": {
+    "is_goalkeeper": true
+  },
+  "Ezri Konsa": {
+    "is_goalkeeper": false
+  },
+  "Nico O'Reilly": {
+    "is_goalkeeper": false
+  },
+  "Declan Rice": {
+    "is_goalkeeper": false
+  },
+  "John Stones": {
+    "is_goalkeeper": false
+  },
+  "Marc Gu\u00e9hi": {
+    "is_goalkeeper": false
+  },
+  "Bukayo Saka": {
+    "is_goalkeeper": false
+  },
+  "Elliot Anderson": {
+    "is_goalkeeper": true
+  },
+  "Harry Kane": {
+    "is_goalkeeper": false
+  },
+  "Jude Bellingham": {
+    "is_goalkeeper": false
+  },
+  "Marcus Rashford": {
+    "is_goalkeeper": false
+  },
+  "Tino Livramento": {
+    "is_goalkeeper": false
+  },
+  "Dean Henderson": {
+    "is_goalkeeper": true
+  },
+  "Jordan Henderson": {
+    "is_goalkeeper": false
+  },
+  "Dan Burn": {
+    "is_goalkeeper": false
+  },
+  "Kobbie Mainoo": {
+    "is_goalkeeper": false
+  },
+  "Morgan Rogers": {
+    "is_goalkeeper": false
+  },
+  "Anthony Gordon": {
+    "is_goalkeeper": false
+  },
+  "Ollie Watkins": {
+    "is_goalkeeper": false
+  },
+  "Noni Madueke": {
+    "is_goalkeeper": false
+  },
+  "Eberechi Eze": {
+    "is_goalkeeper": false
+  },
+  "Ivan Toney": {
+    "is_goalkeeper": false
+  },
+  "James Trafford": {
+    "is_goalkeeper": true
+  },
+  "Reece James": {
+    "is_goalkeeper": false
+  },
+  "Djed Spence": {
+    "is_goalkeeper": false
+  },
+  "Jarell Quansah": {
+    "is_goalkeeper": false
+  },
+  "Brice Samba": {
+    "is_goalkeeper": true
+  },
+  "Malo Gusto": {
+    "is_goalkeeper": false
+  },
+  "Lucas Digne": {
+    "is_goalkeeper": false
+  },
+  "Dayot Upamecano": {
+    "is_goalkeeper": false
+  },
+  "Jules Kound\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Manu Kon\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Ousmane Demb\u00e9l\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Aur\u00e9lien Tchouam\u00e9ni": {
+    "is_goalkeeper": false
+  },
+  "Marcus Thuram": {
+    "is_goalkeeper": false
+  },
+  "Kylian Mbapp\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Michael Olise": {
+    "is_goalkeeper": false
+  },
+  "Bradley Barcola": {
+    "is_goalkeeper": false
+  },
+  "N'Golo Kant\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Adrien Rabiot": {
+    "is_goalkeeper": false
+  },
+  "Ibrahima Konat\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Mike Maignan": {
+    "is_goalkeeper": true
+  },
+  "William Saliba": {
+    "is_goalkeeper": false
+  },
+  "Warren Za\u00efre-Emery": {
+    "is_goalkeeper": false
+  },
+  "Th\u00e9o Hernandez": {
+    "is_goalkeeper": false
+  },
+  "D\u00e9sir\u00e9 Dou\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Lucas Hernandez": {
+    "is_goalkeeper": false
+  },
+  "Jean-Philippe Mateta": {
+    "is_goalkeeper": false
+  },
+  "Robin Risser": {
+    "is_goalkeeper": true
+  },
+  "Rayan Cherki": {
+    "is_goalkeeper": false
+  },
+  "Maghnes Akliouche": {
+    "is_goalkeeper": false
+  },
+  "Maxence Lacroix": {
+    "is_goalkeeper": false
+  },
+  "Manuel Neuer": {
+    "is_goalkeeper": true
+  },
+  "Antonio R\u00fcdiger": {
+    "is_goalkeeper": false
+  },
+  "Waldemar Anton": {
+    "is_goalkeeper": false
+  },
+  "Jonathan Tah": {
+    "is_goalkeeper": false
+  },
+  "Aleksandar Pavlovi\u0107": {
+    "is_goalkeeper": false
+  },
+  "Joshua Kimmich": {
+    "is_goalkeeper": false
+  },
+  "Kai Havertz": {
+    "is_goalkeeper": false
+  },
+  "Leon Goretzka": {
+    "is_goalkeeper": false
+  },
+  "Jamie Leweling": {
+    "is_goalkeeper": false
+  },
+  "Jamal Musiala": {
+    "is_goalkeeper": false
+  },
+  "Nick Woltemade": {
+    "is_goalkeeper": false
+  },
+  "Oliver Baumann": {
+    "is_goalkeeper": true
+  },
+  "Pascal Gro\u00df": {
+    "is_goalkeeper": true
+  },
+  "Maximilian Beier": {
+    "is_goalkeeper": false
+  },
+  "Nico Schlotterbeck": {
+    "is_goalkeeper": false
+  },
+  "Angelo Stiller": {
+    "is_goalkeeper": false
+  },
+  "Florian Wirtz": {
+    "is_goalkeeper": false
+  },
+  "Nathaniel Brown": {
+    "is_goalkeeper": false
+  },
+  "Leroy San\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Nadiem Amiri": {
+    "is_goalkeeper": false
+  },
+  "Alexander N\u00fcbel": {
+    "is_goalkeeper": true
+  },
+  "David Raum": {
+    "is_goalkeeper": false
+  },
+  "Felix Nmecha": {
+    "is_goalkeeper": false
+  },
+  "Malick Thiaw": {
+    "is_goalkeeper": false
+  },
+  "Assan Ou\u00e9draogo": {
+    "is_goalkeeper": false
+  },
+  "Deniz Undav": {
+    "is_goalkeeper": false
+  },
+  "Lawrence Ati-Zigi": {
+    "is_goalkeeper": false
+  },
+  "Alidu Seidu": {
+    "is_goalkeeper": false
+  },
+  "Caleb Yirenkyi": {
+    "is_goalkeeper": false
+  },
+  "Jonas Adjetey": {
+    "is_goalkeeper": false
+  },
+  "Thomas Partey": {
+    "is_goalkeeper": false
+  },
+  "Abdul Mumin": {
+    "is_goalkeeper": false
+  },
+  "Abdul Fatawu": {
+    "is_goalkeeper": true
+  },
+  "Kwasi Sibo": {
+    "is_goalkeeper": false
+  },
+  "Jordan Ayew": {
+    "is_goalkeeper": false
+  },
+  "Brandon Thomas-Asante": {
+    "is_goalkeeper": false
+  },
+  "Antoine Semenyo": {
+    "is_goalkeeper": false
+  },
+  "Joseph Anang": {
+    "is_goalkeeper": true
+  },
+  "Christopher Bonsu Baah": {
+    "is_goalkeeper": false
+  },
+  "Gideon Mensah": {
+    "is_goalkeeper": false
+  },
+  "Elisha Owusu": {
+    "is_goalkeeper": false
+  },
+  "Benjamin Asare": {
+    "is_goalkeeper": true
+  },
+  "Abdul Rahman Baba": {
+    "is_goalkeeper": false
+  },
+  "Jerome Opoku": {
+    "is_goalkeeper": false
+  },
+  "I\u00f1aki Williams": {
+    "is_goalkeeper": false
+  },
+  "Augustine Boakye": {
+    "is_goalkeeper": false
+  },
+  "Kojo Peprah Oppong": {
+    "is_goalkeeper": false
+  },
+  "Kamaldeen Sulemana": {
+    "is_goalkeeper": false
+  },
+  "Derrick Luckassen": {
+    "is_goalkeeper": false
+  },
+  "Ernest Nuamah": {
+    "is_goalkeeper": false
+  },
+  "Prince Kwabena Adu": {
+    "is_goalkeeper": false
+  },
+  "Marvin Senaya": {
+    "is_goalkeeper": false
+  },
+  "Johny Placide": {
+    "is_goalkeeper": true
+  },
+  "Carlens Arcus": {
+    "is_goalkeeper": false
+  },
+  "Keeto Thermoncy": {
+    "is_goalkeeper": false
+  },
+  "Ricardo Ad\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Hannes Delcroix": {
+    "is_goalkeeper": false
+  },
+  "Carl Saint\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Derrick Etienne Jr.": {
+    "is_goalkeeper": false
+  },
+  "Martin Exp\u00e9rience": {
+    "is_goalkeeper": false
+  },
+  "Duckens Nazon": {
+    "is_goalkeeper": false
+  },
+  "Jean-Ricner Bellegarde": {
+    "is_goalkeeper": false
+  },
+  "Louicius Deedson": {
+    "is_goalkeeper": false
+  },
+  "Alexandre Pierre": {
+    "is_goalkeeper": true
+  },
+  "Duke Lacroix": {
+    "is_goalkeeper": false
+  },
+  "Leverton Pierre": {
+    "is_goalkeeper": false
+  },
+  "Ruben Providence": {
+    "is_goalkeeper": false
+  },
+  "Lenny Joseph": {
+    "is_goalkeeper": false
+  },
+  "Danley Jean Jacques": {
+    "is_goalkeeper": false
+  },
+  "Wilson Isidor": {
+    "is_goalkeeper": false
+  },
+  "Yassin Fortun\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Frantzdy Pierrot": {
+    "is_goalkeeper": false
+  },
+  "Josu\u00e9 Casimir": {
+    "is_goalkeeper": false
+  },
+  "Jean-K\u00e9vin Duverne": {
+    "is_goalkeeper": false
+  },
+  "Josu\u00e9 Duverger": {
+    "is_goalkeeper": true
+  },
+  "Wilguens Paugain": {
+    "is_goalkeeper": false
+  },
+  "Dominique Simon": {
+    "is_goalkeeper": false
+  },
+  "Woodensky Pierre": {
+    "is_goalkeeper": false
+  },
+  "Ali Reza Safarbeiranvand": {
+    "is_goalkeeper": false
+  },
+  "Saleh Hardani Kherad": {
+    "is_goalkeeper": false
+  },
+  "Ehsan Haji Safi": {
+    "is_goalkeeper": false
+  },
+  "Shojae Khalilzadeh": {
+    "is_goalkeeper": false
+  },
+  "Milad Mohammadikeshmarzi": {
+    "is_goalkeeper": false
+  },
+  "Saeid Ezatolahi Afagh": {
+    "is_goalkeeper": false
+  },
+  "Alireza Jahanbakhsh Jirandeh": {
+    "is_goalkeeper": false
+  },
+  "Mohammad Mohebbi": {
+    "is_goalkeeper": false
+  },
+  "Mehdi Taremi": {
+    "is_goalkeeper": false
+  },
+  "Mehdi Ghayedi": {
+    "is_goalkeeper": false
+  },
+  "Ali Alipourghara": {
+    "is_goalkeeper": false
+  },
+  "Seyedpayam Niazmand": {
+    "is_goalkeeper": false
+  },
+  "Mohammadhossein Kanani Zadegan": {
+    "is_goalkeeper": false
+  },
+  "Seyed Saman Ghoddoos": {
+    "is_goalkeeper": false
+  },
+  "Roozbeh Cheshmi": {
+    "is_goalkeeper": false
+  },
+  "Mahdi Torabi": {
+    "is_goalkeeper": false
+  },
+  "Arya Yousefi": {
+    "is_goalkeeper": false
+  },
+  "Amirhossein Hosseinzadehtazehgheshlagh": {
+    "is_goalkeeper": false
+  },
+  "Ali Nemati": {
+    "is_goalkeeper": true
+  },
+  "Shahriyar Moghanloo": {
+    "is_goalkeeper": false
+  },
+  "Mohammad Ghorbani": {
+    "is_goalkeeper": false
+  },
+  "Seyedhossein Hosseini": {
+    "is_goalkeeper": false
+  },
+  "Ramin Rezaeiansemeskandi": {
+    "is_goalkeeper": false
+  },
+  "Dennis Dargahi": {
+    "is_goalkeeper": false
+  },
+  "Danial Iri": {
+    "is_goalkeeper": false
+  },
+  "Amirmohammad Razaghinia": {
+    "is_goalkeeper": false
+  },
+  "Alireza Beiranvand": {
+    "is_goalkeeper": true
+  },
+  "Saleh Hardani": {
+    "is_goalkeeper": false
+  },
+  "Ehsan Hajsafi": {
+    "is_goalkeeper": false
+  },
+  "Milad Mohammadi": {
+    "is_goalkeeper": false
+  },
+  "Saeid Ezatolahi": {
+    "is_goalkeeper": false
+  },
+  "Alireza Jahanbakhsh": {
+    "is_goalkeeper": false
+  },
+  "Mohammad Mohebi": {
+    "is_goalkeeper": false
+  },
+  "Ali Alipour": {
+    "is_goalkeeper": false
+  },
+  "Payam Niazmand": {
+    "is_goalkeeper": true
+  },
+  "Hossein Kanaanizadegan": {
+    "is_goalkeeper": false
+  },
+  "Saman Ghoddos": {
+    "is_goalkeeper": false
+  },
+  "Rouzbeh Cheshmi": {
+    "is_goalkeeper": false
+  },
+  "Mehdi Torabi": {
+    "is_goalkeeper": false
+  },
+  "Aria Yousefi": {
+    "is_goalkeeper": false
+  },
+  "Amirhossein Hosseinzadeh": {
+    "is_goalkeeper": true
+  },
+  "Shahriyar Moghanlou": {
+    "is_goalkeeper": false
+  },
+  "Hossein Hosseini": {
+    "is_goalkeeper": true
+  },
+  "Ramin Rezaeian": {
+    "is_goalkeeper": false
+  },
+  "Dennis Eckert": {
+    "is_goalkeeper": false
+  },
+  "Danial Eiri": {
+    "is_goalkeeper": false
+  },
+  "Amirmohammad Razzaghinia": {
+    "is_goalkeeper": false
+  },
+  "Fahad Talib": {
+    "is_goalkeeper": true
+  },
+  "Rebin Sulaka": {
+    "is_goalkeeper": false
+  },
+  "Hussein Ali": {
+    "is_goalkeeper": true
+  },
+  "Zaid Tahseen": {
+    "is_goalkeeper": false
+  },
+  "Akam Hashim": {
+    "is_goalkeeper": false
+  },
+  "Manaf Younis": {
+    "is_goalkeeper": false
+  },
+  "Youssef Amyn": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Bayesh": {
+    "is_goalkeeper": false
+  },
+  "Ali Al-Hamadi": {
+    "is_goalkeeper": false
+  },
+  "Mohanad Ali": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Qasem": {
+    "is_goalkeeper": true
+  },
+  "Jalal Hassan": {
+    "is_goalkeeper": true
+  },
+  "Ali Yousif": {
+    "is_goalkeeper": false
+  },
+  "Zidane Iqbal": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Maknzi": {
+    "is_goalkeeper": false
+  },
+  "Amir Al-Ammari": {
+    "is_goalkeeper": false
+  },
+  "Ali Jasim": {
+    "is_goalkeeper": true
+  },
+  "Aymen Hussein": {
+    "is_goalkeeper": false
+  },
+  "Kevin Yakob": {
+    "is_goalkeeper": false
+  },
+  "Aimar Sher": {
+    "is_goalkeeper": false
+  },
+  "Marko Farji": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Basil": {
+    "is_goalkeeper": true
+  },
+  "Merchas Doski": {
+    "is_goalkeeper": false
+  },
+  "Zaid Ismail": {
+    "is_goalkeeper": false
+  },
+  "Mustafa Saadoon": {
+    "is_goalkeeper": false
+  },
+  "Frans Putros": {
+    "is_goalkeeper": false
+  },
+  "Ghislain Konan": {
+    "is_goalkeeper": false
+  },
+  "Jean Micha\u00ebl Seri": {
+    "is_goalkeeper": false
+  },
+  "Wilfried Singo": {
+    "is_goalkeeper": false
+  },
+  "Seko Fofana": {
+    "is_goalkeeper": false
+  },
+  "Odilon Kossounou": {
+    "is_goalkeeper": false
+  },
+  "Franck Kessi\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Ange-Yoan Bonny": {
+    "is_goalkeeper": false
+  },
+  "Elye Wahi": {
+    "is_goalkeeper": false
+  },
+  "Christopher Op\u00e9ri": {
+    "is_goalkeeper": false
+  },
+  "Oumar Diakit\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Kon\u00e9": {
+    "is_goalkeeper": true
+  },
+  "Gu\u00e9la Dou\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Sangar\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Nicolas P\u00e9p\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Emmanuel Agbadou": {
+    "is_goalkeeper": false
+  },
+  "Evan Ndicka": {
+    "is_goalkeeper": false
+  },
+  "Evann Guessand": {
+    "is_goalkeeper": false
+  },
+  "Alban Lafont": {
+    "is_goalkeeper": true
+  },
+  "Bazoumana Tour\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Christ Inao Oula\u00ef": {
+    "is_goalkeeper": false
+  },
+  "Zion Suzuki": {
+    "is_goalkeeper": true
+  },
+  "Yukinari Sugawara": {
+    "is_goalkeeper": false
+  },
+  "Sh\u014dgo Taniguchi": {
+    "is_goalkeeper": false
+  },
+  "K\u014d Itakura": {
+    "is_goalkeeper": false
+  },
+  "Y\u016bto Nagatomo": {
+    "is_goalkeeper": false
+  },
+  "Wataru Endo": {
+    "is_goalkeeper": false
+  },
+  "Ao Tanaka": {
+    "is_goalkeeper": false
+  },
+  "Takefusa Kubo": {
+    "is_goalkeeper": false
+  },
+  "Keisuke Got\u014d": {
+    "is_goalkeeper": false
+  },
+  "Ritsu D\u014dan": {
+    "is_goalkeeper": false
+  },
+  "Daizen Maeda": {
+    "is_goalkeeper": false
+  },
+  "Keisuke \u014csako": {
+    "is_goalkeeper": true
+  },
+  "Keito Nakamura": {
+    "is_goalkeeper": false
+  },
+  "Junya It\u014d": {
+    "is_goalkeeper": false
+  },
+  "Daichi Kamada": {
+    "is_goalkeeper": false
+  },
+  "Tsuyoshi Watanabe": {
+    "is_goalkeeper": false
+  },
+  "Yuito Suzuki": {
+    "is_goalkeeper": false
+  },
+  "Ayase Ueda": {
+    "is_goalkeeper": false
+  },
+  "K\u014dki Ogawa": {
+    "is_goalkeeper": false
+  },
+  "Ayumu Seko": {
+    "is_goalkeeper": false
+  },
+  "Hiroki It\u014d": {
+    "is_goalkeeper": false
+  },
+  "Takehiro Tomiyasu": {
+    "is_goalkeeper": false
+  },
+  "Tomoki Hayakawa": {
+    "is_goalkeeper": true
+  },
+  "Kaish\u016b Sano": {
+    "is_goalkeeper": false
+  },
+  "Junnosuke Suzuki": {
+    "is_goalkeeper": false
+  },
+  "Kento Shiogai": {
+    "is_goalkeeper": false
+  },
+  "Yazeed Abulaila": {
+    "is_goalkeeper": true
+  },
+  "Mohammad Abu Hashish": {
+    "is_goalkeeper": false
+  },
+  "Abdallah Nasib": {
+    "is_goalkeeper": false
+  },
+  "Husam Abu Dahab": {
+    "is_goalkeeper": false
+  },
+  "Yazan Al-Arab": {
+    "is_goalkeeper": false
+  },
+  "Amer Jamous": {
+    "is_goalkeeper": false
+  },
+  "Mohammad Abu Zrayq": {
+    "is_goalkeeper": false
+  },
+  "Noor Al-Rawabdeh": {
+    "is_goalkeeper": false
+  },
+  "Ali Olwan": {
+    "is_goalkeeper": false
+  },
+  "Musa Al-Taamari": {
+    "is_goalkeeper": false
+  },
+  "Odeh Al-Fakhouri": {
+    "is_goalkeeper": false
+  },
+  "Nour Bani Attiah": {
+    "is_goalkeeper": false
+  },
+  "Mahmoud Al-Mardi": {
+    "is_goalkeeper": false
+  },
+  "Rajaei Ayed": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Sadeh": {
+    "is_goalkeeper": false
+  },
+  "Mo Abualnadi": {
+    "is_goalkeeper": false
+  },
+  "Salim Obaid": {
+    "is_goalkeeper": false
+  },
+  "Mohammad Ahmed Mohammad Taha": {
+    "is_goalkeeper": false
+  },
+  "Saed Al-Rosan": {
+    "is_goalkeeper": false
+  },
+  "Mohannad Abu Taha": {
+    "is_goalkeeper": false
+  },
+  "Nizar Al-Rashdan": {
+    "is_goalkeeper": false
+  },
+  "Abdallah Al-Fakhouri": {
+    "is_goalkeeper": true
+  },
+  "Ihsan Haddad": {
+    "is_goalkeeper": false
+  },
+  "Ali Azaizeh": {
+    "is_goalkeeper": false
+  },
+  "Mohammad Al-Dawoud": {
+    "is_goalkeeper": false
+  },
+  "Anas Badawi": {
+    "is_goalkeeper": false
+  },
+  "Seunggyu Kim": {
+    "is_goalkeeper": false
+  },
+  "Hanbeom Lee": {
+    "is_goalkeeper": false
+  },
+  "Gihyuk Lee": {
+    "is_goalkeeper": false
+  },
+  "Minjae Kim": {
+    "is_goalkeeper": false
+  },
+  "Taehyeon Kim": {
+    "is_goalkeeper": false
+  },
+  "Inbeom Hwang": {
+    "is_goalkeeper": false
+  },
+  "Heung Min Son": {
+    "is_goalkeeper": false
+  },
+  "Seungho Paik": {
+    "is_goalkeeper": false
+  },
+  "Guesung Cho": {
+    "is_goalkeeper": false
+  },
+  "Jae Sung Lee": {
+    "is_goalkeeper": false
+  },
+  "Hee Chan Hwang": {
+    "is_goalkeeper": false
+  },
+  "Bumkeun Song": {
+    "is_goalkeeper": false
+  },
+  "Taeseok Lee": {
+    "is_goalkeeper": false
+  },
+  "Wije Cho": {
+    "is_goalkeeper": false
+  },
+  "Moonhwan Kim": {
+    "is_goalkeeper": false
+  },
+  "Jinseob Park": {
+    "is_goalkeeper": false
+  },
+  "Junho Bae": {
+    "is_goalkeeper": false
+  },
+  "Hyeongyu Oh": {
+    "is_goalkeeper": false
+  },
+  "Kangin Lee": {
+    "is_goalkeeper": false
+  },
+  "Hyunjun Yang": {
+    "is_goalkeeper": false
+  },
+  "Hyeonwoo Jo": {
+    "is_goalkeeper": false
+  },
+  "Youngwoo Seol": {
+    "is_goalkeeper": false
+  },
+  "Jens Castrop": {
+    "is_goalkeeper": false
+  },
+  "Jingyu Kim": {
+    "is_goalkeeper": false
+  },
+  "Jisung Eom": {
+    "is_goalkeeper": false
+  },
+  "Donggyeong Lee": {
+    "is_goalkeeper": false
+  },
+  "Ra\u00fal Rangel": {
+    "is_goalkeeper": true
+  },
+  "Jorge S\u00e1nchez": {
+    "is_goalkeeper": true
+  },
+  "C\u00e9sar Montes": {
+    "is_goalkeeper": false
+  },
+  "Edson \u00c1lvarez": {
+    "is_goalkeeper": false
+  },
+  "Johan V\u00e1squez": {
+    "is_goalkeeper": false
+  },
+  "\u00c9rik Lira": {
+    "is_goalkeeper": false
+  },
+  "Luis Romo": {
+    "is_goalkeeper": false
+  },
+  "\u00c1lvaro Fidalgo": {
+    "is_goalkeeper": false
+  },
+  "Ra\u00fal Jim\u00e9nez": {
+    "is_goalkeeper": true
+  },
+  "Alexis Vega": {
+    "is_goalkeeper": false
+  },
+  "Santiago Gim\u00e9nez": {
+    "is_goalkeeper": false
+  },
+  "Carlos Acevedo": {
+    "is_goalkeeper": true
+  },
+  "Guillermo Ochoa": {
+    "is_goalkeeper": true
+  },
+  "Armando Gonz\u00e1lez": {
+    "is_goalkeeper": true
+  },
+  "Israel Reyes": {
+    "is_goalkeeper": false
+  },
+  "Juli\u00e1n Qui\u00f1ones": {
+    "is_goalkeeper": false
+  },
+  "Orbel\u00edn Pineda": {
+    "is_goalkeeper": false
+  },
+  "Obed Vargas": {
+    "is_goalkeeper": false
+  },
+  "Gilberto Mora": {
+    "is_goalkeeper": false
+  },
+  "Mateo Ch\u00e1vez": {
+    "is_goalkeeper": false
+  },
+  "C\u00e9sar Huerta": {
+    "is_goalkeeper": false
+  },
+  "Guillermo Mart\u00ednez": {
+    "is_goalkeeper": false
+  },
+  "Jes\u00fas Gallardo": {
+    "is_goalkeeper": true
+  },
+  "Luis Ch\u00e1vez": {
+    "is_goalkeeper": true
+  },
+  "Roberto Alvarado": {
+    "is_goalkeeper": false
+  },
+  "Brian Guti\u00e9rrez": {
+    "is_goalkeeper": false
+  },
+  "Yassine Bounou": {
+    "is_goalkeeper": true
+  },
+  "Achraf Hakimi": {
+    "is_goalkeeper": false
+  },
+  "Noussair Mazraoui": {
+    "is_goalkeeper": false
+  },
+  "Sofyan Amrabat": {
+    "is_goalkeeper": false
+  },
+  "Nayef Aguerd": {
+    "is_goalkeeper": false
+  },
+  "Ayyoub Bouaddi": {
+    "is_goalkeeper": false
+  },
+  "Chemsdine Talbi": {
+    "is_goalkeeper": false
+  },
+  "Azzedine Ounahi": {
+    "is_goalkeeper": false
+  },
+  "Soufiane Rahimi": {
+    "is_goalkeeper": false
+  },
+  "Brahim D\u00edaz": {
+    "is_goalkeeper": false
+  },
+  "Ismael Saibari": {
+    "is_goalkeeper": false
+  },
+  "Munir Mohamedi": {
+    "is_goalkeeper": true
+  },
+  "Zakaria El Ouahdi": {
+    "is_goalkeeper": false
+  },
+  "Issa Diop": {
+    "is_goalkeeper": false
+  },
+  "Samir El Mourabet": {
+    "is_goalkeeper": false
+  },
+  "Gessime Yassine": {
+    "is_goalkeeper": false
+  },
+  "Abde Ezzalzouli": {
+    "is_goalkeeper": false
+  },
+  "Chadi Riad": {
+    "is_goalkeeper": false
+  },
+  "Youssef Belammari": {
+    "is_goalkeeper": false
+  },
+  "Ayoub El Kaabi": {
+    "is_goalkeeper": false
+  },
+  "Ayoube Amaimouni": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Reda Tagnaouti": {
+    "is_goalkeeper": true
+  },
+  "Bilal El Khannouss": {
+    "is_goalkeeper": false
+  },
+  "Neil El Aynaoui": {
+    "is_goalkeeper": false
+  },
+  "Redouane Halhal": {
+    "is_goalkeeper": false
+  },
+  "Anass Salah-Eddine": {
+    "is_goalkeeper": false
+  },
+  "Bart Verbruggen": {
+    "is_goalkeeper": true
+  },
+  "Lutsharel Geertruida": {
+    "is_goalkeeper": false
+  },
+  "Marten de Roon": {
+    "is_goalkeeper": false
+  },
+  "Virgil van Dijk": {
+    "is_goalkeeper": false
+  },
+  "Nathan Ak\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Jan Paul van Hecke": {
+    "is_goalkeeper": false
+  },
+  "Justin Kluivert": {
+    "is_goalkeeper": false
+  },
+  "Ryan Gravenberch": {
+    "is_goalkeeper": false
+  },
+  "Wout Weghorst": {
+    "is_goalkeeper": false
+  },
+  "Memphis Depay": {
+    "is_goalkeeper": false
+  },
+  "Cody Gakpo": {
+    "is_goalkeeper": false
+  },
+  "Mats Wieffer": {
+    "is_goalkeeper": false
+  },
+  "Robin Roefs": {
+    "is_goalkeeper": true
+  },
+  "Tijjani Reijnders": {
+    "is_goalkeeper": false
+  },
+  "Micky van de Ven": {
+    "is_goalkeeper": false
+  },
+  "Guus Til": {
+    "is_goalkeeper": false
+  },
+  "Noa Lang": {
+    "is_goalkeeper": false
+  },
+  "Donyell Malen": {
+    "is_goalkeeper": false
+  },
+  "Brian Brobbey": {
+    "is_goalkeeper": false
+  },
+  "Teun Koopmeiners": {
+    "is_goalkeeper": false
+  },
+  "Frenkie de Jong": {
+    "is_goalkeeper": false
+  },
+  "Denzel Dumfries": {
+    "is_goalkeeper": false
+  },
+  "Mark Flekken": {
+    "is_goalkeeper": true
+  },
+  "Crysencio Summerville": {
+    "is_goalkeeper": false
+  },
+  "Jorrel Hato": {
+    "is_goalkeeper": false
+  },
+  "Quinten Timber": {
+    "is_goalkeeper": false
+  },
+  "Max Crocombe": {
+    "is_goalkeeper": true
+  },
+  "Tim Payne": {
+    "is_goalkeeper": false
+  },
+  "Francis de Vries": {
+    "is_goalkeeper": false
+  },
+  "Tyler Bindon": {
+    "is_goalkeeper": false
+  },
+  "Michael Boxall": {
+    "is_goalkeeper": false
+  },
+  "Joe Bell": {
+    "is_goalkeeper": false
+  },
+  "Matthew Garbett": {
+    "is_goalkeeper": false
+  },
+  "Marko Stameni\u0107": {
+    "is_goalkeeper": false
+  },
+  "Chris Wood": {
+    "is_goalkeeper": true
+  },
+  "Sarpreet Singh": {
+    "is_goalkeeper": false
+  },
+  "Elijah Just": {
+    "is_goalkeeper": false
+  },
+  "Alex Paulsen": {
+    "is_goalkeeper": true
+  },
+  "Liberato Cacace": {
+    "is_goalkeeper": false
+  },
+  "Alex Rufer": {
+    "is_goalkeeper": false
+  },
+  "Nando Pijnaker": {
+    "is_goalkeeper": false
+  },
+  "Finn Surman": {
+    "is_goalkeeper": false
+  },
+  "Kosta Barbarouses": {
+    "is_goalkeeper": false
+  },
+  "Ben Waine": {
+    "is_goalkeeper": false
+  },
+  "Ben Old": {
+    "is_goalkeeper": false
+  },
+  "Callum McCowatt": {
+    "is_goalkeeper": false
+  },
+  "Jesse Randall": {
+    "is_goalkeeper": false
+  },
+  "Michael Woud": {
+    "is_goalkeeper": true
+  },
+  "Ryan Thomas": {
+    "is_goalkeeper": true
+  },
+  "Callan Elliot": {
+    "is_goalkeeper": false
+  },
+  "Lachlan Bayliss": {
+    "is_goalkeeper": false
+  },
+  "Tommy Smith": {
+    "is_goalkeeper": true
+  },
+  "\u00d8rjan Nyland": {
+    "is_goalkeeper": true
+  },
+  "Morten Thorsby": {
+    "is_goalkeeper": false
+  },
+  "Kristoffer Ajer": {
+    "is_goalkeeper": false
+  },
+  "Leo \u00d8stig\u00e5rd": {
+    "is_goalkeeper": false
+  },
+  "David M\u00f8ller Wolfe": {
+    "is_goalkeeper": false
+  },
+  "Patrick Berg": {
+    "is_goalkeeper": true
+  },
+  "Alexander S\u00f8rloth": {
+    "is_goalkeeper": false
+  },
+  "Sander Berge": {
+    "is_goalkeeper": true
+  },
+  "Erling Haaland": {
+    "is_goalkeeper": false
+  },
+  "Martin \u00d8degaard": {
+    "is_goalkeeper": false
+  },
+  "J\u00f8rgen Strand Larsen": {
+    "is_goalkeeper": false
+  },
+  "Sander Tangvik": {
+    "is_goalkeeper": true
+  },
+  "Egil Selvik": {
+    "is_goalkeeper": true
+  },
+  "Fredrik Aursnes": {
+    "is_goalkeeper": false
+  },
+  "Fredrik Andr\u00e9 Bj\u00f8rkan": {
+    "is_goalkeeper": false
+  },
+  "Marcus Holmgren Pedersen": {
+    "is_goalkeeper": false
+  },
+  "Torbj\u00f8rn Heggem": {
+    "is_goalkeeper": false
+  },
+  "Kristian Thorstvedt": {
+    "is_goalkeeper": false
+  },
+  "Thelo Aasgaard": {
+    "is_goalkeeper": false
+  },
+  "Antonio Nusa": {
+    "is_goalkeeper": false
+  },
+  "Andreas Schjelderup": {
+    "is_goalkeeper": false
+  },
+  "Oscar Bobb": {
+    "is_goalkeeper": false
+  },
+  "Jens Petter Hauge": {
+    "is_goalkeeper": false
+  },
+  "Sondre Lang\u00e5s": {
+    "is_goalkeeper": false
+  },
+  "Henrik Falchener": {
+    "is_goalkeeper": false
+  },
+  "Julian Ryerson": {
+    "is_goalkeeper": false
+  },
+  "Luis Mej\u00eda": {
+    "is_goalkeeper": true
+  },
+  "C\u00e9sar Blackman": {
+    "is_goalkeeper": false
+  },
+  "Jos\u00e9 C\u00f3rdoba": {
+    "is_goalkeeper": false
+  },
+  "Fidel Escobar": {
+    "is_goalkeeper": false
+  },
+  "Edgardo Fari\u00f1a": {
+    "is_goalkeeper": false
+  },
+  "Cristian Mart\u00ednez": {
+    "is_goalkeeper": true
+  },
+  "Jos\u00e9 Luis Rodr\u00edguez": {
+    "is_goalkeeper": true
+  },
+  "Adalberto Carrasquilla": {
+    "is_goalkeeper": false
+  },
+  "Tom\u00e1s Rodr\u00edguez": {
+    "is_goalkeeper": false
+  },
+  "Ismael D\u00edaz": {
+    "is_goalkeeper": false
+  },
+  "Yoel B\u00e1rcenas": {
+    "is_goalkeeper": false
+  },
+  "C\u00e9sar Samudio": {
+    "is_goalkeeper": true
+  },
+  "Jiovany Ramos": {
+    "is_goalkeeper": false
+  },
+  "Carlos Harvey": {
+    "is_goalkeeper": false
+  },
+  "Eric Davis": {
+    "is_goalkeeper": false
+  },
+  "Andr\u00e9s Andrade": {
+    "is_goalkeeper": false
+  },
+  "Jos\u00e9 Fajardo": {
+    "is_goalkeeper": true
+  },
+  "Cecilio Waterman": {
+    "is_goalkeeper": false
+  },
+  "Alberto Quintero": {
+    "is_goalkeeper": true
+  },
+  "An\u00edbal Godoy": {
+    "is_goalkeeper": false
+  },
+  "C\u00e9sar Yanis": {
+    "is_goalkeeper": false
+  },
+  "Orlando Mosquera": {
+    "is_goalkeeper": true
+  },
+  "Michael Amir Murillo": {
+    "is_goalkeeper": false
+  },
+  "Azarias Londo\u00f1o": {
+    "is_goalkeeper": false
+  },
+  "Roderick Miller": {
+    "is_goalkeeper": false
+  },
+  "Jorge Guti\u00e9rrez": {
+    "is_goalkeeper": false
+  },
+  "Gatito Fern\u00e1ndez": {
+    "is_goalkeeper": true
+  },
+  "Gustavo Vel\u00e1zquez": {
+    "is_goalkeeper": false
+  },
+  "Omar Alderete": {
+    "is_goalkeeper": false
+  },
+  "Juan Jos\u00e9 C\u00e1ceres": {
+    "is_goalkeeper": true
+  },
+  "Fabi\u00e1n Balbuena": {
+    "is_goalkeeper": false
+  },
+  "J\u00fanior Alonso": {
+    "is_goalkeeper": false
+  },
+  "Ram\u00f3n Sosa": {
+    "is_goalkeeper": false
+  },
+  "Diego G\u00f3mez": {
+    "is_goalkeeper": false
+  },
+  "Antonio Sanabria": {
+    "is_goalkeeper": false
+  },
+  "Miguel Almir\u00f3n": {
+    "is_goalkeeper": false
+  },
+  "Maur\u00edcio": {
+    "is_goalkeeper": true
+  },
+  "Orlando Gill": {
+    "is_goalkeeper": true
+  },
+  "Jos\u00e9 Canale": {
+    "is_goalkeeper": true
+  },
+  "Andr\u00e9s Cubas": {
+    "is_goalkeeper": false
+  },
+  "Gustavo G\u00f3mez": {
+    "is_goalkeeper": false
+  },
+  "Dami\u00e1n Bobadilla": {
+    "is_goalkeeper": false
+  },
+  "Kaku": {
+    "is_goalkeeper": false
+  },
+  "\u00c1lex Arce": {
+    "is_goalkeeper": false
+  },
+  "Julio Enciso": {
+    "is_goalkeeper": false
+  },
+  "Braian Ojeda": {
+    "is_goalkeeper": false
+  },
+  "Gabriel \u00c1valos": {
+    "is_goalkeeper": false
+  },
+  "Gast\u00f3n Olveira": {
+    "is_goalkeeper": true
+  },
+  "Mat\u00edas Galarza": {
+    "is_goalkeeper": false
+  },
+  "Gustavo Caballero": {
+    "is_goalkeeper": false
+  },
+  "Isidro Pitta": {
+    "is_goalkeeper": false
+  },
+  "Alexandro Maidana": {
+    "is_goalkeeper": false
+  },
+  "Diogo Costa": {
+    "is_goalkeeper": true
+  },
+  "N\u00e9lson Semedo": {
+    "is_goalkeeper": false
+  },
+  "R\u00faben Dias": {
+    "is_goalkeeper": false
+  },
+  "Tom\u00e1s Ara\u00fajo": {
+    "is_goalkeeper": false
+  },
+  "Diogo Dalot": {
+    "is_goalkeeper": false
+  },
+  "Matheus Nunes": {
+    "is_goalkeeper": false
+  },
+  "Cristiano Ronaldo": {
+    "is_goalkeeper": false
+  },
+  "Bruno Fernandes": {
+    "is_goalkeeper": true
+  },
+  "Gon\u00e7alo Ramos": {
+    "is_goalkeeper": true
+  },
+  "Bernardo Silva": {
+    "is_goalkeeper": true
+  },
+  "Jo\u00e3o F\u00e9lix": {
+    "is_goalkeeper": true
+  },
+  "Jos\u00e9 S\u00e1": {
+    "is_goalkeeper": true
+  },
+  "Renato Veiga": {
+    "is_goalkeeper": false
+  },
+  "Gon\u00e7alo In\u00e1cio": {
+    "is_goalkeeper": false
+  },
+  "Jo\u00e3o Neves": {
+    "is_goalkeeper": true
+  },
+  "Francisco Trinc\u00e3o": {
+    "is_goalkeeper": false
+  },
+  "Rafael Le\u00e3o": {
+    "is_goalkeeper": false
+  },
+  "Pedro Neto": {
+    "is_goalkeeper": false
+  },
+  "Gon\u00e7alo Guedes": {
+    "is_goalkeeper": false
+  },
+  "Jo\u00e3o Cancelo": {
+    "is_goalkeeper": false
+  },
+  "R\u00faben Neves": {
+    "is_goalkeeper": false
+  },
+  "Rui Silva": {
+    "is_goalkeeper": true
+  },
+  "Vitinha": {
+    "is_goalkeeper": false
+  },
+  "Sam\u00fa Costa": {
+    "is_goalkeeper": false
+  },
+  "Nuno Mendes": {
+    "is_goalkeeper": false
+  },
+  "Francisco Concei\u00e7\u00e3o": {
+    "is_goalkeeper": false
+  },
+  "Mahmud Abunada": {
+    "is_goalkeeper": true
+  },
+  "Pedro Miguel": {
+    "is_goalkeeper": false
+  },
+  "Lucas Mendes": {
+    "is_goalkeeper": false
+  },
+  "Issa Laye": {
+    "is_goalkeeper": false
+  },
+  "Jassem Gaber": {
+    "is_goalkeeper": false
+  },
+  "Abdulaziz Hatem": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Alaaeldin": {
+    "is_goalkeeper": false
+  },
+  "Edmilson Junior": {
+    "is_goalkeeper": false
+  },
+  "Mohammed Muntari": {
+    "is_goalkeeper": true
+  },
+  "Hassan Al-Haydos": {
+    "is_goalkeeper": false
+  },
+  "Akram Afif": {
+    "is_goalkeeper": false
+  },
+  "Karim Boudiaf": {
+    "is_goalkeeper": false
+  },
+  "Ayoub Al-Oui": {
+    "is_goalkeeper": false
+  },
+  "Homam Ahmed": {
+    "is_goalkeeper": false
+  },
+  "Yusuf Abdurisag": {
+    "is_goalkeeper": false
+  },
+  "Boualem Khoukhi": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Al-Ganehi": {
+    "is_goalkeeper": false
+  },
+  "Sultan Al-Brake": {
+    "is_goalkeeper": false
+  },
+  "Almoez Ali": {
+    "is_goalkeeper": false
+  },
+  "Ahmed Fathy": {
+    "is_goalkeeper": false
+  },
+  "Salah Zakaria": {
+    "is_goalkeeper": true
+  },
+  "Meshaal Barsham": {
+    "is_goalkeeper": true
+  },
+  "Assim Madibo": {
+    "is_goalkeeper": false
+  },
+  "Tahsin Jamshid": {
+    "is_goalkeeper": false
+  },
+  "Al-Hashmi Al-Hussain": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Manai": {
+    "is_goalkeeper": false
+  },
+  "Nawaf Al-Aqidi": {
+    "is_goalkeeper": true
+  },
+  "Ali Majrashi": {
+    "is_goalkeeper": false
+  },
+  "Ali Lajami": {
+    "is_goalkeeper": false
+  },
+  "Abdulelah Al-Amri": {
+    "is_goalkeeper": false
+  },
+  "Hassan Al-Tambakti": {
+    "is_goalkeeper": false
+  },
+  "Nasser Al-Dawsari": {
+    "is_goalkeeper": false
+  },
+  "Musab Al-Juwayr": {
+    "is_goalkeeper": false
+  },
+  "Ayman Yahya": {
+    "is_goalkeeper": false
+  },
+  "Firas Al-Buraikan": {
+    "is_goalkeeper": false
+  },
+  "Salem Al-Dawsari": {
+    "is_goalkeeper": false
+  },
+  "Saleh Al-Shehri": {
+    "is_goalkeeper": false
+  },
+  "Saud Abdulhamid": {
+    "is_goalkeeper": false
+  },
+  "Nawaf Boushal": {
+    "is_goalkeeper": false
+  },
+  "Hassan Kadesh": {
+    "is_goalkeeper": false
+  },
+  "Abdullah Al-Khaibari": {
+    "is_goalkeeper": false
+  },
+  "Ziyad Al-Johani": {
+    "is_goalkeeper": false
+  },
+  "Khalid Al-Ghannam": {
+    "is_goalkeeper": false
+  },
+  "Alaa Al-Hejji": {
+    "is_goalkeeper": false
+  },
+  "Abdullah Al-Hamdan": {
+    "is_goalkeeper": true
+  },
+  "Sultan Mandash": {
+    "is_goalkeeper": false
+  },
+  "Mohammed Al-Owais": {
+    "is_goalkeeper": true
+  },
+  "Ahmed Al-Kassar": {
+    "is_goalkeeper": true
+  },
+  "Mohamed Kanno": {
+    "is_goalkeeper": false
+  },
+  "Moteb Al-Harbi": {
+    "is_goalkeeper": false
+  },
+  "Jehad Thakri": {
+    "is_goalkeeper": false
+  },
+  "Mohammed Abu Al-Shamat": {
+    "is_goalkeeper": false
+  },
+  "Angus Gunn": {
+    "is_goalkeeper": true
+  },
+  "Aaron Hickey": {
+    "is_goalkeeper": false
+  },
+  "Andy Robertson": {
+    "is_goalkeeper": true
+  },
+  "Scott McTominay": {
+    "is_goalkeeper": false
+  },
+  "Grant Hanley": {
+    "is_goalkeeper": false
+  },
+  "Kieran Tierney": {
+    "is_goalkeeper": false
+  },
+  "John McGinn": {
+    "is_goalkeeper": false
+  },
+  "Tyler Fletcher": {
+    "is_goalkeeper": false
+  },
+  "Lyndon Dykes": {
+    "is_goalkeeper": false
+  },
+  "Ch\u00e9 Adams": {
+    "is_goalkeeper": false
+  },
+  "Ryan Christie": {
+    "is_goalkeeper": false
+  },
+  "Liam Kelly": {
+    "is_goalkeeper": true
+  },
+  "Jack Hendry": {
+    "is_goalkeeper": false
+  },
+  "Ross Stewart": {
+    "is_goalkeeper": true
+  },
+  "John Souttar": {
+    "is_goalkeeper": false
+  },
+  "Dominic Hyam": {
+    "is_goalkeeper": false
+  },
+  "Ben Gannon-Doak": {
+    "is_goalkeeper": false
+  },
+  "George Hirst": {
+    "is_goalkeeper": false
+  },
+  "Lewis Ferguson": {
+    "is_goalkeeper": false
+  },
+  "Lawrence Shankland": {
+    "is_goalkeeper": false
+  },
+  "Craig Gordon": {
+    "is_goalkeeper": true
+  },
+  "Nathan Patterson": {
+    "is_goalkeeper": false
+  },
+  "Kenny McLean": {
+    "is_goalkeeper": false
+  },
+  "Anthony Ralston": {
+    "is_goalkeeper": false
+  },
+  "Findlay Curtis": {
+    "is_goalkeeper": false
+  },
+  "Scott McKenna": {
+    "is_goalkeeper": false
+  },
+  "Yehvann Diouf": {
+    "is_goalkeeper": true
+  },
+  "Mamadou Sarr": {
+    "is_goalkeeper": false
+  },
+  "Kalidou Koulibaly": {
+    "is_goalkeeper": false
+  },
+  "Abdoulaye Seck": {
+    "is_goalkeeper": true
+  },
+  "Idrissa Gueye": {
+    "is_goalkeeper": false
+  },
+  "Path\u00e9 Ciss": {
+    "is_goalkeeper": false
+  },
+  "Assane Diao": {
+    "is_goalkeeper": false
+  },
+  "Lamine Camara": {
+    "is_goalkeeper": false
+  },
+  "Bamba Dieng": {
+    "is_goalkeeper": false
+  },
+  "Sadio Man\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Nicolas Jackson": {
+    "is_goalkeeper": false
+  },
+  "Cherif Ndiaye": {
+    "is_goalkeeper": false
+  },
+  "Iliman Ndiaye": {
+    "is_goalkeeper": false
+  },
+  "Ismail Jakobs": {
+    "is_goalkeeper": false
+  },
+  "Kr\u00e9pin Diatta": {
+    "is_goalkeeper": false
+  },
+  "\u00c9douard Mendy": {
+    "is_goalkeeper": true
+  },
+  "Pape Matar Sarr": {
+    "is_goalkeeper": false
+  },
+  "Isma\u00efla Sarr": {
+    "is_goalkeeper": false
+  },
+  "Moussa Niakhat\u00e9": {
+    "is_goalkeeper": false
+  },
+  "Ibrahim Mbaye": {
+    "is_goalkeeper": false
+  },
+  "Habib Diarra": {
+    "is_goalkeeper": false
+  },
+  "Bara Sapoko Ndiaye": {
+    "is_goalkeeper": false
+  },
+  "Mory Diaw": {
+    "is_goalkeeper": true
+  },
+  "Antoine Mendy": {
+    "is_goalkeeper": false
+  },
+  "El Hadji Malick Diouf": {
+    "is_goalkeeper": false
+  },
+  "Pape Gueye": {
+    "is_goalkeeper": false
+  },
+  "Ronwen Williams": {
+    "is_goalkeeper": true
+  },
+  "Thabang Matuludi": {
+    "is_goalkeeper": false
+  },
+  "Khulumani Ndamane": {
+    "is_goalkeeper": false
+  },
+  "Teboho Mokoena": {
+    "is_goalkeeper": false
+  },
+  "Thalente Mbatha": {
+    "is_goalkeeper": false
+  },
+  "Aubrey Modiba": {
+    "is_goalkeeper": false
+  },
+  "Oswin Appollis": {
+    "is_goalkeeper": false
+  },
+  "Tshepang Moremi": {
+    "is_goalkeeper": false
+  },
+  "Lyle Foster": {
+    "is_goalkeeper": false
+  },
+  "Relebohile Mofokeng": {
+    "is_goalkeeper": false
+  },
+  "Themba Zwane": {
+    "is_goalkeeper": false
+  },
+  "Thapelo Maseko": {
+    "is_goalkeeper": false
+  },
+  "Sphephelo Sithole": {
+    "is_goalkeeper": false
+  },
+  "Mbekezeli Mbokazi": {
+    "is_goalkeeper": false
+  },
+  "Iqraam Rayners": {
+    "is_goalkeeper": false
+  },
+  "Sipho Chaine": {
+    "is_goalkeeper": true
+  },
+  "Evidence Makgopa": {
+    "is_goalkeeper": false
+  },
+  "Samukele Kabini": {
+    "is_goalkeeper": false
+  },
+  "Nkosinathi Sibisi": {
+    "is_goalkeeper": false
+  },
+  "Khuliso Mudau": {
+    "is_goalkeeper": false
+  },
+  "Ime Okon": {
+    "is_goalkeeper": false
+  },
+  "Ricardo Goss": {
+    "is_goalkeeper": true
+  },
+  "Jayden Adams": {
+    "is_goalkeeper": false
+  },
+  "Olwethu Makhanya": {
+    "is_goalkeeper": false
+  },
+  "Kamogelo Sebelebele": {
+    "is_goalkeeper": false
+  },
+  "Bradley Cross": {
+    "is_goalkeeper": false
+  },
+  "Kim Seung-gyu": {
+    "is_goalkeeper": false
+  },
+  "Lee Han-beom": {
+    "is_goalkeeper": false
+  },
+  "Lee Gi-hyuk": {
+    "is_goalkeeper": false
+  },
+  "Kim Min-jae": {
+    "is_goalkeeper": false
+  },
+  "Kim Tae-hyeon": {
+    "is_goalkeeper": false
+  },
+  "Hwang In-beom": {
+    "is_goalkeeper": false
+  },
+  "Son Heung-min": {
+    "is_goalkeeper": false
+  },
+  "Paik Seung-ho": {
+    "is_goalkeeper": false
+  },
+  "Cho Gue-sung": {
+    "is_goalkeeper": false
+  },
+  "Lee Jae-sung": {
+    "is_goalkeeper": false
+  },
+  "Hwang Hee-chan": {
+    "is_goalkeeper": false
+  },
+  "Song Bum-keun": {
+    "is_goalkeeper": false
+  },
+  "Lee Tae-seok": {
+    "is_goalkeeper": false
+  },
+  "Cho Wi-je": {
+    "is_goalkeeper": false
+  },
+  "Kim Moon-hwan": {
+    "is_goalkeeper": false
+  },
+  "Park Jin-seob": {
+    "is_goalkeeper": false
+  },
+  "Bae Jun-ho": {
+    "is_goalkeeper": false
+  },
+  "Oh Hyeon-gyu": {
+    "is_goalkeeper": false
+  },
+  "Lee Kang-in": {
+    "is_goalkeeper": false
+  },
+  "Yang Hyun-jun": {
+    "is_goalkeeper": false
+  },
+  "Jo Hyeon-woo": {
+    "is_goalkeeper": false
+  },
+  "Seol Young-woo": {
+    "is_goalkeeper": false
+  },
+  "Kim Jin-gyu": {
+    "is_goalkeeper": false
+  },
+  "Eom Ji-sung": {
+    "is_goalkeeper": false
+  },
+  "Lee Dong-gyeong": {
+    "is_goalkeeper": false
+  },
+  "David Raya": {
+    "is_goalkeeper": true
+  },
+  "Marc Pubill": {
+    "is_goalkeeper": false
+  },
+  "\u00c1lex Grimaldo": {
+    "is_goalkeeper": false
+  },
+  "Eric Garc\u00eda": {
+    "is_goalkeeper": true
+  },
+  "Marcos Llorente": {
+    "is_goalkeeper": false
+  },
+  "Mikel Merino": {
+    "is_goalkeeper": false
+  },
+  "Ferran Torres": {
+    "is_goalkeeper": false
+  },
+  "Fabi\u00e1n Ruiz": {
+    "is_goalkeeper": false
+  },
+  "Gavi": {
+    "is_goalkeeper": true
+  },
+  "Dani Olmo": {
+    "is_goalkeeper": false
+  },
+  "Y\u00e9remy Pino": {
+    "is_goalkeeper": false
+  },
+  "Pedro Porro": {
+    "is_goalkeeper": false
+  },
+  "Joan Garcia": {
+    "is_goalkeeper": true
+  },
+  "Aymeric Laporte": {
+    "is_goalkeeper": false
+  },
+  "\u00c1lex Baena": {
+    "is_goalkeeper": false
+  },
+  "Rodri": {
+    "is_goalkeeper": false
+  },
+  "Nico Williams": {
+    "is_goalkeeper": false
+  },
+  "Mart\u00edn Zubimendi": {
+    "is_goalkeeper": false
+  },
+  "Lamine Yamal": {
+    "is_goalkeeper": false
+  },
+  "Pedri": {
+    "is_goalkeeper": false
+  },
+  "Mikel Oyarzabal": {
+    "is_goalkeeper": false
+  },
+  "Pau Cubars\u00ed": {
+    "is_goalkeeper": false
+  },
+  "Unai Sim\u00f3n": {
+    "is_goalkeeper": true
+  },
+  "Marc Cucurella": {
+    "is_goalkeeper": false
+  },
+  "V\u00edctor Mu\u00f1oz": {
+    "is_goalkeeper": false
+  },
+  "Borja Iglesias": {
+    "is_goalkeeper": false
+  },
+  "Jacob Widell Zetterstr\u00f6m": {
+    "is_goalkeeper": true
+  },
+  "Gustaf Lagerbielke": {
+    "is_goalkeeper": false
+  },
+  "Victor Lindel\u00f6f": {
+    "is_goalkeeper": false
+  },
+  "Isak Hien": {
+    "is_goalkeeper": false
+  },
+  "Gabriel Gudmundsson": {
+    "is_goalkeeper": false
+  },
+  "Herman Johansson": {
+    "is_goalkeeper": false
+  },
+  "Lucas Bergvall": {
+    "is_goalkeeper": false
+  },
+  "Daniel Svensson": {
+    "is_goalkeeper": false
+  },
+  "Alexander Isak": {
+    "is_goalkeeper": false
+  },
+  "Benjamin Nygren": {
+    "is_goalkeeper": false
+  },
+  "Anthony Elanga": {
+    "is_goalkeeper": false
+  },
+  "Viktor Johansson": {
+    "is_goalkeeper": true
+  },
+  "Ken Sema": {
+    "is_goalkeeper": false
+  },
+  "Hjalmar Ekdal": {
+    "is_goalkeeper": false
+  },
+  "Carl Starfelt": {
+    "is_goalkeeper": false
+  },
+  "Jesper Karlstr\u00f6m": {
+    "is_goalkeeper": false
+  },
+  "Viktor Gy\u00f6keres": {
+    "is_goalkeeper": false
+  },
+  "Yasin Ayari": {
+    "is_goalkeeper": false
+  },
+  "Mattias Svanberg": {
+    "is_goalkeeper": false
+  },
+  "Eric Smith": {
+    "is_goalkeeper": false
+  },
+  "Alexander Bernhardsson": {
+    "is_goalkeeper": false
+  },
+  "Besfort Zeneli": {
+    "is_goalkeeper": false
+  },
+  "Kristoffer Nordfeldt": {
+    "is_goalkeeper": true
+  },
+  "Elliot Stroud": {
+    "is_goalkeeper": false
+  },
+  "Gustaf Nilsson": {
+    "is_goalkeeper": false
+  },
+  "Taha Ali": {
+    "is_goalkeeper": false
+  },
+  "Gregor Kobel": {
+    "is_goalkeeper": true
+  },
+  "Miro Muheim": {
+    "is_goalkeeper": false
+  },
+  "Silvan Widmer": {
+    "is_goalkeeper": false
+  },
+  "Nico Elvedi": {
+    "is_goalkeeper": false
+  },
+  "Manuel Akanji": {
+    "is_goalkeeper": false
+  },
+  "Denis Zakaria": {
+    "is_goalkeeper": false
+  },
+  "Breel Embolo": {
+    "is_goalkeeper": false
+  },
+  "Remo Freuler": {
+    "is_goalkeeper": false
+  },
+  "Johan Manzambi": {
+    "is_goalkeeper": false
+  },
+  "Granit Xhaka": {
+    "is_goalkeeper": false
+  },
+  "Dan Ndoye": {
+    "is_goalkeeper": false
+  },
+  "Yvon Mvogo": {
+    "is_goalkeeper": true
+  },
+  "Ricardo Rodriguez": {
+    "is_goalkeeper": true
+  },
+  "Ardon Jashari": {
+    "is_goalkeeper": false
+  },
+  "Djibril Sow": {
+    "is_goalkeeper": false
+  },
+  "Christian Fassnacht": {
+    "is_goalkeeper": false
+  },
+  "Rub\u00e9n Vargas": {
+    "is_goalkeeper": false
+  },
+  "Eray C\u00f6mert": {
+    "is_goalkeeper": false
+  },
+  "Noah Okafor": {
+    "is_goalkeeper": false
+  },
+  "Michel Aebischer": {
+    "is_goalkeeper": false
+  },
+  "Marvin Keller": {
+    "is_goalkeeper": true
+  },
+  "Fabian Rieder": {
+    "is_goalkeeper": false
+  },
+  "Zeki Amdouni": {
+    "is_goalkeeper": false
+  },
+  "Aur\u00e8le Amenda": {
+    "is_goalkeeper": false
+  },
+  "Luca Jaquez": {
+    "is_goalkeeper": false
+  },
+  "Cedric Itten": {
+    "is_goalkeeper": false
+  },
+  "Mouhib Chamakh": {
+    "is_goalkeeper": true
+  },
+  "Ali Abdi": {
+    "is_goalkeeper": false
+  },
+  "Montassar Talbi": {
+    "is_goalkeeper": false
+  },
+  "Omar Rekik": {
+    "is_goalkeeper": false
+  },
+  "Adem Arous": {
+    "is_goalkeeper": false
+  },
+  "Dylan Bronn": {
+    "is_goalkeeper": false
+  },
+  "Elias Achouri": {
+    "is_goalkeeper": false
+  },
+  "Elias Saad": {
+    "is_goalkeeper": false
+  },
+  "Hazem Mastouri": {
+    "is_goalkeeper": false
+  },
+  "Hannibal Mejbri": {
+    "is_goalkeeper": false
+  },
+  "Isma\u00ebl Gharbi": {
+    "is_goalkeeper": false
+  },
+  "Mortadha Ben Ouanes": {
+    "is_goalkeeper": false
+  },
+  "Rani Khedira": {
+    "is_goalkeeper": false
+  },
+  "Khalil Ayari": {
+    "is_goalkeeper": false
+  },
+  "Hadj Mahmoud": {
+    "is_goalkeeper": false
+  },
+  "Aymen Dahmen": {
+    "is_goalkeeper": true
+  },
+  "Ellyes Skhiri": {
+    "is_goalkeeper": false
+  },
+  "Rayan Elloumi": {
+    "is_goalkeeper": false
+  },
+  "Firas Chaouat": {
+    "is_goalkeeper": false
+  },
+  "Yan Valery": {
+    "is_goalkeeper": false
+  },
+  "Mohamed Amine Ben Hamida": {
+    "is_goalkeeper": false
+  },
+  "Sabri Ben Hessen": {
+    "is_goalkeeper": true
+  },
+  "Moutaz Neffati": {
+    "is_goalkeeper": false
+  },
+  "Raed Chikhaoui": {
+    "is_goalkeeper": false
+  },
+  "Anis Ben Slimane": {
+    "is_goalkeeper": false
+  },
+  "Sebastian Tounekti": {
+    "is_goalkeeper": false
+  },
+  "Mert G\u00fcnok": {
+    "is_goalkeeper": true
+  },
+  "Zeki \u00c7elik": {
+    "is_goalkeeper": false
+  },
+  "Merih Demiral": {
+    "is_goalkeeper": false
+  },
+  "\u00c7a\u011flar S\u00f6y\u00fcnc\u00fc": {
+    "is_goalkeeper": false
+  },
+  "Salih \u00d6zcan": {
+    "is_goalkeeper": false
+  },
+  "Orkun K\u00f6k\u00e7\u00fc": {
+    "is_goalkeeper": false
+  },
+  "Kerem Akt\u00fcrko\u011flu": {
+    "is_goalkeeper": false
+  },
+  "Arda G\u00fcler": {
+    "is_goalkeeper": false
+  },
+  "Deniz G\u00fcl": {
+    "is_goalkeeper": true
+  },
+  "Hakan \u00c7alhano\u011flu": {
+    "is_goalkeeper": false
+  },
+  "Kenan Y\u0131ld\u0131z": {
+    "is_goalkeeper": false
+  },
+  "Altay Bay\u0131nd\u0131r": {
+    "is_goalkeeper": true
+  },
+  "Eren Elmal\u0131": {
+    "is_goalkeeper": false
+  },
+  "Abd\u00fclkerim Bardakc\u0131": {
+    "is_goalkeeper": false
+  },
+  "Ozan Kabak": {
+    "is_goalkeeper": false
+  },
+  "\u0130smail Y\u00fcksek": {
+    "is_goalkeeper": false
+  },
+  "\u0130rfan Can Kahveci": {
+    "is_goalkeeper": false
+  },
+  "Mert M\u00fcld\u00fcr": {
+    "is_goalkeeper": false
+  },
+  "Yunus Akg\u00fcn": {
+    "is_goalkeeper": false
+  },
+  "Ferdi Kad\u0131o\u011flu": {
+    "is_goalkeeper": false
+  },
+  "Bar\u0131\u015f Alper Y\u0131lmaz": {
+    "is_goalkeeper": false
+  },
+  "Kaan Ayhan": {
+    "is_goalkeeper": false
+  },
+  "U\u011furcan \u00c7ak\u0131r": {
+    "is_goalkeeper": true
+  },
+  "O\u011fuz Ayd\u0131n": {
+    "is_goalkeeper": false
+  },
+  "Samet Akaydin": {
+    "is_goalkeeper": false
+  },
+  "Can Uzun": {
+    "is_goalkeeper": false
+  },
+  "Fehmi Mert G\u00fcnok": {
+    "is_goalkeeper": true
+  },
+  "Mehmet Zeki \u00c7elik": {
+    "is_goalkeeper": false
+  },
+  "Merih Demi\u0307ral": {
+    "is_goalkeeper": false
+  },
+  "Muhammed Kerem Akt\u00fcrko\u011flu": {
+    "is_goalkeeper": false
+  },
+  "Deniz Daniel G\u00fcl": {
+    "is_goalkeeper": false
+  },
+  "Kenan Yildiz": {
+    "is_goalkeeper": false
+  },
+  "Altay Bayindir": {
+    "is_goalkeeper": true
+  },
+  "Evren Eren Elmali": {
+    "is_goalkeeper": false
+  },
+  "Abd\u00fclker\u0130m Bardakci": {
+    "is_goalkeeper": false
+  },
+  "Ozan Muhammed Kabak": {
+    "is_goalkeeper": false
+  },
+  "\u0130sma\u0130l Y\u00fcksek": {
+    "is_goalkeeper": false
+  },
+  "\u0130rfan Kahveci\u0307": {
+    "is_goalkeeper": false
+  },
+  "Ferdi Erenay Kadio\u011flu": {
+    "is_goalkeeper": false
+  },
+  "Bar\u0131\u015f Alper Yilmaz": {
+    "is_goalkeeper": false
+  },
+  "U\u011furcan \u00c7akir": {
+    "is_goalkeeper": true
+  },
+  "O\u011fuz Aydin": {
+    "is_goalkeeper": false
+  },
+  "Can Y\u0131lmaz Uzun": {
+    "is_goalkeeper": false
+  },
+  "Matthew Charles Turner": {
+    "is_goalkeeper": true
+  },
+  "Sergi\u00f1o Gianni Dest": {
+    "is_goalkeeper": false
+  },
+  "Christopher Jeffrey Richards": {
+    "is_goalkeeper": false
+  },
+  "Tyler Shaan Adams": {
+    "is_goalkeeper": false
+  },
+  "Antonee Robinson": {
+    "is_goalkeeper": false
+  },
+  "Auston Levi-Jesaiah Trusty": {
+    "is_goalkeeper": false
+  },
+  "Giovanni Alejandro Reyna": {
+    "is_goalkeeper": false
+  },
+  "Weston James Earl Mc Kennie": {
+    "is_goalkeeper": false
+  },
+  "Ricardo Daniel Pepi": {
+    "is_goalkeeper": false
+  },
+  "Christian Mate Pulisic": {
+    "is_goalkeeper": false
+  },
+  "Brenden Russell Aaronson": {
+    "is_goalkeeper": false
+  },
+  "Miles Gordon Robinson": {
+    "is_goalkeeper": false
+  },
+  "Timothy Michael Ream": {
+    "is_goalkeeper": false
+  },
+  "Sebastian Matthew Berhalter": {
+    "is_goalkeeper": false
+  },
+  "Cristian Roldan": {
+    "is_goalkeeper": false
+  },
+  "Alexander Michael Freeman": {
+    "is_goalkeeper": false
+  },
+  "Malik Leon Tillman": {
+    "is_goalkeeper": false
+  },
+  "Maximilian Michael Arfsten": {
+    "is_goalkeeper": false
+  },
+  "Haji Amir Wright": {
+    "is_goalkeeper": false
+  },
+  "Folarin Jolaoluwa Balogun": {
+    "is_goalkeeper": false
+  },
+  "Timothy Tarpeh Weah": {
+    "is_goalkeeper": false
+  },
+  "Mark Alexander Mckenzie": {
+    "is_goalkeeper": false
+  },
+  "Joseph Michael Scally": {
+    "is_goalkeeper": false
+  },
+  "Matthew Andrew Geary Freese": {
+    "is_goalkeeper": true
+  },
+  "Christopher Keith Brady": {
+    "is_goalkeeper": true
+  },
+  "Alejandro Zendejas Saavedra": {
+    "is_goalkeeper": false
+  },
+  "Matt Turner": {
+    "is_goalkeeper": true
+  },
+  "Sergi\u00f1o Dest": {
+    "is_goalkeeper": false
+  },
+  "Chris Richards": {
+    "is_goalkeeper": false
+  },
+  "Tyler Adams": {
+    "is_goalkeeper": false
+  },
+  "Auston Trusty": {
+    "is_goalkeeper": false
+  },
+  "Giovanni Reyna": {
+    "is_goalkeeper": false
+  },
+  "Weston McKennie": {
+    "is_goalkeeper": false
+  },
+  "Ricardo Pepi": {
+    "is_goalkeeper": false
+  },
+  "Christian Pulisic": {
+    "is_goalkeeper": false
+  },
+  "Brenden Aaronson": {
+    "is_goalkeeper": false
+  },
+  "Miles Robinson": {
+    "is_goalkeeper": false
+  },
+  "Tim Ream": {
+    "is_goalkeeper": false
+  },
+  "Sebastian Berhalter": {
+    "is_goalkeeper": false
+  },
+  "Alex Freeman": {
+    "is_goalkeeper": false
+  },
+  "Malik Tillman": {
+    "is_goalkeeper": false
+  },
+  "Max Arfsten": {
+    "is_goalkeeper": false
+  },
+  "Haji Wright": {
+    "is_goalkeeper": false
+  },
+  "Folarin Balogun": {
+    "is_goalkeeper": false
+  },
+  "Timothy Weah": {
+    "is_goalkeeper": false
+  },
+  "Mark McKenzie": {
+    "is_goalkeeper": false
+  },
+  "Joe Scally": {
+    "is_goalkeeper": false
+  },
+  "Matt Freese": {
+    "is_goalkeeper": true
+  },
+  "Chris Brady": {
+    "is_goalkeeper": true
+  },
+  "Alejandro Zendejas": {
+    "is_goalkeeper": false
+  },
+  "Sergio Rochet": {
+    "is_goalkeeper": true
+  },
+  "Jos\u00e9 Gim\u00e9nez": {
+    "is_goalkeeper": false
+  },
+  "Sebasti\u00e1n C\u00e1ceres": {
+    "is_goalkeeper": false
+  },
+  "Ronald Ara\u00fajo": {
+    "is_goalkeeper": false
+  },
+  "Manuel Ugarte": {
+    "is_goalkeeper": false
+  },
+  "Rodrigo Bentancur": {
+    "is_goalkeeper": false
+  },
+  "Nicol\u00e1s de la Cruz": {
+    "is_goalkeeper": false
+  },
+  "Federico Valverde": {
+    "is_goalkeeper": false
+  },
+  "Darwin N\u00fa\u00f1ez": {
+    "is_goalkeeper": false
+  },
+  "Giorgian de Arrascaeta": {
+    "is_goalkeeper": false
+  },
+  "Facundo Pellistri": {
+    "is_goalkeeper": false
+  },
+  "Santiago Mele": {
+    "is_goalkeeper": true
+  },
+  "Guillermo Varela": {
+    "is_goalkeeper": false
+  },
+  "Agust\u00edn Canobbio": {
+    "is_goalkeeper": false
+  },
+  "Math\u00edas Olivera": {
+    "is_goalkeeper": false
+  },
+  "Mat\u00edas Vi\u00f1a": {
+    "is_goalkeeper": false
+  },
+  "Brian Rodr\u00edguez": {
+    "is_goalkeeper": false
+  },
+  "Rodrigo Aguirre": {
+    "is_goalkeeper": false
+  },
+  "Maximiliano Ara\u00fajo": {
+    "is_goalkeeper": false
+  },
+  "Federico Vi\u00f1as": {
+    "is_goalkeeper": false
+  },
+  "Joaqu\u00edn Piquerez": {
+    "is_goalkeeper": false
+  },
+  "Fernando Muslera": {
+    "is_goalkeeper": true
+  },
+  "Santiago Bueno": {
+    "is_goalkeeper": false
+  },
+  "Juan Manuel Sanabria": {
+    "is_goalkeeper": false
+  },
+  "Rodrigo Zalazar": {
+    "is_goalkeeper": false
+  },
+  "Utkir Yusupov": {
+    "is_goalkeeper": true
+  },
+  "Abdukodir Khusanov": {
+    "is_goalkeeper": false
+  },
+  "Khojiakbar Alijonov": {
+    "is_goalkeeper": false
+  },
+  "Farrukh Sayfiev": {
+    "is_goalkeeper": false
+  },
+  "Rustam Ashurmatov": {
+    "is_goalkeeper": false
+  },
+  "Akmal Mozgovoy": {
+    "is_goalkeeper": false
+  },
+  "Otabek Shukurov": {
+    "is_goalkeeper": false
+  },
+  "Jamshid Iskanderov": {
+    "is_goalkeeper": false
+  },
+  "Odiljon Hamrobekov": {
+    "is_goalkeeper": false
+  },
+  "Jaloliddin Masharipov": {
+    "is_goalkeeper": false
+  },
+  "Oston Urunov": {
+    "is_goalkeeper": false
+  },
+  "Abduvohid Nematov": {
+    "is_goalkeeper": false
+  },
+  "Sherzod Nasrullaev": {
+    "is_goalkeeper": false
+  },
+  "Eldor Shomurodov": {
+    "is_goalkeeper": false
+  },
+  "Umar Eshmurodov": {
+    "is_goalkeeper": false
+  },
+  "Botirali Ergashev": {
+    "is_goalkeeper": true
+  },
+  "Dostonbek Khamdamov": {
+    "is_goalkeeper": false
+  },
+  "Abdulla Abdullaev": {
+    "is_goalkeeper": false
+  },
+  "Azizjon Ganiev": {
+    "is_goalkeeper": false
+  },
+  "Azizbek Amonov": {
+    "is_goalkeeper": false
+  },
+  "Igor Sergeev": {
+    "is_goalkeeper": true
+  },
+  "Abbosbek Fayzullaev": {
+    "is_goalkeeper": false
+  },
+  "Sherzod Esanov": {
+    "is_goalkeeper": false
+  },
+  "Bekhruz Karimov": {
+    "is_goalkeeper": false
+  },
+  "Avazbek Ulmasaliev": {
+    "is_goalkeeper": false
+  },
+  "Jakhongir Urozov": {
+    "is_goalkeeper": false
+  }
+}

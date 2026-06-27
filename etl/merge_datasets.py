@@ -24,6 +24,10 @@ def run_merge():
     # 1. Load the new sources
     tm_squads = load_json(out_dir / "transfermarkt_squads.json")
     understat_stats = load_json(out_dir / "understat_penalties.json")
+    nat_squads = load_json(out_dir / "national_squads.json")
+    nat_positions = load_json(out_dir / "national_positions.json")
+    if not isinstance(nat_squads, dict): nat_squads = {}
+    if not isinstance(nat_positions, dict): nat_positions = {}
     
     # 2. Load Statsbomb fallback and GK data
     sb_players = load_json(out_dir / "players_statsbomb_backup.json")
@@ -43,7 +47,18 @@ def run_merge():
     if not tm_squads:
         print("Transfermarkt data missing. Run transfermarkt_scraper.py first.")
         return
-        
+
+    # Load National Positions and WC.json
+    nat_positions = load_json(out_dir / "national_positions.json") if (out_dir / "national_positions.json").exists() else {}
+    
+    wc_positions = {}
+    wc_file = out_dir / "wc.json"
+    if wc_file.exists():
+        wc_data = load_json(wc_file)
+        for t in wc_data:
+            for p in t.get("players", []):
+                wc_positions[p.get("name")] = {"is_goalkeeper": p.get("pos") == "GK"}
+    
     print(f"Loaded {len(tm_squads)} TM players, {len(understat_stats)} Understat records")
     print(f"Loaded {len(sb_players)} SB players, {len(sb_keepers)} SB keepers")
     
@@ -52,6 +67,9 @@ def run_merge():
     
     final_players = []
     final_keepers = []
+    
+    existing_p_names = set()
+    existing_k_names = set()
     
     for p in tm_squads:
         name = p['name']
@@ -62,7 +80,14 @@ def run_merge():
         is_active = True
         
         if "Goalkeeper" in p.get("position", ""):
-            best_match, score = process.extractOne(name, list(sb_k_names.keys()) if sb_k_names else [""], scorer=fuzz.token_sort_ratio) if sb_k_names else ("", 0)
+            if name in sb_k_names:
+                best_match, score = name, 100
+            else:
+                candidates = [k for k, v in sb_k_names.items() if v.get('nation') == nation]
+                if not candidates:
+                    candidates = list(sb_k_names.keys()) if sb_k_names else [""]
+                best_match, score = process.extractOne(name, candidates, scorer=fuzz.token_sort_ratio) if candidates else ("", 0)
+
             if score > 80:
                 k_data = sb_k_names[best_match]
                 final_keepers.append({
@@ -77,6 +102,7 @@ def run_merge():
                     "n_faced": k_data['n_faced'],
                     "is_active": is_active
                 })
+                existing_k_names.add(name)
             else:
                 KAPPA_GK = 5
                 # Using the arXiv open play goal rate for the beta distribution a priori
@@ -101,6 +127,7 @@ def run_merge():
                     "n_faced": 0,
                     "is_active": is_active
                 })
+                existing_k_names.add(name)
             continue
 
         n_penalties = 0
@@ -110,7 +137,16 @@ def run_merge():
         pressure_beta = -0.5
         sb_id = None
         
-        sb_match, sb_score = process.extractOne(name, list(sb_p_names.keys()) if sb_p_names else [""], scorer=fuzz.token_sort_ratio) if sb_p_names else ("", 0)
+        sb_match, sb_score = "", 0
+        if name in sb_p_names:
+            sb_match, sb_score = name, 100
+        else:
+            candidates = [k for k, v in sb_p_names.items() if v.get('nation') == nation]
+            if not candidates:
+                candidates = list(sb_p_names.keys()) if sb_p_names else [""]
+            if candidates:
+                sb_match, sb_score = process.extractOne(name, candidates, scorer=fuzz.token_sort_ratio)
+                
         if sb_score > 80:
             sb_data = sb_p_names[sb_match]
             sb_id = sb_data['id']
@@ -144,6 +180,73 @@ def run_merge():
             "n_shootout": n_shootout,
             "is_active": is_active
         })
+        existing_p_names.add(name)
+
+    # 3. Add missing players from national_squads
+    missing_players_added = 0
+    missing_keepers_added = 0
+    
+    for nation, roster in nat_squads.items():
+        for name in roster:
+            if name in existing_p_names or name in existing_k_names:
+                continue
+                
+            # Position priority:
+            # 1. wc.json
+            # 2. national_positions.json
+            is_gk = False
+            if name in wc_positions:
+                is_gk = wc_positions[name]["is_goalkeeper"]
+            elif name in nat_positions:
+                is_gk = nat_positions[name].get("is_goalkeeper", False)
+            else:
+                # Fallback to StatsBomb check
+                if name in sb_k_names:
+                    is_gk = True
+            
+            if is_gk:
+                KAPPA_GK = 5
+                a0 = (1 - PRIOR_OPEN_PLAY_GOAL) * KAPPA_GK
+                b0 = PRIOR_OPEN_PLAY_GOAL * KAPPA_GK
+                save_beta = {}
+                for sz in ZONES:
+                    save_beta[sz] = {}
+                    for dz in ZONES:
+                        a_prior = a0 * 1.5 if sz == dz else a0
+                        save_beta[sz][dz] = {"a": a_prior, "b": b0}
+                final_keepers.append({
+                    "id": str(uuid.uuid4()),
+                    "name": name,
+                    "nation": nation,
+                    "club": "Unknown",
+                    "league": "Unknown",
+                    "club_nation": "Unknown",
+                    "save_beta": save_beta,
+                    "dive_alpha": ALPHA_0.copy(),
+                    "n_faced": 0,
+                    "is_active": True
+                })
+                existing_k_names.add(name)
+                missing_keepers_added += 1
+            else:
+                final_players.append({
+                    "id": str(uuid.uuid4()),
+                    "name": name,
+                    "nation": nation,
+                    "club": "Unknown",
+                    "league": "Unknown",
+                    "club_nation": "Unknown",
+                    "foot": "right",
+                    "zone_alpha": ALPHA_0.copy(),
+                    "pressure_beta": -0.5,
+                    "n_penalties": 0,
+                    "n_shootout": 0,
+                    "is_active": True
+                })
+                existing_p_names.add(name)
+                missing_players_added += 1
+                
+    print(f"Added {missing_players_added} outfield players and {missing_keepers_added} keepers from national squads.")
 
     print(f"Generated {len(final_players)} World Cup players and {len(final_keepers)} World Cup keepers.")
     
