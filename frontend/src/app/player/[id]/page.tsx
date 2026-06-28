@@ -4,7 +4,8 @@ import GoalHeatmap from '@/components/GoalHeatmap';
 
 export default async function PlayerPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const res = await fetch(`http://127.0.0.1:8000/player/${id}`, { cache: 'no-store' });
+  const apiUrl = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+  const res = await fetch(`${apiUrl}/player/${id}`, { cache: 'no-store' });
   
   if (!res.ok) {
     return (
