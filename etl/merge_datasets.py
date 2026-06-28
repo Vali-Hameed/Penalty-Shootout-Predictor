@@ -52,7 +52,7 @@ def run_merge():
     nat_positions = load_json(out_dir / "national_positions.json") if (out_dir / "national_positions.json").exists() else {}
     
     wc_positions = {}
-    wc_file = out_dir / "wc.json"
+    wc_file = out_dir / "wc_players.position.json"
     if wc_file.exists():
         wc_data = load_json(wc_file)
         for t in wc_data:
@@ -192,7 +192,7 @@ def run_merge():
                 continue
                 
             # Position priority:
-            # 1. wc.json
+            # 1. wc_players.position.json
             # 2. national_positions.json
             is_gk = False
             if name in wc_positions:
