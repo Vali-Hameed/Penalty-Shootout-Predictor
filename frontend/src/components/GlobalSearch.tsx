@@ -21,7 +21,7 @@ export default function GlobalSearch() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const results = [];
+  const results: any[] = [];
   if (query.length > 1) {
     const normalizeStr = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     const q = normalizeStr(query);
