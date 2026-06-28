@@ -42,7 +42,11 @@ export const useSimStore = create<SimState>((set, get) => ({
   setTeamAName: (name) => set((state) => ({ teamA: { ...state.teamA, name } })),
   setTeamBName: (name) => set((state) => ({ teamB: { ...state.teamB, name } })),
   
-  resetSimulation: () => set({ simulationResult: null }),
+  resetSimulation: () => set({ 
+    simulationResult: null,
+    teamA: { name: 'Team A', lineup: [], gk: null },
+    teamB: { name: 'Team B', lineup: [], gk: null }
+  }),
   
   runSimulation: async () => {
     const { teamA, teamB } = get();

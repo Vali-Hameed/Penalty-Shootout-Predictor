@@ -6,6 +6,7 @@ import TeamSelector from '@/components/TeamSelector';
 import Scoreboard from '@/components/Scoreboard';
 import KickLog from '@/components/KickLog';
 import GoalVisualization from '@/components/GoalVisualization';
+import GlobalSearch from '@/components/GlobalSearch';
 
 export type MatchupMode = "Club" | "International" | "Custom";
 
@@ -14,6 +15,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [mode, setMode] = useState<MatchupMode>("Club");
   const [visibleCount, setVisibleCount] = useState(0);
+  const [resetKey, setResetKey] = useState(0);
 
   // Staggered reveal animation state lifted to page level
   useEffect(() => {
@@ -78,11 +80,14 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="ml-auto flex items-center gap-2">
-          <div className={`w-2 h-2 rounded-full ${simulationResult ? 'bg-success' : isReady ? 'bg-gold' : 'bg-gray-sec'}`}></div>
-          <span className="text-gray-sec font-mono text-xs uppercase tracking-widest">
-            {simulationResult ? 'RESULTS' : isReady ? 'READY' : 'STANDBY'}
-          </span>
+        <div className="ml-auto flex items-center gap-6">
+          <GlobalSearch />
+          <div className="flex items-center gap-2">
+            <div className={`w-2 h-2 rounded-full ${simulationResult ? 'bg-success' : isReady ? 'bg-gold' : 'bg-gray-sec'}`}></div>
+            <span className="text-gray-sec font-mono text-xs uppercase tracking-widest">
+              {simulationResult ? 'RESULTS' : isReady ? 'READY' : 'STANDBY'}
+            </span>
+          </div>
         </div>
       </header>
 
@@ -98,11 +103,8 @@ export default function Home() {
                 key={m}
                 onClick={() => {
                   setMode(m as MatchupMode);
-                  useSimStore.getState().setTeamALineup([]);
-                  useSimStore.getState().setTeamBLineup([]);
-                  useSimStore.getState().setTeamAGK(null);
-                  useSimStore.getState().setTeamBGK(null);
                   useSimStore.getState().resetSimulation();
+                  setResetKey(prev => prev + 1);
                 }}
                 className={`px-3 py-1.5 rounded transition-all uppercase tracking-wide ${mode === m
                     ? "bg-gold text-[#060812] font-bold shadow-[0_0_12px_rgba(201,162,39,0.3)]"
@@ -116,7 +118,7 @@ export default function Home() {
 
           <div className="bg-panel border border-gold-tint rounded-lg p-4 flex flex-col gap-4">
             <h2 className="text-gray-sec font-sans uppercase font-bold text-sm">Match Setup</h2>
-            <TeamSelector teamId="A" mode={mode} />
+            <TeamSelector key={`A-${mode}-${resetKey}`} teamId="A" mode={mode} />
 
             <div className="flex items-center gap-4 my-2">
               <div className="h-px bg-gold-tint flex-1"></div>
@@ -124,7 +126,7 @@ export default function Home() {
               <div className="h-px bg-gold-tint flex-1"></div>
             </div>
 
-            <TeamSelector teamId="B" mode={mode} />
+            <TeamSelector key={`B-${mode}-${resetKey}`} teamId="B" mode={mode} />
           </div>
 
           <div className="flex flex-col gap-3 mt-2">
@@ -136,14 +138,15 @@ export default function Home() {
               {isSimulating ? "SIMULATING..." : simulationResult ? "SIMULATE AGAIN" : "SIMULATE"}
             </button>
 
-            {simulationResult && (
-              <button
-                onClick={() => useSimStore.getState().resetSimulation()}
-                className="w-full py-3.5 border border-gold-tint text-gray-sec rounded-lg font-sans font-medium text-sm hover:text-foreground transition-all"
-              >
-                Reset
-              </button>
-            )}
+            <button
+              onClick={() => {
+                useSimStore.getState().resetSimulation();
+                setResetKey(prev => prev + 1);
+              }}
+              className="w-full py-3.5 border border-gold-tint text-white rounded-lg font-sans font-medium text-sm hover:bg-white/10 transition-all"
+            >
+              Reset
+            </button>
           </div>
         </aside>
 
