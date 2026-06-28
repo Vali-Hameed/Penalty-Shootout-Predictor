@@ -22,7 +22,17 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "Penalty Shootout Predictor",
-  description: "Bayesian Penalty Shootout Predictor",
+  description: "Advanced Bayesian Penalty Shootout Predictor. Analyze historical data, simulate matchups using Monte Carlo methods, and predict outcomes for any club or national team.",
+  openGraph: {
+    title: "Penalty Shootout Predictor",
+    description: "Advanced Bayesian Penalty Shootout Predictor. Simulate matchups using Monte Carlo methods.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Penalty Shootout Predictor",
+    description: "Advanced Bayesian Penalty Shootout Predictor. Simulate matchups using Monte Carlo methods.",
+  }
 };
 
 export default function RootLayout({
