@@ -21,14 +21,16 @@ def clone_statsbomb_data():
     return data_dir
 
 def get_zone(x, y):
-    if x < 36:
+    # Width goes from 36 to 44. Split into three equal ~2.66 yard sections.
+    if x < 38.67:
         col = "L"
-    elif x <= 44:
+    elif x <= 41.33:
         col = "C"
     else:
         col = "R"
         
-    if y > 2.5:
+    # Height goes up to 2.67 yards. Split evenly at ~1.33 yards.
+    if y > 1.33:
         row = "T"
     else:
         row = "B"
@@ -257,10 +259,10 @@ def run_pipeline():
     out_dir = Path(__file__).parent / "output"
     out_dir.mkdir(exist_ok=True)
     
-    with open(out_dir / "players.json", "w") as f:
+    with open(out_dir / "players_statsbomb_backup.json", "w") as f:
         json.dump(players_output, f, indent=2)
         
-    with open(out_dir / "keepers.json", "w") as f:
+    with open(out_dir / "keepers_statsbomb_backup.json", "w") as f:
         json.dump(keepers_output, f, indent=2)
         
     with open(out_dir / "priors.json", "w") as f:

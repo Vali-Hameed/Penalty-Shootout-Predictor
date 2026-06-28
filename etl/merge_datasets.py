@@ -86,7 +86,7 @@ def run_merge():
                 candidates = [k for k, v in sb_k_names.items() if v.get('nation') == nation]
                 if not candidates:
                     candidates = list(sb_k_names.keys()) if sb_k_names else [""]
-                best_match, score = process.extractOne(name, candidates, scorer=fuzz.token_sort_ratio) if candidates else ("", 0)
+                best_match, score = process.extractOne(name, candidates, scorer=fuzz.token_set_ratio) if candidates else ("", 0)
 
             if score > 80:
                 k_data = sb_k_names[best_match]
@@ -145,7 +145,7 @@ def run_merge():
             if not candidates:
                 candidates = list(sb_p_names.keys()) if sb_p_names else [""]
             if candidates:
-                sb_match, sb_score = process.extractOne(name, candidates, scorer=fuzz.token_sort_ratio)
+                sb_match, sb_score = process.extractOne(name, candidates, scorer=fuzz.token_set_ratio)
                 
         if sb_score > 80:
             sb_data = sb_p_names[sb_match]
@@ -192,7 +192,7 @@ def run_merge():
                 continue
                 
             # Position priority:
-            # 1. wc_players.position.json
+            # 1. wc_players_position.json
             # 2. national_positions.json
             is_gk = False
             if name in wc_positions:

@@ -34,14 +34,14 @@ def load_data():
     keepers_file = base_dir / "keepers.json"
     
     if players_file.exists():
-        with open(players_file, "r") as f:
+        with open(players_file, "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data:
                 player = Player(**item)
                 players_db[player.id] = player
                 
     if keepers_file.exists():
-        with open(keepers_file, "r") as f:
+        with open(keepers_file, "r", encoding="utf-8") as f:
             data = json.load(f)
             for item in data:
                 keeper = Goalkeeper(**item)
