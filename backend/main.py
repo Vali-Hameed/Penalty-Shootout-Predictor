@@ -1,11 +1,18 @@
 import json
 from pathlib import Path
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 from backend.models import Player, Goalkeeper, ShootoutRequest, MonteCarloResult
 from backend.simulation import run_monte_carlo
 
 app = FastAPI(title="Penalty Shootout Predictor")
+
+limiter = Limiter(key_func=get_remote_address)
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 app.add_middleware(
     CORSMiddleware,
@@ -52,31 +59,37 @@ async def startup_event():
     load_data()
 
 @app.get("/players", response_model=list[Player])
-def get_players():
+@limiter.limit("100/minute")
+def get_players(request: Request):
     return list(players_db.values())
 
 @app.get("/keepers", response_model=list[Goalkeeper])
-def get_keepers():
+@limiter.limit("100/minute")
+def get_keepers(request: Request):
     return list(keepers_db.values())
 
 @app.get("/national-squads")
-def get_national_squads():
+@limiter.limit("100/minute")
+def get_national_squads(request: Request):
     return national_squads_db
 
 @app.get("/player/{player_id}", response_model=Player)
-def get_player(player_id: str):
+@limiter.limit("100/minute")
+def get_player(request: Request, player_id: str):
     if player_id not in players_db:
         raise HTTPException(status_code=404, detail="Player not found")
     return players_db[player_id]
 
 @app.get("/keeper/{keeper_id}", response_model=Goalkeeper)
-def get_keeper(keeper_id: str):
+@limiter.limit("100/minute")
+def get_keeper(request: Request, keeper_id: str):
     if keeper_id not in keepers_db:
         raise HTTPException(status_code=404, detail="Goalkeeper not found")
     return keepers_db[keeper_id]
 
 @app.post("/predict", response_model=MonteCarloResult)
-def predict_shootout(req: ShootoutRequest):
+@limiter.limit("5/minute")
+def predict_shootout(request: Request, req: ShootoutRequest):
     return run_monte_carlo(
         lineup_a=req.team_a_lineup,
         lineup_b=req.team_b_lineup,
