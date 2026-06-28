@@ -14,8 +14,8 @@ interface SimState {
   setAllData: (players: Player[], keepers: Goalkeeper[], nationalSquads: Record<string, string[]>) => void;
   setTeamALineup: (lineup: Player[]) => void;
   setTeamBLineup: (lineup: Player[]) => void;
-  setTeamAGK: (gk: Goalkeeper) => void;
-  setTeamBGK: (gk: Goalkeeper) => void;
+  setTeamAGK: (gk: Goalkeeper | null) => void;
+  setTeamBGK: (gk: Goalkeeper | null) => void;
   setTeamAName: (name: string) => void;
   setTeamBName: (name: string) => void;
   runSimulation: () => Promise<void>;
