@@ -95,8 +95,12 @@ def run_pipeline():
     player_id_to_name = {}
     if lineups_dir.exists():
         for file in lineups_dir.glob("*.json"):
-            with open(file, "r", encoding="utf-8") as f:
-                lineups = json.load(f)
+            try:
+                with open(file, "r", encoding="utf-8") as f:
+                    lineups = json.load(f)
+            except json.JSONDecodeError:
+                print(f"Skipping corrupt file: {file.name}")
+                continue
             for team in lineups:
                 for p in team.get("lineup", []):
                     p_id = str(p["player_id"])
@@ -109,8 +113,12 @@ def run_pipeline():
     player_id_to_club = {}
     
     for file in files:
-        with open(file, "r", encoding="utf-8") as f:
-            events = json.load(f)
+        try:
+            with open(file, "r", encoding="utf-8") as f:
+                events = json.load(f)
+        except json.JSONDecodeError:
+            print(f"Skipping corrupt file: {file.name}")
+            continue
             
         # Map clubs
         for event in events:
