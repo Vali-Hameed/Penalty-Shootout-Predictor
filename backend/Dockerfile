@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY backend/ backend/
 COPY etl/output/ etl/output/
 
-EXPOSE 8000
+EXPOSE 8002
 
-# Run Uvicorn server
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the API
+CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8002"]

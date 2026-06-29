@@ -4,7 +4,7 @@ import GoalHeatmap from '@/components/GoalHeatmap';
 
 export default async function KeeperPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const apiUrl = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
+  const apiUrl = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8002";
   const res = await fetch(`${apiUrl}/keeper/${id}`, { cache: 'no-store' });
   
   if (!res.ok) {
