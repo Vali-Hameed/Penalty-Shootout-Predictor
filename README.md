@@ -55,33 +55,59 @@ Penalty-Shootout-Predictor/
 ## 💻 Local Development Setup
 
 ### 1. Prerequisites
-- Python 3.11+
-- Node.js 18+ (or Docker)
+- Docker & Docker Compose (Recommended)
+- Python 3.11+ and Node.js 18+ (If running manually)
 
-### 2. Generate Data via ETL
-The backend requires aggregated data files before it can run.
+### 2. Generate Data via ETL Pipeline
+The backend requires aggregated data files before it can run. Because this pipeline fetches open-source data from multiple providers (StatsBomb, Understat, Transfermarkt), it is split into several scripts:
+
 ```bash
+# Setup Python Environment
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 export PYTHONPATH="."
+
+# 1. Fetch Understat Penalty Data (Optional, recommended for accurate priors)
+python etl/understat_pipeline.py
+
+# 2. Scrape Transfermarkt Active Players (Optional, handles filtering)
+python etl/transfermarkt_scraper.py
+
+# 3. Process StatsBomb Open Data (Will clone ~3GB repository automatically)
 python etl/statsbomb_pipeline.py
+
+# 4. Merge all sources into final models and apply Bayesian priors
 python etl/merge_datasets.py
 ```
+*(Note: If you skip steps 1 and 2, step 4 will still succeed using cached fallback data).*
 
-### 3. Run Backend (FastAPI)
+### 3. Run Application via Docker (Recommended)
+The easiest way to run the full application (Backend + Frontend) is via Docker Compose.
+
 ```bash
-uvicorn backend.main:app --host 0.0.0.0 --port 8002 --reload
+# From the root directory, start the backend
+docker-compose up -d --build
+
+# Navigate to the frontend directory and start the frontend
+cd frontend
+docker-compose up -d --build
+```
+The Frontend will be available at `http://localhost:3000` and the API at `http://localhost:8000`.
+
+### 4. Run Manually (Without Docker)
+
+**Backend:**
+```bash
+uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### 4. Run Frontend (Next.js)
+**Frontend:**
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-
-*(Alternatively, run both services via `docker-compose -f backend/docker-compose.yml up --build` and `docker-compose -f frontend/docker-compose.yml up --build`)*
 
 ---
 
@@ -91,8 +117,8 @@ This project is deployed across a split infrastructure:
 
 ### Backend (Oracle VPS)
 1. Clone the repository on the VPS.
-2. Run the ETL pipeline to generate the `players.json` and `keepers.json` files.
-3. Start the Dockerized server: `docker-compose -f backend/docker-compose.yml up -d --build`.
+2. Ensure you have the `etl/output/players.json` and `keepers.json` files (either by committing them to git locally and pulling, or running the ETL pipeline on the VPS).
+3. Start the Dockerized server from the root directory: `docker-compose up -d --build`.
 4. Create a `.env` file containing `ALLOWED_ORIGINS` to secure the API against cross-site attacks.
 
 ### Frontend (Vercel)
