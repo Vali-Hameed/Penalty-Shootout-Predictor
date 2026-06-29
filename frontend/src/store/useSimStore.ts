@@ -68,6 +68,8 @@ export const useSimStore = create<SimState>((set, get) => ({
         zone_alpha: [10, 10, 10, 10, 10, 10],
         pressure_beta: 0,
         n_penalties: 0,
+        n_scored: 0,
+        n_missed: 0,
         n_shootout: 0,
         is_active: gk.is_active
       });

@@ -137,6 +137,8 @@ def run_merge():
             continue
 
         n_penalties = 0
+        n_scored = 0
+        n_missed = 0
         n_shootout = 0
         zone_alpha = ALPHA_0.copy()
         foot = "right"
@@ -159,18 +161,27 @@ def run_merge():
             zone_alpha = sb_data.get('zone_alpha', zone_alpha)
             foot = sb_data.get('foot', foot)
             n_penalties = sb_data.get('n_penalties', 0)
+            n_scored = sb_data.get('n_scored', 0)
+            n_missed = sb_data.get('n_missed', 0)
             n_shootout = sb_data.get('n_shootout', 0)
             pressure_beta = sb_data.get('pressure_beta', pressure_beta)
             
         if name in understat_stats:
             u_data = understat_stats[name]
-            u_n_penalties = u_data['n_penalties']
-            if u_n_penalties > n_penalties:
-                added = u_n_penalties - n_penalties
-                n_penalties = u_n_penalties
-                # Distribute the additional un-mapped penalties evenly
+            u_scored = u_data.get('goals', 0)
+            u_missed = u_data.get('misses', 0)
+            
+            added_scored = max(0, u_scored - n_scored)
+            added_missed = max(0, u_missed - n_missed)
+            added_total = added_scored + added_missed
+            
+            n_scored += added_scored
+            n_missed += added_missed
+            n_penalties = max(n_penalties, n_scored + n_missed)
+            
+            if added_total > 0:
                 for i in range(6):
-                    zone_alpha[i] += (added / 6)
+                    zone_alpha[i] += (added_total / 6)
                     
         final_players.append({
             "id": sb_id if sb_id else str(uuid.uuid4()),
@@ -183,6 +194,8 @@ def run_merge():
             "zone_alpha": zone_alpha,
             "pressure_beta": pressure_beta,
             "n_penalties": n_penalties,
+            "n_scored": n_scored,
+            "n_missed": n_missed,
             "n_shootout": n_shootout,
             "is_active": is_active
         })
@@ -247,6 +260,8 @@ def run_merge():
                     "zone_alpha": ALPHA_0.copy(),
                     "pressure_beta": -0.5,
                     "n_penalties": 0,
+                    "n_scored": 0,
+                    "n_missed": 0,
                     "n_shootout": 0,
                     "is_active": True
                 })

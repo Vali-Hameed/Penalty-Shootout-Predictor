@@ -8,6 +8,8 @@ export interface Player {
   zone_alpha: number[];
   pressure_beta: number;
   n_penalties: number;
+  n_scored: number;
+  n_missed: number;
   n_shootout: number;
   is_active: boolean;
 }

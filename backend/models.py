@@ -22,6 +22,8 @@ class Player(BaseModel):
     pressure_beta: float
     
     n_penalties: int
+    n_scored: int = 0
+    n_missed: int = 0
     n_shootout: int
     is_active: bool = True
 

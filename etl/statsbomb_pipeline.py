@@ -81,6 +81,8 @@ def run_pipeline():
     player_zone_counts = defaultdict(lambda: {z: 0 for z in ZONES})
     player_kicks = defaultdict(int)
     player_shootout_kicks = defaultdict(int)
+    player_scored = defaultdict(int)
+    player_missed = defaultdict(int)
     player_info = {}
     
     gk_saves = defaultdict(lambda: defaultdict(lambda: {z: 0 for z in ZONES}))
@@ -158,6 +160,11 @@ def run_pipeline():
                 
                 outcome = shot.get("outcome", {}).get("name")
                 
+                if outcome == "Goal":
+                    player_scored[p_id] += 1
+                else:
+                    player_missed[p_id] += 1
+                
                 # Find Goalkeeper
                 gk_player = None
                 # Check upcoming events for the specific Goal Keeper action
@@ -234,6 +241,8 @@ def run_pipeline():
             "zone_alpha": zone_alpha,
             "pressure_beta": -0.5,
             "n_penalties": player_kicks[p_id],
+            "n_scored": player_scored[p_id],
+            "n_missed": player_missed[p_id],
             "n_shootout": player_shootout_kicks[p_id],
             "is_active": active_status.get(info["name"], True)
         })
