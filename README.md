@@ -29,6 +29,35 @@ An advanced, full-stack application that simulates and predicts football penalty
 
 ---
 
+## 🧠 The Math & Simulation Engine
+
+This predictor bridges the gap between software engineering, probability theory, and data engineering. The mathematical backbone of the engine relies on **Bayesian inference** and **Monte Carlo simulations**.
+
+### Bayesian Inference and Priors
+Instead of using raw percentages (e.g., an 80% success rate), the engine uses **Bayesian Statistics**. 
+- **Beta Distribution:** A player's goal-scoring probability and a goalkeeper's save probability are modeled using a Beta distribution `Beta(α, β)`. A prior based on academic research establishes a baseline 75% conversion rate. As actual player data is loaded, their `α` (goals) and `β` (misses) are updated, giving veterans with robust data a highly confident distribution compared to rookies.
+- **Dirichlet Distribution:** The goal is divided into 6 discrete topological zones. The engine models *where* a player is likely to shoot using a Dirichlet distribution (a multivariate generalization of Beta). If a player consistently favors a specific zone, their Dirichlet parameters skew random sampling in that direction.
+
+### 3-Stage Stochastic Kick Resolution
+Each kick simulation models the physical and psychological interaction between the shooter and the keeper in 3 stages:
+1. **Shooter's Decision:** The engine samples the shooter's Dirichlet distribution to pick a target zone, squashing it toward a uniform distribution if psychological pressure is high.
+2. **Goalkeeper's Decision:** The goalkeeper's Dirichlet dive tendencies are sampled, receiving a slight predictive "nudge" toward the shooter's most historically favored zone.
+3. **Outcome Resolution:** If the keeper dives to the correct zone, their personal `Beta` save probability is evaluated against the shooter's `Beta` goal probability. An incorrect dive retains only an 18% handicap chance of making a trailing-leg save.
+
+### Dynamic Pressure Multipliers
+The math adapts to the psychological state of the shootout via a **Tension Multiplier**:
+- Base tension is 1.0. It increases if the team is behind, during later rounds, in sudden death, or if a team *must* score to avoid elimination.
+- High tension compresses the player's Dirichlet shot selection, increasing randomness, and severely penalizes the goalkeeper's reaction time. 
+- High-volume penalty takers receive an experience modifier that mitigates these tension spikes.
+
+### Sequential Live Learning
+The Goalkeeper's Beta distribution is updated *live during the shootout simulation*. If a keeper makes a save in a specific zone during a Monte Carlo iteration, their `alpha` (success parameter) for that zone increments, simulating a boost in confidence.
+
+### The Monte Carlo Engine
+Because there are so many intersecting probabilities, `run_monte_carlo` plays out the entire shootout **10,000 times**. It aggregates the results to output an overall Win Probability and a 90% Statistical Credible Interval using Bootstrapping.
+
+---
+
 ## 📁 Repository Structure
 
 ```text
