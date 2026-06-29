@@ -2,6 +2,10 @@ import json
 from pathlib import Path
 from thefuzz import process, fuzz
 import uuid
+import unicodedata
+
+def norm(name):
+    return unicodedata.normalize('NFD', name).encode('ascii', 'ignore').decode('utf-8').lower()
 
 ZONES = ["TL", "TC", "TR", "BL", "BC", "BR"]
 
@@ -102,7 +106,7 @@ def run_merge():
                     "n_faced": k_data['n_faced'],
                     "is_active": is_active
                 })
-                existing_k_names.add(name)
+                existing_k_names.add(norm(name))
             else:
                 KAPPA_GK = 5
                 # Using the arXiv open play goal rate for the beta distribution a priori
@@ -127,7 +131,7 @@ def run_merge():
                     "n_faced": 0,
                     "is_active": is_active
                 })
-                existing_k_names.add(name)
+                existing_k_names.add(norm(name))
             continue
 
         n_penalties = 0
@@ -180,7 +184,7 @@ def run_merge():
             "n_shootout": n_shootout,
             "is_active": is_active
         })
-        existing_p_names.add(name)
+        existing_p_names.add(norm(name))
 
     # 3. Add missing players from national_squads
     missing_players_added = 0
@@ -188,7 +192,7 @@ def run_merge():
     
     for nation, roster in nat_squads.items():
         for name in roster:
-            if name in existing_p_names or name in existing_k_names:
+            if norm(name) in existing_p_names or norm(name) in existing_k_names:
                 continue
                 
             # Position priority:
@@ -226,7 +230,7 @@ def run_merge():
                     "n_faced": 0,
                     "is_active": True
                 })
-                existing_k_names.add(name)
+                existing_k_names.add(norm(name))
                 missing_keepers_added += 1
             else:
                 final_players.append({
@@ -243,7 +247,7 @@ def run_merge():
                     "n_shootout": 0,
                     "is_active": True
                 })
-                existing_p_names.add(name)
+                existing_p_names.add(norm(name))
                 missing_players_added += 1
                 
     print(f"Added {missing_players_added} outfield players and {missing_keepers_added} keepers from national squads.")
