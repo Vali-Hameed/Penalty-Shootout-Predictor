@@ -21,15 +21,23 @@ export default function GlobalSearch() {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const results: any[] = [];
+  let results: any[] = [];
   if (query.length > 1) {
     const normalizeStr = (str: string) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     const q = normalizeStr(query);
-    const players = allPlayers.filter(p => normalizeStr(p.name).includes(q)).slice(0, 5);
-    const keepers = allKeepers.filter(k => normalizeStr(k.name).includes(q)).slice(0, 5);
+    const players = allPlayers.filter(p => normalizeStr(p.name).includes(q));
+    const keepers = allKeepers.filter(k => normalizeStr(k.name).includes(q));
     
-    players.forEach(p => results.push({ type: 'Player', ...p }));
-    keepers.forEach(k => results.push({ type: 'Keeper', ...k }));
+    players.forEach(p => results.push({ type: 'Player', ...p, isExact: normalizeStr(p.name) === q }));
+    keepers.forEach(k => results.push({ type: 'Keeper', ...k, isExact: normalizeStr(k.name) === q }));
+    
+    results.sort((a, b) => {
+      if (a.isExact && !b.isExact) return -1;
+      if (!a.isExact && b.isExact) return 1;
+      return 0;
+    });
+    
+    results = results.slice(0, 12);
   }
 
   return (

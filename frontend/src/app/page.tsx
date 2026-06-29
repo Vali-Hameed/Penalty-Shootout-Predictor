@@ -78,7 +78,7 @@ export default function Home() {
               Penalty Shootout Predictor
             </h1>
             <p className="text-gray-sec font-mono text-[10px] md:text-xs uppercase tracking-widest mt-1">
-              Bayesian Penalty Shootout Predictor
+              Bayesian Monte Carlo Engine
             </p>
           </div>
         </div>
