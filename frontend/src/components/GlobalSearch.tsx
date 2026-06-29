@@ -41,7 +41,7 @@ export default function GlobalSearch() {
         <input 
           type="text" 
           placeholder="Search profiles..." 
-          className="bg-transparent border-none outline-none text-sm text-foreground w-48 placeholder-slate-500"
+          className="bg-transparent border-none outline-none text-sm text-foreground w-32 md:w-48 placeholder-slate-500"
           value={query}
           onChange={e => {
             setQuery(e.target.value);
@@ -52,7 +52,7 @@ export default function GlobalSearch() {
       </div>
 
       {isOpen && query.length > 1 && (
-        <div className="absolute top-full right-0 mt-2 w-72 bg-panel border border-gold-tint rounded-lg shadow-2xl overflow-hidden z-50">
+        <div className="absolute top-full left-0 md:left-auto md:right-0 mt-2 w-[85vw] max-w-[320px] md:w-72 bg-panel border border-gold-tint rounded-lg shadow-2xl overflow-hidden z-[100]">
           {results.length > 0 ? (
             <div className="max-h-64 overflow-y-auto">
               {results.map(r => (

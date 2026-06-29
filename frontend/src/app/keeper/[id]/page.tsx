@@ -40,19 +40,19 @@ export default async function KeeperPage({ params }: { params: Promise<{ id: str
   else if (center > left + 10 && center > right + 10) tendency = "Stays Center Often";
 
   return (
-    <main className="min-h-screen bg-slate-950 p-8 text-white">
+    <main className="min-h-screen bg-slate-950 p-4 md:p-8 text-white">
       <div className="max-w-5xl mx-auto">
-        <Link href="/" className="text-blue-400 hover:underline mb-8 inline-block">&larr; Back to Simulator</Link>
+        <Link href="/" className="text-blue-400 hover:underline mb-4 md:mb-8 inline-block">&larr; Back to Simulator</Link>
         
-        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-2xl">
-          <div className="flex items-center justify-between mb-8 border-b border-slate-800 pb-8">
+        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-8 shadow-2xl">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 md:gap-0 mb-8 border-b border-slate-800 pb-8">
             <div>
-              <h1 className="text-5xl font-black mb-2">{keeper.name}</h1>
-              <p className="text-xl text-slate-400">Goalkeeper &bull; {keeper.nation}</p>
+              <h1 className="text-3xl md:text-5xl font-black mb-1 md:mb-2 leading-tight">{keeper.name}</h1>
+              <p className="text-base md:text-xl text-slate-400">Goalkeeper &bull; {keeper.nation}</p>
             </div>
-            <div className="text-right">
-              <div className="text-3xl font-black text-gold">{keeper.n_faced}</div>
-              <div className="text-sm text-slate-400 uppercase tracking-widest">Penalties Faced</div>
+            <div className="text-left md:text-right border-l-2 md:border-l-0 border-gold pl-4 md:pl-0">
+              <div className="text-2xl md:text-3xl font-black text-gold">{keeper.n_faced}</div>
+              <div className="text-xs md:text-sm text-slate-400 uppercase tracking-widest">Penalties Faced</div>
             </div>
           </div>
 
@@ -68,18 +68,18 @@ export default async function KeeperPage({ params }: { params: Promise<{ id: str
 
             <div>
               <h2 className="text-2xl font-bold mb-6 text-slate-300">Statistical Profile</h2>
-              <div className="space-y-4">
-                <div className="bg-slate-800 p-4 rounded-xl border border-slate-700 flex justify-between items-center">
-                  <span className="text-slate-400">Most Frequent Dive</span>
-                  <span className="text-2xl font-bold text-red-400">{ZONES[maxIdx]} ({zoneProbs[maxIdx].toFixed(1)}%)</span>
+              <div className="space-y-3 md:space-y-4">
+                <div className="bg-slate-800 p-3 md:p-4 rounded-xl border border-slate-700 flex flex-col md:flex-row justify-between items-start md:items-center gap-1 md:gap-0">
+                  <span className="text-xs md:text-base text-slate-400">Most Frequent Dive</span>
+                  <span className="text-lg md:text-2xl font-bold text-red-400">{ZONES[maxIdx]} ({zoneProbs[maxIdx].toFixed(1)}%)</span>
                 </div>
-                <div className="bg-slate-800 p-4 rounded-xl border border-slate-700 flex justify-between items-center">
-                  <span className="text-slate-400">Directional Tendency</span>
-                  <span className="text-xl font-bold text-white">{tendency}</span>
+                <div className="bg-slate-800 p-3 md:p-4 rounded-xl border border-slate-700 flex flex-col md:flex-row justify-between items-start md:items-center gap-1 md:gap-0">
+                  <span className="text-xs md:text-base text-slate-400">Directional Tendency</span>
+                  <span className="text-lg md:text-xl font-bold text-white">{tendency}</span>
                 </div>
-                <div className="bg-slate-800 p-4 rounded-xl border border-slate-700 flex justify-between items-center">
-                  <span className="text-slate-400">Effective Dive Sample Size (Σα)</span>
-                  <span className="text-2xl font-bold text-blue-400">{alphaSum.toFixed(1)}</span>
+                <div className="bg-slate-800 p-3 md:p-4 rounded-xl border border-slate-700 flex flex-col md:flex-row justify-between items-start md:items-center gap-1 md:gap-0">
+                  <span className="text-xs md:text-base text-slate-400">Effective Dive Sample Size (Σα)</span>
+                  <span className="text-lg md:text-2xl font-bold text-blue-400">{alphaSum.toFixed(1)}</span>
                 </div>
               </div>
             </div>
