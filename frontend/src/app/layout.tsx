@@ -21,17 +21,17 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Penalty Predictor",
-  description: "Advanced Bayesian Monte Carlo Engine. Analyze historical data, simulate matchups, and predict shootout outcomes for any club or national team.",
+  title: "Penalty Shootout Predictor",
+  description: "Advanced Bayesian Penalty Shootout Predictor. Analyze historical data, simulate matchups using Monte Carlo methods, and predict outcomes for any club or national team.",
   openGraph: {
-    title: "Penalty Predictor",
-    description: "Advanced Bayesian Monte Carlo Engine. Analyze historical data, simulate matchups, and predict shootout outcomes.",
+    title: "Penalty Shootout Predictor",
+    description: "Advanced Bayesian Penalty Shootout Predictor. Simulate matchups using Monte Carlo methods.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Penalty Predictor",
-    description: "Advanced Bayesian Monte Carlo Engine. Analyze historical data, simulate matchups, and predict shootout outcomes.",
+    title: "Penalty Shootout Predictor",
+    description: "Advanced Bayesian Penalty Shootout Predictor. Simulate matchups using Monte Carlo methods.",
   }
 };
 
