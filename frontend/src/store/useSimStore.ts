@@ -72,7 +72,7 @@ export const useSimStore = create<SimState>((set, get) => ({
         is_active: gk.is_active
       });
 
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8002";
+      const apiUrl = "/api";
       const response = await fetch(`${apiUrl}/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

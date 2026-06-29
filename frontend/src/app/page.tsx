@@ -40,7 +40,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8002";
+        const apiUrl = "/api";
         const [playersRes, keepersRes, squadsRes] = await Promise.all([
           fetch(`${apiUrl}/players?t=${Date.now()}`),
           fetch(`${apiUrl}/keepers?t=${Date.now()}`),
