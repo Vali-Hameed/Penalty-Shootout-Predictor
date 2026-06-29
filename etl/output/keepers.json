@@ -176,7 +176,7 @@
     "is_active": true
   },
   {
-    "id": "f8d30c86-7aa4-44aa-a172-eb691980b62c",
+    "id": "3832c9ee-057b-4db7-99bf-cba6c7dd9d0e",
     "name": "James Trafford",
     "nation": "England",
     "club": "Manchester City",
@@ -352,7 +352,7 @@
     "is_active": true
   },
   {
-    "id": "91e2cc66-660d-4e00-8f56-154a39f1d3c6",
+    "id": "11fdce29-7cd5-4643-8192-50f9e66876fe",
     "name": "Marcus Bettinelli",
     "nation": "England",
     "club": "Manchester City",
@@ -528,7 +528,7 @@
     "is_active": true
   },
   {
-    "id": "eb06db11-f5a7-4b5f-a1cb-d01f21563f95",
+    "id": "27e1b04e-c5d2-411e-b62d-780ca85784c6",
     "name": "David Raya",
     "nation": "Spain",
     "club": "Arsenal FC",
@@ -704,7 +704,7 @@
     "is_active": true
   },
   {
-    "id": "50adc57a-ce8c-4763-a503-e077d64228cc",
+    "id": "c4cf8541-21da-4afe-8582-5db276e39c75",
     "name": "Kepa Arrizabalaga",
     "nation": "Spain",
     "club": "Arsenal FC",
@@ -880,7 +880,7 @@
     "is_active": true
   },
   {
-    "id": "1b72940e-9c6e-4852-9b7b-6c1701f7fc45",
+    "id": "a2e0d5a8-3b36-4cea-9b4f-2c23ebc78939",
     "name": "Robert S\u00e1nchez",
     "nation": "Spain",
     "club": "Chelsea FC",
@@ -1056,7 +1056,7 @@
     "is_active": true
   },
   {
-    "id": "5e6b986f-771f-47b5-9fc6-a6b0e44e9850",
+    "id": "0a6e5ce4-90fa-438a-bce5-50e0221831ea",
     "name": "Filip J\u00f8rgensen",
     "nation": "Denmark",
     "club": "Chelsea FC",
@@ -1232,7 +1232,7 @@
     "is_active": true
   },
   {
-    "id": "77d789a4-a189-471b-a722-d73d5ceaa118",
+    "id": "fd29a2d5-ffca-45e8-8212-31cf26a3dfd6",
     "name": "Gabriel Slonina",
     "nation": "United States",
     "club": "Chelsea FC",
@@ -1408,7 +1408,7 @@
     "is_active": true
   },
   {
-    "id": "c5b4d325-bbad-41e9-a6e2-7f4375e377b0",
+    "id": "a83dff88-aa0f-45f4-b038-8d06d5a3954b",
     "name": "Teddy Sharman-Lowe",
     "nation": "England",
     "club": "Chelsea FC",
@@ -1584,7 +1584,7 @@
     "is_active": true
   },
   {
-    "id": "9fa73471-5a0f-42b8-8480-00a08a9ad466",
+    "id": "1533209b-8b4b-420d-a63c-f2b633ff196b",
     "name": "Giorgi Mamardashvili",
     "nation": "Georgia",
     "club": "Liverpool FC",
@@ -1936,7 +1936,7 @@
     "is_active": true
   },
   {
-    "id": "b1539f2d-ebe4-4c5b-b77b-7cd38fedb8ea",
+    "id": "5dfd28be-671a-48a5-9c98-1a875cf4d858",
     "name": "Freddie Woodman",
     "nation": "England",
     "club": "Liverpool FC",
@@ -2112,7 +2112,7 @@
     "is_active": true
   },
   {
-    "id": "437314d7-7690-42b6-802e-6cca6dde5160",
+    "id": "66b5a319-bda6-46c4-b088-f4d4a7414e87",
     "name": "Harvey Davies",
     "nation": "England",
     "club": "Liverpool FC",
@@ -2288,7 +2288,7 @@
     "is_active": true
   },
   {
-    "id": "ca3b62d8-06ea-4d54-8c42-536d1e068809",
+    "id": "a26c22bd-554f-457b-9e83-b6ce16fb84c2",
     "name": "Senne Lammens",
     "nation": "Belgium",
     "club": "Manchester United",
@@ -2464,7 +2464,7 @@
     "is_active": true
   },
   {
-    "id": "bb3c7128-6c86-4be1-b51d-3cc8c5245ac6",
+    "id": "788bda61-56fb-4c43-bf37-cf5e6d5449c5",
     "name": "Altay Bay\u0131nd\u0131r",
     "nation": "T\u00fcrkiye",
     "club": "Manchester United",
@@ -2640,7 +2640,7 @@
     "is_active": true
   },
   {
-    "id": "14834c86-a2d2-473f-995e-184b2aa3fe8e",
+    "id": "ffac0528-8d6e-440d-8660-1cff10988bad",
     "name": "Tom Heaton",
     "nation": "England",
     "club": "Manchester United",
@@ -2816,7 +2816,7 @@
     "is_active": true
   },
   {
-    "id": "035f1a32-04f5-475c-87bb-1c91f17bf117",
+    "id": "2f4c9049-8a78-4daf-a055-b84cbf9f9451",
     "name": "Guglielmo Vicario",
     "nation": "Italy",
     "club": "Tottenham Hotspur",
@@ -2992,7 +2992,7 @@
     "is_active": true
   },
   {
-    "id": "1639cf46-f9ac-4ed0-944c-0d0e2bfada64",
+    "id": "7927e7fb-c2df-4858-80b5-d413393065f2",
     "name": "Anton\u00edn Kinsk\u00fd",
     "nation": "Czech Republic",
     "club": "Tottenham Hotspur",
@@ -3168,7 +3168,7 @@
     "is_active": true
   },
   {
-    "id": "06773c1b-8cdd-4942-aa91-9f2add7a5e16",
+    "id": "86e3d5a2-07cc-4811-a5d8-3b4531ae47ad",
     "name": "Brandon Austin",
     "nation": "England",
     "club": "Tottenham Hotspur",
@@ -3344,7 +3344,7 @@
     "is_active": true
   },
   {
-    "id": "5c8b4ae9-5600-4836-b51f-14cf709b3d20",
+    "id": "96cc8e38-495d-4773-a0ab-e1237a7cc1fd",
     "name": "Aaron Ramsdale",
     "nation": "England",
     "club": "Newcastle United",
@@ -3520,7 +3520,7 @@
     "is_active": true
   },
   {
-    "id": "a4653723-4ccf-480b-a1fe-72c9a4fa540a",
+    "id": "da878566-a3fb-4e70-94f1-15bd7b30b922",
     "name": "Nick Pope",
     "nation": "England",
     "club": "Newcastle United",
@@ -3872,7 +3872,7 @@
     "is_active": true
   },
   {
-    "id": "5a2b234b-37fc-4946-97a1-2eeb83827de3",
+    "id": "d4bdec91-d2f6-49f7-badb-3ce58d3727a8",
     "name": "Mark Gillespie",
     "nation": "England",
     "club": "Newcastle United",
@@ -4048,7 +4048,7 @@
     "is_active": true
   },
   {
-    "id": "76ed3de8-56ca-4eae-a53e-8583cdfed8a0",
+    "id": "19c5e8dd-6a8a-4f1d-b4e9-a80b617d0be5",
     "name": "John Victor",
     "nation": "Brazil",
     "club": "Nottingham Forest",
@@ -4224,7 +4224,7 @@
     "is_active": true
   },
   {
-    "id": "08cf1e0e-5370-42fc-bcc9-cd6f97ebc4a1",
+    "id": "d178d9d7-39d9-42eb-a53d-a2a1d27b943b",
     "name": "Stefan Ortega",
     "nation": "Germany",
     "club": "Nottingham Forest",
@@ -4400,7 +4400,7 @@
     "is_active": true
   },
   {
-    "id": "72edca31-22b8-4430-ae05-cdcde2195eec",
+    "id": "31f9a2ae-d68d-47b6-85ce-04ee52423595",
     "name": "Matz Sels",
     "nation": "Belgium",
     "club": "Nottingham Forest",
@@ -4928,7 +4928,7 @@
     "is_active": true
   },
   {
-    "id": "e84d095d-7157-4f19-beb6-1c22982ebdda",
+    "id": "309d9b1c-b002-4763-a0a3-82426dc02dc6",
     "name": "Carl Rushworth",
     "nation": "England",
     "club": "Brighton & Hove Albion",
@@ -5104,7 +5104,7 @@
     "is_active": true
   },
   {
-    "id": "d6bef58f-e065-4b3e-8a1c-6ce641523d16",
+    "id": "993584e3-a8dd-417b-a8d5-4744710d0728",
     "name": "James Beadle",
     "nation": "England",
     "club": "Brighton & Hove Albion",
@@ -5280,7 +5280,7 @@
     "is_active": true
   },
   {
-    "id": "35f420ff-c0d2-4634-b133-7e134d0f17d5",
+    "id": "9c8a39ae-6d71-4c50-bdac-13e12fc5b122",
     "name": "Jason Steele",
     "nation": "England",
     "club": "Brighton & Hove Albion",
@@ -5456,7 +5456,7 @@
     "is_active": true
   },
   {
-    "id": "f74d93b6-4b06-47d3-ab35-8150fcf2caf4",
+    "id": "bd4ff04e-10f2-4e35-b9c3-17130d350ac1",
     "name": "Tom McGill",
     "nation": "Canada",
     "club": "Brighton & Hove Albion",
@@ -5632,7 +5632,7 @@
     "is_active": true
   },
   {
-    "id": "dd4d0017-2d5f-4ef3-bf41-571a0534b29f",
+    "id": "9f7a8c1a-8e0b-47f0-af0e-0ba5c6befb8c",
     "name": "Djordje Petrovic",
     "nation": "Serbia",
     "club": "AFC Bournemouth",
@@ -5808,7 +5808,7 @@
     "is_active": true
   },
   {
-    "id": "e47b85f8-6746-469c-bd36-0cb5f68d6886",
+    "id": "d0d628c7-c6fd-491e-a038-cd71119c58d3",
     "name": "Christos Mandas",
     "nation": "Greece",
     "club": "AFC Bournemouth",
@@ -5984,7 +5984,7 @@
     "is_active": true
   },
   {
-    "id": "cd0d15d1-8aef-4f0a-8e0b-7d3c509f9847",
+    "id": "99d3c088-af9c-4181-bda2-960a2481248e",
     "name": "Fraser Forster",
     "nation": "England",
     "club": "AFC Bournemouth",
@@ -6160,7 +6160,7 @@
     "is_active": true
   },
   {
-    "id": "ca5b1714-099f-4da3-9149-043c87e955a6",
+    "id": "aeed7c73-b93e-4fb2-a1d7-4620896aaf0f",
     "name": "Dean Henderson",
     "nation": "England",
     "club": "Crystal Palace",
@@ -6336,7 +6336,7 @@
     "is_active": true
   },
   {
-    "id": "e6c07b67-0e29-41ec-94e1-aa2d133829f3",
+    "id": "93aa28be-ef4f-4b56-87b4-c1ebbc6f8f7a",
     "name": "Walter Ben\u00edtez",
     "nation": "Argentina",
     "club": "Crystal Palace",
@@ -6512,7 +6512,7 @@
     "is_active": true
   },
   {
-    "id": "9a8ae297-7329-4a90-8afb-9a5032fa0fd2",
+    "id": "3ebb84ff-5095-48ae-8649-2bded483108e",
     "name": "Remi Matthews",
     "nation": "England",
     "club": "Crystal Palace",
@@ -6864,7 +6864,7 @@
     "is_active": true
   },
   {
-    "id": "0364b460-1b9f-4d0d-89fb-3d016142d3ff",
+    "id": "a510e9b8-252d-439e-844f-d58946b2fcd2",
     "name": "Marco Bizot",
     "nation": "Netherlands",
     "club": "Aston Villa",
@@ -7040,7 +7040,7 @@
     "is_active": true
   },
   {
-    "id": "2087c55f-5777-487a-97d7-6cb0f3aa5019",
+    "id": "d37bd0fb-3dac-4da8-bd91-e9de7bf2779a",
     "name": "Caoimh\u00edn Kelleher",
     "nation": "Ireland",
     "club": "Brentford FC",
@@ -7216,7 +7216,7 @@
     "is_active": true
   },
   {
-    "id": "4b59a026-29a1-4d03-be38-4e644e498eea",
+    "id": "bcaf1129-28a2-4a96-9a11-ed326810e441",
     "name": "H\u00e1kon Valdimarsson",
     "nation": "Iceland",
     "club": "Brentford FC",
@@ -7392,7 +7392,7 @@
     "is_active": true
   },
   {
-    "id": "0a8a8a58-200a-4368-8a92-7b8c3d6ca77f",
+    "id": "179b973c-6dd0-403e-82d0-69dbdf254541",
     "name": "Matthew Cox",
     "nation": "England",
     "club": "Brentford FC",
@@ -7568,7 +7568,7 @@
     "is_active": true
   },
   {
-    "id": "8d4a4b80-1b09-4947-b133-c008fcda9395",
+    "id": "8bdfe1cd-2c25-4954-a668-8a0afb7a33ad",
     "name": "Ellery Balcombe",
     "nation": "England",
     "club": "Brentford FC",
@@ -7744,7 +7744,7 @@
     "is_active": true
   },
   {
-    "id": "ab9c776c-5d2f-461f-a8c6-a9d6b2b0f1af",
+    "id": "b2ca0bda-a1eb-47b3-ac12-76a6cdd1e807",
     "name": "Julian Eyestone",
     "nation": "United States",
     "club": "Brentford FC",
@@ -8096,7 +8096,7 @@
     "is_active": true
   },
   {
-    "id": "e5694c6c-b08f-4c0d-bf5f-295e4e20ed0e",
+    "id": "46fb0e80-4d05-4a51-a9d8-4a414eec3a5e",
     "name": "Mark Travers",
     "nation": "Ireland",
     "club": "Everton FC",
@@ -8272,7 +8272,7 @@
     "is_active": true
   },
   {
-    "id": "5032be1d-0d05-4cba-b20e-8aaca615e7af",
+    "id": "a511d0a7-6ce7-4fcc-8a57-edb44dd9aa34",
     "name": "Tom King",
     "nation": "Wales",
     "club": "Everton FC",
@@ -8448,7 +8448,7 @@
     "is_active": true
   },
   {
-    "id": "98205da1-f852-4ebe-a543-bdca948ba01c",
+    "id": "436d03f9-ffdd-4aae-81cf-a3ec8429a64c",
     "name": "Robin Roefs",
     "nation": "Netherlands",
     "club": "Sunderland AFC",
@@ -8624,7 +8624,7 @@
     "is_active": true
   },
   {
-    "id": "dd02739a-5f7b-4d6f-b3c5-9dd81d48feed",
+    "id": "62755776-98bd-4a92-80a0-7f1b7abe0095",
     "name": "Melker Ellborg",
     "nation": "Sweden",
     "club": "Sunderland AFC",
@@ -8800,7 +8800,7 @@
     "is_active": true
   },
   {
-    "id": "d37dd2a5-4e78-4132-908d-8d110b497840",
+    "id": "67fb08ef-d46f-425e-a6cb-017d20a84228",
     "name": "Simon Moore",
     "nation": "England",
     "club": "Sunderland AFC",
@@ -8976,7 +8976,7 @@
     "is_active": true
   },
   {
-    "id": "288b7a2a-1c22-46a8-831f-caad73cdda8e",
+    "id": "0766bd99-ee89-443c-b0a4-16fb4507f7df",
     "name": "Mads Hermansen",
     "nation": "Denmark",
     "club": "West Ham United",
@@ -9504,7 +9504,7 @@
     "is_active": true
   },
   {
-    "id": "c901fac6-e0c0-4dbe-8490-c20a10cc16de",
+    "id": "569a84e7-4e27-42fd-8cdf-861ef5183618",
     "name": "Lucas Perri",
     "nation": "Brazil",
     "club": "Leeds United",
@@ -9680,7 +9680,7 @@
     "is_active": true
   },
   {
-    "id": "f614c1a3-7c56-4349-a832-1479b968f7e9",
+    "id": "9bf59e2a-9ceb-42d1-99e7-77e6ff2a63bc",
     "name": "Illan Meslier",
     "nation": "France",
     "club": "Leeds United",
@@ -10032,7 +10032,7 @@
     "is_active": true
   },
   {
-    "id": "e8ac6983-11d6-4d23-b7e7-68cbe746ef70",
+    "id": "57372680-f762-4ad7-81f8-1c4cfc1c8b3c",
     "name": "Alex Cairns",
     "nation": "England",
     "club": "Leeds United",
@@ -10560,7 +10560,7 @@
     "is_active": true
   },
   {
-    "id": "fcc25ab0-8557-4142-8f20-c60198a06168",
+    "id": "917e2850-07ef-4633-a7e0-253a12c4a1be",
     "name": "Jos\u00e9 S\u00e1",
     "nation": "Portugal",
     "club": "Wolverhampton Wanderers",
@@ -10736,7 +10736,7 @@
     "is_active": true
   },
   {
-    "id": "eaa19c16-2407-4ee2-8001-cc9ac51b02b5",
+    "id": "c40ff41b-d974-4cba-8450-9f47022cc590",
     "name": "Sam Johnstone",
     "nation": "England",
     "club": "Wolverhampton Wanderers",
@@ -10912,7 +10912,7 @@
     "is_active": true
   },
   {
-    "id": "fdb98138-077c-4990-84fd-8323e404b353",
+    "id": "28697aa6-c767-4829-aa30-97499df9379f",
     "name": "Daniel Bentley",
     "nation": "England",
     "club": "Wolverhampton Wanderers",
@@ -11088,7 +11088,7 @@
     "is_active": true
   },
   {
-    "id": "bb3aaa72-b415-4770-9f43-8d5ce775d2a2",
+    "id": "8c1598dc-c797-4490-8be8-92d99448702a",
     "name": "Max Wei\u00df",
     "nation": "Germany",
     "club": "Burnley FC",
@@ -11440,7 +11440,7 @@
     "is_active": true
   },
   {
-    "id": "0884191f-f27d-4736-b7ff-81191c3a8963",
+    "id": "f1509cb1-e13f-42b0-ac11-4d9bc3607b20",
     "name": "V\u00e1clav Hladk\u00fd",
     "nation": "Czech Republic",
     "club": "Burnley FC",
@@ -11792,7 +11792,7 @@
     "is_active": true
   },
   {
-    "id": "94b0ec2e-5533-4e10-9a33-f9352928dba4",
+    "id": "2cbf8e73-a609-44c9-8ca7-3923bc8741f4",
     "name": "Andriy Lunin",
     "nation": "Ukraine",
     "club": "Real Madrid",
@@ -11968,7 +11968,7 @@
     "is_active": true
   },
   {
-    "id": "d1e8c844-8180-4d5c-9032-5ddce5930d51",
+    "id": "7e8e4e27-dff1-4529-9cd0-8dc75f737b52",
     "name": "Fran Gonz\u00e1lez",
     "nation": "Spain",
     "club": "Real Madrid",
@@ -12144,7 +12144,7 @@
     "is_active": true
   },
   {
-    "id": "f2a94f3f-e1dc-4f98-bbc0-16b03a911994",
+    "id": "a47577b6-a2c7-459a-b0c0-825341ed3746",
     "name": "Joan Garc\u00eda",
     "nation": "Spain",
     "club": "FC Barcelona",
@@ -12320,7 +12320,7 @@
     "is_active": true
   },
   {
-    "id": "10d14b70-4966-4aef-8abd-1527130a26ab",
+    "id": "d7ca01bd-055e-4d44-bc6a-5196172a1c52",
     "name": "Diego Kochen",
     "nation": "United States",
     "club": "FC Barcelona",
@@ -12848,7 +12848,7 @@
     "is_active": true
   },
   {
-    "id": "4501946a-dcf1-400f-9260-fc2d0fcf7793",
+    "id": "2316a18c-b105-448f-b240-ec8018e6e06d",
     "name": "Juan Musso",
     "nation": "Argentina",
     "club": "Atl\u00e9tico de Madrid",
@@ -13024,7 +13024,7 @@
     "is_active": true
   },
   {
-    "id": "7881d8fc-027d-4a2a-8dfa-0ca59043dc0a",
+    "id": "a959a2cb-cb15-496c-9cd2-11b52a80deb5",
     "name": "Luiz J\u00fanior",
     "nation": "Brazil",
     "club": "Villarreal CF",
@@ -13200,7 +13200,7 @@
     "is_active": true
   },
   {
-    "id": "7a902057-ad9a-41a2-88a5-05d08b9855bd",
+    "id": "83539e7a-4e04-47b3-8c56-af1a5ad6c310",
     "name": "Arnau Tenas",
     "nation": "Spain",
     "club": "Villarreal CF",
@@ -13376,7 +13376,7 @@
     "is_active": true
   },
   {
-    "id": "bc9f6072-8c2a-4dff-b570-45f70b7ae11d",
+    "id": "90376911-0483-4ed8-a361-11cb941bb253",
     "name": "Diego Conde",
     "nation": "Spain",
     "club": "Villarreal CF",
@@ -13552,7 +13552,7 @@
     "is_active": true
   },
   {
-    "id": "d77631b8-795f-435e-9b40-92ac2c133d78",
+    "id": "c0dd4ffb-4cf8-4188-b0f3-db2f744d32fc",
     "name": "\u00c1lex Remiro",
     "nation": "Spain",
     "club": "Real Sociedad",
@@ -13728,7 +13728,7 @@
     "is_active": true
   },
   {
-    "id": "74309ecd-ac3b-4840-b5f6-88c14299a5c9",
+    "id": "3ca4f757-8e63-4ea9-a2ef-463612b36daa",
     "name": "Unai Marrero",
     "nation": "Spain",
     "club": "Real Sociedad",
@@ -13904,7 +13904,7 @@
     "is_active": true
   },
   {
-    "id": "36ad51f7-00ea-478f-ad91-6cb185b7e751",
+    "id": "1a19f54a-ca52-4a4a-89fe-07990520d17b",
     "name": "\u00c1lvaro Valles",
     "nation": "Spain",
     "club": "Real Betis Balompi\u00e9",
@@ -14608,7 +14608,7 @@
     "is_active": true
   },
   {
-    "id": "355fb295-efbf-490a-aa32-70c11c969cd2",
+    "id": "2663e6c4-b9ba-43d4-a101-5852bc6dc072",
     "name": "\u00c1lex Padilla",
     "nation": "Mexico",
     "club": "Athletic Bilbao",
@@ -14784,7 +14784,7 @@
     "is_active": true
   },
   {
-    "id": "bfba1e75-2f94-48e5-92b8-24c744e0d635",
+    "id": "c060ff72-169b-4aa8-86a5-3b841d7fbd5d",
     "name": "Ionu\u021b Radu",
     "nation": "Romania",
     "club": "Celta de Vigo",
@@ -14960,7 +14960,7 @@
     "is_active": true
   },
   {
-    "id": "196ce843-13c3-4636-bb4c-439b3315c6a8",
+    "id": "937b0bd8-ca80-474e-862d-3aa79e63e230",
     "name": "Iv\u00e1n Villar",
     "nation": "Spain",
     "club": "Celta de Vigo",
@@ -15136,7 +15136,7 @@
     "is_active": true
   },
   {
-    "id": "a669c948-4264-4cee-a38a-f419edf2a144",
+    "id": "89ee66a4-0d7c-4f56-9504-3f767bca8678",
     "name": "Marc Vidal",
     "nation": "Spain",
     "club": "Celta de Vigo",
@@ -15840,7 +15840,7 @@
     "is_active": true
   },
   {
-    "id": "fab66805-0272-4a7a-ab0d-a97c2cda24c0",
+    "id": "04b9a511-63ea-4844-83d7-165ae6f678b7",
     "name": "Paulo Gazzaniga",
     "nation": "Argentina",
     "club": "Girona FC",
@@ -16192,7 +16192,7 @@
     "is_active": true
   },
   {
-    "id": "fea20921-4e98-4d8f-b56c-703aef23eb85",
+    "id": "baec0cc6-f4a2-4f3e-8eae-b22ac1cb8c65",
     "name": "Vladyslav Krapyvtsov",
     "nation": "Ukraine",
     "club": "Girona FC",
@@ -16544,7 +16544,7 @@
     "is_active": true
   },
   {
-    "id": "43eebba4-b413-431a-b7b6-b6719fbf3077",
+    "id": "42a74149-8678-4008-8c88-bdfb2d0fc523",
     "name": "Julen Agirrezabala",
     "nation": "Spain",
     "club": "Valencia CF",
@@ -16896,7 +16896,7 @@
     "is_active": true
   },
   {
-    "id": "d7f5168b-7cc2-4656-9c89-c21aab628863",
+    "id": "370d1317-2339-45e6-875c-e48b52682136",
     "name": "Cristian Rivero",
     "nation": "Spain",
     "club": "Valencia CF",
@@ -17248,7 +17248,7 @@
     "is_active": true
   },
   {
-    "id": "8537ee43-4dfe-43a9-8910-b63fd92ae413",
+    "id": "84502a15-2425-45f1-8ca1-c1e212a2fa8d",
     "name": "\u00c1ngel Fortu\u00f1o",
     "nation": "Spain",
     "club": "RCD Espanyol Barcelona",
@@ -17424,7 +17424,7 @@
     "is_active": true
   },
   {
-    "id": "cc6e4fdd-95f9-40ab-af0e-520499b9cd49",
+    "id": "28993058-094b-40c9-9a70-c3cb3dc6223e",
     "name": "Pol Trist\u00e1n",
     "nation": "Spain",
     "club": "RCD Espanyol Barcelona",
@@ -17776,7 +17776,7 @@
     "is_active": true
   },
   {
-    "id": "7dec337a-f424-4eb1-880b-0119994375d0",
+    "id": "67f62f99-bfc1-4352-aa76-d9bf6b4e06a0",
     "name": "Pablo Campos",
     "nation": "Spain",
     "club": "Levante UD",
@@ -17952,7 +17952,7 @@
     "is_active": true
   },
   {
-    "id": "5ff4d139-8176-4602-82d8-f17654992633",
+    "id": "4a735903-9aa9-42fd-b160-1b7b81856df7",
     "name": "Augusto Batalla",
     "nation": "Argentina",
     "club": "Rayo Vallecano",
@@ -18128,7 +18128,7 @@
     "is_active": true
   },
   {
-    "id": "6dbab2e6-73f0-4e39-8d09-2ee731584c5f",
+    "id": "b81264e2-96c3-4f26-beb6-51543a7101c1",
     "name": "Dani C\u00e1rdenas",
     "nation": "Spain",
     "club": "Rayo Vallecano",
@@ -18304,7 +18304,7 @@
     "is_active": true
   },
   {
-    "id": "10f8e165-5ff2-45e0-bc34-335604be24a7",
+    "id": "5425adee-34bc-4e47-acee-d8c3723773fe",
     "name": "Sergio Herrera",
     "nation": "Spain",
     "club": "CA Osasuna",
@@ -18656,7 +18656,7 @@
     "is_active": true
   },
   {
-    "id": "9c3d570d-21e4-46d5-9278-32c3babf270d",
+    "id": "6bb86bdf-9a28-4148-9141-4b52e397aa64",
     "name": "I\u00f1aki Pe\u00f1a",
     "nation": "Spain",
     "club": "Elche CF",
@@ -18832,7 +18832,7 @@
     "is_active": true
   },
   {
-    "id": "3d2622bb-a1d5-4f1d-8299-6b0fb33c2ed0",
+    "id": "00504225-830e-4c75-9075-06563f5c622d",
     "name": "Alejandro Iturbe",
     "nation": "Spain",
     "club": "Elche CF",
@@ -19008,7 +19008,7 @@
     "is_active": true
   },
   {
-    "id": "6f7aa13a-52eb-4a8e-8db1-df3dcd74ae9a",
+    "id": "e9895af7-9f41-481f-b8d6-0a81439fa89b",
     "name": "Mat\u00edas Dituro",
     "nation": "Argentina",
     "club": "Elche CF",
@@ -19184,7 +19184,7 @@
     "is_active": true
   },
   {
-    "id": "eebc123b-6e7d-439d-b2ea-8d654b1869a0",
+    "id": "44e7e086-f367-4a7f-99b6-7a76868a3385",
     "name": "Leo Rom\u00e1n",
     "nation": "Spain",
     "club": "RCD Mallorca",
@@ -19360,7 +19360,7 @@
     "is_active": true
   },
   {
-    "id": "7bbaf503-a7a6-4843-bed2-573af3095f60",
+    "id": "2e7163f6-b94d-4502-b273-3025152e5018",
     "name": "Lucas Bergstr\u00f6m",
     "nation": "Finland",
     "club": "RCD Mallorca",
@@ -19888,7 +19888,7 @@
     "is_active": true
   },
   {
-    "id": "15418175-5020-417b-a2b8-db949deb6c76",
+    "id": "d7ca5fa4-81c9-40d3-8d23-43633127ca8e",
     "name": "Jiri Letacek",
     "nation": "Czech Republic",
     "club": "Getafe CF",
@@ -20064,7 +20064,7 @@
     "is_active": true
   },
   {
-    "id": "82fdc43e-822f-40c3-9cab-2019e451e99f",
+    "id": "d1c5859e-3bf2-48aa-b539-e5d43addabd2",
     "name": "Antonio Sivera",
     "nation": "Spain",
     "club": "Deportivo Alav\u00e9s",
@@ -20240,7 +20240,7 @@
     "is_active": true
   },
   {
-    "id": "07c2a091-4825-4349-805e-7511acb05f87",
+    "id": "d3b8d48a-3121-4731-9a95-0787ea98e49d",
     "name": "Ra\u00fal Fern\u00e1ndez",
     "nation": "Spain",
     "club": "Deportivo Alav\u00e9s",
@@ -20416,7 +20416,7 @@
     "is_active": true
   },
   {
-    "id": "251cc92e-b4b6-4e65-b3db-025ed1418e85",
+    "id": "9cb3cbb0-1d45-4a1d-b5e8-656904a041bf",
     "name": "Aar\u00f3n Escandell",
     "nation": "Spain",
     "club": "Real Oviedo",
@@ -20592,7 +20592,7 @@
     "is_active": true
   },
   {
-    "id": "c8be30de-1f9a-49b7-91a2-82f13a3ddc54",
+    "id": "1bf0d83b-b287-41ac-9033-ed79d3d19254",
     "name": "Hora\u021biu Moldovan",
     "nation": "Romania",
     "club": "Real Oviedo",
@@ -20768,7 +20768,7 @@
     "is_active": true
   },
   {
-    "id": "b4b8b3fd-0278-40cc-98b4-0102e8625742",
+    "id": "2dd847e6-9ef9-4304-902b-134f29bdacea",
     "name": "Jonas Urbig",
     "nation": "Germany",
     "club": "Bayern Munich",
@@ -21296,7 +21296,7 @@
     "is_active": true
   },
   {
-    "id": "9bacc97e-3f0c-4a28-b081-545541c2b0a4",
+    "id": "990548a3-cd2e-4b26-9435-18034195007f",
     "name": "Leon Klanac",
     "nation": "Germany",
     "club": "Bayern Munich",
@@ -21472,7 +21472,7 @@
     "is_active": true
   },
   {
-    "id": "42c75aff-765c-4073-a4f1-f7e3c1791afc",
+    "id": "89bffb98-aace-4bc1-8139-20406a839b4d",
     "name": "Maarten Vandevoordt",
     "nation": "Belgium",
     "club": "RB Leipzig",
@@ -21824,7 +21824,7 @@
     "is_active": true
   },
   {
-    "id": "05f556af-4090-48f5-8dc7-77a22d8a81ac",
+    "id": "99575b94-c7e0-46b8-be30-9578a6ddec5b",
     "name": "Leopold Zingerle",
     "nation": "Germany",
     "club": "RB Leipzig",
@@ -22000,7 +22000,7 @@
     "is_active": true
   },
   {
-    "id": "5536a1e8-9b2e-494d-99ea-d0a3542c2273",
+    "id": "2a9140e3-bae0-4798-9b40-833b6702a162",
     "name": "Gregor Kobel",
     "nation": "Switzerland",
     "club": "Borussia Dortmund",
@@ -22176,7 +22176,7 @@
     "is_active": true
   },
   {
-    "id": "2b2c18b3-abf0-4786-af5f-861059883869",
+    "id": "8443c47e-51f0-414e-9f5c-5095de870e61",
     "name": "Alexander Meyer",
     "nation": "Germany",
     "club": "Borussia Dortmund",
@@ -22352,7 +22352,7 @@
     "is_active": true
   },
   {
-    "id": "c5cde3d6-4a92-4332-b341-7c5b7a08c38d",
+    "id": "f65b5909-62b8-44b4-a8fc-55409d96a19c",
     "name": "Patrick Drewes",
     "nation": "Germany",
     "club": "Borussia Dortmund",
@@ -22528,7 +22528,7 @@
     "is_active": true
   },
   {
-    "id": "1b35655b-b44b-4d6e-a4e6-66661d59d5e9",
+    "id": "0ec548e2-1852-44ba-a810-89e421e156d7",
     "name": "Silas Ostrzinski",
     "nation": "Germany",
     "club": "Borussia Dortmund",
@@ -22704,7 +22704,7 @@
     "is_active": true
   },
   {
-    "id": "04978009-ff7f-41d5-9e16-1ccec01396c8",
+    "id": "e48ae421-008e-4763-99d9-f4f66f888bbb",
     "name": "Mark Flekken",
     "nation": "Netherlands",
     "club": "Bayer 04 Leverkusen",
@@ -23056,7 +23056,7 @@
     "is_active": true
   },
   {
-    "id": "4a10936b-eccd-4d94-a122-7abc6df22461",
+    "id": "106d104d-ef0b-43be-b65f-2349f8f57706",
     "name": "Janis Blaswich",
     "nation": "Germany",
     "club": "Bayer 04 Leverkusen",
@@ -23232,7 +23232,7 @@
     "is_active": true
   },
   {
-    "id": "ca679e24-a70e-4f12-9884-e949738a74b0",
+    "id": "b4571ca1-afe2-4167-ae42-e1e7c171fe15",
     "name": "Niklas Lomb",
     "nation": "Germany",
     "club": "Bayer 04 Leverkusen",
@@ -23584,7 +23584,7 @@
     "is_active": true
   },
   {
-    "id": "2b7d4f53-e7ff-4a12-81ae-403093f2d672",
+    "id": "02493070-a436-49cd-8386-1303aeca3801",
     "name": "Florian Hellstern",
     "nation": "Germany",
     "club": "VfB Stuttgart",
@@ -23760,7 +23760,7 @@
     "is_active": true
   },
   {
-    "id": "e07b8ef6-0e8b-4195-a5e3-5c47704dbdbe",
+    "id": "0535ec8b-71df-415a-899d-870a35b47853",
     "name": "Fabian Bredlow",
     "nation": "Germany",
     "club": "VfB Stuttgart",
@@ -23936,7 +23936,7 @@
     "is_active": true
   },
   {
-    "id": "c478c292-5f75-4c97-869e-7adf1662a3eb",
+    "id": "020fc7ba-7f63-4403-9b3b-2a658a94714d",
     "name": "Stefan Drljaca",
     "nation": "Germany",
     "club": "VfB Stuttgart",
@@ -24112,7 +24112,7 @@
     "is_active": true
   },
   {
-    "id": "47dca5c6-b8e0-4341-9618-4be51746a1f3",
+    "id": "8cc0a7c5-187f-4cab-a85f-ed788c81bf24",
     "name": "Kau\u00e3 Santos",
     "nation": "Brazil",
     "club": "Eintracht Frankfurt",
@@ -24464,7 +24464,7 @@
     "is_active": true
   },
   {
-    "id": "d5426e2f-0ce1-4fb9-ada6-6f8ea63fe944",
+    "id": "2eadb912-e26d-4b52-925e-3cd6db4227f5",
     "name": "Jens Grahl",
     "nation": "Germany",
     "club": "Eintracht Frankfurt",
@@ -24640,7 +24640,7 @@
     "is_active": true
   },
   {
-    "id": "a2d36bf2-74ff-4f87-ab4a-d21eac681a13",
+    "id": "b4a4cf52-97d1-49e5-b1ff-c584a8dc0f88",
     "name": "Amil Siljevic",
     "nation": "Bosnia-Herzegovina",
     "club": "Eintracht Frankfurt",
@@ -24992,7 +24992,7 @@
     "is_active": true
   },
   {
-    "id": "fe4d319b-54bf-492c-a18f-e317f9d14a59",
+    "id": "5dc8e20f-2a9d-4c72-9ffc-362451abf98b",
     "name": "Luca Philipp",
     "nation": "Germany",
     "club": "TSG 1899 Hoffenheim",
@@ -25168,7 +25168,7 @@
     "is_active": true
   },
   {
-    "id": "d34129a6-31b1-4afb-9450-46ae9df05d6a",
+    "id": "320b580b-cbbb-48e7-af68-9bd8c3811769",
     "name": "L\u00fakas Petersson",
     "nation": "Iceland",
     "club": "TSG 1899 Hoffenheim",
@@ -25344,7 +25344,7 @@
     "is_active": true
   },
   {
-    "id": "820b786e-f067-47ea-a08b-61fa4d338663",
+    "id": "1c55b64b-2034-4064-b4dc-b163516b1908",
     "name": "Noah Atubolu",
     "nation": "Germany",
     "club": "SC Freiburg",
@@ -25520,7 +25520,7 @@
     "is_active": true
   },
   {
-    "id": "9b89c591-bd70-4c2f-95d9-a4d64f1ca3b0",
+    "id": "94a67d40-a744-4fec-9a29-894e34e8cf10",
     "name": "Florian M\u00fcller",
     "nation": "Germany",
     "club": "SC Freiburg",
@@ -25696,7 +25696,7 @@
     "is_active": true
   },
   {
-    "id": "5df594e7-fbce-487c-b711-12968688bc09",
+    "id": "dd042fd9-7c0d-4d1a-873c-e78772509964",
     "name": "Jannik Huth",
     "nation": "Germany",
     "club": "SC Freiburg",
@@ -25872,7 +25872,7 @@
     "is_active": true
   },
   {
-    "id": "1be47cd8-e1ce-4845-88aa-e1ab84a4995c",
+    "id": "5be0124b-c329-4b33-83fe-2f025665a78e",
     "name": "Kamil Grabara",
     "nation": "Poland",
     "club": "VfL Wolfsburg",
@@ -26048,7 +26048,7 @@
     "is_active": true
   },
   {
-    "id": "bfd5ec3d-0842-423c-a56b-a2e44b81f4f2",
+    "id": "cb3055d6-a068-4d74-8b2f-f69aecfa562f",
     "name": "Marius M\u00fcller",
     "nation": "Germany",
     "club": "VfL Wolfsburg",
@@ -26224,7 +26224,7 @@
     "is_active": true
   },
   {
-    "id": "5011c53a-6103-4dab-8a60-dd84d12cd886",
+    "id": "7d615500-099a-40db-8570-854a807cd6c9",
     "name": "Jakub Zielinski",
     "nation": "Poland",
     "club": "VfL Wolfsburg",
@@ -26400,7 +26400,7 @@
     "is_active": true
   },
   {
-    "id": "8cccc6d2-2c2b-4267-80eb-d9358d712094",
+    "id": "8e5811b9-e1e7-41ac-8dd4-da5c05a42e5c",
     "name": "Pavao Pervan",
     "nation": "Austria",
     "club": "VfL Wolfsburg",
@@ -26576,7 +26576,7 @@
     "is_active": true
   },
   {
-    "id": "a9940034-0248-4957-ac34-fd8a7aec5e52",
+    "id": "9a806cd8-0e55-45c0-ad80-f41e1022f775",
     "name": "Sander Tangvik",
     "nation": "Norway",
     "club": "Hamburger SV",
@@ -26752,7 +26752,7 @@
     "is_active": true
   },
   {
-    "id": "4a6b578f-1e44-4ce5-8c65-bd3fabc50873",
+    "id": "e6d763eb-188f-4965-9cf9-d79ecaac2f6c",
     "name": "Daniel Heuer Fernandes",
     "nation": "Portugal",
     "club": "Hamburger SV",
@@ -26928,7 +26928,7 @@
     "is_active": true
   },
   {
-    "id": "43da3b43-24db-4a63-ba4b-1c68f5774d01",
+    "id": "f72354b9-646f-4d86-80b8-ad7fa667613f",
     "name": "Fernando Dickes",
     "nation": "Germany",
     "club": "Hamburger SV",
@@ -27104,7 +27104,7 @@
     "is_active": true
   },
   {
-    "id": "7bafcb15-7542-40dd-972b-0fd7d27b7360",
+    "id": "868c5d2f-b14f-442a-af92-5572f1accafd",
     "name": "Hannes Hermann",
     "nation": "Germany",
     "club": "Hamburger SV",
@@ -27280,7 +27280,7 @@
     "is_active": true
   },
   {
-    "id": "dfb07aa9-d16a-43cb-b68f-9bd5fb7a608e",
+    "id": "13758dd1-d749-4ca2-8ece-7583c0f750b8",
     "name": "Mio Backhaus",
     "nation": "Germany",
     "club": "SV Werder Bremen",
@@ -27456,7 +27456,7 @@
     "is_active": true
   },
   {
-    "id": "7c538e8f-e759-4531-b163-f9d2f0c88df6",
+    "id": "334bfa23-1414-4332-a590-b79364075e14",
     "name": "Karl Hein",
     "nation": "Estonia",
     "club": "SV Werder Bremen",
@@ -27632,7 +27632,7 @@
     "is_active": true
   },
   {
-    "id": "f9a19398-b5cc-4be7-869d-eb1666801071",
+    "id": "d6495bfa-1b5a-43e2-bd8f-7eba1613cc34",
     "name": "Markus Kolke",
     "nation": "Germany",
     "club": "SV Werder Bremen",
@@ -27808,7 +27808,7 @@
     "is_active": true
   },
   {
-    "id": "f781a505-735c-46be-a1b2-c95a8f3faa9b",
+    "id": "e7b4c3e9-83f0-4bd1-80be-a49bd833f2fc",
     "name": "Stefan Smarkalev",
     "nation": "Bulgaria",
     "club": "SV Werder Bremen",
@@ -27984,7 +27984,7 @@
     "is_active": true
   },
   {
-    "id": "12a67b98-3052-43d2-b187-6a423de270d4",
+    "id": "147dd06b-4164-4485-bb49-325943500c4d",
     "name": "Finn Dahmen",
     "nation": "Germany",
     "club": "FC Augsburg",
@@ -28160,7 +28160,7 @@
     "is_active": true
   },
   {
-    "id": "20bd14f7-a765-40ec-8201-21797f75152f",
+    "id": "9ae6c39d-0957-4493-914a-b1dc0d082e3a",
     "name": "Nediljko Labrovic",
     "nation": "Croatia",
     "club": "FC Augsburg",
@@ -28336,7 +28336,7 @@
     "is_active": true
   },
   {
-    "id": "349b6e07-6d62-4d33-b3d5-1daf240a35c3",
+    "id": "e1a8b9bd-0e32-40f8-8dd2-39ee539373a1",
     "name": "Daniel Klein",
     "nation": "Germany",
     "club": "FC Augsburg",
@@ -28512,7 +28512,7 @@
     "is_active": true
   },
   {
-    "id": "b455521a-3b24-4854-a8a3-5f9815ad5764",
+    "id": "c78ce2e7-9dd8-4f24-92c6-2072d00d5bb1",
     "name": "Robin Zentner",
     "nation": "Germany",
     "club": "1.FSV Mainz 05",
@@ -28688,7 +28688,7 @@
     "is_active": true
   },
   {
-    "id": "d4265ff8-2b6f-4adf-8a23-8abfab96176e",
+    "id": "461d244c-9840-4b4e-b031-c9009991e4ab",
     "name": "Lasse Rie\u00df",
     "nation": "Germany",
     "club": "1.FSV Mainz 05",
@@ -28864,7 +28864,7 @@
     "is_active": true
   },
   {
-    "id": "7b0bd0e6-1bd7-418c-96e9-30861f641529",
+    "id": "37ef98ed-7b6b-4a22-a107-6099388d5083",
     "name": "Daniel Batz",
     "nation": "Germany",
     "club": "1.FSV Mainz 05",
@@ -29040,7 +29040,7 @@
     "is_active": true
   },
   {
-    "id": "006410c3-e87c-49e3-95ce-49128eb3f6b8",
+    "id": "02c14720-3b69-4ae3-83a9-0397893ae5a5",
     "name": "Marvin Schw\u00e4be",
     "nation": "Germany",
     "club": "1.FC K\u00f6ln",
@@ -29392,7 +29392,7 @@
     "is_active": true
   },
   {
-    "id": "9f151391-4355-4a98-8b30-7effa928df43",
+    "id": "726cd2e3-c61f-4ebb-a9ec-fe32264e5161",
     "name": "Matthias K\u00f6bbing",
     "nation": "Germany",
     "club": "1.FC K\u00f6ln",
@@ -29568,7 +29568,7 @@
     "is_active": true
   },
   {
-    "id": "1d1ae09a-67a0-4265-a0fa-548f06364c8a",
+    "id": "69265a09-33f3-4656-93ed-5bdf2fd187e1",
     "name": "Moritz Nicolas",
     "nation": "Germany",
     "club": "Borussia M\u00f6nchengladbach",
@@ -29744,7 +29744,7 @@
     "is_active": true
   },
   {
-    "id": "bc1ab439-586e-4136-9465-0329d459a828",
+    "id": "172c7325-c0c5-4144-866b-2a2b39564810",
     "name": "Tiago Pereira Cardoso",
     "nation": "Luxembourg",
     "club": "Borussia M\u00f6nchengladbach",
@@ -29920,7 +29920,7 @@
     "is_active": true
   },
   {
-    "id": "90655a46-c3c1-40ba-a1a4-4a5be4fb2e4c",
+    "id": "a01ebbe1-bf47-44f7-a35b-2e36b2a15f7c",
     "name": "Jan Olschowsky",
     "nation": "Germany",
     "club": "Borussia M\u00f6nchengladbach",
@@ -30096,7 +30096,7 @@
     "is_active": true
   },
   {
-    "id": "fec10af1-7a0f-463d-aa7c-d3bd6390b760",
+    "id": "329c42be-aeae-4dde-b0c2-6194849a1371",
     "name": "Tobias Sippel",
     "nation": "Germany",
     "club": "Borussia M\u00f6nchengladbach",
@@ -30448,7 +30448,7 @@
     "is_active": true
   },
   {
-    "id": "8269e4b4-6554-4204-853b-f25d31216348",
+    "id": "aa821e4e-ac7b-4aae-beaf-221cafda6008",
     "name": "Matheo Raab",
     "nation": "Germany",
     "club": "1.FC Union Berlin",
@@ -30624,7 +30624,7 @@
     "is_active": true
   },
   {
-    "id": "cc33a078-eb34-407b-9b1e-32f8d56d5196",
+    "id": "84c0db7c-2730-49df-88c6-a9c2f6e86e86",
     "name": "Carl Klaus",
     "nation": "Germany",
     "club": "1.FC Union Berlin",
@@ -30800,7 +30800,7 @@
     "is_active": true
   },
   {
-    "id": "3a16b61e-fd8f-4e14-a88e-25c3ee7269a5",
+    "id": "fa12b6a6-26b9-4445-8882-18c72a7103ee",
     "name": "Diant Ramaj",
     "nation": "Germany",
     "club": "1.FC Heidenheim 1846",
@@ -30976,7 +30976,7 @@
     "is_active": true
   },
   {
-    "id": "0c71c9e6-8217-4849-adbb-ea7d96f29960",
+    "id": "7037539d-2ab5-404c-8949-739d0a98a4c8",
     "name": "Frank Feller",
     "nation": "Germany",
     "club": "1.FC Heidenheim 1846",
@@ -31152,7 +31152,7 @@
     "is_active": true
   },
   {
-    "id": "8e86a3e8-fc09-46b6-a188-17489f2bf619",
+    "id": "068731be-4253-45aa-8469-9b8e12cc1eff",
     "name": "Paul Tschernuth",
     "nation": "Austria",
     "club": "1.FC Heidenheim 1846",
@@ -31328,7 +31328,7 @@
     "is_active": true
   },
   {
-    "id": "0ea381fb-c96e-41f3-aa04-9c9df1f7625c",
+    "id": "01a84505-68f2-4231-befb-624b9883c02a",
     "name": "Nikola Vasilj",
     "nation": "Bosnia-Herzegovina",
     "club": "FC St. Pauli",
@@ -31504,7 +31504,7 @@
     "is_active": true
   },
   {
-    "id": "4b94e6f0-c718-42ff-a8a7-b8fbb4363d54",
+    "id": "c8ef8064-9f90-4a99-bcc7-f89ecb2675d5",
     "name": "Ben Voll",
     "nation": "Germany",
     "club": "FC St. Pauli",
@@ -31680,7 +31680,7 @@
     "is_active": true
   },
   {
-    "id": "553e3aa4-782e-4c0d-a3ae-9548f42e3cc5",
+    "id": "e2de0d9b-0e0a-4523-86ed-be4a959227d7",
     "name": "Simon Spari",
     "nation": "Austria",
     "club": "FC St. Pauli",
@@ -31856,7 +31856,7 @@
     "is_active": true
   },
   {
-    "id": "aa61f605-210a-4a44-bde1-38a30fac7e87",
+    "id": "75c68f87-b35f-40f2-a299-2fddec7f6422",
     "name": "Emil Gazdov",
     "nation": "Canada",
     "club": "FC St. Pauli",
@@ -32032,7 +32032,7 @@
     "is_active": true
   },
   {
-    "id": "73bbffe0-cb6d-4d4b-97f7-7f7c7ffb567e",
+    "id": "3312feaf-73e9-409d-bcbf-61c143e27695",
     "name": "Josep Mart\u00ednez",
     "nation": "Spain",
     "club": "Inter Milan",
@@ -32384,7 +32384,7 @@
     "is_active": true
   },
   {
-    "id": "216ebf2b-234f-4c9b-92c8-cb918d7cc567",
+    "id": "9a0132ff-2e00-45e1-b825-19b9634a24d1",
     "name": "Raffaele Di Gennaro",
     "nation": "Italy",
     "club": "Inter Milan",
@@ -32560,7 +32560,7 @@
     "is_active": true
   },
   {
-    "id": "f73e50f4-3776-4ca9-9e29-db179572323d",
+    "id": "0c871a8c-d6e3-4d31-b873-05126cb192ae",
     "name": "Michele Di Gregorio",
     "nation": "Italy",
     "club": "Juventus FC",
@@ -32912,7 +32912,7 @@
     "is_active": true
   },
   {
-    "id": "a197ec9f-30e3-45cd-b297-b0f66cbea4f4",
+    "id": "8cc99271-fb37-4c7e-bd1e-6fecab81e30b",
     "name": "Carlo Pinsoglio",
     "nation": "Italy",
     "club": "Juventus FC",
@@ -33088,7 +33088,7 @@
     "is_active": true
   },
   {
-    "id": "919b6236-f4f5-4b4a-9246-673861643c99",
+    "id": "bc65f262-6bb9-4507-9a30-641fb881c91e",
     "name": "Mile Svilar",
     "nation": "Serbia",
     "club": "AS Roma",
@@ -33440,7 +33440,7 @@
     "is_active": true
   },
   {
-    "id": "5daa6604-e562-4e33-a5a2-54cc4227257f",
+    "id": "f9933b52-c7da-468a-9443-8fc7ef5d8a9c",
     "name": "Radoslaw Zelezny",
     "nation": "Poland",
     "club": "AS Roma",
@@ -33792,7 +33792,7 @@
     "is_active": true
   },
   {
-    "id": "f2804b5e-9e42-4b10-9901-404c5da6748e",
+    "id": "7b0f911f-5a39-41ab-ae3c-a2e33a261c57",
     "name": "Pietro Terracciano",
     "nation": "Italy",
     "club": "AC Milan",
@@ -33968,7 +33968,7 @@
     "is_active": true
   },
   {
-    "id": "d13bf974-b04f-4e99-893d-54153eda6864",
+    "id": "0bf3515e-eefc-4297-b80b-cedb52c29a13",
     "name": "Lorenzo Torriani",
     "nation": "Italy",
     "club": "AC Milan",
@@ -34144,7 +34144,7 @@
     "is_active": true
   },
   {
-    "id": "9e148b5a-d211-4030-afeb-03193db4c939",
+    "id": "bf06ee8d-4148-496f-835d-7c6079e61127",
     "name": "Marco Carnesecchi",
     "nation": "Italy",
     "club": "Atalanta BC",
@@ -34496,7 +34496,7 @@
     "is_active": true
   },
   {
-    "id": "9d8e2717-bda6-4c49-a712-ba751edacdae",
+    "id": "e93256e7-2acb-42a7-aba8-063336dbe20e",
     "name": "Francesco Rossi",
     "nation": "Italy",
     "club": "Atalanta BC",
@@ -34672,7 +34672,7 @@
     "is_active": true
   },
   {
-    "id": "2fbbaddc-a917-4c84-9453-d721cb96ead7",
+    "id": "f314e018-ae94-4fc1-8d90-043554411345",
     "name": "Vanja Milinkovi\u0107-Savi\u0107",
     "nation": "Serbia",
     "club": "SSC Napoli",
@@ -34848,7 +34848,7 @@
     "is_active": true
   },
   {
-    "id": "fea9b96e-5d38-49a2-8b26-da45580030c7",
+    "id": "da293ac4-267a-4511-b300-6c3d2a0b66d8",
     "name": "Alex Meret",
     "nation": "Italy",
     "club": "SSC Napoli",
@@ -35024,7 +35024,7 @@
     "is_active": true
   },
   {
-    "id": "3d27710f-45e0-4c5b-95a0-d5e76a810c14",
+    "id": "6c698681-e4a2-4889-8e84-553e785d7839",
     "name": "Nikita Contini",
     "nation": "Italy",
     "club": "SSC Napoli",
@@ -35200,7 +35200,7 @@
     "is_active": true
   },
   {
-    "id": "8b0fc430-4ba3-4dd9-824f-7b19558edc5a",
+    "id": "0e632658-d7cb-4695-a138-894392731e8f",
     "name": "Mathias Ferrante",
     "nation": "Italy",
     "club": "SSC Napoli",
@@ -35376,7 +35376,7 @@
     "is_active": true
   },
   {
-    "id": "ff90ad38-ab61-47e6-863e-5e8c7a51a8e0",
+    "id": "311d45fe-03c3-4c4b-9f0f-b5943ed463dc",
     "name": "Jean Butez",
     "nation": "France",
     "club": "Como 1907",
@@ -35552,7 +35552,7 @@
     "is_active": true
   },
   {
-    "id": "345e12b9-c547-44a7-bc67-2bc3c677cbe5",
+    "id": "d02f2269-236c-412d-a082-002fc7cbe457",
     "name": "Noel T\u00f6rnqvist",
     "nation": "Sweden",
     "club": "Como 1907",
@@ -35728,7 +35728,7 @@
     "is_active": true
   },
   {
-    "id": "d704c373-ef3f-4bbd-921b-f80a370d9270",
+    "id": "6d88515c-d338-4eba-8702-784293f9ba3f",
     "name": "Henrique Menke",
     "nation": "Brazil",
     "club": "Como 1907",
@@ -35904,7 +35904,7 @@
     "is_active": true
   },
   {
-    "id": "c3b07eb3-1496-4bba-bc51-16a7b9a2937b",
+    "id": "dd3b43b5-b9d9-4bc0-9cdd-92b71dbc7d2f",
     "name": "Nikola Cavlina",
     "nation": "Croatia",
     "club": "Como 1907",
@@ -36080,7 +36080,7 @@
     "is_active": true
   },
   {
-    "id": "073368a1-3bfc-4f4d-9e9a-61b05d2edd64",
+    "id": "ae1aaf0c-6cab-4297-b7c9-75366567a6b0",
     "name": "Mauro Vigorito",
     "nation": "Italy",
     "club": "Como 1907",
@@ -36256,7 +36256,7 @@
     "is_active": true
   },
   {
-    "id": "6aed44b7-7b49-4b6d-a05b-d98e55cf8791",
+    "id": "62aa0485-1ffb-4e21-8986-93daa946ba9b",
     "name": "Massimo Pessina",
     "nation": "Italy",
     "club": "Bologna FC 1909",
@@ -36608,7 +36608,7 @@
     "is_active": true
   },
   {
-    "id": "34a78806-1453-44ca-994f-058ba97cf378",
+    "id": "92589179-6a91-4b8b-8f2b-1d7463039f2b",
     "name": "Federico Ravaglia",
     "nation": "Italy",
     "club": "Bologna FC 1909",
@@ -36960,7 +36960,7 @@
     "is_active": true
   },
   {
-    "id": "66f1a7b6-cda8-44cb-92f0-4c1e0ec2ccc5",
+    "id": "77d67d0e-3e57-4472-aa99-806b375aa8a1",
     "name": "Oliver Christensen",
     "nation": "Denmark",
     "club": "ACF Fiorentina",
@@ -37312,7 +37312,7 @@
     "is_active": true
   },
   {
-    "id": "0681bc96-fe31-4e4a-9664-75734836e391",
+    "id": "5465755f-702a-4840-ac21-3dde5f66afe9",
     "name": "Edoardo Motta",
     "nation": "Italy",
     "club": "SS Lazio",
@@ -37488,7 +37488,7 @@
     "is_active": true
   },
   {
-    "id": "30f74667-c2d4-40cc-ad8d-edb20f6ee1e1",
+    "id": "93090526-5113-4d3e-bd80-2e4080da2b79",
     "name": "Ivan Provedel",
     "nation": "Italy",
     "club": "SS Lazio",
@@ -37664,7 +37664,7 @@
     "is_active": true
   },
   {
-    "id": "1d7ae100-692f-40f2-a45a-620621831419",
+    "id": "6188d088-bf6f-4984-b615-2fdca9071e7c",
     "name": "Alessio Furlanetto",
     "nation": "Italy",
     "club": "SS Lazio",
@@ -37840,7 +37840,7 @@
     "is_active": true
   },
   {
-    "id": "688884c7-193d-4b60-bd68-a9804c3f59d5",
+    "id": "18517dba-f763-4d8c-be4a-b3a26eeb2742",
     "name": "Arijanet Muri\u0107",
     "nation": "Kosovo",
     "club": "US Sassuolo",
@@ -38016,7 +38016,7 @@
     "is_active": true
   },
   {
-    "id": "1b17a205-2ef3-498f-9f42-493568f52c29",
+    "id": "728c6ccc-602a-4bbc-8e3a-b4b8b5962b5b",
     "name": "Stefano Turati",
     "nation": "Italy",
     "club": "US Sassuolo",
@@ -38192,7 +38192,7 @@
     "is_active": true
   },
   {
-    "id": "bf2d7a4d-9ab4-4006-a021-b99b139bb3b2",
+    "id": "3d57e6b4-c3f0-44a7-b810-7f8fad91894f",
     "name": "Gioele Zacchi",
     "nation": "Italy",
     "club": "US Sassuolo",
@@ -38368,7 +38368,7 @@
     "is_active": true
   },
   {
-    "id": "6bb73dbe-5ad0-44ab-a314-46b9fab3891c",
+    "id": "ac8fe387-72c5-4ff9-997c-9f27cc52723c",
     "name": "Giacomo Satalino",
     "nation": "Italy",
     "club": "US Sassuolo",
@@ -38544,7 +38544,7 @@
     "is_active": true
   },
   {
-    "id": "fde6855e-7ac1-41a0-9f76-d5512b119099",
+    "id": "90dad10e-7894-40b0-9d06-4eee6013e0dd",
     "name": "Zion Suzuki",
     "nation": "Japan",
     "club": "Parma Calcio 1913",
@@ -38720,7 +38720,7 @@
     "is_active": true
   },
   {
-    "id": "906082d7-b83f-40dc-bdde-8fdbd625741c",
+    "id": "baf60a7a-11ff-4eb1-b0ec-815a17f22c16",
     "name": "Edoardo Corvi",
     "nation": "Italy",
     "club": "Parma Calcio 1913",
@@ -38896,7 +38896,7 @@
     "is_active": true
   },
   {
-    "id": "c2fa1684-3b77-4d62-ae92-ddad367e8540",
+    "id": "544b372d-c76a-402c-8805-e7271e1b2c95",
     "name": "Filippo Rinaldi",
     "nation": "Italy",
     "club": "Parma Calcio 1913",
@@ -39072,7 +39072,7 @@
     "is_active": true
   },
   {
-    "id": "2db461f5-51f9-4a0d-9c70-70243ce3e561",
+    "id": "afb07d31-18b9-4b8f-975a-40c6fed1f117",
     "name": "Maduka Okoye",
     "nation": "Nigeria",
     "club": "Udinese Calcio",
@@ -39248,7 +39248,7 @@
     "is_active": true
   },
   {
-    "id": "91972a5b-a932-4505-b7c2-a2890a37f1c4",
+    "id": "078cb078-406f-4166-a992-2e5519cdbfac",
     "name": "R\u0103zvan Sava",
     "nation": "Romania",
     "club": "Udinese Calcio",
@@ -39424,7 +39424,7 @@
     "is_active": true
   },
   {
-    "id": "45585b88-ebc9-4a60-a431-8181d4483d04",
+    "id": "876f8241-333f-4878-a695-e01c6bb59494",
     "name": "Alessandro Nunziante",
     "nation": "Italy",
     "club": "Udinese Calcio",
@@ -39776,7 +39776,7 @@
     "is_active": true
   },
   {
-    "id": "9fba8961-4679-4a71-8cf7-1fc0f1de6eef",
+    "id": "c07476ee-ab03-4e3c-b443-a061c05e1fae",
     "name": "Elia Caprile",
     "nation": "Italy",
     "club": "Cagliari Calcio",
@@ -39952,7 +39952,7 @@
     "is_active": true
   },
   {
-    "id": "bdec2456-5679-4d8a-82d2-496255a1b00b",
+    "id": "861a2cd7-36d6-4a7b-9eee-558723525caa",
     "name": "Alen Sherri",
     "nation": "Albania",
     "club": "Cagliari Calcio",
@@ -40128,7 +40128,7 @@
     "is_active": true
   },
   {
-    "id": "cde870d7-ec7a-4a84-af65-40010050e8ba",
+    "id": "8d22ee38-9ebd-4702-bc7c-b3eb63041ee3",
     "name": "Giuseppe Ciocci",
     "nation": "Italy",
     "club": "Cagliari Calcio",
@@ -40304,7 +40304,7 @@
     "is_active": true
   },
   {
-    "id": "9f29d3b2-b047-4d9f-b5f6-0c002efeb4a0",
+    "id": "ada6f7cd-c82c-479a-97fd-d9cc15d47201",
     "name": "Justin Bijlow",
     "nation": "Netherlands",
     "club": "Genoa CFC",
@@ -40656,7 +40656,7 @@
     "is_active": true
   },
   {
-    "id": "af705bd4-1172-4478-a7ec-8f571f7f85bc",
+    "id": "41dad971-f2e9-4386-9f6c-9a985d3551a0",
     "name": "Ernestas Lysionok",
     "nation": "Lithuania",
     "club": "Genoa CFC",
@@ -40832,7 +40832,7 @@
     "is_active": true
   },
   {
-    "id": "09b7195b-2b6e-45d7-97bd-65659262dce8",
+    "id": "fd5ac02e-ae31-414b-ade0-63daef9eb46a",
     "name": "Benjamin Siegrist",
     "nation": "Switzerland",
     "club": "Genoa CFC",
@@ -41008,7 +41008,7 @@
     "is_active": true
   },
   {
-    "id": "a5ac85ec-a7f3-4c4f-b280-b842ec697fae",
+    "id": "f96d4ff4-6e12-4ec8-a5d3-aa43bf34734b",
     "name": "Daniele Sommariva",
     "nation": "Italy",
     "club": "Genoa CFC",
@@ -41184,7 +41184,7 @@
     "is_active": true
   },
   {
-    "id": "2c489f83-17b4-4f88-8143-e2781ba94f55",
+    "id": "9424ec6f-78f5-4fcd-9fb0-c8e7b8493eeb",
     "name": "Franco Israel",
     "nation": "Uruguay",
     "club": "Torino FC",
@@ -41360,7 +41360,7 @@
     "is_active": true
   },
   {
-    "id": "8ee795b1-4a81-4c99-96cc-eb145f318ad2",
+    "id": "1bd6b32d-91bb-4b6a-8d2f-4a2b12756205",
     "name": "Alberto Paleari",
     "nation": "Italy",
     "club": "Torino FC",
@@ -41536,7 +41536,7 @@
     "is_active": true
   },
   {
-    "id": "98b9435d-ac8c-4529-b097-520f618cd3c8",
+    "id": "c215d809-dfe2-493d-bca6-e389ea233f93",
     "name": "Lapo Siviero",
     "nation": "Italy",
     "club": "Torino FC",
@@ -41712,7 +41712,7 @@
     "is_active": true
   },
   {
-    "id": "e72dfa40-fcf2-482c-972c-974a68fed3b8",
+    "id": "e5f1de85-0dc9-4508-b979-3819c3572862",
     "name": "Adrian Semper",
     "nation": "Croatia",
     "club": "Pisa Sporting Club",
@@ -41888,7 +41888,7 @@
     "is_active": true
   },
   {
-    "id": "a24947fc-0068-4f7d-83a7-7bd21968b4af",
+    "id": "22fc8294-c8cf-428b-bc78-2591355d8ccd",
     "name": "Simone Scuffet",
     "nation": "Italy",
     "club": "Pisa Sporting Club",
@@ -42064,7 +42064,7 @@
     "is_active": true
   },
   {
-    "id": "99bdf592-a83c-4e2c-bd22-77721c5a5db7",
+    "id": "b127707a-ebeb-4030-9b3f-2c32a5dee0c9",
     "name": "N\u00edcolas",
     "nation": "Brazil",
     "club": "Pisa Sporting Club",
@@ -42240,7 +42240,7 @@
     "is_active": true
   },
   {
-    "id": "13ff2c35-3b70-4aac-9f5f-f9ffee630cc3",
+    "id": "52532d21-7b0b-4aee-8d2c-8f585236e1c7",
     "name": "Wladimiro Falcone",
     "nation": "Italy",
     "club": "US Lecce",
@@ -42416,7 +42416,7 @@
     "is_active": true
   },
   {
-    "id": "5a2d3517-b6a7-44bb-9d60-2fbe8f2926b5",
+    "id": "960e24ac-5fd1-4429-9c88-021953fcad7d",
     "name": "Christian Fr\u00fcchtl",
     "nation": "Germany",
     "club": "US Lecce",
@@ -42592,7 +42592,7 @@
     "is_active": true
   },
   {
-    "id": "a2eb9649-91a6-469b-8664-2f2c9d847c19",
+    "id": "f52322bb-06d2-4f23-a1ed-1c0642b35f99",
     "name": "Jasper Samooja",
     "nation": "Finland",
     "club": "US Lecce",
@@ -42768,7 +42768,7 @@
     "is_active": true
   },
   {
-    "id": "3f070ff3-dd70-43a1-b402-832d4a2f5508",
+    "id": "8624b5d6-72ec-4e2f-b2c2-38a96f7d0dd7",
     "name": "Lorenzo Montip\u00f2",
     "nation": "Italy",
     "club": "Hellas Verona",
@@ -42944,7 +42944,7 @@
     "is_active": true
   },
   {
-    "id": "d769b342-4b41-400d-9220-5161d44d600f",
+    "id": "def6216b-5af9-4120-8e40-f1f471123fb6",
     "name": "Simone Perilli",
     "nation": "Italy",
     "club": "Hellas Verona",
@@ -43120,7 +43120,7 @@
     "is_active": true
   },
   {
-    "id": "97e98a64-a1c2-474b-8dc9-65a691808055",
+    "id": "dc17ace4-a2f4-459b-b045-3907a4f631a0",
     "name": "Giacomo Toniolo",
     "nation": "Italy",
     "club": "Hellas Verona",
@@ -43296,7 +43296,7 @@
     "is_active": true
   },
   {
-    "id": "5fd67447-d05b-47fe-a0de-f8c2a491c614",
+    "id": "4e67586f-15f1-4375-b28d-2ba9c59a6e76",
     "name": "Arthur Borghi",
     "nation": "Brazil",
     "club": "Hellas Verona",
@@ -43472,7 +43472,7 @@
     "is_active": true
   },
   {
-    "id": "62e71d28-892c-4b47-a3e9-8c68fe161994",
+    "id": "04274653-87f0-4fec-9156-c57afe006182",
     "name": "Emil Audero",
     "nation": "Indonesia",
     "club": "US Cremonese",
@@ -43648,7 +43648,7 @@
     "is_active": true
   },
   {
-    "id": "bfc6ebac-f0c2-4425-a76d-288b1b7a00ef",
+    "id": "f5878dd6-db14-4237-bcca-ce0079ab1761",
     "name": "Marco Silvestri",
     "nation": "Italy",
     "club": "US Cremonese",
@@ -43824,7 +43824,7 @@
     "is_active": true
   },
   {
-    "id": "b995553e-6a28-4e9b-abb8-3e860dfc60f6",
+    "id": "7bc4dcb1-a9f7-4335-b1da-a1f232c3aefc",
     "name": "Lapo Nava",
     "nation": "Italy",
     "club": "US Cremonese",
@@ -44000,7 +44000,7 @@
     "is_active": true
   },
   {
-    "id": "6994ad19-f18d-4788-871e-9e0e6241c3d1",
+    "id": "2bda22f6-de91-464a-8cfd-802f26073b75",
     "name": "Matvey Safonov",
     "nation": "Russia",
     "club": "Paris Saint-Germain",
@@ -44176,7 +44176,7 @@
     "is_active": true
   },
   {
-    "id": "71234e8e-e70a-4427-9dcb-62a54b93a901",
+    "id": "372ce329-62a9-4850-8252-29023636e714",
     "name": "Lucas Chevalier",
     "nation": "France",
     "club": "Paris Saint-Germain",
@@ -44352,7 +44352,7 @@
     "is_active": true
   },
   {
-    "id": "e1d72194-1049-4bdd-bb4e-9f9756f498ab",
+    "id": "e65b021e-a8be-4eba-b8fd-eeb758b6d42c",
     "name": "Renato Marin",
     "nation": "Italy",
     "club": "Paris Saint-Germain",
@@ -44528,7 +44528,7 @@
     "is_active": true
   },
   {
-    "id": "0158ae0f-9ae5-4e93-9c18-d0f2474af7f2",
+    "id": "a0ebee1b-866b-46ce-8f38-01f31e9e664e",
     "name": "Philipp K\u00f6hn",
     "nation": "Switzerland",
     "club": "AS Monaco",
@@ -44704,7 +44704,7 @@
     "is_active": true
   },
   {
-    "id": "d9d5e9af-84e2-4520-8a57-1f266b5daf50",
+    "id": "4dc1ed21-4653-43fc-9770-bc03e18ba990",
     "name": "Lukas Hradecky",
     "nation": "Finland",
     "club": "AS Monaco",
@@ -44880,7 +44880,7 @@
     "is_active": true
   },
   {
-    "id": "81712ffe-0ac0-4fb8-947a-6df3b8f0f01c",
+    "id": "a2a1d974-a869-4d62-b8eb-cc405e9702bc",
     "name": "Jules Stawiecki",
     "nation": "France",
     "club": "AS Monaco",
@@ -45056,7 +45056,7 @@
     "is_active": true
   },
   {
-    "id": "3000d43e-4491-454a-8896-950555a3aa91",
+    "id": "e64aa1e2-9ff8-4fb6-964c-bddd303f2650",
     "name": "Yann Lienard",
     "nation": "France",
     "club": "AS Monaco",
@@ -45232,7 +45232,7 @@
     "is_active": true
   },
   {
-    "id": "28a38fcd-3209-4ab7-a307-b6b53953d613",
+    "id": "b9241d74-1788-4e8a-88fe-f9c7b6ac291e",
     "name": "Mike Penders",
     "nation": "Belgium",
     "club": "RC Strasbourg Alsace",
@@ -45408,7 +45408,7 @@
     "is_active": true
   },
   {
-    "id": "96c9dead-4d8e-4738-8413-b80b321230ff",
+    "id": "76b1215b-8125-4725-95f0-e7b581f2c48e",
     "name": "Stefan Bajic",
     "nation": "France",
     "club": "RC Strasbourg Alsace",
@@ -45584,7 +45584,7 @@
     "is_active": true
   },
   {
-    "id": "72f1bb2e-3666-4bd1-abaf-8d40c0e9f855",
+    "id": "ffcd1638-94a2-400c-be22-531fc0b13ea7",
     "name": "Karl-Johan Johnsson",
     "nation": "Sweden",
     "club": "RC Strasbourg Alsace",
@@ -45936,7 +45936,7 @@
     "is_active": true
   },
   {
-    "id": "705153bf-76b4-4ebb-8e9d-7103d2d7fbfe",
+    "id": "362566bb-362b-4e1e-883a-a8078b61e891",
     "name": "Jeffrey de Lange",
     "nation": "Netherlands",
     "club": "Olympique Marseille",
@@ -46112,7 +46112,7 @@
     "is_active": true
   },
   {
-    "id": "565f2492-7ae2-47f5-a5e3-bbbd7876dcf6",
+    "id": "38920d34-6792-405e-85af-4102be23c062",
     "name": "Jelle Van Neck",
     "nation": "Belgium",
     "club": "Olympique Marseille",
@@ -46288,7 +46288,7 @@
     "is_active": true
   },
   {
-    "id": "ebeede63-8aa5-4057-9a50-403cc9eaeb03",
+    "id": "03883bf0-a158-4bae-b27c-0ab73ce376e6",
     "name": "Dominik Greif",
     "nation": "Slovakia",
     "club": "Olympique Lyon",
@@ -46464,7 +46464,7 @@
     "is_active": true
   },
   {
-    "id": "26715e92-ecb6-4b7e-b143-6a079f84d606",
+    "id": "a8af80d2-1963-40d0-bb31-ece9ef8ca8fa",
     "name": "R\u00e9my Descamps",
     "nation": "France",
     "club": "Olympique Lyon",
@@ -46640,7 +46640,7 @@
     "is_active": true
   },
   {
-    "id": "bf2f29b9-e6d6-47d6-ae6e-82bf2fd08ff4",
+    "id": "4a116592-ddea-481c-b884-24c6394133f5",
     "name": "Lassine Diarra",
     "nation": "Mali",
     "club": "Olympique Lyon",
@@ -46816,7 +46816,7 @@
     "is_active": true
   },
   {
-    "id": "e2f2dc89-4334-4800-a92f-7a297811339d",
+    "id": "84793c02-0207-41ab-919d-b1fe1c351aac",
     "name": "Berke \u00d6zer",
     "nation": "T\u00fcrkiye",
     "club": "LOSC Lille",
@@ -46992,7 +46992,7 @@
     "is_active": true
   },
   {
-    "id": "92890ce8-8d17-44c7-8204-14b28f71f6bd",
+    "id": "2bc7135e-793e-47d5-8286-2a740c6d93da",
     "name": "Arnaud Bodart",
     "nation": "Belgium",
     "club": "LOSC Lille",
@@ -47168,7 +47168,7 @@
     "is_active": true
   },
   {
-    "id": "d8da2a1f-7172-409d-82e3-5d20eed21adb",
+    "id": "6c8da303-d292-42c1-ab26-7e8a6941ac0d",
     "name": "Marc-Aur\u00e8le Caillard",
     "nation": "France",
     "club": "LOSC Lille",
@@ -47344,7 +47344,7 @@
     "is_active": true
   },
   {
-    "id": "53f91fce-3945-4423-860c-5ee0ca28867c",
+    "id": "039f3ff8-85bf-4890-a831-cba4ea77f0f7",
     "name": "Brice Samba",
     "nation": "France",
     "club": "Stade Rennais FC",
@@ -47520,7 +47520,7 @@
     "is_active": true
   },
   {
-    "id": "eb6cac1b-2c17-475a-a37e-d4e687600731",
+    "id": "193cf993-893b-4248-9ecd-8cc0188da0e1",
     "name": "Mathys Silistrie",
     "nation": "France",
     "club": "Stade Rennais FC",
@@ -47696,7 +47696,7 @@
     "is_active": true
   },
   {
-    "id": "78fb8452-2028-4cba-9b13-4394a9466fec",
+    "id": "46acf667-7409-4e33-9086-1ff91378cb76",
     "name": "Robin Risser",
     "nation": "France",
     "club": "RC Lens",
@@ -47872,7 +47872,7 @@
     "is_active": true
   },
   {
-    "id": "8e0177ca-e1f5-40c9-a651-e8571b4fedbf",
+    "id": "634e4104-502a-45a1-b59f-c5d91cfd6ed3",
     "name": "Mathieu Gorgelin",
     "nation": "France",
     "club": "RC Lens",
@@ -48048,7 +48048,7 @@
     "is_active": true
   },
   {
-    "id": "753604b7-1f60-41a0-8faf-67b5f80ff726",
+    "id": "248d50d0-767b-4bc6-b025-da06ccaecca2",
     "name": "R\u00e9gis Gurtner",
     "nation": "France",
     "club": "RC Lens",
@@ -48224,7 +48224,7 @@
     "is_active": true
   },
   {
-    "id": "34f007d8-8ccd-458e-ab9c-9a3ad2bfd43e",
+    "id": "f1bb040e-900a-4f45-a1cf-464c530fa08d",
     "name": "Ilan Jourdren",
     "nation": "France",
     "club": "RC Lens",
@@ -48400,7 +48400,7 @@
     "is_active": true
   },
   {
-    "id": "88f9bcff-d944-4aef-af50-4b40cfac99f2",
+    "id": "a9fe1334-48a0-43a5-80ab-90b8deb77696",
     "name": "Yehvann Diouf",
     "nation": "Senegal",
     "club": "OGC Nice",
@@ -48576,7 +48576,7 @@
     "is_active": true
   },
   {
-    "id": "7bacfc9d-5a36-4985-a216-fd937a26cff1",
+    "id": "74d4947b-3553-488e-b5ca-c0883884a1c4",
     "name": "Maxime Dup\u00e9",
     "nation": "France",
     "club": "OGC Nice",
@@ -48752,7 +48752,7 @@
     "is_active": true
   },
   {
-    "id": "f40a04c6-32ae-4386-96bf-db5ce9d9a0b1",
+    "id": "c4f371fa-ce5d-4926-82c7-e59f2b4e3db9",
     "name": "Bartosz Zelazowski",
     "nation": "Poland",
     "club": "OGC Nice",
@@ -48928,7 +48928,7 @@
     "is_active": true
   },
   {
-    "id": "a5ba9054-f026-4feb-82bd-2618dfc610da",
+    "id": "46fc379d-55bf-490b-9fd4-e2c1e97a9fae",
     "name": "Guillaume Restes",
     "nation": "France",
     "club": "FC Toulouse",
@@ -49104,7 +49104,7 @@
     "is_active": true
   },
   {
-    "id": "5624e9d8-bdf2-40ad-ba92-a98be147f5a9",
+    "id": "1b9d7da8-6ec4-4f95-afe8-803c9ded65a9",
     "name": "Kjetil Haug",
     "nation": "Norway",
     "club": "FC Toulouse",
@@ -49280,7 +49280,7 @@
     "is_active": true
   },
   {
-    "id": "b08803d0-46c4-47cb-90cc-28eb58a72028",
+    "id": "588b6ff3-aa89-499e-b822-d0f145549015",
     "name": "\u00c1lex Dom\u00ednguez",
     "nation": "Spain",
     "club": "FC Toulouse",
@@ -49456,7 +49456,7 @@
     "is_active": true
   },
   {
-    "id": "a469d601-5bf1-48f2-8724-5fd6aed051c0",
+    "id": "09fa37dc-6a25-44b3-a1b2-f0c69fe89f75",
     "name": "Obed Nkambadio",
     "nation": "France",
     "club": "Paris FC",
@@ -49984,7 +49984,7 @@
     "is_active": true
   },
   {
-    "id": "4f13a422-3395-4760-9730-e39dc888c26c",
+    "id": "816756ac-6c19-4d97-b7bd-7c8ac95dc5d7",
     "name": "Yvon Mvogo",
     "nation": "Switzerland",
     "club": "FC Lorient",
@@ -50160,7 +50160,7 @@
     "is_active": true
   },
   {
-    "id": "053e3a4e-e0bf-4424-8fb1-304832b033a7",
+    "id": "d81891d2-7ec4-4484-8066-37373a6ee38a",
     "name": "Bingourou Kamara",
     "nation": "Senegal",
     "club": "FC Lorient",
@@ -50336,7 +50336,7 @@
     "is_active": true
   },
   {
-    "id": "2cfda61f-ddff-42f4-a839-8359ff2ddb60",
+    "id": "012d4a7b-8794-480f-8a1b-31b4a7ff5535",
     "name": "Benjamin Leroy",
     "nation": "France",
     "club": "FC Lorient",
@@ -50688,7 +50688,7 @@
     "is_active": true
   },
   {
-    "id": "9daadca4-6959-48b9-9df3-bae079e5c3da",
+    "id": "79b39195-afa2-4fef-828f-d6a6bf08c8d1",
     "name": "Patrik Carlgren",
     "nation": "Sweden",
     "club": "FC Nantes",
@@ -50864,7 +50864,7 @@
     "is_active": true
   },
   {
-    "id": "8c2e119b-7683-4cac-b078-ad33479970d1",
+    "id": "f3ae8298-68b0-40b6-bfa7-9abd064b02f1",
     "name": "Alexis Mirbach",
     "nation": "France",
     "club": "FC Nantes",
@@ -51040,7 +51040,7 @@
     "is_active": true
   },
   {
-    "id": "a142eaca-137d-433f-a8ef-e63426b563a7",
+    "id": "df1fe0a9-3c28-474f-a3c6-84ed87abc52f",
     "name": "Donovan L\u00e9on",
     "nation": "French Guiana",
     "club": "AJ Auxerre",
@@ -51216,7 +51216,7 @@
     "is_active": true
   },
   {
-    "id": "4c7b5c0c-2310-480c-accd-cf94126333e7",
+    "id": "e76d4fa3-9820-4e0e-a00b-65dcfade87ec",
     "name": "Th\u00e9o De Percin",
     "nation": "France",
     "club": "AJ Auxerre",
@@ -51392,7 +51392,7 @@
     "is_active": true
   },
   {
-    "id": "4de19cb8-b4e0-45a6-9462-3039d962adcf",
+    "id": "8b846d42-dbc6-492f-a53d-8bc4ab8732de",
     "name": "Tom Negrel",
     "nation": "France",
     "club": "AJ Auxerre",
@@ -51568,7 +51568,7 @@
     "is_active": true
   },
   {
-    "id": "33b356e9-4c2c-48a2-88db-263f76228dfd",
+    "id": "c965bfcc-95c7-40b2-910e-580b0cc2b7bc",
     "name": "Louis Mezerette",
     "nation": "France",
     "club": "AJ Auxerre",
@@ -51744,7 +51744,7 @@
     "is_active": true
   },
   {
-    "id": "e65d7214-128d-4987-8dfd-573bd0e965cd",
+    "id": "133983f7-39b3-4834-a1d1-2f2feb765538",
     "name": "Gr\u00e9goire Coudert",
     "nation": "France",
     "club": "Stade Brestois 29",
@@ -51920,7 +51920,7 @@
     "is_active": true
   },
   {
-    "id": "c43c7895-cf64-42d6-883e-260153ef6197",
+    "id": "c950da25-67cb-4259-8016-a92d3c312861",
     "name": "Radoslaw Majecki",
     "nation": "Poland",
     "club": "Stade Brestois 29",
@@ -52096,7 +52096,7 @@
     "is_active": true
   },
   {
-    "id": "a28c25d8-30b0-45fe-9887-c1fe85df4af4",
+    "id": "6150b545-c98d-4b3f-baff-188903975784",
     "name": "Noah Jauny",
     "nation": "Ireland",
     "club": "Stade Brestois 29",
@@ -52272,7 +52272,7 @@
     "is_active": true
   },
   {
-    "id": "509781a3-4b87-4530-97bc-1f6c2bae4b11",
+    "id": "676e49c9-38ca-4d48-88a5-7b564cdb4a65",
     "name": "Herv\u00e9 Koffi",
     "nation": "Burkina Faso",
     "club": "Angers SCO",
@@ -52448,7 +52448,7 @@
     "is_active": true
   },
   {
-    "id": "0217ae22-4301-4da2-aa8c-a3c5798242c6",
+    "id": "aa17b7c3-7b78-45b0-82af-3f563912f5f9",
     "name": "Melvin Zinga",
     "nation": "France",
     "club": "Angers SCO",
@@ -52624,7 +52624,7 @@
     "is_active": true
   },
   {
-    "id": "fe9fc7f7-1acc-4546-844e-3ea3d73673f4",
+    "id": "dd77d097-086c-4788-8a9d-397e1dd40a8c",
     "name": "Oumar Pona",
     "nation": "Mali",
     "club": "Angers SCO",
@@ -53152,7 +53152,7 @@
     "is_active": true
   },
   {
-    "id": "95d7c8b8-13bf-4ccb-be0b-3a83b0004aaf",
+    "id": "684c82f2-21ef-4ebe-8958-6386bb7e5673",
     "name": "Paul Argney",
     "nation": "France",
     "club": "Le Havre AC",
@@ -53328,7 +53328,7 @@
     "is_active": true
   },
   {
-    "id": "ba65efdf-7f6b-4989-aa88-8b127b9113be",
+    "id": "cf3f7727-4b5a-4092-81ef-5bbd21714d40",
     "name": "Jonathan Fischer",
     "nation": "Denmark",
     "club": "FC Metz",
@@ -53504,7 +53504,7 @@
     "is_active": true
   },
   {
-    "id": "7225cb57-0662-42e6-82a6-0601140d4005",
+    "id": "3e2ebd67-1be1-4020-a2b3-89ea740f1188",
     "name": "Pape Sy",
     "nation": "Senegal",
     "club": "FC Metz",
@@ -53680,7 +53680,7 @@
     "is_active": true
   },
   {
-    "id": "38d496b5-46a4-4088-817f-73c69a034215",
+    "id": "42ce31da-3c22-419d-8435-ae9e446467bb",
     "name": "Ousmane Ba",
     "nation": "Senegal",
     "club": "FC Metz",
@@ -53856,7 +53856,7 @@
     "is_active": true
   },
   {
-    "id": "e7e1a7aa-6f69-4043-af38-31bdae6e4f64",
+    "id": "af1c8573-6872-4bd9-a227-55602c00d0be",
     "name": "Matej Kovar",
     "nation": "Czech Republic",
     "club": "PSV Eindhoven",
@@ -54032,7 +54032,7 @@
     "is_active": true
   },
   {
-    "id": "072479d1-c31e-4382-be97-0210e322e35a",
+    "id": "30727bb4-4260-4894-9ee2-132bb7bab185",
     "name": "Nick Olij",
     "nation": "Netherlands",
     "club": "PSV Eindhoven",
@@ -54208,7 +54208,7 @@
     "is_active": true
   },
   {
-    "id": "e111db90-6fb5-4100-877d-705098fae140",
+    "id": "6346227b-5623-4721-a74c-deb364697af6",
     "name": "Niek Schiks",
     "nation": "Netherlands",
     "club": "PSV Eindhoven",
@@ -54384,7 +54384,7 @@
     "is_active": true
   },
   {
-    "id": "002d6ffe-7594-4869-82b5-899fb9a8f3e1",
+    "id": "32676ede-1e43-406b-9972-a8638d6c1575",
     "name": "Timon Wellenreuther",
     "nation": "Germany",
     "club": "Feyenoord Rotterdam",
@@ -54560,7 +54560,7 @@
     "is_active": true
   },
   {
-    "id": "36d05889-8a18-414f-9693-d7d833b32883",
+    "id": "2c75db8b-709c-4bc2-b071-0500f741d84a",
     "name": "Steven Benda",
     "nation": "Germany",
     "club": "Feyenoord Rotterdam",
@@ -54736,7 +54736,7 @@
     "is_active": true
   },
   {
-    "id": "c8b211ea-7965-4c0d-bf1f-972037b65faf",
+    "id": "67df2793-7620-4a83-a099-0de38cf210ff",
     "name": "Liam Bossin",
     "nation": "Ireland",
     "club": "Feyenoord Rotterdam",
@@ -54912,7 +54912,7 @@
     "is_active": true
   },
   {
-    "id": "1ac9bf24-b2ee-4777-b487-118eb9034949",
+    "id": "6f0d5b51-61dd-4576-8a1d-e340a29e46a9",
     "name": "Mannou Berger",
     "nation": "Netherlands",
     "club": "Feyenoord Rotterdam",
@@ -55088,7 +55088,7 @@
     "is_active": true
   },
   {
-    "id": "8f58e639-2a76-4bde-9343-852f97b884ec",
+    "id": "9e2bdd32-cdd7-4766-9736-fdeb50377cf5",
     "name": "Vitezslav Jaros",
     "nation": "Czech Republic",
     "club": "Ajax Amsterdam",
@@ -55264,7 +55264,7 @@
     "is_active": true
   },
   {
-    "id": "9defb1d0-684f-4057-af44-0914fdbd8b6e",
+    "id": "d642bd05-fd7a-401d-bafd-7912d4e1d770",
     "name": "Maarten Paes",
     "nation": "Indonesia",
     "club": "Ajax Amsterdam",
@@ -55440,7 +55440,7 @@
     "is_active": true
   },
   {
-    "id": "cc92a759-8f8c-4b16-a13b-345db0b764db",
+    "id": "77e187ac-d8ad-49ef-9151-d8ecc0ec49f4",
     "name": "Joeri Heerkens",
     "nation": "Netherlands",
     "club": "Ajax Amsterdam",
@@ -55616,7 +55616,7 @@
     "is_active": true
   },
   {
-    "id": "2db7819e-925f-4e8a-9478-62494d1d3dba",
+    "id": "05c57718-b287-4e19-ad15-d4c7b636b075",
     "name": "Paul Reverson",
     "nation": "Ghana",
     "club": "Ajax Amsterdam",
@@ -55792,7 +55792,7 @@
     "is_active": true
   },
   {
-    "id": "e956c50a-26bf-4f3c-9518-3fea82437721",
+    "id": "c3142aed-c256-4f14-b298-fda1b1e0141a",
     "name": "Rome-Jayden Owusu-Oduro",
     "nation": "Netherlands",
     "club": "AZ Alkmaar",
@@ -55968,7 +55968,7 @@
     "is_active": true
   },
   {
-    "id": "4c7c7c11-c223-445a-bca0-0daa9cde9faf",
+    "id": "3e1fb2fe-d752-42ca-8e9b-68db0f19b52a",
     "name": "Jeroen Zoet",
     "nation": "Netherlands",
     "club": "AZ Alkmaar",
@@ -56144,7 +56144,7 @@
     "is_active": true
   },
   {
-    "id": "411f6866-452c-4180-b402-361fa57b458f",
+    "id": "cfdbde3b-5f4f-4e31-9a2b-5fc1c5973c8a",
     "name": "Hobie Verhulst",
     "nation": "Netherlands",
     "club": "AZ Alkmaar",
@@ -56320,7 +56320,7 @@
     "is_active": true
   },
   {
-    "id": "b0994b32-7f58-4f4b-9801-86c65f1e7ace",
+    "id": "bd58227c-64a5-4dd9-945a-d400e9b264a4",
     "name": "Dani\u00ebl Deen",
     "nation": "Netherlands",
     "club": "AZ Alkmaar",
@@ -56496,7 +56496,7 @@
     "is_active": true
   },
   {
-    "id": "d5d57c29-ccf8-49bc-9f30-70d20fe82097",
+    "id": "c12c6397-1dac-4d6c-99f3-34479aa9ffd9",
     "name": "Vasilios Barkas",
     "nation": "Greece",
     "club": "FC Utrecht",
@@ -56672,7 +56672,7 @@
     "is_active": true
   },
   {
-    "id": "53777951-ae81-4562-b39e-d9f477bcae54",
+    "id": "29a64399-1e63-4dcc-8286-13b4f6b69705",
     "name": "Michael Brouwer",
     "nation": "Netherlands",
     "club": "FC Utrecht",
@@ -56848,7 +56848,7 @@
     "is_active": true
   },
   {
-    "id": "dda7f374-7122-4375-a677-707cdf4c722e",
+    "id": "c291f4eb-fe1f-4860-9a26-02f7736b690d",
     "name": "Kevin Gadellaa",
     "nation": "Netherlands",
     "club": "FC Utrecht",
@@ -57024,7 +57024,7 @@
     "is_active": true
   },
   {
-    "id": "b43ecd0f-5c3a-4f6d-bb0a-071d3135728d",
+    "id": "3b7dc35e-785f-4ada-ad5a-fda6076b5e50",
     "name": "Lars Unnerstall",
     "nation": "Germany",
     "club": "FC Twente Enschede",
@@ -57200,7 +57200,7 @@
     "is_active": true
   },
   {
-    "id": "8e4e43cc-50ca-48ab-ac4d-d4475e4b27f9",
+    "id": "e1c534ae-757e-41b9-96ac-75f059d39466",
     "name": "Issam El Maach",
     "nation": "Morocco",
     "club": "FC Twente Enschede",
@@ -57376,7 +57376,7 @@
     "is_active": true
   },
   {
-    "id": "7785f315-5ea5-4d6e-b00f-2b3de1904ce2",
+    "id": "ef8accc3-4ac5-4ba1-8377-1e3a15f89efc",
     "name": "Sam Karssies",
     "nation": "Netherlands",
     "club": "FC Twente Enschede",
@@ -57728,7 +57728,7 @@
     "is_active": true
   },
   {
-    "id": "d9acc9cd-9e5a-4892-96d3-d15c23f09b75",
+    "id": "17da2904-c494-4408-bf88-89106678d6fd",
     "name": "Yannick Gerritsen",
     "nation": "Netherlands",
     "club": "FC Twente Enschede",
@@ -57904,7 +57904,7 @@
     "is_active": true
   },
   {
-    "id": "339667c2-0a24-4e64-8b7d-f5f79e989b6c",
+    "id": "eb49dd4a-6168-4203-ad03-f42b86c7eab7",
     "name": "Gonzalo Crettaz",
     "nation": "Spain",
     "club": "NEC Nijmegen",
@@ -58256,7 +58256,7 @@
     "is_active": true
   },
   {
-    "id": "3602e063-5ec6-4acb-a8e8-36aeb20ac6ac",
+    "id": "d5c38f3c-5ff2-46de-9095-66d20a7b8387",
     "name": "Rijk Janse",
     "nation": "Netherlands",
     "club": "NEC Nijmegen",
@@ -58432,7 +58432,7 @@
     "is_active": true
   },
   {
-    "id": "38f27709-a959-4850-9adb-ab7f239d132f",
+    "id": "da9dc81f-9b39-4d77-9429-26d364772997",
     "name": "Bernt Klaverboer",
     "nation": "Netherlands",
     "club": "SC Heerenveen",
@@ -58608,7 +58608,7 @@
     "is_active": true
   },
   {
-    "id": "304d665c-f96b-4dd1-8a7a-c4f3d54de7a4",
+    "id": "03c841a7-771d-424b-88f9-543ef894d210",
     "name": "Nordin Bakker",
     "nation": "Netherlands",
     "club": "SC Heerenveen",
@@ -58960,7 +58960,7 @@
     "is_active": true
   },
   {
-    "id": "84f5d2ca-d5f6-4951-ba07-9e1dfc3544ba",
+    "id": "368de23d-da8a-40b7-ae92-e1b2902ab8ae",
     "name": "Jan Bekkema",
     "nation": "Netherlands",
     "club": "SC Heerenveen",
@@ -59136,7 +59136,7 @@
     "is_active": true
   },
   {
-    "id": "51590ac3-bc07-4162-90bb-ca3fed372a67",
+    "id": "6c3953c4-d887-42ca-abae-53ff31bd35c1",
     "name": "Etienne Vaessen",
     "nation": "Suriname",
     "club": "FC Groningen",
@@ -59312,7 +59312,7 @@
     "is_active": true
   },
   {
-    "id": "231cf55a-ee6a-485d-9774-f52f0eed0e76",
+    "id": "5653936c-077f-4829-8136-78733f8879ff",
     "name": "Hidde Jurjus",
     "nation": "Netherlands",
     "club": "FC Groningen",
@@ -59488,7 +59488,7 @@
     "is_active": true
   },
   {
-    "id": "07d10278-7d5e-4479-98f4-a209d461c840",
+    "id": "adec66d5-4761-4668-9bb2-b491129c2142",
     "name": "Lovro Stubljar",
     "nation": "Slovenia",
     "club": "FC Groningen",
@@ -59664,7 +59664,7 @@
     "is_active": true
   },
   {
-    "id": "f7597e62-9c7a-411c-9be5-97a1e35f874b",
+    "id": "fb0a36a5-3c92-4c30-9ed7-03eec4a4418f",
     "name": "Dirk Baron",
     "nation": "Netherlands",
     "club": "FC Groningen",
@@ -59840,7 +59840,7 @@
     "is_active": true
   },
   {
-    "id": "e4668499-f3d0-43b7-9f3e-8815f68ced09",
+    "id": "6a36fd6c-d23e-4ec9-9830-169d245cf7e1",
     "name": "Jo\u00ebl Drommel",
     "nation": "Netherlands",
     "club": "Sparta Rotterdam",
@@ -60016,7 +60016,7 @@
     "is_active": true
   },
   {
-    "id": "17360bd3-4a12-4761-802b-88a29c6f8ad8",
+    "id": "ba309a25-6549-473e-80b2-44c0dba0cd8f",
     "name": "Filip Bednarek",
     "nation": "Poland",
     "club": "Sparta Rotterdam",
@@ -60192,7 +60192,7 @@
     "is_active": true
   },
   {
-    "id": "51140ab0-b6d3-4760-a0c7-eab74c615e96",
+    "id": "12cf56ce-f1dd-403f-afe4-041e0c9da4e2",
     "name": "Pascal Kuiper",
     "nation": "Netherlands",
     "club": "Sparta Rotterdam",
@@ -60368,7 +60368,7 @@
     "is_active": true
   },
   {
-    "id": "42529031-4b95-4960-853c-95ab86c27e92",
+    "id": "0cb48568-2506-4ddc-9743-8c942118f003",
     "name": "Jari De Busser",
     "nation": "Belgium",
     "club": "Go Ahead Eagles",
@@ -60544,7 +60544,7 @@
     "is_active": true
   },
   {
-    "id": "241d7f0f-0884-4193-8573-b96f16468cd4",
+    "id": "b5ff3cb3-a56a-4229-9162-670dbf86ed9b",
     "name": "Luca Plogmann",
     "nation": "Germany",
     "club": "Go Ahead Eagles",
@@ -60720,7 +60720,7 @@
     "is_active": true
   },
   {
-    "id": "ce02dec6-17e5-463d-b59c-7866657d20ad",
+    "id": "7fd2f421-a22f-48eb-b232-e2df231a6543",
     "name": "Sven Jansen",
     "nation": "Netherlands",
     "club": "Go Ahead Eagles",
@@ -60896,7 +60896,7 @@
     "is_active": true
   },
   {
-    "id": "c37ff2b2-5d59-412e-8e25-5251eb05a7f6",
+    "id": "f58c9423-3c1d-4901-83d6-ef457cef91ad",
     "name": "Nando Verdoni",
     "nation": "Netherlands",
     "club": "Go Ahead Eagles",
@@ -61072,7 +61072,7 @@
     "is_active": true
   },
   {
-    "id": "f5445ff5-3808-4769-ad3e-be0ef5c96755",
+    "id": "9f34fec1-5376-4b44-a1b0-b601dd962af6",
     "name": "Jasper Schendelaar",
     "nation": "Netherlands",
     "club": "PEC Zwolle",
@@ -61248,7 +61248,7 @@
     "is_active": true
   },
   {
-    "id": "b82fa65d-08ae-4cc6-a710-2b09d8face01",
+    "id": "fa09ada4-fc64-4d9f-8691-7589d291f20d",
     "name": "Tom de Graaff",
     "nation": "Netherlands",
     "club": "PEC Zwolle",
@@ -61424,7 +61424,7 @@
     "is_active": true
   },
   {
-    "id": "8bd5a3bb-ad16-4dc7-a150-c0fb0cc61474",
+    "id": "1ab4f2b5-32bf-4b7c-9ea2-8221d4deac18",
     "name": "Duke Verduin",
     "nation": "Netherlands",
     "club": "PEC Zwolle",
@@ -61600,7 +61600,7 @@
     "is_active": true
   },
   {
-    "id": "c3c2e960-7a62-4c4c-b437-6f0bf7d7b2ca",
+    "id": "a765ca7b-523d-4730-9093-3aac6b960dbf",
     "name": "Mattijs Branderhorst",
     "nation": "Netherlands",
     "club": "Fortuna Sittard",
@@ -61776,7 +61776,7 @@
     "is_active": true
   },
   {
-    "id": "f278556b-d92d-46a1-aa8f-4c9c7f35d9e5",
+    "id": "a62edee5-56e3-40a0-88b3-6277ff36fc86",
     "name": "Luuk Koopmans",
     "nation": "Netherlands",
     "club": "Fortuna Sittard",
@@ -61952,7 +61952,7 @@
     "is_active": true
   },
   {
-    "id": "94d2e4f0-b637-4599-b76d-fa69c6b0fe6e",
+    "id": "52a5ca39-9168-4976-b34e-1d187a5abd74",
     "name": "Nick Marsman",
     "nation": "Netherlands",
     "club": "Fortuna Sittard",
@@ -62128,7 +62128,7 @@
     "is_active": true
   },
   {
-    "id": "87575eb0-9b6b-4e4e-9023-daa0a0564938",
+    "id": "ee818fde-e89b-4a8e-b3a3-016c47dbaef4",
     "name": "Niels Martens",
     "nation": "Netherlands",
     "club": "Fortuna Sittard",
@@ -62304,7 +62304,7 @@
     "is_active": true
   },
   {
-    "id": "2ceb62bd-823e-4dc8-acfb-5794fcc0d0ab",
+    "id": "ce59a603-a0aa-46ec-98f8-9843dff3a0f0",
     "name": "Ramazan Bayram",
     "nation": "Belgium",
     "club": "Fortuna Sittard",
@@ -62480,7 +62480,7 @@
     "is_active": true
   },
   {
-    "id": "f770a955-dde4-48bf-97e9-089b355144fa",
+    "id": "33fdafb2-8dd3-4da4-8ca5-cf618ddf371b",
     "name": "Stijn van Gassel",
     "nation": "Netherlands",
     "club": "Excelsior Rotterdam",
@@ -62656,7 +62656,7 @@
     "is_active": true
   },
   {
-    "id": "1f5b738a-e389-4bf8-aa3f-85b771e728df",
+    "id": "56f1d83f-d36c-4b0d-8862-305e4760f716",
     "name": "Calvin Raatsie",
     "nation": "Netherlands",
     "club": "Excelsior Rotterdam",
@@ -62832,7 +62832,7 @@
     "is_active": true
   },
   {
-    "id": "b2d704d6-e458-4e8d-a182-fa4737e6bcbb",
+    "id": "d862fe90-c9bf-4eee-9d73-0740f3da8351",
     "name": "Tijmen Holla",
     "nation": "Netherlands",
     "club": "Excelsior Rotterdam",
@@ -63008,7 +63008,7 @@
     "is_active": true
   },
   {
-    "id": "ea537a15-4616-4fe9-9082-726902795604",
+    "id": "5a870bdf-c57c-4a03-a58e-4ddc55718775",
     "name": "Kayne van Oevelen",
     "nation": "Netherlands",
     "club": "FC Volendam",
@@ -63184,7 +63184,7 @@
     "is_active": true
   },
   {
-    "id": "d2efee84-8b02-440e-a959-ae103f2533f6",
+    "id": "7d68f8a7-cf3d-4c43-8663-2cb97362c74c",
     "name": "Roy Steur",
     "nation": "Netherlands",
     "club": "FC Volendam",
@@ -63360,7 +63360,7 @@
     "is_active": true
   },
   {
-    "id": "5a851fc4-c46e-4d83-83b6-767a96ee5548",
+    "id": "ad1fa68a-fc46-442c-b7e0-42c807ed4eae",
     "name": "Dion Vlak",
     "nation": "Netherlands",
     "club": "FC Volendam",
@@ -63536,7 +63536,7 @@
     "is_active": true
   },
   {
-    "id": "c4466b5f-bf49-4bba-93fe-b791a7982001",
+    "id": "d1727845-f6e8-47a0-aeca-d22bf650a425",
     "name": "Ronald Koeman Jr.",
     "nation": "Netherlands",
     "club": "SC Telstar",
@@ -63712,7 +63712,7 @@
     "is_active": true
   },
   {
-    "id": "07b57814-ec34-4755-97f5-4997011af487",
+    "id": "83fd5987-4e6d-4f09-be48-a10e5ad225cd",
     "name": "Daan Reiziger",
     "nation": "Netherlands",
     "club": "SC Telstar",
@@ -63888,7 +63888,7 @@
     "is_active": true
   },
   {
-    "id": "79206b94-47da-4f79-a90b-827d3a688a4a",
+    "id": "b52f581b-8dea-4464-b7f5-e6ab2416d6e5",
     "name": "Tyrick Bodak",
     "nation": "Curacao",
     "club": "SC Telstar",
@@ -64064,7 +64064,7 @@
     "is_active": true
   },
   {
-    "id": "e5a3933f-49c0-43c0-af65-25ca98b13f7f",
+    "id": "460f0d0b-d55c-48a7-8b31-5870ab39cfea",
     "name": "Daniel Bielica",
     "nation": "Poland",
     "club": "NAC Breda",
@@ -64240,7 +64240,7 @@
     "is_active": true
   },
   {
-    "id": "c25930c7-4430-4db9-8d58-a33051539425",
+    "id": "71ff44f6-2662-4502-a3a4-3c683723a1a6",
     "name": "Kostas Lamprou",
     "nation": "Greece",
     "club": "NAC Breda",
@@ -64416,7 +64416,7 @@
     "is_active": true
   },
   {
-    "id": "3039baab-3e2d-4685-a81a-6ec915d529d8",
+    "id": "fd5b4920-d2bf-4877-80ad-0d04076bcde5",
     "name": "Roy Kortsmit",
     "nation": "Netherlands",
     "club": "NAC Breda",
@@ -64592,7 +64592,7 @@
     "is_active": true
   },
   {
-    "id": "aa4d83ef-0bd8-4b2a-bcc0-d27e32db4a0f",
+    "id": "1524d13b-7ad1-49e0-a433-2dbb328f9fdf",
     "name": "Thomas Goos",
     "nation": "Netherlands",
     "club": "NAC Breda",
@@ -64768,7 +64768,7 @@
     "is_active": true
   },
   {
-    "id": "6e4687f4-9f4b-4247-bef6-9785fe17d0d4",
+    "id": "9a094874-e727-4361-8aea-a282382ba32d",
     "name": "Fabian de Keijzer",
     "nation": "Netherlands",
     "club": "Heracles Almelo",
@@ -64944,7 +64944,7 @@
     "is_active": true
   },
   {
-    "id": "b71893bf-dba4-4034-a80a-443468bf3609",
+    "id": "c24d6da8-be71-4b5d-bd80-5b19577d8ab8",
     "name": "Timo Jansink",
     "nation": "Netherlands",
     "club": "Heracles Almelo",
@@ -65120,7 +65120,7 @@
     "is_active": true
   },
   {
-    "id": "6fe1a046-0721-43ae-86f4-68c43fcb70d4",
+    "id": "fd207bce-422f-4482-ac85-bcdae7689168",
     "name": "Remko Pasveer",
     "nation": "Netherlands",
     "club": "Heracles Almelo",
@@ -65296,7 +65296,7 @@
     "is_active": true
   },
   {
-    "id": "0c0e5647-4318-4d91-9f18-63064bbdb716",
+    "id": "73cfebdf-f5db-421b-9bcd-b9f4ab4e2835",
     "name": "Robin Mantel",
     "nation": "Belgium",
     "club": "Heracles Almelo",
@@ -65472,7 +65472,7 @@
     "is_active": true
   },
   {
-    "id": "705592cd-6cd8-4fe5-9c02-9ab4b1e92cc4",
+    "id": "a23059a1-0a9b-47b8-a128-41aae8c64daf",
     "name": "Leco Zeevalkink",
     "nation": "Netherlands",
     "club": "Heracles Almelo",
@@ -65824,7 +65824,7 @@
     "is_active": true
   },
   {
-    "id": "b5489cb7-7c63-4d4c-b3cd-e80fa7ae7bca",
+    "id": "76212c03-a3e6-4b93-8c96-f72ef28b3891",
     "name": "Rocco R\u00edos Novo",
     "nation": "Argentina",
     "club": "Inter Miami CF",
@@ -66000,7 +66000,7 @@
     "is_active": true
   },
   {
-    "id": "1fc09d91-3454-4e03-8c8b-f18c843b60da",
+    "id": "1850c9ee-e263-4b89-b050-0c82a5090b57",
     "name": "Luis Barraza",
     "nation": "United States",
     "club": "Inter Miami CF",
@@ -66352,7 +66352,7 @@
     "is_active": true
   },
   {
-    "id": "eac33433-be38-43ea-a434-ead72cd19616",
+    "id": "fc839140-fa2f-4214-8b8d-9a509ffcfb6c",
     "name": "Thomas Hasal",
     "nation": "Canada",
     "club": "Los Angeles FC",
@@ -66528,7 +66528,7 @@
     "is_active": true
   },
   {
-    "id": "5ec9ec84-fccb-4f14-9064-87f6ab2fdc15",
+    "id": "0c89c5c2-adfe-4600-8b7c-116cefbac89f",
     "name": "Cabral Carter",
     "nation": "United States",
     "club": "Los Angeles FC",
@@ -66704,7 +66704,7 @@
     "is_active": true
   },
   {
-    "id": "9e39e33e-1de8-421f-8b54-c9df4131165b",
+    "id": "a9be327d-c278-4625-b3fa-83ca8defd2d1",
     "name": "Yohei Takaoka",
     "nation": "Japan",
     "club": "Vancouver Whitecaps FC",
@@ -66880,7 +66880,7 @@
     "is_active": true
   },
   {
-    "id": "fe7b3ea8-a120-4b38-9e4c-934c05eff831",
+    "id": "238edc40-f55d-42e1-b0e5-f9af1a9a2fa6",
     "name": "Isaac Boehmer",
     "nation": "Canada",
     "club": "Vancouver Whitecaps FC",
@@ -67056,7 +67056,7 @@
     "is_active": true
   },
   {
-    "id": "5110e9f8-7a56-4cb6-974d-09983cc0324f",
+    "id": "a7182a79-6393-498f-937d-b103ef431570",
     "name": "Adri\u00e1n Zendejas",
     "nation": "United States",
     "club": "Vancouver Whitecaps FC",
@@ -67232,7 +67232,7 @@
     "is_active": true
   },
   {
-    "id": "d06ae0fd-6d2d-4a39-941c-9529444e0ae9",
+    "id": "b9b8b413-fe62-412a-982b-ceff3532412b",
     "name": "Roman Celentano",
     "nation": "United States",
     "club": "FC Cincinnati",
@@ -67408,7 +67408,7 @@
     "is_active": true
   },
   {
-    "id": "04a0f691-9bd7-48db-9663-86720e8acc94",
+    "id": "6a08c8fe-0d79-43d0-85b8-534a6abff017",
     "name": "Evan Louro",
     "nation": "United States",
     "club": "FC Cincinnati",
@@ -67584,7 +67584,7 @@
     "is_active": true
   },
   {
-    "id": "2ff7434b-b158-4aaa-9840-fa013de61993",
+    "id": "8f3df122-ac9e-45c4-b425-ff0bf4e8f938",
     "name": "Fabian Mrozek",
     "nation": "Poland",
     "club": "FC Cincinnati",
@@ -67760,7 +67760,7 @@
     "is_active": true
   },
   {
-    "id": "325c781e-46f2-4a80-aa28-009d7a8e4d19",
+    "id": "049ba80f-6ca8-48ff-b2ca-10586ecc3675",
     "name": "Jayden Hibbert",
     "nation": "Canada",
     "club": "Atlanta United FC",
@@ -67936,7 +67936,7 @@
     "is_active": true
   },
   {
-    "id": "1abad608-0638-42d3-bf0b-2e6197815c8e",
+    "id": "dcf210fb-9824-42fd-a962-9a584da1f950",
     "name": "Lucas Hoyos",
     "nation": "Argentina",
     "club": "Atlanta United FC",
@@ -68112,7 +68112,7 @@
     "is_active": true
   },
   {
-    "id": "d7f3c7e9-acdc-4600-96fc-5aa71b10a951",
+    "id": "7da5f6c1-d54d-4afa-8a0c-a66fb41e0b32",
     "name": "Patrick Schulte",
     "nation": "United States",
     "club": "Columbus Crew",
@@ -68288,7 +68288,7 @@
     "is_active": true
   },
   {
-    "id": "d697ad22-c8f3-4c1e-9151-94a84f56c200",
+    "id": "f3519fea-c2cb-44c1-964b-e7b55ca1e211",
     "name": "Nicholas Hagen",
     "nation": "Guatemala",
     "club": "Columbus Crew",
@@ -68464,7 +68464,7 @@
     "is_active": true
   },
   {
-    "id": "5553818b-d525-425b-ba25-db74ebc1f12d",
+    "id": "6151ba6d-8559-418e-9b09-905bc587f06c",
     "name": "Evan Bush",
     "nation": "United States",
     "club": "Columbus Crew",
@@ -68640,7 +68640,7 @@
     "is_active": true
   },
   {
-    "id": "dd8bbb3b-653a-4933-974b-35a5da79885b",
+    "id": "1c3b41e0-5c93-4f8a-a812-986ca3b41eaa",
     "name": "Luke Pruter",
     "nation": "United States",
     "club": "Columbus Crew",
@@ -68816,7 +68816,7 @@
     "is_active": true
   },
   {
-    "id": "83d1cc5d-4859-41d5-9760-95fda2323e47",
+    "id": "aab1b6c2-0431-4b01-9781-08c8ff7bb105",
     "name": "Stanislav Lapkes",
     "nation": "Belarus",
     "club": "Columbus Crew",
@@ -68992,7 +68992,7 @@
     "is_active": true
   },
   {
-    "id": "2e2f8f94-3e8f-44eb-af7e-ae25edf28dc3",
+    "id": "58cb1e1a-309a-4a2a-95ee-2efc6801562f",
     "name": "Matt Freese",
     "nation": "United States",
     "club": "New York City FC",
@@ -69168,7 +69168,7 @@
     "is_active": true
   },
   {
-    "id": "e08c2393-8b0c-4af8-84ad-f249e8f7274c",
+    "id": "b903ba9c-2ccd-4f3a-a994-8941a41da525",
     "name": "Tom\u00e1s Romero",
     "nation": "El Salvador",
     "club": "New York City FC",
@@ -69344,7 +69344,7 @@
     "is_active": true
   },
   {
-    "id": "6397cf9b-12c4-42f5-88ed-18ffe0251272",
+    "id": "29f8639e-f47e-43df-aa4f-eb30fad8f3c7",
     "name": "Greg Ranjitsingh",
     "nation": "Trinidad and Tobago",
     "club": "New York City FC",
@@ -69520,7 +69520,7 @@
     "is_active": true
   },
   {
-    "id": "dcf1b9bc-49f6-47e5-946a-50295a35df32",
+    "id": "0c0ab5bf-4479-4a2f-8bb0-7165fd9873b0",
     "name": "Mac Learned",
     "nation": "United States",
     "club": "New York City FC",
@@ -69696,7 +69696,7 @@
     "is_active": true
   },
   {
-    "id": "8b21e88f-4ec1-4d07-b961-99801e0551f2",
+    "id": "62bc61d2-2f3b-425c-9847-eab394a62f04",
     "name": "Novak Mi\u0107ovi\u0107",
     "nation": "Serbia",
     "club": "Los Angeles Galaxy",
@@ -69872,7 +69872,7 @@
     "is_active": true
   },
   {
-    "id": "86051e20-37c4-40e0-8fa9-4920faa59e4b",
+    "id": "5bd43c49-1887-4c4e-b76e-463f911264cd",
     "name": "JT Marcinkowski",
     "nation": "United States",
     "club": "Los Angeles Galaxy",
@@ -70048,7 +70048,7 @@
     "is_active": true
   },
   {
-    "id": "2ffe629b-d3da-4f54-8e3a-6b54973a6b6d",
+    "id": "9a1e1ea3-78d7-436a-8f39-53db4503fc69",
     "name": "Brady Scott",
     "nation": "United States",
     "club": "Los Angeles Galaxy",
@@ -70224,7 +70224,7 @@
     "is_active": true
   },
   {
-    "id": "ad4224f1-7ca5-447b-9a78-a20080aec3a7",
+    "id": "c355952c-ef8e-4a52-8f03-ac822578f94f",
     "name": "Rafael Cabral",
     "nation": "Brazil",
     "club": "Real Salt Lake City",
@@ -70400,7 +70400,7 @@
     "is_active": true
   },
   {
-    "id": "f3721032-e823-4eb7-9645-e626f254c919",
+    "id": "6a8b8722-5032-4a7d-9267-3ca751d33451",
     "name": "Max Kerkvliet",
     "nation": "United States",
     "club": "Real Salt Lake City",
@@ -70576,7 +70576,7 @@
     "is_active": true
   },
   {
-    "id": "c5a9cb08-7c27-414c-9dfd-1bbf3a79144a",
+    "id": "d5e87bed-bdcb-441f-af93-5a1ca9b7005a",
     "name": "Duran Ferree",
     "nation": "United States",
     "club": "San Diego FC",
@@ -70752,7 +70752,7 @@
     "is_active": true
   },
   {
-    "id": "12eac851-c1c6-45f8-b84b-632ef53b700f",
+    "id": "d525b4e0-6525-4967-b950-91e73538592d",
     "name": "CJ dos Santos",
     "nation": "Cape Verde",
     "club": "San Diego FC",
@@ -70928,7 +70928,7 @@
     "is_active": true
   },
   {
-    "id": "d3b89002-3c31-4693-a084-fbfd099280c4",
+    "id": "7fa984c6-e6a5-451f-8203-ec8dcb03dad0",
     "name": "Pablo Sisniega",
     "nation": "Mexico",
     "club": "San Diego FC",
@@ -71104,7 +71104,7 @@
     "is_active": true
   },
   {
-    "id": "45f02dd4-45f4-45a7-9dea-4c18cfe8d275",
+    "id": "105431e0-e9db-4f52-9f0b-feb328a7d941",
     "name": "James Pantemis",
     "nation": "Canada",
     "club": "Portland Timbers",
@@ -71280,7 +71280,7 @@
     "is_active": true
   },
   {
-    "id": "496a0be8-9b3a-43c1-a4c1-759b58b77877",
+    "id": "e2a4a565-8bc5-4239-9b93-e99a78287127",
     "name": "Trey Muse",
     "nation": "United States",
     "club": "Portland Timbers",
@@ -71456,7 +71456,7 @@
     "is_active": true
   },
   {
-    "id": "f5e86aa3-70b5-41a5-a6bf-e7b14d01257a",
+    "id": "0c99fd4b-879f-4e6b-ac55-aa0672b3c23d",
     "name": "Hunter Sulte",
     "nation": "United States",
     "club": "Portland Timbers",
@@ -71808,7 +71808,7 @@
     "is_active": true
   },
   {
-    "id": "51ce7cc0-a960-4281-b566-3525800610b8",
+    "id": "dc6509c4-47bc-4114-a175-e3527533c21f",
     "name": "Javier Otero",
     "nation": "Venezuela",
     "club": "Orlando City SC",
@@ -71984,7 +71984,7 @@
     "is_active": true
   },
   {
-    "id": "cec60b62-510b-4a5f-a1e1-ec3b8775bbe1",
+    "id": "023bfed7-ad8d-4859-989f-d88b09ab8bb3",
     "name": "Chris Brady",
     "nation": "United States",
     "club": "Chicago Fire FC",
@@ -72160,7 +72160,7 @@
     "is_active": true
   },
   {
-    "id": "10874bec-d628-4aa0-bba8-0b44a5103ded",
+    "id": "61d17295-1bf2-45ef-89a8-7e6b4f23a2df",
     "name": "Josh Cohen",
     "nation": "United States",
     "club": "Chicago Fire FC",
@@ -72336,7 +72336,7 @@
     "is_active": true
   },
   {
-    "id": "1e20acdf-f041-4ce8-b1e5-2227249a6c51",
+    "id": "084ac0c7-e80d-4336-917b-12a66698314e",
     "name": "Jeff Gal",
     "nation": "United States",
     "club": "Chicago Fire FC",
@@ -72512,7 +72512,7 @@
     "is_active": true
   },
   {
-    "id": "7c02e14a-400f-4c57-aa25-275c289799d0",
+    "id": "88f72335-caef-44a4-ac4f-e4c3e0aa01bf",
     "name": "Ethan Horvath",
     "nation": "United States",
     "club": "Red Bull New York",
@@ -72688,7 +72688,7 @@
     "is_active": true
   },
   {
-    "id": "1631daa3-9d21-4a15-8a62-515ee7f4e8b3",
+    "id": "b1c92d1a-a16e-4886-a86c-e51b2b2d70d3",
     "name": "John McCarthy",
     "nation": "United States",
     "club": "Red Bull New York",
@@ -72864,7 +72864,7 @@
     "is_active": true
   },
   {
-    "id": "240665b2-9fb4-4799-8a2b-ebefa08b3e11",
+    "id": "9d984455-8b97-4955-a7dd-e2d12202e000",
     "name": "AJ Marcucci",
     "nation": "United States",
     "club": "Red Bull New York",
@@ -73040,7 +73040,7 @@
     "is_active": true
   },
   {
-    "id": "1bb827fb-b5b9-4353-a8aa-e1aa13e044cc",
+    "id": "11705409-e012-4747-b87e-8fbb2468da98",
     "name": "Aidan Stokes",
     "nation": "United States",
     "club": "Red Bull New York",
@@ -73216,7 +73216,7 @@
     "is_active": true
   },
   {
-    "id": "267f6ff3-7c62-4650-b68c-5a2015fdd1ad",
+    "id": "ec1dca63-ed04-4f8d-94dd-a27d84144e5b",
     "name": "Tobias Szewczyk",
     "nation": "United States",
     "club": "Red Bull New York",
@@ -73392,7 +73392,7 @@
     "is_active": true
   },
   {
-    "id": "7754855f-c069-469d-be66-9952d1aaf4ed",
+    "id": "3f3331d7-c2e8-46e0-a167-f45dc2b68012",
     "name": "Luka Gavran",
     "nation": "Canada",
     "club": "Toronto FC",
@@ -73568,7 +73568,7 @@
     "is_active": true
   },
   {
-    "id": "4a01663a-d4f5-46dd-a96a-35010cdd429d",
+    "id": "13201eab-a2ad-4b05-ae06-944d5b5f9878",
     "name": "William Yarbrough",
     "nation": "United States",
     "club": "Toronto FC",
@@ -73744,7 +73744,7 @@
     "is_active": true
   },
   {
-    "id": "2e63dd9f-df5f-423d-aa22-645944952783",
+    "id": "b162f911-4c0b-4714-ba6c-cfec5607f74f",
     "name": "Adisa De Rosario",
     "nation": "Canada",
     "club": "Toronto FC",
@@ -73920,7 +73920,7 @@
     "is_active": true
   },
   {
-    "id": "bd2da3f9-6106-4fce-b15b-5418c0f380d6",
+    "id": "2eee2579-b82b-45c3-a25d-6215380b2003",
     "name": "Brad Stuver",
     "nation": "United States",
     "club": "Austin FC",
@@ -74096,7 +74096,7 @@
     "is_active": true
   },
   {
-    "id": "07b556ce-1d5a-4adf-9c71-e725a378b298",
+    "id": "b6a96b50-bd2d-4cb6-9d12-2eba521b4476",
     "name": "Damian Las",
     "nation": "United States",
     "club": "Austin FC",
@@ -74272,7 +74272,7 @@
     "is_active": true
   },
   {
-    "id": "a6599b56-6fcd-4a41-9c6b-5bca427c7abe",
+    "id": "4c181211-5c2c-4bb2-8e8f-e9905d84d1be",
     "name": "Zack Steffen",
     "nation": "United States",
     "club": "Colorado Rapids",
@@ -74448,7 +74448,7 @@
     "is_active": true
   },
   {
-    "id": "329651e1-a715-45a5-a255-fccfb53c8e48",
+    "id": "b697ad04-d9f3-4261-b9ea-2f6ae1f5954b",
     "name": "Nicolas Hansen",
     "nation": "Denmark",
     "club": "Colorado Rapids",
@@ -74624,7 +74624,7 @@
     "is_active": true
   },
   {
-    "id": "76890f59-accf-44d4-aab8-2eb3c2c2eb31",
+    "id": "5d508e87-2425-4b5b-af8b-26a78ee12c5f",
     "name": "Adam Beaudry",
     "nation": "United States",
     "club": "Colorado Rapids",
@@ -74800,7 +74800,7 @@
     "is_active": true
   },
   {
-    "id": "d12a9eac-d286-4311-af72-77407fc16dfa",
+    "id": "2adcc460-8196-4d2c-8ea8-6ee9f36f6b23",
     "name": "Andrew Thomas",
     "nation": "United States",
     "club": "Seattle Sounders FC",
@@ -74976,7 +74976,7 @@
     "is_active": true
   },
   {
-    "id": "c00ae338-bf03-4673-8707-dc5b6ae89ec8",
+    "id": "d9994f96-2e6d-4d9e-80e8-01180e94fddd",
     "name": "Max Anchor",
     "nation": "Canada",
     "club": "Seattle Sounders FC",
@@ -75152,7 +75152,7 @@
     "is_active": true
   },
   {
-    "id": "c2320f48-4cdc-4b30-8f65-bec78ff0f256",
+    "id": "9cb43809-f39c-4940-9022-740318754174",
     "name": "Stefan Frei",
     "nation": "United States",
     "club": "Seattle Sounders FC",
@@ -75328,7 +75328,7 @@
     "is_active": true
   },
   {
-    "id": "515231a7-aa31-422d-9778-ac9c7265d90f",
+    "id": "5f280e6b-5de2-4a03-80fc-9c4298adc663",
     "name": "Brian Schwake",
     "nation": "United States",
     "club": "Nashville SC",
@@ -75504,7 +75504,7 @@
     "is_active": true
   },
   {
-    "id": "e4c6aa0e-a77b-4ff1-a78d-d55fde1c922a",
+    "id": "553379b7-274b-4d18-9894-79be25ed2c67",
     "name": "Joe Willis",
     "nation": "United States",
     "club": "Nashville SC",
@@ -75680,7 +75680,7 @@
     "is_active": true
   },
   {
-    "id": "0f266043-73d3-4b86-a3bd-cde8cd9f01c1",
+    "id": "f4ee81b0-7e96-4f28-9bf6-ef6603fef38d",
     "name": "Xavier Valdez",
     "nation": "Dominican Republic",
     "club": "Nashville SC",
@@ -75856,7 +75856,7 @@
     "is_active": true
   },
   {
-    "id": "d164233c-f7c0-49f5-b361-c0d69f2975f5",
+    "id": "e704070c-9ad6-472a-a0cd-9a9eea12082b",
     "name": "Drake Callender",
     "nation": "United States",
     "club": "Minnesota United FC",
@@ -76032,7 +76032,7 @@
     "is_active": true
   },
   {
-    "id": "91774024-1c12-4f31-9d6d-149080e3b722",
+    "id": "73034949-7266-4046-bf1f-3c4107acdf9a",
     "name": "Alec Smir",
     "nation": "United States",
     "club": "Minnesota United FC",
@@ -76208,7 +76208,7 @@
     "is_active": true
   },
   {
-    "id": "77072f41-869c-4728-82a2-5e616e97bcdb",
+    "id": "89890a95-012a-4b49-aa27-33d9e8f566d1",
     "name": "Kayne Rizvanovich",
     "nation": "United States",
     "club": "Minnesota United FC",
@@ -76384,7 +76384,7 @@
     "is_active": true
   },
   {
-    "id": "e715273b-3e8c-44d7-8357-bdae92d7f856",
+    "id": "e6b228fb-cf44-4a21-b563-5feda517e414",
     "name": "Jonathan Sirois",
     "nation": "Canada",
     "club": "FC Dallas",
@@ -76560,7 +76560,7 @@
     "is_active": true
   },
   {
-    "id": "29cddd73-66fc-498d-8c96-1137f4ba3750",
+    "id": "f0618489-08c8-4592-8d52-ce3d9af11ad2",
     "name": "Michael Collodi",
     "nation": "United States",
     "club": "FC Dallas",
@@ -76736,7 +76736,7 @@
     "is_active": true
   },
   {
-    "id": "23271d87-3da7-4b20-a4ac-b50a5518ef15",
+    "id": "1b17a315-7ed3-4dfd-b0a7-380ad3c0ba9f",
     "name": "Brooks Thompson",
     "nation": "United States",
     "club": "FC Dallas",
@@ -76912,7 +76912,7 @@
     "is_active": true
   },
   {
-    "id": "7d92ad51-b46c-413a-b466-ee4618ba3198",
+    "id": "79eb77f8-c494-4220-8836-eb18499939ce",
     "name": "Kristijan Kahlina",
     "nation": "Croatia",
     "club": "Charlotte FC",
@@ -77088,7 +77088,7 @@
     "is_active": true
   },
   {
-    "id": "e4c296e8-60d4-466a-9917-da79c759e439",
+    "id": "267f7d64-878f-48e5-ba57-7fda0454c9ab",
     "name": "Tyler Miller",
     "nation": "United States",
     "club": "Charlotte FC",
@@ -77440,7 +77440,7 @@
     "is_active": true
   },
   {
-    "id": "944c0d82-7feb-40ca-9a7d-16ad723cc284",
+    "id": "5f545207-4c8c-4c2e-9591-158fa099ea6f",
     "name": "Matt Turner",
     "nation": "United States",
     "club": "New England Revolution",
@@ -77616,7 +77616,7 @@
     "is_active": true
   },
   {
-    "id": "e86276b3-f57e-4a96-8a5f-ee5338071376",
+    "id": "22ddc203-9c01-42e6-b036-7b7923b70715",
     "name": "JD Gunn",
     "nation": "Panama",
     "club": "New England Revolution",
@@ -77792,7 +77792,7 @@
     "is_active": true
   },
   {
-    "id": "1656105d-a3a7-4172-9973-2206e042dc61",
+    "id": "a3ac006b-9cdc-4856-9c19-dad99eba403e",
     "name": "Donovan Parisian",
     "nation": "Armenia",
     "club": "New England Revolution",
@@ -77968,7 +77968,7 @@
     "is_active": true
   },
   {
-    "id": "06c01d30-ff38-42b0-a5e8-786e2fb22e5b",
+    "id": "7ad89cc5-17a2-4356-b812-9eb6642dd3fa",
     "name": "Andre Blake",
     "nation": "Jamaica",
     "club": "Philadelphia Union",
@@ -78144,7 +78144,7 @@
     "is_active": true
   },
   {
-    "id": "c48bcd15-dfc9-48cd-8204-8a5c12c596cb",
+    "id": "27aa13c5-9c82-486a-b0ab-7d3b086d260c",
     "name": "Andrew Rick",
     "nation": "United States",
     "club": "Philadelphia Union",
@@ -78320,7 +78320,7 @@
     "is_active": true
   },
   {
-    "id": "3c7c7645-512f-4155-bcf9-6c3e918e7ab7",
+    "id": "68743858-92d0-4c59-823c-0bf823d3aac6",
     "name": "George Marks",
     "nation": "United States",
     "club": "Philadelphia Union",
@@ -78496,7 +78496,7 @@
     "is_active": true
   },
   {
-    "id": "929a8d57-ce0a-4a78-a872-7e35bc9822ce",
+    "id": "029a66ac-d3fe-478e-9689-b757d8d35362",
     "name": "Jonathan Bond",
     "nation": "England",
     "club": "Houston Dynamo FC",
@@ -78672,7 +78672,7 @@
     "is_active": true
   },
   {
-    "id": "3eb57e8d-e496-4ac7-b7f5-428398bcf2a7",
+    "id": "8fb291a0-bb2d-4f34-b2a7-895455511228",
     "name": "Blake Gillingham",
     "nation": "United States",
     "club": "Houston Dynamo FC",
@@ -78848,7 +78848,7 @@
     "is_active": true
   },
   {
-    "id": "0dd2d05f-d812-44c5-b59c-1c932ea81b91",
+    "id": "ddadc7fc-3be1-481f-9f7b-be6781dfab53",
     "name": "Jimmy Maurer",
     "nation": "United States",
     "club": "Houston Dynamo FC",
@@ -79024,7 +79024,7 @@
     "is_active": true
   },
   {
-    "id": "b422bfd1-b75e-42aa-ba8a-622454417c92",
+    "id": "30f3d0c4-5693-4100-99e5-f24007890384",
     "name": "Logan Erb",
     "nation": "United States",
     "club": "Houston Dynamo FC",
@@ -79200,7 +79200,7 @@
     "is_active": true
   },
   {
-    "id": "9e87b6ce-8749-4e1e-9e1f-9034514b9897",
+    "id": "1f11bd11-30a2-4c70-90ec-bb2ab7ceab78",
     "name": "Thomas Gillier",
     "nation": "Chile",
     "club": "CF Montr\u00e9al",
@@ -79376,7 +79376,7 @@
     "is_active": true
   },
   {
-    "id": "1136c7fc-f13c-452e-9608-1fbf17091cea",
+    "id": "4bd4a0c4-38dc-43e6-8070-d77fc3d86c47",
     "name": "S\u00e9bastian Breza",
     "nation": "Canada",
     "club": "CF Montr\u00e9al",
@@ -79552,7 +79552,7 @@
     "is_active": true
   },
   {
-    "id": "9ebbf127-10b5-4d8e-82a1-3c312d51b3ac",
+    "id": "6d144df8-782e-400d-aa9c-3505bfe2eeb9",
     "name": "Samsy Keita",
     "nation": "Canada",
     "club": "CF Montr\u00e9al",
@@ -79904,7 +79904,7 @@
     "is_active": true
   },
   {
-    "id": "c3954844-ea78-4f25-b96c-c5ca14ea2156",
+    "id": "eaa5d217-008a-4945-9bf3-5351c432a923",
     "name": "Ben Lundt",
     "nation": "Germany",
     "club": "St. Louis CITY SC",
@@ -80080,7 +80080,7 @@
     "is_active": true
   },
   {
-    "id": "43cb8a20-2873-447f-a460-510df8106ca4",
+    "id": "1db7f1b0-72c4-4a63-98a3-e3e1f0fd80f2",
     "name": "Daniel",
     "nation": "Brazil",
     "club": "San Jose Earthquakes",
@@ -80256,7 +80256,7 @@
     "is_active": true
   },
   {
-    "id": "08754d0c-dad4-4073-975d-be29e5a5c905",
+    "id": "af4f955f-f8bc-4bb2-a144-d23bdccb3340",
     "name": "Earl Edwards Jr.",
     "nation": "United States",
     "club": "San Jose Earthquakes",
@@ -80432,7 +80432,7 @@
     "is_active": true
   },
   {
-    "id": "f7d130ac-eed2-4331-9225-6d0b38442656",
+    "id": "73c52975-ed9c-48f5-a9d8-a99305092548",
     "name": "Nate Crockford",
     "nation": "United States",
     "club": "San Jose Earthquakes",
@@ -80608,7 +80608,7 @@
     "is_active": true
   },
   {
-    "id": "4daf1ebb-ebd6-4642-972e-4421074933e7",
+    "id": "6fd8526d-2e5f-4a6c-adaf-f428b229bd81",
     "name": "Francesco Montali",
     "nation": "United States",
     "club": "San Jose Earthquakes",
@@ -80784,7 +80784,7 @@
     "is_active": true
   },
   {
-    "id": "c0aad51e-94da-4e72-bb97-2323769f3d94",
+    "id": "b7873899-56ed-4711-b9bf-29c81f32c2a0",
     "name": "Sean Johnson",
     "nation": "United States",
     "club": "D.C. United",
@@ -80960,7 +80960,7 @@
     "is_active": true
   },
   {
-    "id": "a037ddd6-63ce-4742-a781-fba777f1d267",
+    "id": "a4d098a0-5cf2-4f93-89b8-6f0dbdeac560",
     "name": "Alex Bono",
     "nation": "United States",
     "club": "D.C. United",
@@ -81136,7 +81136,7 @@
     "is_active": true
   },
   {
-    "id": "391607ce-f774-495c-9564-2b572dd6fb4b",
+    "id": "78c683c3-ebbb-49c3-a70b-e1bd5bd1f8bb",
     "name": "Grant Leveille",
     "nation": "Haiti",
     "club": "D.C. United",
@@ -81312,7 +81312,7 @@
     "is_active": true
   },
   {
-    "id": "9bbb8b0f-0b5e-4817-aada-b49f607a8830",
+    "id": "c782d9ff-80d4-499b-bff2-f0b0eec375bd",
     "name": "John Pulskamp",
     "nation": "United States",
     "club": "Sporting Kansas City",
@@ -81488,7 +81488,7 @@
     "is_active": true
   },
   {
-    "id": "57ed606d-9e5f-4767-9eca-3c8e92a9292d",
+    "id": "79e9097e-1f4b-4f26-a2e1-113654e62996",
     "name": "Stefan Cleveland",
     "nation": "United States",
     "club": "Sporting Kansas City",
@@ -81664,7 +81664,7 @@
     "is_active": true
   },
   {
-    "id": "3f6a70f4-24d0-41bc-8dc9-fff0504265e7",
+    "id": "b3cf3d54-cea4-47e3-b190-ebe36e8e273c",
     "name": "Ryan Schewe",
     "nation": "United States",
     "club": "Sporting Kansas City",
@@ -81840,7 +81840,7 @@
     "is_active": true
   },
   {
-    "id": "c6a3c163-cbff-4378-b63a-8556c1f210d9",
+    "id": "785386fb-ad12-4303-ac25-2828e41b9211",
     "name": "Jack Kortkamp",
     "nation": "United States",
     "club": "Sporting Kansas City",
@@ -82192,7 +82192,7 @@
     "is_active": true
   },
   {
-    "id": "a61665e5-a6d3-4cf0-8e28-a7335cd3ac8e",
+    "id": "b8d4e454-3fee-4b67-8b53-4493e0edcd5d",
     "name": "Mathieu Patouillet",
     "nation": "France",
     "club": "Al-Hilal SFC",
@@ -82544,7 +82544,7 @@
     "is_active": true
   },
   {
-    "id": "3b9df703-b386-4c73-a553-00527ceb25b7",
+    "id": "f96fd26d-94f2-43c8-8b5d-f5617166d7dc",
     "name": "Ahmad Abu Rasen",
     "nation": "Saudi Arabia",
     "club": "Al-Hilal SFC",
@@ -82720,7 +82720,7 @@
     "is_active": true
   },
   {
-    "id": "ec87bb3e-86d7-4dc5-8028-0807209dcbf4",
+    "id": "bc0b4676-beda-44a1-ac50-a5b2d3be41d3",
     "name": "Rayan Al-Dossary",
     "nation": "Saudi Arabia",
     "club": "Al-Hilal SFC",
@@ -83072,7 +83072,7 @@
     "is_active": true
   },
   {
-    "id": "06b0880c-986d-41d2-b2c1-38d9ee89bebe",
+    "id": "7e32e3c5-de29-4080-ab83-b55c4cb0ab1e",
     "name": "Abdulrahman Al-Sanbi",
     "nation": "Saudi Arabia",
     "club": "Al-Ahli SFC",
@@ -83248,7 +83248,7 @@
     "is_active": true
   },
   {
-    "id": "97ceecf6-0f29-4cf6-b49a-9a78fc507363",
+    "id": "8a323942-19ec-4711-855a-cfae59187a34",
     "name": "Abdullah Abdo",
     "nation": "Saudi Arabia",
     "club": "Al-Ahli SFC",
@@ -83424,7 +83424,7 @@
     "is_active": true
   },
   {
-    "id": "85db7619-d517-4b30-943c-ba32673460fb",
+    "id": "c87342cf-19ed-4bd4-9dcc-6626a5ed055b",
     "name": "Predrag Rajkovi\u0107",
     "nation": "Serbia",
     "club": "Al-Ittihad Club",
@@ -83600,7 +83600,7 @@
     "is_active": true
   },
   {
-    "id": "69a77b88-a0d2-4540-a541-3925ea3808a4",
+    "id": "b2d75e14-1766-4b39-bfde-b740d1a3b201",
     "name": "Hamed Al-Shanqity",
     "nation": "Saudi Arabia",
     "club": "Al-Ittihad Club",
@@ -83952,7 +83952,7 @@
     "is_active": true
   },
   {
-    "id": "d96e741c-59b2-4a1a-9533-60b00fc24880",
+    "id": "8513eedc-82c0-4870-84d8-6ed5645f139f",
     "name": "Osama Al-Mermesh",
     "nation": "Saudi Arabia",
     "club": "Al-Ittihad Club",
@@ -84128,7 +84128,7 @@
     "is_active": true
   },
   {
-    "id": "37ec42ab-1a06-4e48-b74e-3395a79a543f",
+    "id": "31c60c62-96ec-48ec-9cd9-bfcd7d41e0f9",
     "name": "Bento",
     "nation": "Brazil",
     "club": "Al-Nassr FC",
@@ -84304,7 +84304,7 @@
     "is_active": true
   },
   {
-    "id": "aaccf456-b5c8-4f56-a227-ccd7f7a0a02c",
+    "id": "765e084a-001e-48a6-9d7a-563e836ccab7",
     "name": "Nawaf Al-Aqidi",
     "nation": "Saudi Arabia",
     "club": "Al-Nassr FC",
@@ -84480,7 +84480,7 @@
     "is_active": true
   },
   {
-    "id": "2b59003b-7fb1-41c1-a3a4-3a461cedee98",
+    "id": "e22a28c9-5710-4d21-a8f5-4df5000764e4",
     "name": "Raghed Al-Najjar",
     "nation": "Saudi Arabia",
     "club": "Al-Nassr FC",
@@ -84832,7 +84832,7 @@
     "is_active": true
   },
   {
-    "id": "f2e1d39d-04fb-49c7-8e2e-3412571e5d36",
+    "id": "7eee7568-e28c-40a8-9234-61a9b202c7a6",
     "name": "Meshary Sanyor",
     "nation": "Saudi Arabia",
     "club": "Al-Qadsiah FC",
@@ -85008,7 +85008,7 @@
     "is_active": true
   },
   {
-    "id": "7dc73888-20ab-407c-9503-9f9abba0d0e8",
+    "id": "6eb6b492-8a25-4464-93b2-23d6e3108e7f",
     "name": "Ahmed Al-Kassar",
     "nation": "Saudi Arabia",
     "club": "Al-Qadsiah FC",
@@ -85184,7 +85184,7 @@
     "is_active": true
   },
   {
-    "id": "4b2c540e-ded5-4b37-9f90-745350ea69d9",
+    "id": "fc90765e-ebef-4b44-a214-e569663e2b89",
     "name": "Marcin Bulka",
     "nation": "Poland",
     "club": "NEOM SC",
@@ -85360,7 +85360,7 @@
     "is_active": true
   },
   {
-    "id": "c7673cae-6859-4f8a-8ae2-608d57ba3554",
+    "id": "39d7cc60-060c-411b-b82d-96f115269542",
     "name": "Lu\u00eds Maximiano",
     "nation": "Portugal",
     "club": "NEOM SC",
@@ -85536,7 +85536,7 @@
     "is_active": true
   },
   {
-    "id": "df35b01e-d665-4534-a2db-a1a5df6c50a8",
+    "id": "001127e3-4aa9-4de5-9e0e-92da25276301",
     "name": "Raed Ozaybi",
     "nation": "Saudi Arabia",
     "club": "NEOM SC",
@@ -85712,7 +85712,7 @@
     "is_active": true
   },
   {
-    "id": "a1f4c723-92cf-4f19-97e3-e3e3022c0b71",
+    "id": "64dca5ae-9a9b-4a0e-a69f-7ab875dd4d22",
     "name": "Mustafa Malayekah",
     "nation": "Saudi Arabia",
     "club": "NEOM SC",
@@ -85888,7 +85888,7 @@
     "is_active": true
   },
   {
-    "id": "64a7b217-ed70-4ee8-9a57-32dd1f91ea23",
+    "id": "0a8dfd5c-7899-4d9e-ad9f-78c517935dad",
     "name": "Mohammed Al-Hakim",
     "nation": "Saudi Arabia",
     "club": "NEOM SC",
@@ -86064,7 +86064,7 @@
     "is_active": true
   },
   {
-    "id": "5069fb78-7425-4c5e-8d6f-b55438bfa8d2",
+    "id": "8e4f0df5-340e-4aa2-9622-af37ac32f0e7",
     "name": "Marcelo Grohe",
     "nation": "Brazil",
     "club": "Al-Shabab FC",
@@ -86240,7 +86240,7 @@
     "is_active": true
   },
   {
-    "id": "f7405b27-fcf5-4426-96ab-5cfb73aa2cb7",
+    "id": "afb7939d-1f2b-4fb7-8b5c-b389d123d632",
     "name": "Mohammed Al-Mahasneh",
     "nation": "Saudi Arabia",
     "club": "Al-Shabab FC",
@@ -86416,7 +86416,7 @@
     "is_active": true
   },
   {
-    "id": "ef7fedf3-e98a-4aa2-ba68-56c9165e3217",
+    "id": "53754334-fc64-4bfd-b806-9d315a3ed456",
     "name": "Abdulaziz Al-Awairdhi",
     "nation": "Saudi Arabia",
     "club": "Al-Shabab FC",
@@ -86592,7 +86592,7 @@
     "is_active": true
   },
   {
-    "id": "96df04b9-5215-4f35-acb5-3a1b25d0ce77",
+    "id": "89a24e89-1378-4fde-991c-5a651bb65bc5",
     "name": "Mailson",
     "nation": "Brazil",
     "club": "Al-Taawoun FC",
@@ -86768,7 +86768,7 @@
     "is_active": true
   },
   {
-    "id": "183949ff-0729-457c-bb12-e381fe54789a",
+    "id": "eef51ebf-2063-4281-b657-c4d11394c434",
     "name": "Abdulquddus Atiah",
     "nation": "Saudi Arabia",
     "club": "Al-Taawoun FC",
@@ -86944,7 +86944,7 @@
     "is_active": true
   },
   {
-    "id": "f43b34f0-ffd7-45f3-82a9-3b77d1dc4de9",
+    "id": "ea3b6844-18e1-4a06-a88b-00dfc988c545",
     "name": "Marek Rod\u00e1k",
     "nation": "Slovakia",
     "club": "Al-Ettifaq FC",
@@ -87120,7 +87120,7 @@
     "is_active": true
   },
   {
-    "id": "15a9e4d9-3afb-4967-8c59-c241db72ed53",
+    "id": "b8070403-9e77-4e5b-94fa-18ad70765a77",
     "name": "Abdulbasit Hawsawi",
     "nation": "Saudi Arabia",
     "club": "Al-Ettifaq FC",
@@ -87296,7 +87296,7 @@
     "is_active": true
   },
   {
-    "id": "7b9ea6e8-1c9f-465a-a415-6f2d74a4e123",
+    "id": "6f432b93-435e-4eaf-bdda-421cad63cba9",
     "name": "Turki Ba Al-Jawsh",
     "nation": "Saudi Arabia",
     "club": "Al-Ettifaq FC",
@@ -87472,7 +87472,7 @@
     "is_active": true
   },
   {
-    "id": "c205555d-a9e0-4d3e-bdd7-760af56c0507",
+    "id": "9fcfd590-c39e-4c00-b775-caaa191682d6",
     "name": "Juan Pablo Cozzani",
     "nation": "Argentina",
     "club": "Al-Kholood Club",
@@ -87648,7 +87648,7 @@
     "is_active": true
   },
   {
-    "id": "a92fb7fd-6ccc-4c8b-9b0a-7f725c940c8f",
+    "id": "aebf038e-0535-45be-93f2-de0cf3760343",
     "name": "Mohammed Mazyad Al-Shammari",
     "nation": "Saudi Arabia",
     "club": "Al-Kholood Club",
@@ -87824,7 +87824,7 @@
     "is_active": true
   },
   {
-    "id": "f29e9ed7-faee-417a-9fa1-e1605bbaf559",
+    "id": "288e6522-dd45-43ac-9f6e-c1490756614e",
     "name": "Muhannad Al-Yahya",
     "nation": "Saudi Arabia",
     "club": "Al-Kholood Club",
@@ -88176,7 +88176,7 @@
     "is_active": true
   },
   {
-    "id": "bc5c8167-e11f-438d-91f0-62ef4d9e306b",
+    "id": "bb197485-572d-460f-b1ba-0e607efb09c6",
     "name": "Amin Al-Bukhari",
     "nation": "Saudi Arabia",
     "club": "Al-Fateh SC",
@@ -88352,7 +88352,7 @@
     "is_active": true
   },
   {
-    "id": "a61d5683-5d15-4d45-99c0-5fc24be320c4",
+    "id": "a03cee5e-45cd-4af0-aa24-587469ba5029",
     "name": "Habib Al-Watyan",
     "nation": "Saudi Arabia",
     "club": "Al-Fateh SC",
@@ -88704,7 +88704,7 @@
     "is_active": true
   },
   {
-    "id": "e1ca9f86-8042-4977-b384-13df29d57945",
+    "id": "17146d86-2062-446d-a3b7-f46dbe4d2a77",
     "name": "Abdulraouf Al-Duqayl",
     "nation": "Saudi Arabia",
     "club": "Al-Fayha FC",
@@ -88880,7 +88880,7 @@
     "is_active": true
   },
   {
-    "id": "35cbda11-b40e-490a-8819-ba77d14467dc",
+    "id": "fd67ea2d-6d87-4eb5-9b5d-5db56ca643d8",
     "name": "Osama Al-Thumayri",
     "nation": "Saudi Arabia",
     "club": "Al-Fayha FC",
@@ -89056,7 +89056,7 @@
     "is_active": true
   },
   {
-    "id": "34163864-f283-46c2-af36-91ad6e2a0926",
+    "id": "6813577e-9ab4-4c05-a01b-aec64c9c2f3b",
     "name": "Sattam Al-Shammari",
     "nation": "Saudi Arabia",
     "club": "Al-Fayha FC",
@@ -89232,7 +89232,7 @@
     "is_active": true
   },
   {
-    "id": "40660837-9c08-46f7-8d70-108d3cef3fef",
+    "id": "405da8ec-0a9a-4378-b5ab-ac297c60ba7d",
     "name": "Victor Braga",
     "nation": "Brazil",
     "club": "Al-Najma SC",
@@ -89408,7 +89408,7 @@
     "is_active": true
   },
   {
-    "id": "0b84ccd1-1da2-4bd0-be01-07a46e29dac6",
+    "id": "95cca4a9-2f2d-4fed-bdce-19a9620eca48",
     "name": "Walid Al-Enezi",
     "nation": "Saudi Arabia",
     "club": "Al-Najma SC",
@@ -89584,7 +89584,7 @@
     "is_active": true
   },
   {
-    "id": "e8072883-89bc-4d98-9b7d-6f705d6078a0",
+    "id": "29760440-b4cd-473a-aacd-ba4cf100a59f",
     "name": "Khaled Al-Muqaitib",
     "nation": "Saudi Arabia",
     "club": "Al-Najma SC",
@@ -89760,7 +89760,7 @@
     "is_active": true
   },
   {
-    "id": "5727f2da-0a3f-4748-bca4-18e800a0d44f",
+    "id": "38ab02f9-1d18-4fc3-9e0c-0137e576af9b",
     "name": "Samuel Portugal",
     "nation": "Brazil",
     "club": "Al-Okhdood Club",
@@ -89936,7 +89936,7 @@
     "is_active": true
   },
   {
-    "id": "6a798860-2e69-4611-b062-a6320f5983be",
+    "id": "b7a4fd33-1df8-4b9b-9bd8-ac67d14e957d",
     "name": "Rakan Al-Najjar",
     "nation": "Saudi Arabia",
     "club": "Al-Okhdood Club",
@@ -90112,7 +90112,7 @@
     "is_active": true
   },
   {
-    "id": "f39e3871-bb59-4f71-a0d5-f6c448476977",
+    "id": "ff4dae61-4cf0-4728-8e18-6d27b59fc779",
     "name": "Hatem Al-Juhani",
     "nation": "Saudi Arabia",
     "club": "Al-Okhdood Club",
@@ -90288,7 +90288,7 @@
     "is_active": true
   },
   {
-    "id": "c5229b38-2e00-4cd5-8778-c4d24aaa7b8d",
+    "id": "ecd9d49b-7894-4f41-bdf6-13939441a73a",
     "name": "Saad Al-Qarni",
     "nation": "Saudi Arabia",
     "club": "Al-Okhdood Club",
@@ -90464,7 +90464,7 @@
     "is_active": true
   },
   {
-    "id": "b7fab405-3cc1-4793-ab43-07d8c0aa8707",
+    "id": "67a57b40-a206-434c-8e05-2a32370ed2bd",
     "name": "Milan Borjan",
     "nation": "Canada",
     "club": "Al-Riyadh SC",
@@ -90640,7 +90640,7 @@
     "is_active": true
   },
   {
-    "id": "64a59cfa-cb86-42cd-b487-a4bed81fc112",
+    "id": "2e948d1c-d9f3-4ec4-a1b8-59e096b668f1",
     "name": "Abdulrahman Al-Shammari",
     "nation": "Saudi Arabia",
     "club": "Al-Riyadh SC",
@@ -90816,7 +90816,7 @@
     "is_active": true
   },
   {
-    "id": "100fbcc5-b1ba-43fb-9256-427db72a9e1f",
+    "id": "1ec0d8ef-2d34-4f1c-8c78-1a003e5f209b",
     "name": "Emad Al-Feda",
     "nation": "Saudi Arabia",
     "club": "Al-Riyadh SC",
@@ -90992,7 +90992,7 @@
     "is_active": true
   },
   {
-    "id": "a68ab849-176f-47bf-8495-da23fbd85c0a",
+    "id": "1768fbd9-efd4-4a92-8707-c95a34d5cc1d",
     "name": "Anthony Moris",
     "nation": "Luxembourg",
     "club": "Al-Khaleej FC",
@@ -91168,7 +91168,7 @@
     "is_active": true
   },
   {
-    "id": "a27a7e3c-1581-432a-97b5-0fef4ee82787",
+    "id": "6e8609e9-366a-4ebd-a064-6cfd284dc237",
     "name": "Marwan Al-Haidari",
     "nation": "Saudi Arabia",
     "club": "Al-Khaleej FC",
@@ -91344,7 +91344,7 @@
     "is_active": true
   },
   {
-    "id": "1a8d61ab-0bc8-4f4d-8215-89c1cd193500",
+    "id": "8db6bb0b-8780-4054-ba57-75af7c330029",
     "name": "Bruno Varela",
     "nation": "Cape Verde",
     "club": "Al-Hazem SC",
@@ -91520,7 +91520,7 @@
     "is_active": true
   },
   {
-    "id": "4cff6a2b-780c-4a13-a734-b07f122a166a",
+    "id": "0e6dcd20-3b44-4967-98d6-12f03fb96308",
     "name": "Ibrahim Zaied",
     "nation": "Saudi Arabia",
     "club": "Al-Hazem SC",
@@ -91696,7 +91696,7 @@
     "is_active": true
   },
   {
-    "id": "e12cc996-0f48-4353-9530-a0bf4d42b9b7",
+    "id": "a4aac148-3b35-4ea9-a820-62e3ca2d20e3",
     "name": "Majed Al-Ghamdi",
     "nation": "Saudi Arabia",
     "club": "Al-Hazem SC",
@@ -91872,7 +91872,7 @@
     "is_active": true
   },
   {
-    "id": "b96c15c9-8348-45bf-aa65-492cc0e22d12",
+    "id": "7a428d5a-959e-4860-a3dc-742a984a32ec",
     "name": "Kewin",
     "nation": "Brazil",
     "club": "Damac FC",
@@ -92048,7 +92048,7 @@
     "is_active": true
   },
   {
-    "id": "4444d823-42e6-41e2-834d-b48f4b490ea7",
+    "id": "4a1a7749-bc64-4f4e-b7d7-2fc1caae07a1",
     "name": "Moataz Al-Baqaawi",
     "nation": "Saudi Arabia",
     "club": "Damac FC",
@@ -92224,7 +92224,7 @@
     "is_active": true
   },
   {
-    "id": "06c41502-21c2-4bbf-927d-98a9532c476f",
+    "id": "ef013915-6acc-4bd7-b7e7-8490eff1de50",
     "name": "Naser Al-Ghamdi",
     "nation": "Saudi Arabia",
     "club": "Damac FC",
@@ -92400,7 +92400,7 @@
     "is_active": true
   },
   {
-    "id": "977d9c34-5739-450b-848d-cc65f7a76df6",
+    "id": "c06b3c6c-f703-4f00-a3d7-4a2e09a4f1cb",
     "name": "Melvin Mastil",
     "nation": "Algeria",
     "club": "Unknown",
@@ -92576,7 +92576,7 @@
     "is_active": true
   },
   {
-    "id": "524675d9-a568-4c3b-af36-3355d948a6f8",
+    "id": "22c0610f-3972-4cc8-bec1-aa7473e3d812",
     "name": "Oussama Benbot",
     "nation": "Algeria",
     "club": "Unknown",
@@ -92752,7 +92752,7 @@
     "is_active": true
   },
   {
-    "id": "47eef88e-4d48-4e5d-8fb4-af414ec01c29",
+    "id": "692509f2-51f1-4877-aa53-90d69f5f639e",
     "name": "Luca Zidane",
     "nation": "Algeria",
     "club": "Unknown",
@@ -92928,7 +92928,7 @@
     "is_active": true
   },
   {
-    "id": "8ae23a02-ae52-4d4e-8a1b-991abfb043cc",
+    "id": "479cb3f1-c0c7-494a-a64c-fb42d2b1f061",
     "name": "Paul Izzo",
     "nation": "Australia",
     "club": "Unknown",
@@ -93104,7 +93104,7 @@
     "is_active": true
   },
   {
-    "id": "2994db7f-d91c-488d-a7de-1aca743c0b3e",
+    "id": "f39e1a12-3ff6-4e20-8ba2-55ec87735415",
     "name": "Patrick Beach",
     "nation": "Australia",
     "club": "Unknown",
@@ -93280,7 +93280,7 @@
     "is_active": true
   },
   {
-    "id": "9847ba19-ca24-4738-adcd-93abe3ed1de4",
+    "id": "f851d36b-fc96-41af-a650-082118ac0276",
     "name": "Alexander Schlager",
     "nation": "Austria",
     "club": "Unknown",
@@ -93456,7 +93456,7 @@
     "is_active": true
   },
   {
-    "id": "afbccdae-772b-439c-a5c9-448cc738ed10",
+    "id": "2fe17554-faa4-4457-8eba-ef581cf70ee0",
     "name": "Florian Wiegele",
     "nation": "Austria",
     "club": "Unknown",
@@ -93632,7 +93632,7 @@
     "is_active": true
   },
   {
-    "id": "63f78542-1c68-4951-b69d-a2a3fbc415d2",
+    "id": "9ad9e75f-ed36-4476-879c-ee09e94173a5",
     "name": "Patrick Pentz",
     "nation": "Austria",
     "club": "Unknown",
@@ -93808,7 +93808,7 @@
     "is_active": true
   },
   {
-    "id": "0b41740c-ddf3-456d-bed5-223be501905d",
+    "id": "0ebc333a-c23c-41b0-ade8-2a91ddd4141e",
     "name": "Mladen Jurkas",
     "nation": "Bosnia and Herzegovina",
     "club": "Unknown",
@@ -93984,7 +93984,7 @@
     "is_active": true
   },
   {
-    "id": "d616a08d-779b-4976-8f08-1f24c07602b9",
+    "id": "c07fd756-de62-4a0a-a118-2cf9966174d2",
     "name": "Martin Zlomisli\u0107",
     "nation": "Bosnia and Herzegovina",
     "club": "Unknown",
@@ -94160,7 +94160,7 @@
     "is_active": true
   },
   {
-    "id": "98626222-33ad-428f-98a1-25bda626b6c6",
+    "id": "3ec6f49a-069d-4e66-b383-92d9dbc6d896",
     "name": "Weverton",
     "nation": "Brazil",
     "club": "Unknown",
@@ -94336,7 +94336,7 @@
     "is_active": true
   },
   {
-    "id": "9b40e647-dac8-448a-94c7-ab9b25c42d2b",
+    "id": "08bb9cc8-de99-42e9-a3bf-42263cc105e4",
     "name": "Ederson Moraes",
     "nation": "Brazil",
     "club": "Unknown",
@@ -94512,183 +94512,7 @@
     "is_active": true
   },
   {
-    "id": "55873081-06ad-438d-b250-55f77ea62508",
-    "name": "Josimar Jos\u00e9 \u00c9vora Dias",
-    "nation": "Cape Verde",
-    "club": "Unknown",
-    "league": "Unknown",
-    "club_nation": "Unknown",
-    "save_beta": {
-      "TL": {
-        "TL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BL": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        }
-      }
-    },
-    "dive_alpha": [
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667
-    ],
-    "n_faced": 0,
-    "is_active": true
-  },
-  {
-    "id": "9afbb9d6-51aa-402e-ae4b-ffa52c469138",
+    "id": "a910e553-3d51-4752-9db5-a0bd5f7f892b",
     "name": "Vozinha",
     "nation": "Cape Verde",
     "club": "Unknown",
@@ -94864,7 +94688,7 @@
     "is_active": true
   },
   {
-    "id": "2f02f897-d038-4727-93cf-4230ae99089b",
+    "id": "ba400e51-94f2-4b80-9fdb-5473eccc9556",
     "name": "M\u00e1rcio Rosa",
     "nation": "Cape Verde",
     "club": "Unknown",
@@ -95040,7 +94864,7 @@
     "is_active": true
   },
   {
-    "id": "d91368c4-fc94-4145-a6e8-b8d016cb37c9",
+    "id": "21b62c30-61c8-49e2-9a02-2982ad70dc69",
     "name": "Owen Goodman",
     "nation": "Canada",
     "club": "Unknown",
@@ -95216,7 +95040,7 @@
     "is_active": true
   },
   {
-    "id": "5127567c-77d7-46cb-bb16-fdb32d4c626c",
+    "id": "77c26f77-b36e-4f47-9aad-19d34ee17156",
     "name": "David Ospina",
     "nation": "Colombia",
     "club": "Unknown",
@@ -95392,7 +95216,7 @@
     "is_active": true
   },
   {
-    "id": "6ba299d2-823a-44af-b7e4-5fbfda3f8de1",
+    "id": "425cd93f-771c-47b4-a427-c86a1501be56",
     "name": "Camilo Vargas",
     "nation": "Colombia",
     "club": "Unknown",
@@ -95568,7 +95392,7 @@
     "is_active": true
   },
   {
-    "id": "9653df64-82a8-4d64-a207-7acdaf42e137",
+    "id": "9e47674b-53c3-48ee-93e0-5fb7003e633f",
     "name": "\u00c1lvaro Montero",
     "nation": "Colombia",
     "club": "Unknown",
@@ -95744,7 +95568,7 @@
     "is_active": true
   },
   {
-    "id": "55032d0d-39b7-4154-a462-cc48341fabde",
+    "id": "f32948da-94d1-4688-852e-f541f064c58c",
     "name": "Dominik Livakovi\u0107",
     "nation": "Croatia",
     "club": "Unknown",
@@ -95920,7 +95744,7 @@
     "is_active": true
   },
   {
-    "id": "6b200dc3-4a83-4f5b-a5b5-9ffdaef40933",
+    "id": "c7f73cb2-019b-45c7-9087-aeee7750496d",
     "name": "Ivor Pandur",
     "nation": "Croatia",
     "club": "Unknown",
@@ -96096,7 +95920,7 @@
     "is_active": true
   },
   {
-    "id": "81c7d8f3-6164-4242-860e-db61f0280fd6",
+    "id": "5478d1ae-d101-40d0-87d8-e83004132429",
     "name": "Dominik Kotarski",
     "nation": "Croatia",
     "club": "Unknown",
@@ -96272,7 +96096,7 @@
     "is_active": true
   },
   {
-    "id": "4edd265d-a2e5-490a-8b66-b5e9e46e9c86",
+    "id": "0db6ac14-21de-4712-8e21-4757a193ff71",
     "name": "Eloy Room",
     "nation": "Cura\u00e7ao",
     "club": "Unknown",
@@ -96448,7 +96272,7 @@
     "is_active": true
   },
   {
-    "id": "b68e813f-2579-462c-b159-e0639637c5eb",
+    "id": "9a64d2b0-c5fb-4d4f-a7cf-82c98f205f9e",
     "name": "Trevor Doornbusch",
     "nation": "Cura\u00e7ao",
     "club": "Unknown",
@@ -96624,7 +96448,7 @@
     "is_active": true
   },
   {
-    "id": "d7e2f693-9612-497d-973c-27877ec82d5b",
+    "id": "23efad61-aa73-4f29-80c3-a2c3fa332d74",
     "name": "Jind\u0159ich Stan\u011bk",
     "nation": "Czech Republic",
     "club": "Unknown",
@@ -96800,7 +96624,7 @@
     "is_active": true
   },
   {
-    "id": "863f36d6-2a2d-4483-9074-915d7f6ed7a4",
+    "id": "bf0510ef-795b-4924-900d-8896ffd77047",
     "name": "Luk\u00e1\u0161 Horn\u00ed\u010dek",
     "nation": "Czech Republic",
     "club": "Unknown",
@@ -96976,7 +96800,7 @@
     "is_active": true
   },
   {
-    "id": "d4844616-f3ed-4ea2-a9c0-de9fbb090861",
+    "id": "614f5e7b-b967-4864-9807-6ee82674d41e",
     "name": "Yahia Fofana",
     "nation": "C\u00f4te D'Ivoire",
     "club": "Unknown",
@@ -97152,7 +96976,7 @@
     "is_active": true
   },
   {
-    "id": "28858c13-db91-40c8-b2c8-997b5ae60783",
+    "id": "9119476d-e774-4fb6-af4e-b457609d5ac7",
     "name": "Lionel Mpasi",
     "nation": "Democratic Republic of the Congo",
     "club": "Unknown",
@@ -97328,7 +97152,7 @@
     "is_active": true
   },
   {
-    "id": "3ecc786b-150c-4a85-8c9e-a44f5824a8f9",
+    "id": "aac9e709-551d-4d7e-8e54-cb1cb6cf7367",
     "name": "Timothy Fayulu",
     "nation": "Democratic Republic of the Congo",
     "club": "Unknown",
@@ -97504,7 +97328,7 @@
     "is_active": true
   },
   {
-    "id": "fadebaca-8af8-49e3-a46e-7a854388513d",
+    "id": "55c639da-e330-481c-9871-95f496223e2a",
     "name": "Matthieu Epolo",
     "nation": "Democratic Republic of the Congo",
     "club": "Unknown",
@@ -97680,7 +97504,7 @@
     "is_active": true
   },
   {
-    "id": "989ab78b-cc4f-49d5-89e8-033603e98f0f",
+    "id": "21d43171-067a-4294-bc77-4672850a65c5",
     "name": "Hern\u00e1n Gal\u00edndez",
     "nation": "Ecuador",
     "club": "Unknown",
@@ -97856,7 +97680,7 @@
     "is_active": true
   },
   {
-    "id": "7e382229-5603-4020-9f69-7cc459ab5061",
+    "id": "70e3ebea-b578-440c-a81e-bd25de7b7c18",
     "name": "Mois\u00e9s Ram\u00edrez",
     "nation": "Ecuador",
     "club": "Unknown",
@@ -98032,7 +97856,7 @@
     "is_active": true
   },
   {
-    "id": "5a272d15-fe01-41da-be6d-e5f9b46f2438",
+    "id": "58bb9e12-4756-4100-a0d0-eebc67b2f756",
     "name": "Gonzalo Valle",
     "nation": "Ecuador",
     "club": "Unknown",
@@ -98208,7 +98032,7 @@
     "is_active": true
   },
   {
-    "id": "ff221c99-51cd-446e-950d-576e3a8eae19",
+    "id": "6e387c90-02d7-4de6-bd5d-32ea16c70fc8",
     "name": "Mohamed El Shenawy",
     "nation": "Egypt",
     "club": "Unknown",
@@ -98384,7 +98208,7 @@
     "is_active": true
   },
   {
-    "id": "be6f1fc9-9ea9-49d6-8a71-b1642f97050e",
+    "id": "03f58b6b-8742-4547-8189-6cbc8f4d32b1",
     "name": "El Mahdy Soliman",
     "nation": "Egypt",
     "club": "Unknown",
@@ -98560,7 +98384,7 @@
     "is_active": true
   },
   {
-    "id": "175e467b-811b-48fb-a3fa-7f9c3397f72c",
+    "id": "e5a26618-ecc9-4cb7-8582-4d0834a4a2e4",
     "name": "Mostafa Shobeir",
     "nation": "Egypt",
     "club": "Unknown",
@@ -98736,7 +98560,7 @@
     "is_active": true
   },
   {
-    "id": "22a39479-13d5-421d-a584-2666375215f6",
+    "id": "e4ba4256-05fd-4bd3-9069-b7291f86e73e",
     "name": "Mohamed Alaa",
     "nation": "Egypt",
     "club": "Unknown",
@@ -98912,7 +98736,7 @@
     "is_active": true
   },
   {
-    "id": "ddea43e9-a433-4267-a9c2-1ec37260183d",
+    "id": "486147b0-82b4-42d0-8e1a-a57736576f50",
     "name": "Lawrence Ati-Zigi",
     "nation": "Ghana",
     "club": "Unknown",
@@ -99088,7 +98912,7 @@
     "is_active": true
   },
   {
-    "id": "36e6ae45-193e-4525-abae-5438249700aa",
+    "id": "37a4d6ac-8b16-48b5-98ba-3ad942af895c",
     "name": "Joseph Anang",
     "nation": "Ghana",
     "club": "Unknown",
@@ -99264,7 +99088,7 @@
     "is_active": true
   },
   {
-    "id": "25374033-5679-49b4-a77b-e7b0afe8b3d7",
+    "id": "94bd8fba-804f-4e5c-8ce4-86ab211a36ab",
     "name": "Benjamin Asare",
     "nation": "Ghana",
     "club": "Unknown",
@@ -99440,7 +99264,7 @@
     "is_active": true
   },
   {
-    "id": "7be072d5-5efb-4874-a64e-4826412a4e28",
+    "id": "da172404-e54c-4885-b908-4e6ac9c1b719",
     "name": "Johny Placide",
     "nation": "Haiti",
     "club": "Unknown",
@@ -99616,7 +99440,7 @@
     "is_active": true
   },
   {
-    "id": "c19578dc-766b-4c26-baab-73e08a03c32b",
+    "id": "7f76fbdc-06f3-45d4-85ef-fc891494ed6d",
     "name": "Alexandre Pierre",
     "nation": "Haiti",
     "club": "Unknown",
@@ -99792,7 +99616,7 @@
     "is_active": true
   },
   {
-    "id": "4f93a146-d3e8-40b3-94d2-a049506805f1",
+    "id": "fb72d110-1909-496c-b708-ed03a00fbb02",
     "name": "Josu\u00e9 Duverger",
     "nation": "Haiti",
     "club": "Unknown",
@@ -99968,7 +99792,7 @@
     "is_active": true
   },
   {
-    "id": "5ce95bc6-a04a-4a44-a337-819a28c25bcf",
+    "id": "2ebbe05e-bde3-4e94-92d3-658b49b7bca0",
     "name": "Alireza Beiranvand",
     "nation": "Iran",
     "club": "Unknown",
@@ -100144,183 +99968,7 @@
     "is_active": true
   },
   {
-    "id": "751137b7-8192-4776-b656-52c0e2793dd5",
-    "name": "Payam Niazmand",
-    "nation": "Iran",
-    "club": "Unknown",
-    "league": "Unknown",
-    "club_nation": "Unknown",
-    "save_beta": {
-      "TL": {
-        "TL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BL": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        }
-      }
-    },
-    "dive_alpha": [
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667
-    ],
-    "n_faced": 0,
-    "is_active": true
-  },
-  {
-    "id": "fc81c33d-1a33-4867-87c7-6ab05ccdbbdd",
+    "id": "e6f11894-35b0-40cc-a6c2-6850ab2a9883",
     "name": "Hossein Hosseini",
     "nation": "Iran",
     "club": "Unknown",
@@ -100496,7 +100144,183 @@
     "is_active": true
   },
   {
-    "id": "be2595f6-f7dc-4d3d-8e72-7994247efbc2",
+    "id": "7ea3c2c9-b727-4537-ad01-b3b911bf811f",
+    "name": "Payam Niazmand",
+    "nation": "Iran",
+    "club": "Unknown",
+    "league": "Unknown",
+    "club_nation": "Unknown",
+    "save_beta": {
+      "TL": {
+        "TL": {
+          "a": 1.5749999999999997,
+          "b": 3.95
+        },
+        "TC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        }
+      },
+      "TC": {
+        "TL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TC": {
+          "a": 1.5749999999999997,
+          "b": 3.95
+        },
+        "TR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        }
+      },
+      "TR": {
+        "TL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TR": {
+          "a": 1.5749999999999997,
+          "b": 3.95
+        },
+        "BL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        }
+      },
+      "BL": {
+        "TL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BL": {
+          "a": 1.5749999999999997,
+          "b": 3.95
+        },
+        "BC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        }
+      },
+      "BC": {
+        "TL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BC": {
+          "a": 1.5749999999999997,
+          "b": 3.95
+        },
+        "BR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        }
+      },
+      "BR": {
+        "TL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "TR": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BL": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BC": {
+          "a": 1.0499999999999998,
+          "b": 3.95
+        },
+        "BR": {
+          "a": 1.5749999999999997,
+          "b": 3.95
+        }
+      }
+    },
+    "dive_alpha": [
+      1.6666666666666667,
+      1.6666666666666667,
+      1.6666666666666667,
+      1.6666666666666667,
+      1.6666666666666667,
+      1.6666666666666667
+    ],
+    "n_faced": 0,
+    "is_active": true
+  },
+  {
+    "id": "c3bdb539-ed10-4a49-a2f3-2b8d97e796e8",
     "name": "Fahad Talib",
     "nation": "Iraq",
     "club": "Unknown",
@@ -100672,7 +100496,7 @@
     "is_active": true
   },
   {
-    "id": "c43caa09-214a-4cc7-a64f-63397544ddb7",
+    "id": "705e9282-41ae-4810-914d-a7bd093c347e",
     "name": "Jalal Hassan",
     "nation": "Iraq",
     "club": "Unknown",
@@ -100848,7 +100672,7 @@
     "is_active": true
   },
   {
-    "id": "37a9e744-b5d9-4534-8dc2-d064c27427d9",
+    "id": "7105c7b2-3998-441e-b72f-d98c455e1459",
     "name": "Ahmed Basil",
     "nation": "Iraq",
     "club": "Unknown",
@@ -101024,7 +100848,7 @@
     "is_active": true
   },
   {
-    "id": "e19627b5-df01-48d2-aa14-d2444e872f5c",
+    "id": "f880568b-fed7-4d62-b832-93e2bb0e0fc2",
     "name": "Alban Lafont",
     "nation": "Ivory Coast",
     "club": "Unknown",
@@ -101200,7 +101024,7 @@
     "is_active": true
   },
   {
-    "id": "bb63cef6-0eaa-4c7a-a9f5-b9dbd8c999a5",
+    "id": "72b9763b-af93-48df-9dd9-fcda3baa3753",
     "name": "Keisuke \u014csako",
     "nation": "Japan",
     "club": "Unknown",
@@ -101376,7 +101200,7 @@
     "is_active": true
   },
   {
-    "id": "1aefddf0-57cc-4270-ab88-e6304c8589bc",
+    "id": "82c62ec0-af4d-490d-99b2-134cf614f785",
     "name": "Tomoki Hayakawa",
     "nation": "Japan",
     "club": "Unknown",
@@ -101552,7 +101376,7 @@
     "is_active": true
   },
   {
-    "id": "ae903264-95f4-494c-b233-9c6503210314",
+    "id": "bd3010e5-d22c-4217-9a7f-531caaf22366",
     "name": "Yazeed Abulaila",
     "nation": "Jordan",
     "club": "Unknown",
@@ -101728,7 +101552,7 @@
     "is_active": true
   },
   {
-    "id": "e00495db-9462-42de-b09a-a6c16ecc0b9d",
+    "id": "345cb447-40a1-42d0-a882-04ed57fa2516",
     "name": "Nour Bani Attiah",
     "nation": "Jordan",
     "club": "Unknown",
@@ -101904,7 +101728,7 @@
     "is_active": true
   },
   {
-    "id": "c006dff4-6156-425c-8f51-2c724425e3ba",
+    "id": "6fd46486-48f5-47e8-a6a8-84bf29a14b5d",
     "name": "Abdallah Al-Fakhouri",
     "nation": "Jordan",
     "club": "Unknown",
@@ -102080,7 +101904,7 @@
     "is_active": true
   },
   {
-    "id": "688fa906-00e2-48dc-8c42-55ddf0f1d4bc",
+    "id": "c765bef8-c965-4673-b1ae-bd9d56d839be",
     "name": "Kim Seung-gyu",
     "nation": "South Korea",
     "club": "Unknown",
@@ -102256,359 +102080,7 @@
     "is_active": true
   },
   {
-    "id": "437389c5-6046-496d-bb39-22f1282e5297",
-    "name": "Song Bum-keun",
-    "nation": "South Korea",
-    "club": "Unknown",
-    "league": "Unknown",
-    "club_nation": "Unknown",
-    "save_beta": {
-      "TL": {
-        "TL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BL": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        }
-      }
-    },
-    "dive_alpha": [
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667
-    ],
-    "n_faced": 0,
-    "is_active": true
-  },
-  {
-    "id": "1efe9b34-78a5-4425-826b-ed486fa31546",
-    "name": "Jo Hyeon-woo",
-    "nation": "South Korea",
-    "club": "Unknown",
-    "league": "Unknown",
-    "club_nation": "Unknown",
-    "save_beta": {
-      "TL": {
-        "TL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "TR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BL": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BC": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        }
-      },
-      "BR": {
-        "TL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "TR": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BL": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BC": {
-          "a": 1.0499999999999998,
-          "b": 3.95
-        },
-        "BR": {
-          "a": 1.5749999999999997,
-          "b": 3.95
-        }
-      }
-    },
-    "dive_alpha": [
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667,
-      1.6666666666666667
-    ],
-    "n_faced": 0,
-    "is_active": true
-  },
-  {
-    "id": "be023f3d-f2ea-4f4e-83fe-44aa8374fe37",
+    "id": "80769380-27ba-467a-87fc-cd034a571888",
     "name": "Ra\u00fal Rangel",
     "nation": "Mexico",
     "club": "Unknown",
@@ -102784,7 +102256,7 @@
     "is_active": true
   },
   {
-    "id": "3c41a5a7-92d3-4fdd-8978-fdece578da0f",
+    "id": "c2a3728a-2d76-4cf7-8cc4-d200d76954b3",
     "name": "Carlos Acevedo",
     "nation": "Mexico",
     "club": "Unknown",
@@ -102960,7 +102432,7 @@
     "is_active": true
   },
   {
-    "id": "41f2e17d-7058-4bf8-9596-3938166a2d64",
+    "id": "9e8434e8-500f-4355-a8d3-6be86475d1ee",
     "name": "Guillermo Ochoa",
     "nation": "Mexico",
     "club": "Unknown",
@@ -103136,7 +102608,7 @@
     "is_active": true
   },
   {
-    "id": "6286dd46-5aa5-4fe3-8a46-97d242025560",
+    "id": "3ce3c714-5520-4379-bf60-79e191566f73",
     "name": "Munir Mohamedi",
     "nation": "Morocco",
     "club": "Unknown",
@@ -103312,7 +102784,7 @@
     "is_active": true
   },
   {
-    "id": "7b18ad5e-42de-41ac-855f-df5043bdda9e",
+    "id": "641047af-39db-49b0-b61f-8e05b75fd71b",
     "name": "Ahmed Reda Tagnaouti",
     "nation": "Morocco",
     "club": "Unknown",
@@ -103488,7 +102960,7 @@
     "is_active": true
   },
   {
-    "id": "d3fdeffb-c332-4b06-acf0-7ec191257e4b",
+    "id": "13bfcbfb-2aa7-4e37-8af0-abd5269e8eaa",
     "name": "Max Crocombe",
     "nation": "New Zealand",
     "club": "Unknown",
@@ -103664,7 +103136,7 @@
     "is_active": true
   },
   {
-    "id": "37cd3c04-989e-413d-ba63-6e8428a38d9a",
+    "id": "e66a5a84-cb05-473d-9f90-f3844bce7733",
     "name": "Alex Paulsen",
     "nation": "New Zealand",
     "club": "Unknown",
@@ -103840,7 +103312,7 @@
     "is_active": true
   },
   {
-    "id": "f35e1a16-9d42-4249-b360-d0c2ec7bd8c1",
+    "id": "9cbb1dc8-d9aa-4033-8e36-3c103e96b450",
     "name": "Michael Woud",
     "nation": "New Zealand",
     "club": "Unknown",
@@ -104016,7 +103488,7 @@
     "is_active": true
   },
   {
-    "id": "fb13f07c-05b6-4cf2-adab-f29e8af7f3d1",
+    "id": "5e03fbf9-1c79-4b34-b51c-2dc97f4ebb64",
     "name": "Egil Selvik",
     "nation": "Norway",
     "club": "Unknown",
@@ -104192,7 +103664,7 @@
     "is_active": true
   },
   {
-    "id": "068578f0-4ea7-48cc-bf98-4f263c6fb54a",
+    "id": "d130e97f-d773-406a-8f71-33f945ea752b",
     "name": "Luis Mej\u00eda",
     "nation": "Panama",
     "club": "Unknown",
@@ -104368,7 +103840,7 @@
     "is_active": true
   },
   {
-    "id": "a3dfee14-ab55-4c0d-a7b7-714be1d91dfc",
+    "id": "f3839a0b-a848-4240-a4c9-6c7326a91fb0",
     "name": "C\u00e9sar Samudio",
     "nation": "Panama",
     "club": "Unknown",
@@ -104544,7 +104016,7 @@
     "is_active": true
   },
   {
-    "id": "9e49cdbd-2a11-44f8-8fcd-4b993a06ab83",
+    "id": "6ede6d16-2237-407a-8e93-02467792bb0b",
     "name": "Gatito Fern\u00e1ndez",
     "nation": "Paraguay",
     "club": "Unknown",
@@ -104720,7 +104192,7 @@
     "is_active": true
   },
   {
-    "id": "423c7a48-145a-4cd1-ac79-ca40d01797b3",
+    "id": "2ce63d17-32ca-4b4e-9282-51124a1e0f97",
     "name": "Orlando Gill",
     "nation": "Paraguay",
     "club": "Unknown",
@@ -104896,7 +104368,7 @@
     "is_active": true
   },
   {
-    "id": "1d8e4515-f679-4312-80a6-de52cb5e8537",
+    "id": "18d2d532-4a67-4e43-adc1-8a7cc1188b29",
     "name": "Gast\u00f3n Olveira",
     "nation": "Paraguay",
     "club": "Unknown",
@@ -105072,7 +104544,7 @@
     "is_active": true
   },
   {
-    "id": "18840fc3-b479-4405-ad20-ad208bab0c70",
+    "id": "6dd65e60-b757-4861-a449-6d8a1bc09eb5",
     "name": "Diogo Costa",
     "nation": "Portugal",
     "club": "Unknown",
@@ -105248,7 +104720,7 @@
     "is_active": true
   },
   {
-    "id": "11585745-123c-495d-bc24-5ce40625e026",
+    "id": "dfa389ca-0c22-4210-a548-effc56b32a81",
     "name": "Rui Silva",
     "nation": "Portugal",
     "club": "Unknown",
@@ -105424,7 +104896,7 @@
     "is_active": true
   },
   {
-    "id": "e6c1a5de-ddb6-40e7-a9b6-e6d89e3938a2",
+    "id": "476d9276-f72b-4601-961a-581ead709c9d",
     "name": "Mahmud Abunada",
     "nation": "Qatar",
     "club": "Unknown",
@@ -105600,7 +105072,7 @@
     "is_active": true
   },
   {
-    "id": "c0c10f2e-f7ed-428e-85c0-c921b3c68c1e",
+    "id": "9caacf25-7380-443f-85bc-01e483203076",
     "name": "Salah Zakaria",
     "nation": "Qatar",
     "club": "Unknown",
@@ -105776,7 +105248,7 @@
     "is_active": true
   },
   {
-    "id": "409ae5c3-f539-4d37-983f-7cf4aa34f46a",
+    "id": "5df725f0-3e19-4a5a-aa6f-782c520c8f45",
     "name": "Meshaal Barsham",
     "nation": "Qatar",
     "club": "Unknown",
@@ -105952,7 +105424,7 @@
     "is_active": true
   },
   {
-    "id": "8c452bf5-4bae-48b3-a32b-6cfc20b2fadc",
+    "id": "0c0d79e2-834b-4ed6-93b0-cd0d15c51ec5",
     "name": "Mohammed Al-Owais",
     "nation": "Saudi Arabia",
     "club": "Unknown",
@@ -106128,7 +105600,7 @@
     "is_active": true
   },
   {
-    "id": "3ea399b5-d2ba-4820-b3a2-b9e415067ae5",
+    "id": "2ea07b1f-85d6-4d10-a517-15c36e5ae6a4",
     "name": "Liam Kelly",
     "nation": "Scotland",
     "club": "Unknown",
@@ -106304,7 +105776,7 @@
     "is_active": true
   },
   {
-    "id": "58209175-60df-4a1d-b1dd-3d71898e38d8",
+    "id": "a545038a-9bfc-410f-aede-303fe9cafd85",
     "name": "Craig Gordon",
     "nation": "Scotland",
     "club": "Unknown",
@@ -106480,7 +105952,7 @@
     "is_active": true
   },
   {
-    "id": "1652da8b-4b32-4b45-96e3-9e23a23ba4f2",
+    "id": "af06fa0b-3057-4efd-ba50-083f48f0aa25",
     "name": "Ronwen Williams",
     "nation": "South Africa",
     "club": "Unknown",
@@ -106656,7 +106128,7 @@
     "is_active": true
   },
   {
-    "id": "e2cf5e40-5c1e-4c61-b9c1-113a077af0ac",
+    "id": "815a137c-bd3c-413c-a783-f0b9e309fe5a",
     "name": "Sipho Chaine",
     "nation": "South Africa",
     "club": "Unknown",
@@ -106832,7 +106304,7 @@
     "is_active": true
   },
   {
-    "id": "0ee45c60-261f-43e3-9730-417a19a362a9",
+    "id": "00944224-1eae-4bd4-ada2-9197f3f33c2b",
     "name": "Ricardo Goss",
     "nation": "South Africa",
     "club": "Unknown",
@@ -107008,7 +106480,7 @@
     "is_active": true
   },
   {
-    "id": "f41c1fdc-acb5-4262-91db-5c30da271c64",
+    "id": "9c51335b-f259-4702-956d-d6467769ca5d",
     "name": "Jacob Widell Zetterstr\u00f6m",
     "nation": "Sweden",
     "club": "Unknown",
@@ -107184,7 +106656,7 @@
     "is_active": true
   },
   {
-    "id": "a3ebeb83-a4ce-47c9-8cb1-fc6e32f06890",
+    "id": "5ba0487f-650f-47e9-9167-8dc5cf12681f",
     "name": "Viktor Johansson",
     "nation": "Sweden",
     "club": "Unknown",
@@ -107360,7 +106832,7 @@
     "is_active": true
   },
   {
-    "id": "fe9262ec-0857-46ab-a5e5-08603668dbfe",
+    "id": "9ee650f3-fdbf-48c6-a1ae-8665edc7759b",
     "name": "Kristoffer Nordfeldt",
     "nation": "Sweden",
     "club": "Unknown",
@@ -107536,7 +107008,7 @@
     "is_active": true
   },
   {
-    "id": "5b505dea-b8ff-45d8-b944-00ad382b9b31",
+    "id": "980473db-63e2-4457-a6f9-c0c3ea7e07e7",
     "name": "Marvin Keller",
     "nation": "Switzerland",
     "club": "Unknown",
@@ -107712,7 +107184,7 @@
     "is_active": true
   },
   {
-    "id": "2f204429-4c51-47e5-bc24-e250c7b80fa9",
+    "id": "600e059e-9509-4522-8171-8cb4d8275dad",
     "name": "Mouhib Chamakh",
     "nation": "Tunisia",
     "club": "Unknown",
@@ -107888,7 +107360,7 @@
     "is_active": true
   },
   {
-    "id": "1fc1bbe0-424f-4a1d-84cb-c5f88e834503",
+    "id": "047a9873-d6d9-4948-8d10-597a6b00a18a",
     "name": "Aymen Dahmen",
     "nation": "Tunisia",
     "club": "Unknown",
@@ -108064,7 +107536,7 @@
     "is_active": true
   },
   {
-    "id": "9538ee89-bdb6-4814-972d-c562eb2e260b",
+    "id": "ca87598f-57a7-445d-8ad1-2bcd348867be",
     "name": "Sabri Ben Hessen",
     "nation": "Tunisia",
     "club": "Unknown",
@@ -108240,7 +107712,7 @@
     "is_active": true
   },
   {
-    "id": "b16b2165-f8a5-4bec-ab1f-94565d657675",
+    "id": "e03bc50a-64f4-45f4-a9c1-19270ae17ae2",
     "name": "Mert G\u00fcnok",
     "nation": "Turkey",
     "club": "Unknown",
@@ -108416,7 +107888,7 @@
     "is_active": true
   },
   {
-    "id": "3adf4df5-f1a1-472f-a16a-d4c4cfaaeda5",
+    "id": "ee10a200-fbce-4c65-8aa4-7f91d1d6fa82",
     "name": "U\u011furcan \u00c7ak\u0131r",
     "nation": "Turkey",
     "club": "Unknown",
@@ -108592,7 +108064,7 @@
     "is_active": true
   },
   {
-    "id": "23f22a0f-e8e5-488c-951e-1c91ec5944d8",
+    "id": "ad887cd6-0a21-4115-bda7-9fd6dcde330c",
     "name": "Sergio Rochet",
     "nation": "Uruguay",
     "club": "Unknown",
@@ -108768,7 +108240,7 @@
     "is_active": true
   },
   {
-    "id": "9ba6cdec-3f11-4e52-a40c-d045f6e86e0b",
+    "id": "def41195-cbc3-45d0-8180-a2cfb9e892ef",
     "name": "Santiago Mele",
     "nation": "Uruguay",
     "club": "Unknown",
@@ -108944,7 +108416,7 @@
     "is_active": true
   },
   {
-    "id": "bda851b4-bdef-4e5c-a8cc-1de8b63f47b0",
+    "id": "c1b75e7a-98bf-4314-8209-c170bd765de5",
     "name": "Fernando Muslera",
     "nation": "Uruguay",
     "club": "Unknown",
@@ -109120,7 +108592,7 @@
     "is_active": true
   },
   {
-    "id": "c1d172ae-b439-48cb-8069-122504614a2a",
+    "id": "978d806e-4f83-4e47-88f2-22c3c827c23f",
     "name": "Utkir Yusupov",
     "nation": "Uzbekistan",
     "club": "Unknown",
@@ -109296,7 +108768,7 @@
     "is_active": true
   },
   {
-    "id": "2c2531ac-8721-4dec-b0bb-1bdfacaaa969",
+    "id": "af8bbc76-99dd-4481-b7c8-b1f380105464",
     "name": "Abduvohid Nematov",
     "nation": "Uzbekistan",
     "club": "Unknown",
@@ -109472,7 +108944,7 @@
     "is_active": true
   },
   {
-    "id": "5a53ad2c-2a6f-4249-9db2-7b3aa5af3086",
+    "id": "394edc5b-8993-4c0d-ae6d-4caecd688d4a",
     "name": "Botirali Ergashev",
     "nation": "Uzbekistan",
     "club": "Unknown",
