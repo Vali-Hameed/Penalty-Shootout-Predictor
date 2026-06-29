@@ -7,22 +7,32 @@ ZONES = ["TL", "TC", "TR", "BL", "BC", "BR"]
 def sigmoid(x: float) -> float:
     return 1.0 / (1.0 + np.exp(-x))
 
-def is_shootout_context(round_num: int, score_diff: int) -> float:
+def is_shootout_context(player: Player, round_num: int, score_diff: int, must_score: bool) -> float:
     # A multiplier for pressure. 
     # Base shootout is 1.0. Increases in later rounds and if score is tight.
     tension = 1.0
     if round_num >= 4:
         tension += 0.5
+    if round_num >= 6: # Sudden death
+        tension += 0.5
     if score_diff < 0:
         tension += 0.5  # Behind, more pressure
-    return tension
+    if must_score:
+        tension += 1.0  # Massive pressure if missing means elimination
+        
+    # Experience modifier: high volume penalty takers feel less tension
+    total_pens = player.n_scored + player.n_missed
+    experience_modifier = max(0.5, 1.0 - (total_pens / 20.0))
+    
+    return tension * experience_modifier
 
-def simulate_kick(player: Player, gk: Goalkeeper, round_num: int, score_diff: int, gk_live_beta: dict) -> KickResult:
+def simulate_kick(player: Player, gk: Goalkeeper, round_num: int, score_diff: int, gk_live_beta: dict, must_score: bool = False) -> KickResult:
     # Stage 1: sample shooter zone from Dirichlet posterior
     shooter_alpha = np.maximum(player.zone_alpha, 0.01)
     zone_probs = np.random.dirichlet(shooter_alpha)
     
-    pressure_logit = player.pressure_beta * is_shootout_context(round_num, score_diff)
+    tension = is_shootout_context(player, round_num, score_diff, must_score)
+    pressure_logit = player.pressure_beta * tension
     pressure_factor = sigmoid(pressure_logit)
     
     # Values < 0.5 increase spread -> more random (squash toward uniform)
@@ -32,7 +42,18 @@ def simulate_kick(player: Player, gk: Goalkeeper, round_num: int, score_diff: in
     shoot_zone = np.random.choice(ZONES, p=zone_probs)
     
     is_top = shoot_zone.startswith("T")
-    base_miss = 0.055 if is_top else 0.030
+    
+    # Bayesian personal conversion rate
+    # Prior: 7.5 goals, 2.5 misses (75% conversion)
+    alpha_conv = 7.5 + player.n_scored
+    beta_conv = 2.5 + player.n_missed
+    shooter_goal_prob = np.random.beta(alpha_conv, beta_conv)
+    
+    # Base miss rate dynamically derived from their personal miss rate
+    # If they are very accurate, their miss rate drops.
+    # We maintain a positional penalty for top corners.
+    personal_miss_rate = 1.0 - shooter_goal_prob
+    base_miss = personal_miss_rate * (1.2 if is_top else 0.8)
     
     # Stage 2: GK dive decision
     gk_dive_alpha = np.maximum(gk.dive_alpha, 0.01)
@@ -55,12 +76,18 @@ def simulate_kick(player: Player, gk: Goalkeeper, round_num: int, score_diff: in
     if np.random.random() < base_miss:
         outcome = "miss"
     elif gk_reaches:
-        save_prob = np.random.beta(pair["a"], pair["b"])
-        outcome = "save" if np.random.random() < save_prob else "goal"
+        gk_save_prob = np.random.beta(pair["a"], pair["b"])
+        # Sudden death pressure applies to GK too
+        gk_save_prob = gk_save_prob / min(1.5, (1.0 + max(0, tension - 1.0) * 0.25))
+        # The GK save probability reduces the shooter's goal probability
+        combined_goal_prob = shooter_goal_prob * (1.0 - gk_save_prob)
+        outcome = "goal" if np.random.random() < combined_goal_prob else "save"
     else:
-        # No reach -> very low save chance
-        save_prob = np.random.beta(pair["a"], pair["b"]) * 0.18
-        outcome = "save" if np.random.random() < save_prob else "goal"
+        # No reach -> GK has almost no chance
+        gk_save_prob = np.random.beta(pair["a"], pair["b"]) * 0.18
+        gk_save_prob = gk_save_prob / min(1.5, (1.0 + max(0, tension - 1.0) * 0.25))
+        combined_goal_prob = shooter_goal_prob * (1.0 - gk_save_prob)
+        outcome = "goal" if np.random.random() < combined_goal_prob else "save"
         
     # Sequential Bayesian update
     if outcome == "save":
@@ -87,7 +114,8 @@ def simulate_shootout(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goal
     # Standard 5 rounds
     for rd in range(5):
         if rd < len(lineup_a):
-            r_a = simulate_kick(lineup_a[rd], gk_b, rd+1, score_a - score_b, gk_b_live)
+            must_score_a = (score_a + (4 - rd) < score_b)
+            r_a = simulate_kick(lineup_a[rd], gk_b, rd+1, score_a - score_b, gk_b_live, must_score=must_score_a)
             if r_a.outcome == "goal": score_a += 1
             log.append(KickLogEntry(round_str=str(rd+1), team="A", shooter_name=lineup_a[rd].name, result=r_a))
             
@@ -96,7 +124,8 @@ def simulate_shootout(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goal
                 break
                 
         if rd < len(lineup_b):
-            r_b = simulate_kick(lineup_b[rd], gk_a, rd+1, score_b - score_a, gk_a_live)
+            must_score_b = (score_b + (4 - rd) < score_a)
+            r_b = simulate_kick(lineup_b[rd], gk_a, rd+1, score_b - score_a, gk_a_live, must_score=must_score_b)
             if r_b.outcome == "goal": score_b += 1
             log.append(KickLogEntry(round_str=str(rd+1), team="B", shooter_name=lineup_b[rd].name, result=r_b))
             
@@ -108,12 +137,13 @@ def simulate_shootout(lineup_a: list[Player], lineup_b: list[Player], gk_a: Goal
     sd = 0
     while score_a == score_b and sd < 20:
         idx = (5 + sd) % len(lineup_a)
-        r_a = simulate_kick(lineup_a[idx], gk_b, 6+sd, score_a - score_b, gk_b_live)
+        r_a = simulate_kick(lineup_a[idx], gk_b, 6+sd, score_a - score_b, gk_b_live, must_score=False)
         if r_a.outcome == "goal": score_a += 1
         log.append(KickLogEntry(round_str=f"SD{sd+1}", team="A", shooter_name=lineup_a[idx].name, result=r_a))
         
         idx_b = (5 + sd) % len(lineup_b)
-        r_b = simulate_kick(lineup_b[idx_b], gk_a, 6+sd, score_b - score_a, gk_a_live)
+        must_score_b = (score_b < score_a) # If A scored, B must score
+        r_b = simulate_kick(lineup_b[idx_b], gk_a, 6+sd, score_b - score_a, gk_a_live, must_score=must_score_b)
         if r_b.outcome == "goal": score_b += 1
         log.append(KickLogEntry(round_str=f"SD{sd+1}", team="B", shooter_name=lineup_b[idx_b].name, result=r_b))
         
