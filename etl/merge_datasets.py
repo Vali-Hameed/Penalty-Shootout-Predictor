@@ -30,8 +30,10 @@ def run_merge():
     understat_stats = load_json(out_dir / "understat_penalties.json")
     nat_squads = load_json(out_dir / "national_squads.json")
     nat_positions = load_json(out_dir / "national_positions.json")
+    aliases = load_json(Path(__file__).parent / "aliases.json")
     if not isinstance(nat_squads, dict): nat_squads = {}
     if not isinstance(nat_positions, dict): nat_positions = {}
+    if not isinstance(aliases, dict): aliases = {}
     
     # 2. Load Statsbomb fallback and GK data
     sb_players = load_json(out_dir / "players_statsbomb_backup.json")
@@ -76,7 +78,7 @@ def run_merge():
     existing_k_names = set()
     
     for p in tm_squads:
-        name = p['name']
+        name = aliases.get(p['name'], p['name'])
         nation = p['nation']
         club = p['club']
         league = p.get('league', 'Unknown')
@@ -192,6 +194,7 @@ def run_merge():
     
     for nation, roster in nat_squads.items():
         for name in roster:
+            name = aliases.get(name, name)
             if norm(name) in existing_p_names or norm(name) in existing_k_names:
                 continue
                 
