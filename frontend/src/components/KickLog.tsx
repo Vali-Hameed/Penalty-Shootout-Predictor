@@ -52,11 +52,11 @@ export default function KickLog({ result, visibleCount }: { result: MonteCarloRe
                     {log.round_str}
                   </div>
                   
-                  <div className="flex-1 font-mono text-foreground font-bold">
-                    <span className="opacity-70 mr-2 text-xs truncate max-w-[100px] inline-block align-bottom">
+                  <div className="flex-1 font-mono text-foreground font-bold flex items-center">
+                    <span className="opacity-70 mr-2 text-[10px] md:text-xs truncate max-w-[80px] md:max-w-[150px] inline-block">
                       {log.shooter_name}
                     </span>
-                    <span className="text-sm">
+                    <span className="text-xs md:text-sm">
                       {log.result.shoot_zone}
                     </span>
                   </div>

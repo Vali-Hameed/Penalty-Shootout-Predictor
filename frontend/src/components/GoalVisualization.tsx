@@ -66,18 +66,18 @@ export default function GoalVisualization({ log }: { log?: KickLogEntry }) {
 
       </div>
 
-      <div className="mt-6 flex gap-4 w-full">
-        <div className="flex-1 bg-input rounded p-3 border border-gold-tint flex flex-col items-center">
-          <span className="text-gray-sec font-mono text-xs mb-1">TARGET</span>
-          <span className="text-foreground font-bold text-sm">{shoot_zone}</span>
+      <div className="mt-6 flex gap-2 md:gap-4 w-full">
+        <div className="flex-1 bg-input rounded p-2 md:p-3 border border-gold-tint flex flex-col items-center text-center">
+          <span className="text-gray-sec font-mono text-[10px] md:text-xs mb-1">TARGET</span>
+          <span className="text-foreground font-bold text-xs md:text-sm">{shoot_zone}</span>
         </div>
-        <div className="flex-1 bg-input rounded p-3 border border-gold-tint flex flex-col items-center">
-          <span className="text-gray-sec font-mono text-xs mb-1">KEEPER</span>
-          <span className="text-foreground font-bold text-sm">{gk_dive}</span>
+        <div className="flex-1 bg-input rounded p-2 md:p-3 border border-gold-tint flex flex-col items-center text-center">
+          <span className="text-gray-sec font-mono text-[10px] md:text-xs mb-1">KEEPER</span>
+          <span className="text-foreground font-bold text-xs md:text-sm">{gk_dive}</span>
         </div>
-        <div className={`flex-1 rounded p-3 border flex flex-col items-center ${isGoal ? 'bg-success/10 border-success/40' : isSave ? 'bg-blue-500/10 border-blue-500/40' : 'bg-fail/10 border-fail/40'}`}>
-          <span className="text-gray-sec font-mono text-xs mb-1">OUTCOME</span>
-          <span className={`font-bold text-sm ${isGoal ? 'text-success' : isSave ? 'text-blue-400' : 'text-fail'}`}>
+        <div className={`flex-1 rounded p-2 md:p-3 border flex flex-col items-center text-center ${isGoal ? 'bg-success/10 border-success/40' : isSave ? 'bg-blue-500/10 border-blue-500/40' : 'bg-fail/10 border-fail/40'}`}>
+          <span className="text-gray-sec font-mono text-[10px] md:text-xs mb-1">OUTCOME</span>
+          <span className={`font-bold text-xs md:text-sm ${isGoal ? 'text-success' : isSave ? 'text-blue-400' : 'text-fail'}`}>
             {outcome.toUpperCase()}
           </span>
         </div>

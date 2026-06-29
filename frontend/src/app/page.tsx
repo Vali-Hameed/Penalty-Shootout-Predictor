@@ -68,24 +68,26 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen p-5">
       {/* HEADER */}
-      <header className="flex items-center gap-4 border-b border-gold-tint pb-4" style={{ background: "linear-gradient(180deg, rgba(201, 162, 39, 0.06) 0%, rgba(0, 0, 0, 0) 100%)" }}>
-        <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gold-tint border border-gold/30 text-2xl">
-          ⚽
-        </div>
-        <div>
-          <h1 className="text-gold font-condensed font-extrabold uppercase text-xl tracking-widest">
-            Penalty Shootout Predictor
-          </h1>
-          <p className="text-gray-sec font-mono text-xs uppercase tracking-widest mt-1">
-            Bayesian Penalty Shootout Predictor
-          </p>
+      <header className="flex flex-col md:flex-row items-start md:items-center gap-4 border-b border-gold-tint pb-4" style={{ background: "linear-gradient(180deg, rgba(201, 162, 39, 0.06) 0%, rgba(0, 0, 0, 0) 100%)" }}>
+        <div className="flex items-center gap-4 w-full md:w-auto">
+          <div className="flex items-center justify-center shrink-0 w-10 h-10 rounded-lg bg-gold-tint border border-gold/30 text-2xl">
+            ⚽
+          </div>
+          <div>
+            <h1 className="text-gold font-condensed font-extrabold uppercase text-lg md:text-xl tracking-widest leading-tight">
+              Penalty Shootout Predictor
+            </h1>
+            <p className="text-gray-sec font-mono text-[10px] md:text-xs uppercase tracking-widest mt-1">
+              Bayesian Penalty Shootout Predictor
+            </p>
+          </div>
         </div>
 
-        <div className="ml-auto flex items-center gap-6">
+        <div className="md:ml-auto flex flex-row items-center justify-between w-full md:w-auto gap-4 md:gap-6 mt-2 md:mt-0">
           <GlobalSearch />
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 shrink-0">
             <div className={`w-2 h-2 rounded-full ${simulationResult ? 'bg-success' : isReady ? 'bg-gold' : 'bg-gray-sec'}`}></div>
-            <span className="text-gray-sec font-mono text-xs uppercase tracking-widest">
+            <span className="text-gray-sec font-mono text-[10px] md:text-xs uppercase tracking-widest">
               {simulationResult ? 'RESULTS' : isReady ? 'READY' : 'STANDBY'}
             </span>
           </div>
