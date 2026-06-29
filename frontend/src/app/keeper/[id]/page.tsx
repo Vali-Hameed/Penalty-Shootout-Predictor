@@ -6,7 +6,7 @@ export default async function KeeperPage({ params }: { params: Promise<{ id: str
   const { id } = await params;
   const apiUrl = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8002";
   const res = await fetch(`${apiUrl}/keeper/${id}`, { cache: 'no-store' });
-  
+
   if (!res.ok) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-950 text-white">
@@ -18,22 +18,22 @@ export default async function KeeperPage({ params }: { params: Promise<{ id: str
 
   const keeper: Goalkeeper = await res.json();
   const alphaSum = keeper.dive_alpha.reduce((a, b) => a + b, 0);
-  
+
   // Array of floats
   const zoneProbs = keeper.dive_alpha.map(a => (a / alphaSum) * 100);
   const ZONES = ["TL", "TC", "TR", "BL", "BC", "BR"];
-  
+
   // Find most favored
   let maxIdx = 0;
   for (let i = 1; i < zoneProbs.length; i++) {
     if (zoneProbs[i] > zoneProbs[maxIdx]) maxIdx = i;
   }
-  
+
   // General Tendency
   const left = zoneProbs[0] + zoneProbs[3];
   const center = zoneProbs[1] + zoneProbs[4];
   const right = zoneProbs[2] + zoneProbs[5];
-  
+
   let tendency = "Balanced / Unpredictable";
   if (left > center + 10 && left > right + 10) tendency = "Dives Left Often";
   else if (right > center + 10 && right > left + 10) tendency = "Dives Right Often";
@@ -43,7 +43,7 @@ export default async function KeeperPage({ params }: { params: Promise<{ id: str
     <main className="min-h-screen bg-slate-950 p-4 md:p-8 text-white">
       <div className="max-w-5xl mx-auto">
         <Link href="/" className="text-blue-400 hover:underline mb-4 md:mb-8 inline-block">&larr; Back to Simulator</Link>
-        
+
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-8 shadow-2xl">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 md:gap-0 mb-8 border-b border-slate-800 pb-8">
             <div>

@@ -236,7 +236,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
 
       {(selectedSquad || mode === 'Custom') && (
         <>
-          <div className="mb-4" ref={keeperSearchRef}>
+          <div className="mb-4 relative" ref={keeperSearchRef}>
             <label className="block text-sm font-medium text-slate-300 mb-1">Goalkeeper</label>
             {mode === 'Custom' && team.gk && (
               <div className="mb-2 p-2 bg-green-900/50 border border-green-500/30 rounded flex justify-between items-center text-sm">
@@ -271,11 +271,11 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
               </select>
             ) : (
               showKeeperSearch && (
-                <div className="max-h-32 overflow-y-auto bg-input rounded border border-gold-tint p-2 space-y-1 absolute z-50 w-full max-w-[350px] shadow-2xl">
+                <div className="max-h-48 overflow-y-auto bg-input rounded border border-gold-tint p-2 space-y-1 absolute z-50 w-full left-0 mt-1 shadow-2xl">
 
                   {availableKeepers.map(k => (
-                    <div key={k.id} className="flex justify-between items-center text-sm">
-                      <span className="text-slate-300">{k.name} {!k.is_active && "(Legend)"}</span>
+                    <div key={k.id} className="flex justify-between items-center text-sm gap-2">
+                      <span className="text-slate-300 truncate flex-1">{k.name} {!k.is_active && "(Legend)"}</span>
                       <button 
                         onClick={() => {
                           setGK(k);
@@ -283,7 +283,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                           setGkSearchQuery('');
                         }}
                         disabled={team.gk?.id === k.id}
-                        className="px-2 py-1 bg-gold text-[#060812] disabled:opacity-50 disabled:bg-gray-sec rounded text-xs"
+                        className="px-2 py-1 bg-gold text-[#060812] disabled:opacity-50 disabled:bg-gray-sec rounded text-xs shrink-0"
                       >
                         Select
                       </button>
@@ -314,12 +314,12 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
             )}
             {mode === 'Custom' ? (
               showPlayerSearch && (
-                <div className="max-h-40 overflow-y-auto bg-input rounded border border-gold-tint p-2 space-y-1 absolute z-50 w-full shadow-2xl">
+                <div className="max-h-60 overflow-y-auto bg-input rounded border border-gold-tint p-2 space-y-1 absolute z-50 w-full left-0 mt-1 shadow-2xl">
                   {availablePlayers.map(p => (
-                    <div key={p.id} className="flex justify-between items-center text-sm">
-                      <div className="flex flex-col">
-                        <span className="text-white">{p.name}</span>
-                        <span className="text-xs text-slate-400">{p.club} | {p.nation} {!p.is_active && "| Legend"}</span>
+                    <div key={p.id} className="flex justify-between items-center text-sm gap-2">
+                      <div className="flex flex-col min-w-0 flex-1">
+                        <span className="text-white truncate">{p.name}</span>
+                        <span className="text-xs text-slate-400 truncate">{p.club} | {p.nation} {!p.is_active && "| Legend"}</span>
                       </div>
                       <button 
                         onClick={() => {
@@ -328,7 +328,7 @@ export default function TeamSelector({ teamId, mode }: { teamId: 'A' | 'B', mode
                           setShowPlayerSearch(false);
                         }}
                         disabled={team.lineup.length >= 10 || team.lineup.some(x => x.id === p.id)}
-                        className="px-2 py-1 bg-gold text-[#060812] disabled:opacity-50 disabled:bg-gray-sec rounded text-xs h-fit"
+                        className="px-2 py-1 bg-gold text-[#060812] disabled:opacity-50 disabled:bg-gray-sec rounded text-xs h-fit shrink-0"
                       >
                         Add
                       </button>
