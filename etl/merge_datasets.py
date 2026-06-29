@@ -56,7 +56,7 @@ def run_merge():
     nat_positions = load_json(out_dir / "national_positions.json") if (out_dir / "national_positions.json").exists() else {}
     
     wc_positions = {}
-    wc_file = out_dir / "wc_players.position.json"
+    wc_file = out_dir / "wc_players_positon.json"
     if wc_file.exists():
         wc_data = load_json(wc_file)
         for t in wc_data:
@@ -205,7 +205,7 @@ def run_merge():
                 is_gk = nat_positions[name].get("is_goalkeeper", False)
             else:
                 # Fallback to StatsBomb check
-                if name in sb_k_names:
+                if name in sb_k_names and sb_k_names[name].get('nation') == nation:
                     is_gk = True
             
             if is_gk:

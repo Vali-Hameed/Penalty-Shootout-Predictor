@@ -40,7 +40,9 @@ def get_positions_batch(names):
             # Map the returned title back to the original name (might differ slightly due to normalization)
             for orig_name in titles_to_query:
                 if orig_name.lower() == title.lower() or orig_name in title or title in orig_name:
-                    if "goalkeeper" in extract:
+                    import re
+                    match = re.search(r'\b(goalkeeper|midfielder|defender|forward|winger|striker|full-?back|centre-?back)\b', extract[:300])
+                    if match and match.group(1) == "goalkeeper":
                         results[orig_name] = True
     except Exception as e:
         print(f"Error checking batch: {e}")
