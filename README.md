@@ -115,20 +115,21 @@ python etl/merge_datasets.py
 The easiest way to run the full application (Backend + Frontend) is via Docker Compose.
 
 ```bash
-# From the root directory, start the backend
+# Navigate to the backend directory and start the backend
+cd backend
 docker-compose up -d --build
 
 # Navigate to the frontend directory and start the frontend
-cd frontend
+cd ../frontend
 docker-compose up -d --build
 ```
-The Frontend will be available at `http://localhost:3000` and the API at `http://localhost:8000`.
+The Frontend will be available at `http://localhost:3000` and the API at `http://localhost:8002`.
 
 ### 4. Run Manually (Without Docker)
 
 **Backend:**
 ```bash
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+uvicorn backend.main:app --host 0.0.0.0 --port 8002 --reload
 ```
 
 **Frontend:**
@@ -147,8 +148,8 @@ This project is deployed across a split infrastructure:
 ### Backend (Oracle VPS)
 1. Clone the repository on the VPS.
 2. Ensure you have the `etl/output/players.json` and `keepers.json` files (either by committing them to git locally and pulling, or running the ETL pipeline on the VPS).
-3. Start the Dockerized server from the root directory: `docker-compose up -d --build`.
-4. Create a `.env` file containing `ALLOWED_ORIGINS` to secure the API against cross-site attacks.
+3. Start the Dockerized server from the backend directory: `cd backend && docker-compose up -d --build`.
+4. Create a `.env` file in the `backend` directory containing `ALLOWED_ORIGINS` to secure the API against cross-site attacks.
 
 ### Frontend (Vercel)
 1. Import the repository into Vercel, pointing the Root Directory to `frontend`.
